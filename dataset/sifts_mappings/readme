@@ -1,0 +1,2 @@
+The file ./uniprot_segments_observed.csv.gz contains the mapping for all the discontinuous regions and it is what should be used for mapping.
+The file./pdb_chain_uniprot.csv.gz contains the overall mapping ignoring the gaps.

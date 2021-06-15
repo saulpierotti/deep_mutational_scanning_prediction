@@ -1,0 +1,10 @@
+uniprot_id,dms_id,pdb_id,pdb_chain,author_year,uniprot_first,uniprot_last,mutated_domain_uniprot_first,mutated_domain_uniprot_last,feature_basename,feature_basename_trrosetta,notes,trimming_notes
+P62593,beta-lactamase,1btl,A,Firnberg2014,1,-1,1,-1,P62593,P62593,,full sequence used
+P46937,WW_domain,4rex,A,Fowler2010,1,-1,167,207,P46937,P46937_167-207,,equivalent (trimming makes results worse in XGB just because of the splitting order)
+P31016,PSD95pdz3,1be9,A,McLaughlin2012,1,-1,303,426,P31016,P31016_303-426,,equivalent
+P00552,kka2_1:2,1nd4,A,Melnikov2014,1,-1,1,-1,P00552,P00552,,full sequence used
+P02829,hsp90,1ah6,A,Mishra2016,2,231,2,231,P02829_2-231,P02829_2-231,,trimming works well
+P0CG63,Ubiquitin,3olm,D,Roscoe2013,1,76,1,76,P0CG63_1-76,P0CG63_1-76,"pdb chain is B but author chain is D, sifts reports author chain",trimming works well
+P04147,Pab1,6r5k,D,Melamed2013,1,-1,126,203,P04147,P04147_126-203,"pdb chain is B but author chain is D, sifts reports author chain",better not to trim
+P0CG63,E1_Ubiquitin,3olm,D,Roscoe2014,1,76,1,76,P0CG63_1-76,P0CG63_1-76,"pdb chain is B but author chain is D, sifts reports author chain",trimming works well
+P06654,gb1,2igd,A,Olson2014,1,-1,226,283,P06654,P06654_226-283,,better not to trim
