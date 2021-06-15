@@ -9411,7 +9411,7 @@
       \field{journaltitle}{Nature}
       \field{month}{5}
       \field{number}{7859}
-      \field{title}{A lysine–cysteine redox switch with an NOS bridge regulates enzyme function}
+      \field{title}{A lysine–cysteine redox switch with an {NOS} bridge regulates enzyme function}
       \field{volume}{593}
       \field{year}{2021}
       \field{dateera}{ce}
@@ -9486,7 +9486,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-24277-4}
-      \field{title}{ggplot2: Elegant Graphics for Data Analysis}
+      \field{title}{{ggplot2}: Elegant Graphics for Data Analysis}
       \field{year}{2016}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -9698,8 +9698,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{R package version 1.1.1}
-      \field{title}{scales: Scale Functions for Visualization}
+      \field{title}{{scales}: Scale Functions for Visualization}
       \field{year}{2020}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -9731,8 +9730,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{R package version 1.1.1}
-      \field{title}{cowplot: Streamlined Plot Theme and Plot Annotations for 'ggplot2'}
+      \field{title}{{cowplot}: Streamlined Plot Theme and Plot Annotations for 'ggplot2'}
       \field{year}{2020}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -9758,7 +9756,7 @@
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {WORLD SCIENTIFIC}%
+        {World Scientific}%
       }
       \strng{namehash}{74471677bfa5e440a8cbed3f485d4c5c}
       \strng{fullhash}{8ab44238c626fdeefc123e5b5e647be3}
