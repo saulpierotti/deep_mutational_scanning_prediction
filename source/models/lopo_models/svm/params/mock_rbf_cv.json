@@ -1,0 +1,9 @@
+{
+    "params":{
+	"kernel": ["rbf"],
+	"gamma": ["scale"],
+	"C": [1],
+	"epsilon": [0]
+    },
+    "num_samples": -1
+}

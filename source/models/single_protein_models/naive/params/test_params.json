@@ -1,0 +1,16 @@
+{
+    "params":{
+        "max_depth": 6,
+        "min_child_weight": 0,
+        "subsample": 0.6,
+        "colsample_bytree": 1,
+        "eta": 0.01,
+        "tree_method": "hist",
+        "objective": "reg:squarederror",
+        "nthread": -1,
+        "gamma": 0.1,
+        "lambda": 4,
+        "alpha": 0,
+        "num_rounds": 10000
+    }
+}

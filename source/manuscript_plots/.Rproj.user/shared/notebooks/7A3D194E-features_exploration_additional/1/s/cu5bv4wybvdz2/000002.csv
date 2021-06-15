@@ -1,0 +1,163 @@
+"0","library(tikzDevice)"
+"0","library(cowplot)"
+"0","library(scales)"
+"0","library(Biostrings)"
+"2","Loading required package: BiocGenerics
+"
+"2","Loading required package: parallel
+"
+"2","
+Attaching package: ‘BiocGenerics’
+
+"
+"2","The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ, clusterExport, clusterMap, parApply, parCapply,
+    parLapply, parLapplyLB, parRapply, parSapply, parSapplyLB
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    Filter, Find, Map, Position, Reduce, anyDuplicated, append, as.data.frame, basename, cbind, colnames, dirname,
+    do.call, duplicated, eval, evalq, get, grep, grepl, intersect, is.unsorted, lapply, mapply, match, mget, order,
+    paste, pmax, pmax.int, pmin, pmin.int, rank, rbind, rownames, sapply, setdiff, sort, table, tapply, union,
+    unique, unsplit, which, which.max, which.min
+
+"
+"2","Loading required package: S4Vectors
+"
+"2","Loading required package: stats4
+"
+"2","
+Attaching package: ‘S4Vectors’
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    expand.grid
+
+"
+"2","Loading required package: IRanges
+"
+"2","Loading required package: XVector
+"
+"2","
+Attaching package: ‘Biostrings’
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    strsplit
+
+"
+"0","library(tidyverse)"
+"2","Registered S3 methods overwritten by 'dbplyr':
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+"
+"2","[37m── [1mAttaching packages[22m ──────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.1 ──[39m
+"
+"2","[37m[32m✓[37m [34mggplot2[37m 3.3.3     [32m✓[37m [34mpurrr  [37m 0.3.4
+[32m✓[37m [34mtibble [37m 3.1.1     [32m✓[37m [34mdplyr  [37m 1.0.6
+[32m✓[37m [34mtidyr  [37m 1.1.3     [32m✓[37m [34mstringr[37m 1.4.0
+[32m✓[37m [34mreadr  [37m 1.4.0     [32m✓[37m [34mforcats[37m 0.5.1[39m
+"
+"2","[37m── [1mConflicts[22m ─────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+[31mx[37m [34mggplot2[37m::[32mPosition()[37m masks [34mBiocGenerics[37m::Position(), [34mbase[37m::Position()
+[31mx[37m [34mreadr[37m::[32mcol_factor()[37m masks [34mscales[37m::col_factor()
+[31mx[37m [34mdplyr[37m::[32mcollapse()[37m   masks [34mBiostrings[37m::collapse(), [34mIRanges[37m::collapse()
+[31mx[37m [34mdplyr[37m::[32mcombine()[37m    masks [34mBiocGenerics[37m::combine()
+[31mx[37m [34mpurrr[37m::[32mcompact()[37m    masks [34mXVector[37m::compact()
+[31mx[37m [34mdplyr[37m::[32mdesc()[37m       masks [34mIRanges[37m::desc()
+[31mx[37m [34mpurrr[37m::[32mdiscard()[37m    masks [34mscales[37m::discard()
+[31mx[37m [34mtidyr[37m::[32mexpand()[37m     masks [34mS4Vectors[37m::expand()
+[31mx[37m [34mdplyr[37m::[32mfilter()[37m     masks [34mstats[37m::filter()
+[31mx[37m [34mdplyr[37m::[32mfirst()[37m      masks [34mS4Vectors[37m::first()
+[31mx[37m [34mdplyr[37m::[32mlag()[37m        masks [34mstats[37m::lag()
+[31mx[37m [34mpurrr[37m::[32mreduce()[37m     masks [34mIRanges[37m::reduce()
+[31mx[37m [34mdplyr[37m::[32mrename()[37m     masks [34mS4Vectors[37m::rename()
+[31mx[37m [34mdplyr[37m::[32mslice()[37m      masks [34mXVector[37m::slice(), [34mIRanges[37m::slice()[39m
+"
+"0","library(rlang)"
+"2","
+Attaching package: ‘rlang’
+
+"
+"2","The following objects are masked from ‘package:purrr’:
+
+    %@%, as_function, flatten, flatten_chr, flatten_dbl, flatten_int, flatten_lgl, flatten_raw, invoke, list_along,
+    modify, prepend, splice
+
+"
+"0","library(caret)"
+"2","Loading required package: lattice
+"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","
+Attaching package: ‘caret’
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    lift
+
+"
+"0","library(circular)"
+"2","Package 'circular', 0.4-93 (2017-06-26). Type 'help(Circular)' for summary information. 
+ Please report any bug or comments to Claudio Agostinelli <claudio.agostinelli@unitn.it>
+"
+"2","
+Attaching package: ‘circular’
+
+"
+"2","The following objects are masked from ‘package:IRanges’:
+
+    sd, var
+
+"
+"2","The following objects are masked from ‘package:S4Vectors’:
+
+    sd, var
+
+"
+"2","The following objects are masked from ‘package:BiocGenerics’:
+
+    sd, var
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    sd, var
+
+"
+"0","library(Directional)"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","
+Attaching package: ‘Directional’
+
+"
+"2","The following object is masked from ‘package:circular’:
+
+    rvonmises
+
+"
+"0","source(""./utils/constants.R"")"
+"0","source(""./utils/functions.R"")"

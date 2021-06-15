@@ -1,0 +1,371 @@
+---
+title: "kka2_1:2 inspection"
+author: "Saul Pierotti"
+output:
+  pdf_document: 
+    latex_engine: lualatex
+  html_document: default
+---
+
+```{r libraries}
+library(tidyverse)
+```
+
+
+This notebook concerns understanding the source of duplicate values in the
+aggregated dataset gray2018 for the experiment kka2_1:2.
+The experiment kka2_1:2 is described in melnikov2014.
+
+# Duplicates visualization from gray2018
+
+```{r gray2018 load data}
+datasets <-
+  c(
+    "beta-lactamase",
+    "E1_Ubiquitin",
+    "Ubiquitin",
+    "gb1",
+    "hsp90",
+    "kka2_1:2",
+    "Pab1",
+    "PSD95pdz3",
+    "WW_domain"
+  )
+residues <- # the order maximizes chemical similarity
+  c(
+    "C",
+    "G",
+    "P",
+    "A",
+    "V",
+    "L",
+    "I",
+    "M",
+    "F",
+    "Y",
+    "W",
+    "T",
+    "S",
+    "N",
+    "Q",
+    "D",
+    "E",
+    "H",
+    "K",
+    "R"
+  )
+gray2018_tb <-
+  read_csv(
+    "../../dataset/dms_training.csv",
+    col_types = cols_only(
+      dms_id = readr::col_factor(levels = datasets),
+      position = "i",
+      aa1 = readr::col_factor(levels = residues),
+      aa2 = readr::col_factor(levels = residues),
+      reported_fitness = "d"
+    )
+  ) %>%
+  filter(dms_id == "kka2_1:2") %>%
+  mutate(df = "gray2018") %>%
+  subset(select = -c(dms_id))
+```
+
+I, Y, S, N, E have 2 mutations per position instead of 1
+
+```{r gra2018 kka2_1:2 duplicates}
+ggplot(data = gray2018_tb) +
+  geom_bar(aes(x = position), width = 1) +
+  facet_wrap(facets = vars(aa2))
+```
+
+# Melnikov2014
+
+This experiment on kka2 was done in multiple replicates with different antibiotics
+at different concentrations.
+aadiff files contain precomputed effects, while aacounts file contain the row counts.
+
+```{r set melnikov path}
+melnikov2014_path <-
+  "../../dataset/melnikov2014/"
+```
+
+
+## Load aadiff
+
+```{r melnikov2014 load aadiff}
+read_melnikov2014_aadiff <- function(filename) {
+  complete_filename <- paste(melnikov2014_path, filename, sep = "")
+  out_tb <-
+    read_tsv(complete_filename, skip = 1, col_names = FALSE) %>%
+    pivot_longer(cols = -X1) %>%
+    pivot_wider(names_from = X1) %>%
+    subset(select = -c(name)) %>%
+    pivot_longer(cols = -c('Position', 'Wild-type')) %>%
+    rename(aa1 = 'Wild-type', position = 'Position') %>%
+    separate(name, sep = "-", into = c("name", "aa2")) %>%
+    filter(name == "Delta") %>%
+    mutate(across(c(aa1, aa2), as_factor),
+           across(position, as.integer),
+           across(value, as.numeric)) %>%
+    mutate(reported_fitness = log(value),
+           df = "melnikov2014",
+           file = filename) %>%
+    subset(select = -c(name, value))
+  return(out_tb)
+}
+
+get_melnikov2014_gray2018_comparison_single_file_aadiff <-
+  function(filename) {
+    melnikov2014_tb <- read_melnikov2014_aadiff(filename)
+    comparison_tb <- gray2018_tb %>%
+      mutate(file = filename) %>%
+      bind_rows(melnikov2014_tb) %>%
+      group_by(position, aa1, aa2, df) %>%
+      mutate(reported_fitness = mean(reported_fitness)) %>%
+      distinct() %>%
+      pivot_wider(names_from = df, values_from = reported_fitness)
+    return(comparison_tb)
+  }
+
+get_comparison_tb_aadiff <- function() {
+  comparison_tb = NULL
+  for (filename in dir(melnikov2014_path, pattern = "KKA2_S._.*12_L.\\.aadiff\\.txt$")) {
+    comparison_tb <-
+      bind_rows(
+        comparison_tb,
+        get_melnikov2014_gray2018_comparison_single_file_aadiff(filename)
+      )
+  }
+  return(comparison_tb)
+}
+
+comparison_tb_aadiff <- get_comparison_tb_aadiff()
+```
+
+## Load aacounts
+
+```{r melnikov2014 load aacounts}
+read_melnikov2014_aacounts <- function(filename) {
+  complete_filename <- paste(melnikov2014_path, filename, sep = "")
+  out_tb <-
+    read_tsv(complete_filename, skip = 1, col_names = FALSE) %>%
+    pivot_longer(cols = -X1) %>%
+    pivot_wider(names_from = X1) %>%
+    subset(select = -c(name)) %>%
+    pivot_longer(cols = -c('Position', 'Wild-type')) %>%
+    rename(
+      aa1 = 'Wild-type',
+      position = 'Position',
+      count = value,
+      aa2 = name
+    ) %>%
+    mutate(across(c(aa1), as_factor),
+           across(position, as.integer),
+           across(count, as.numeric)) %>%
+    return(out_tb)
+}
+
+process_aacounts <- function(filename) {
+  is_L1 <- filename %>% grepl(pattern = "_L1\\.aacounts\\.txt")
+  background_filename <- if_else(is_L1, "KKA2_Bkg1.aacounts.txt",
+                                 "KKA2_Bkg2.aacounts.txt")
+  before_selection <-
+    read_melnikov2014_aacounts(background_filename) %>%
+    rename(count_before = count)
+  
+  before_and_after <- read_melnikov2014_aacounts(filename) %>%
+    rename(count_after = count) %>%
+    full_join(before_selection)
+  
+  wt_tb <- before_and_after %>%
+    filter(aa1 == aa2) %>%
+    subset(select = -c(aa2)) %>%
+    rename(wt_count_before = count_before, wt_count_after = count_after) %>%
+    mutate(
+      wt_count_before = mean(wt_count_before),
+      wt_count_after = mean(wt_count_after),
+    ) %>%
+    distinct()
+  
+  melnikov2014_tb <- before_and_after %>%
+    full_join(wt_tb) %>%
+    mutate(
+      count_before = count_before + pseudocount,
+      wt_count_before = wt_count_before + pseudocount,
+      count_after = count_after + pseudocount,
+      wt_count_after = wt_count_after + pseudocount,
+    ) %>%
+    mutate(reported_fitness = log((count_after / count_before) /
+                                    (wt_count_after / wt_count_before)
+    )) %>%
+    subset(select = c(position, aa1, aa2, reported_fitness)) %>%
+    mutate(df = "melnikov2014", file = as_factor(filename))
+  return(melnikov2014_tb)
+}
+
+get_melnikov2014_gray2018_comparison_single_file_aacounts <-
+  function(filename) {
+    melnikov2014_tb <- process_aacounts(filename)
+    comparison_tb <- gray2018_tb %>%
+      mutate(file = as_factor(filename)) %>%
+      bind_rows(melnikov2014_tb) %>%
+      group_by(position, aa1, aa2, df) %>%
+      mutate(reported_fitness = mean(reported_fitness)) %>%
+      distinct() %>%
+      pivot_wider(names_from = df, values_from = reported_fitness)
+    return(comparison_tb)
+  }
+
+get_comparison_tb_aacounts <- function() {
+  comparison_tb = NULL
+  for (filename in dir(melnikov2014_path, pattern = "KKA2_S._.*12_L.\\.aacounts\\.txt$")) {
+    comparison_tb <-
+      bind_rows(
+        comparison_tb,
+        get_melnikov2014_gray2018_comparison_single_file_aacounts(filename)
+      )
+  }
+  return(comparison_tb)
+}
+
+pseudocount <- 0
+comparison_tb_aacounts <- get_comparison_tb_aacounts()
+```
+
+## Merge aadiff and aacounts
+
+```{r compare aadiff aacounts}
+comparison_tb <- comparison_tb_aadiff %>%
+  bind_rows(comparison_tb_aacounts) %>%
+  separate(file,
+           sep = "\\.",
+           into = c("basename", "aadiff_aacounts", "ext")) %>%
+  subset(select = -c(ext)) %>%
+  pivot_wider(names_from = aadiff_aacounts,
+              values_from = melnikov2014,
+              names_prefix = "melnikov2014_")
+```
+
+## Plot aadiff, aacounts, and gray2018
+
+I plot just one of the melnikov dataset since it is easier to see.
+There is no pattern between gray2018 and the melnikov experiments.
+It is not clear which one has been used.
+Aadiff normalizes not to the wt count but to the count of all the residues that
+are not the one in question, and then adds a pseudocount of 1.
+There is correlation between gray2018 and melnikov2014, but there is variability
+that I am not able to explain.
+
+```{r exp to show}
+exp_to_show <- "KKA2_S3_Kan12_L1"
+```
+
+
+```{r plot aadiff and aacounts}
+ggplot(data = comparison_tb %>% filter(basename == exp_to_show)) +
+  geom_point(aes(x = melnikov2014_aadiff, y = melnikov2014_aacounts), shape =
+               ".") +
+  xlim(-5, 5) +
+  ylim(-5, 5)
+```
+
+```{r plot aadiff and gray2018}
+ggplot(data = comparison_tb %>% filter(basename == exp_to_show)) +
+  geom_point(aes(x = gray2018, y = melnikov2014_aadiff), shape = ".") +
+  facet_wrap(facets = vars(basename), ncol = 1) +
+  xlim(-5, 5) +
+  ylim(-5, 5)
+```
+
+# Decision
+
+Since it is not possible to determine how did they obtain the data in gray2018,
+I will use the data from the original paper in my thesis for kka2_1:2.
+I check now that this data with the same plots that I used in my thesis.
+I select the dataset KKA2_S3_Kan12_L1, which is the one that the authors used in
+the figures in the paper.
+
+```{r final data processing}
+selected_exp <- "KKA2_S3_Kan12_L1"
+
+melnikov2014_final_tb <- comparison_tb %>%
+  filter(basename == selected_exp) %>%
+  rename(reported_fitness = melnikov2014_aadiff) %>%
+  subset(select = c(position, aa1, aa2, reported_fitness))
+
+melnikov2014_final_tb
+```
+
+No duplicate mutations now.
+
+```{r final plot1}
+ggplot(data = melnikov2014_final_tb) +
+  geom_bar(aes(x = position), width = 1) +
+  facet_wrap(facets = vars(aa2))
+```
+Distribution looks ok and wild-type is around 0
+
+```{r final plot2}
+ggplot(data = melnikov2014_final_tb) +
+  geom_boxplot(aes(x = reported_fitness)) +
+  geom_point(
+    data = filter(melnikov2014_final_tb, aa1 == aa2),
+    mapping = aes(x = reported_fitness, y = 0, color = "red")
+  )
+```
+Number of mutation is spot on, with 1 wt and 19 missense per position
+
+```{r final plot3}
+ggplot(data = melnikov2014_final_tb) +
+  geom_bar(aes(x = position, fill = (aa1 == aa2)), width = 1)
+```
+P is most damaging and W the hardest to replace
+
+```{r final plot4}
+aa_median_effect_pipe <- function(my_tb) {
+  out_tb <- my_tb %>%
+    group_by(aa) %>%
+    mutate(median_score = median(score)) %>%
+    ungroup() %>%
+    subset(select = c(aa, median_score, kind)) %>%
+    distinct()
+  return(out_tb)
+}
+
+curr_tb_aa2 <- tb %>%
+  mutate(aa = aa2, kind = as_factor("aa2")) %>%
+  aa_median_effect_pipe()
+
+curr_tb_aa1 <- tb %>%
+  mutate(aa = aa1, kind = as_factor("aa1")) %>%
+  aa_median_effect_pipe()
+
+curr_tb <- bind_rows(curr_tb_aa2, curr_tb_aa1)
+
+ggplot(data = curr_tb,
+       mapping = aes(y = median_score, x = aa, color = kind)) +
+  geom_point(size = 1)
+```
+Same number of mutations towards each residue
+
+```{r final plot5}
+ggplot(data = melnikov2014_final_tb) +
+  geom_bar(aes(x = aa2))
+```
+The distribution is almost identical
+
+```{r final plot6}
+ggplot(data = melnikov2014_final_tb) +
+  geom_histogram(aes(x = reported_fitness, fill = (aa1 == aa2)), bins =
+                   100)
+```
+
+# Export of the dataset
+
+I save the selected data in tidy format to insert it in my main training set
+
+```{r dataset export}
+write_csv(melnikov2014_final_tb,
+          "../../dataset/kka2_1:2_scores_from_melnikov2014.csv")
+```
+

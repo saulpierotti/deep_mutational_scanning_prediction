@@ -1,0 +1,558 @@
+---
+title: "Dataset exploration"
+author: "Saul Pierotti"
+output: 
+  pdf_document:
+    latex_engine: lualatex
+---
+
+```{r imports}
+modules <- list.files(path = "utils", full.names = TRUE)
+sapply(modules, source)
+```
+
+
+This notebook is used to produce all the graphs in the Dataset exploration section of my master thesis.
+
+# Plots
+
+## Fitness scores distribution
+
+```{r fitness score distribution, dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  group_by(dms_id) %>%
+  mutate(is_dms_id_outlier_upper = score >
+           quantile(score, 0.75) + IQR(score) * 1.5) %>%
+  mutate(is_dms_id_outlier_lower = score <
+           quantile(score, 0.25) - IQR(score) * 1.5) %>%
+  ungroup() %>%
+  mutate(is_dms_id_outlier =
+           (is_dms_id_outlier_lower | is_dms_id_outlier_upper)) %>%
+  subset(select = c(score, dms_id, is_dms_id_outlier, aa1, aa2))
+
+plot <- ggplot(data = curr_tb,
+               mapping = aes(x = score, y = dms_id)) +
+  geom_boxplot(outlier.shape = NA) +
+  geom_jitter(
+    data = curr_tb %>% filter(is_dms_id_outlier),
+    color = boxplot_gray,
+    alpha = 0.2,
+    shape = 4,
+    height = 0.1,
+    width = 0
+  ) +
+  geom_jitter(
+    data = curr_tb %>% filter(aa1 == aa2),
+    mapping = aes(color = okabe[1]),
+    shape = 4,
+    alpha = 0.2,
+    height = 0.1,
+    width = 0
+  ) +
+  scale_color_manual(
+    name = NULL,
+    labels = NULL,
+    values = okabe[1],
+    guide = NULL
+  ) +
+  theme_minimal_vgrid(text_size) +
+  theme(legend.position = "none") +
+  x_axis_theme +
+  ylab(NULL) +
+  xlab("Scaled fitness score") +
+  latex_y_safe +
+  panel_border() +
+  xlim(c(-1.1, 0.31))
+
+print(plot)
+# create_tikz(plot,
+#             "fitness_score_distribution.tex",
+#             2,
+#             latex_textwidth * 0.7)
+
+# create_tikz(plot,
+#             "presentation_fitness_score_distribution.tex",
+#             latex_beamer_height*0.5,
+#             latex_beamer_width*0.65)
+```
+
+## Dataset abundancies
+
+```{r datasets abundancies, dev="tikz", results="hide"}
+plot <-
+  ggplot(data = training_tb, mapping = aes(y = dms_id, fill = (aa1 == aa2))) +
+  geom_bar() +
+  xlab("Number of mutations (K)") +
+  ylab(NULL) +
+  scale_fill_manual(
+    values = c(barplot_gray, okabe),
+    name = "Mutation type",
+    labels = c("Missense", "Synonymous")
+  ) +
+  scale_x_continuous(expand = c(0, 0),
+                     labels = label_number(scale = 1 / 1000, accuracy = 1)) +
+  theme_minimal_vgrid(text_size) +
+  x_axis_theme +
+  latex_y_safe + # this is needed to reverse the axis like the one of the previous plot
+  theme(legend.position = "none") +
+  theme(axis.text.y = element_blank(), axis.ticks.y = element_blank()) +
+  panel_border()
+
+print(plot)
+
+#create_tikz(plot, "datasets_abundancies.tex", 2, latex_textwidth * 0.3)
+
+# create_tikz(plot,
+#             "presentation_datasets_abundancies.tex",
+#             latex_beamer_height*0.5,
+#             latex_beamer_width*0.3)
+```
+
+## Datasets correlations
+
+```{r datasets correlations,dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  filter(dms_id == "Ubiquitin" | dms_id == "E1_Ubiquitin") %>%
+  pivot_wider(names_from = dms_id, values_from = score) %>%
+  select(Ubiquitin, E1_Ubiquitin, aa1, aa2) %>%
+  drop_na()
+
+plot <- ggplot(mapping = aes(x = Ubiquitin, y = E1_Ubiquitin)) +
+  geom_point(
+    data = filter(curr_tb, aa1 != aa2),
+    mapping = aes(color = "gray15"),
+    alpha = 0.5,
+    shape = 4
+  ) +
+  geom_point(
+    data = filter(curr_tb, aa1 == aa2),
+    mapping = aes(color = okabe[1]),
+    shape = 4
+  ) +
+  ylab("E1\\_Ubiquitin score") +
+  xlab("Ubiquitin score") +
+  scale_color_identity(
+    name = "Mutation type",
+    labels = c("Missense", "Synonymous"),
+    guide = "legend",
+    limits = rev
+  ) +
+  annotate(
+    "text",
+    x = -1.5,
+    y = 0,
+    size = 2.5,
+    hjust = 0,
+    label = sprintf(
+      "$%s%.2f$\n$%s%.2f$\n$%s%.2f$",
+      "r=",
+      cor(curr_tb$Ubiquitin, curr_tb$E1_Ubiquitin, method =
+            "pearson"),
+      "\\rho=",
+      cor(curr_tb$Ubiquitin, curr_tb$E1_Ubiquitin, method =
+            "spearman"),
+      "\\tau=",
+      cor(curr_tb$Ubiquitin, curr_tb$E1_Ubiquitin, method =
+            "kendall")
+    )
+  ) +
+  theme_cowplot(text_size) +
+  guides(colour = guide_legend(override.aes = list(alpha = 1, stroke = 1))) +
+  x_axis_theme +
+  y_axis_theme +
+  theme(legend.position = "none")
+
+print(plot)
+
+#create_tikz(plot, "datasets_correlations.tex", 2, latex_textwidth * 0.45)
+
+# create_tikz(
+#   plot,
+#   "presentation_datasets_correlations.tex",
+#   latex_beamer_height * 0.7,
+#   latex_beamer_width*0.9
+# )
+```
+
+## aa1 proportions
+
+```{r aa1_proportions, dev="tikz", results="hide"}
+curr_tb_par1 <- training_tb %>%
+  group_by(aa1, .drop = FALSE) %>%
+  count() %>%
+  ungroup() %>%
+  mutate(perc = n / sum(n)) %>%
+  mutate(kind = as_factor("dms_mutations"))
+
+curr_tb_par2 <- training_tb %>%
+  subset(select = c(aa1, position, dms_id)) %>%
+  distinct() %>%
+  group_by(aa1, .drop = FALSE) %>%
+  count() %>%
+  ungroup() %>%
+  mutate(perc = n / sum(n)) %>%
+  mutate(kind = as_factor("dms_sequence"))
+
+curr_tb_par3 <- uniprot_compo %>%
+  mutate(aa1 = aa,
+         kind = as_factor("uniprot"),
+         perc = perc / 100) %>%
+  subset(select = c(aa1, perc, kind))
+
+curr_tb <- bind_rows(curr_tb_par3, curr_tb_par2, curr_tb_par1)
+
+plot <- ggplot(data = curr_tb,
+               mapping = aes(y = perc, x = aa1, fill = fct_rev(kind))) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_minimal_hgrid(text_size) +
+  scale_y_continuous(
+    label = percent_format(accuracy = 1, suffix = NULL),
+    expand = c(0.002, 0),
+    limits = c(0, 0.11)
+  ) + # use 0.002 to show the bottom ticks
+  scale_fill_manual(
+    values = c(barplot_gray, okabe[1], okabe[2]),
+    name = NULL,
+    labels = c("Complete dataset", "Wild-type protein sequences", "UniProt")
+  ) +
+  theme(legend.position = "none") +
+  ylab("\\%") +
+  xlab("Residue type") +
+  x_axis_theme +
+  theme(axis.title.y = element_text(
+    angle = 0,
+    face = "bold",
+    vjust = 0.4,
+    margin = margin(0, 10, 0, 0)
+  )) +
+  panel_border()
+
+print(plot)
+
+# create_tikz(plot, "datasets_composition.tex", 2, latex_textwidth * 0.45)
+```
+
+## Median residue fitness
+
+```{r median residue fitness, dev="tikz", results="hide"}
+aa_median_effect_pipe <- function(my_tb) {
+  out_tb <- my_tb %>%
+    group_by(aa) %>%
+    mutate(median_score = median(score)) %>%
+    ungroup() %>%
+    subset(select = c(dms_id, aa, median_score, kind)) %>%
+    distinct()
+  return(out_tb)
+}
+
+curr_tb_aa2 <- training_tb %>%
+  mutate(aa = aa2, kind = as_factor("aa2")) %>%
+  aa_median_effect_pipe()
+
+curr_tb_aa1 <- training_tb %>%
+  mutate(aa = aa1, kind = as_factor("aa1")) %>%
+  aa_median_effect_pipe()
+
+curr_tb <- bind_rows(curr_tb_aa2, curr_tb_aa1)
+
+plot <- ggplot(data = curr_tb,
+               mapping = aes(y = median_score, x = aa, color = kind)) +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  geom_point(size = 1) +
+  theme_minimal_grid(text_size) +
+  background_grid() +
+  x_axis_theme +
+  y_axis_theme +
+  xlab("Residue type") +
+  ylab("Scaled median fitness score") +
+  theme(legend.position = "none") +
+  scale_color_manual(
+    values = c("black", okabe[1]),
+    name = NULL,
+    labels = c("Mutation to", "Mutation from")
+  ) +
+  panel_border()
+
+print(plot)
+
+# create_tikz(plot, "median_residue_fitness.tex", 2, latex_textwidth * 0.45)
+```
+
+## aa2 frequencies
+
+```{r aa2 frequencies, dev="tikz", results="hide"}
+plot <- ggplot(data = training_tb,
+               mapping = aes(x = aa2)) +
+  geom_bar(mapping = aes(y = stat(prop), group = NA)) +
+  geom_hline(
+    yintercept = 1 / 20,
+    linetype = "dashed",
+    color = okabe[1],
+    size = 1
+  ) +
+  theme_minimal_hgrid(text_size) +
+  scale_y_continuous(label = percent_format(accuracy = 1, suffix = NULL),
+                     expand = c(0.002, 0)) + # use 0.002 to show the bottom ticks
+  theme(legend.position = "none") +
+  ylab("\\%") +
+  xlab("Residue type") +
+  x_axis_theme +
+  theme(axis.title.y = element_text(
+    angle = 0,
+    face = "bold",
+    vjust = 0.4,
+    margin = margin(0, 10, 0, 0)
+  )) +
+  panel_border()
+
+
+print(plot)
+
+# create_tikz(plot, "aa2_frequencies.tex", 2, latex_textwidth * 0.45)
+```
+
+# Supplementary plots
+
+## aa1 proportions by dataset
+
+```{r aa1_proportions by dataset, dev="tikz", results="hide"}
+curr_tb_par1 <- training_tb %>%
+  group_by(aa1, dms_id, .drop = FALSE) %>%
+  count() %>%
+  group_by(dms_id) %>%
+  mutate(perc = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(kind = as_factor("dms_mutations"))
+
+curr_tb_par2 <- training_tb %>%
+  subset(select = c(aa1, position, dms_id)) %>%
+  distinct() %>%
+  group_by(aa1, dms_id, .drop = FALSE) %>%
+  count() %>%
+  group_by(dms_id) %>%
+  mutate(perc = n / sum(n)) %>%
+  ungroup() %>%
+  mutate(kind = as_factor("dms_sequence"))
+
+curr_tb <- bind_rows(curr_tb_par2, curr_tb_par1) %>%
+  subset(select = -c(n))
+
+for (dataset in datasets) {
+  curr_tb <- uniprot_compo %>%
+    mutate(aa1 = aa,
+           kind = as_factor("uniprot"),
+           perc = perc / 100) %>%
+    subset(select = c(aa1, perc, kind)) %>%
+    mutate(dms_id = as_factor(dataset)) %>%
+    bind_rows(curr_tb)
+}
+
+plot <- ggplot(data = curr_tb,
+               mapping = aes(y = perc, x = aa1, fill = fct_rev(kind))) +
+  geom_bar(position = "dodge", stat = "identity") +
+  theme_minimal_hgrid(text_size) +
+  dms_facet_free_x +
+  scale_y_continuous(label = percent_format(accuracy = 1, suffix = NULL),
+                     expand = c(0.002, 0)) + # use 0.002 to show the bottom ticks
+  scale_fill_manual(
+    values = c(barplot_gray, okabe[1], okabe[2]),
+    labels = c("Dataset", "Wild-type sequence", "UniProt"),
+    name = NULL
+  ) +
+  theme(legend.position = "none") +
+  ylab("\\%") +
+  xlab("Residue type") +
+  x_axis_theme +
+  facet_theme +
+  theme(axis.title.y = element_text(
+    angle = 0,
+    face = "bold",
+    vjust = 0.4,
+    margin = margin(0, 10, 0, 0)
+  )) +
+  panel_border()
+
+print(plot)
+
+# create_tikz(
+#   plot,
+#   "datasets_composition_by_dataset.tex",
+#   latex_textheight * 0.5,
+#   latex_textwidth
+# )
+```
+
+## aa2 frequencies by dataset
+
+```{r aa2 frequencies by dataset, dev="tikz", results="hide"}
+plot <- ggplot(data = training_tb,
+               mapping = aes(x = aa2)) +
+  geom_bar(mapping = aes(y = stat(prop), group = NA)) +
+  dms_facet_free_x +
+  geom_hline(
+    yintercept = 1 / 20,
+    linetype = "dashed",
+    color = okabe[1],
+    size = 1
+  ) +
+  theme_minimal_hgrid(text_size) +
+  panel_border() +
+  theme(legend.position = "bottom") +
+  ylab("\\%") +
+  xlab("Residue type") +
+  x_axis_theme +
+  facet_theme +
+  theme(axis.title.y = element_text(
+    angle = 0,
+    face = "bold",
+    vjust = 0.4,
+    margin = margin(0, 10, 0, 0)
+  )) +
+  scale_y_continuous(
+    label = percent_format(accuracy = 1, suffix = NULL),
+    limits = c(0, 0.1),
+    expand = c(0, 0)
+  ) # use 0.002 to show the bottom ticks
+
+print(plot)
+
+# create_tikz(plot,
+#             "aa2_frequencies_by_dataset.tex",
+#             latex_textheight * 0.5,
+#             latex_textwidth)
+```
+
+## Median residue fitness by dataset
+
+```{r median residue fitness by dataset, dev="tikz", results="hide"}
+aa_median_effect_by_dataset_pipe <- function(my_tb) {
+  out_tb <- my_tb %>%
+    group_by(dms_id, aa) %>%
+    mutate(median_score = median(score)) %>%
+    ungroup() %>%
+    subset(select = c(dms_id, aa, median_score, kind)) %>%
+    distinct()
+  return(out_tb)
+}
+
+curr_tb_aa2 <- training_tb %>%
+  mutate(aa = aa2, kind = as_factor("aa2")) %>%
+  aa_median_effect_by_dataset_pipe()
+
+curr_tb_aa1 <- training_tb %>%
+  mutate(aa = aa1, kind = as_factor("aa1")) %>%
+  aa_median_effect_by_dataset_pipe()
+
+curr_tb <- bind_rows(curr_tb_aa2, curr_tb_aa1)
+
+plot <- ggplot(data = curr_tb,
+               mapping = aes(y = median_score, x = aa, color = kind)) +
+  geom_hline(yintercept = 0,
+             linetype = "dashed",
+             alpha = 0.8) +
+  geom_point(size = 1) +
+  dms_facet_free_x +
+  theme_minimal_grid(text_size) +
+  scale_color_manual(
+    values = c("black", okabe[1]),
+    name = NULL,
+    labels = c("Mutation to", "Mutation from")
+  ) +
+  panel_border() +
+  theme(legend.position = "none") +
+  facet_theme +
+  xlab("Residue type") +
+  ylab("Scaled median fitness score") +
+  x_axis_theme +
+  y_axis_theme
+
+print(plot)
+
+# create_tikz(
+#   plot,
+#   "median_residue_fitness_by_dataset.tex",
+#   latex_textheight * 0.5,
+#   latex_textwidth
+# )
+```
+
+## Score distribution by dataset
+
+```{r score distribution by dataset, dev="tikz", results="hide"}
+plot <- ggplot(data = training_tb, mapping = aes(x = score)) +
+  geom_histogram(bins = 100, mapping = aes(y = stat(ndensity))) +
+  geom_density(
+    mapping = aes(y = stat(ndensity), group = dms_id),
+    kernel = "gaussian",
+    bw = "SJ",
+    fill = "black",
+    alpha = 0.1,
+    adjust = 5,
+    n = 512
+  ) +
+  theme_minimal_vgrid(text_size) +
+  facet_wrap(facets = vars(dms_id),
+             labeller = dms_latex_safe_labeller) +
+  panel_border() +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank()) +
+  xlab("Scaled fitness score") +
+  ylab("Scaled probability density") +
+  x_axis_theme +
+  y_axis_theme +
+  facet_theme +
+  scale_x_continuous(breaks = pretty_breaks(n = 10)) +
+  xlim(c(-1.1, 0.3))
+
+
+print(plot)
+
+# create_tikz(plot,
+#             "score_distribution_by_dataset.tex",
+#             latex_textheight * 0.5,
+#             latex_textwidth)
+```
+
+# Coverage by position by dataset
+
+```{r coverage by position by dataset, dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  # this is to tweak the axis limits
+  add_row(dms_id = as_factor("beta-lactamase"), position = 300) %>%
+  add_row(dms_id = as_factor("Ubiquitin"), position = 80)
+
+plot <-
+  ggplot(data = curr_tb,
+         mapping = aes(
+           x = position,
+           fill = (aa1 == aa2),
+           color = (aa1 == aa2)
+         )) +
+  geom_bar(width = 1) +
+  dms_facet_free_x +
+  theme_minimal_hgrid(text_size) +
+  panel_border() +
+  theme(legend.position = "none") +
+  scale_fill_manual(
+    values = c(barplot_gray, okabe[1]),
+    name = "Mutation type",
+    labels = c("Missense", "Synonymous")
+  ) +
+  scale_color_manual(
+    values = c(barplot_gray, okabe[1]),
+    name = "Mutation type",
+    labels = c("Missense", "Synonymous")
+  ) +
+  ylab("Number of mutations") +
+  xlab("Uniprot position") +
+  x_axis_theme +
+  y_axis_theme +
+  scale_y_continuous(expand = c(0.002, 0)) # use 0.002 to show the bottom tick)
+
+print(plot)
+
+# create_tikz(plot,
+#             "coverage_by_position_by_dataset.tex",
+#             latex_textheight * 0.5,
+#             latex_textwidth)
+```

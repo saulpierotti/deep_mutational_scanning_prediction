@@ -1,0 +1,515 @@
+---
+title: "Dataset exploration"
+author: "Saul Pierotti"
+output: 
+  pdf_document:
+    latex_engine: lualatex
+---
+
+```{r imports}
+modules <- list.files(path = "utils", full.names = TRUE)
+sapply(modules, source)
+```
+
+
+This notebook is used to produce all the graphs and statistics shown in the feature exploration section of my master thesis.
+
+# Plots
+
+## Mutation identity
+
+```{r mutation_identity, dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  group_by(aa1, aa2, .drop = FALSE) %>%
+  summarise(score = mean(score), dssp_rsa) %>%
+  ungroup()
+
+max_abs_score <- max(abs(curr_tb$score))
+color_range <- c(-max_abs_score, max_abs_score)
+
+plot <- ggplot(data = curr_tb) +
+  geom_tile(aes(x=aa1, y=aa2, fill=score)) +
+  theme_minimal(text_size) +
+  scale_fill_distiller(palette = "Spectral", limits = color_range,
+                       name="Average scaled fitness score") +
+  xlab("Mutation from") +
+  ylab("Mutation towards") +
+  labs(fill = NULL) +
+  x_axis_theme +
+  y_axis_theme +
+  theme(legend.position = "bottom")
+
+plot_presentation <- plot +
+  theme(legend.position = "right")
+
+print(plot)
+print(plot_presentation)
+
+# create_tikz(plot,
+#             "mutation_identity.tex",
+#             3,
+#             latex_textwidth*0.45)
+
+
+
+# create_tikz(plot_presentation,
+#             "presentation_mutation_identity.tex",
+#             latex_beamer_height*0.7,
+#             latex_beamer_width*0.9)
+```
+
+```{r mutation_identity, dev="tikz", results="hide"}
+max_abs_score <- max(abs(blosum_tb$scaled_score))
+color_range <- c(-max_abs_score, max_abs_score)
+
+plot <- ggplot(data = blosum_tb) +
+  geom_tile(aes(x=aa1, y=aa2, fill=scaled_score)) +
+  theme_minimal(text_size) +
+  scale_fill_distiller(palette = "Spectral", limits = color_range) +
+  xlab("Mutation from") +
+  ylab("Mutation towards") +
+  labs(fill = NULL) +
+  x_axis_theme +
+  y_axis_theme +
+  theme(legend.position = "bottom")
+
+print(plot)
+
+# create_tikz(plot,
+#             "blosum100.tex",
+#             3,
+#             latex_textwidth*0.45)
+```
+
+```{r mutation_identity_by_dataset, dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  group_by(aa1, aa2, dms_id, .drop = FALSE) %>%
+  summarise(score = mean(score)) %>%
+  ungroup()
+
+max_abs_score <- max(abs(curr_tb$score), na.rm = TRUE)
+color_range <- c(-max_abs_score, max_abs_score)
+
+plot <- ggplot(data = curr_tb) +
+  geom_tile(aes(x=aa1, y=aa2, fill=score)) +
+  theme_minimal(text_size) +
+  scale_fill_distiller(palette = "Spectral", limits = color_range, na.value = "gray85") +
+  xlab("Mutation from") +
+  ylab("Mutation towards") +
+  labs(fill = "Scaled average\nfitness score") +
+  x_axis_theme +
+  y_axis_theme +
+  dms_facet
+
+print(plot)
+
+# create_tikz(plot,
+#             "mutation_identity_by_dataset.tex",
+#             latex_textheight*0.65,
+#             latex_textwidth)
+```
+## Score by DSSP secondary structure
+
+```{r DSSP_q3-score plot, dev="tikz", results="hide"}
+plot <- get_score_ss_violin_plot(training_tb, "dssp", "q3") +
+  scale_x_discrete(labels = c("Helix", "Strand", "Coil")) +
+  xlab("Secondary structure (DSSP)") +
+  ylab("Scaled fitness score\n(position median)") +
+  theme_minimal_hgrid(text_size) +
+  x_axis_theme +
+  y_axis_theme
+
+print(plot)
+
+# create_tikz(plot,
+#             "score_dssp_q3.tex",
+#             2,
+#             latex_textwidth * 0.45)
+
+# create_tikz(plot,
+#             "presentation_score_dssp_q3.tex",
+#             latex_beamer_height*0.7,
+#             latex_beamer_width*0.9)
+```
+
+```{r DSSP_q3-score plot by dataset, dev="tikz", results="hide"}
+plot <- get_score_ss_violin_plot(training_tb, "dssp", "q3") +
+  scale_x_discrete(labels = c("Helix", "Strand", "Coil")) +
+  xlab("Secondary structure (DSSP)") +
+  ylab("Scaled fitness score (position median)") +
+  theme_minimal_hgrid(text_size) +
+  x_axis_theme +
+  y_axis_theme +
+  dms_facet +
+  panel_border()
+
+
+print(plot)
+
+# create_tikz(plot,
+#             "score_dssp_q3_by_dataset.tex",
+#             latex_textheight * 0.5,
+#             latex_textwidth)
+```
+
+## Score by DSSP RSA
+
+```{r DSSP_RSA-score plot, dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  group_by(dms_id, position) %>%
+  summarise(score = median(score),
+            dssp_rsa, dssp_asa, netsurf_rsa, netsurf_asa) %>%
+  ungroup() %>%
+  distinct()
+
+
+plot <- get_corr_plot(curr_tb, dssp_rsa, score) +
+  xlab("Relative solvent accessibility (DSSP)") +
+  ylab("Scaled fitness score\n(position median)")
+
+print(plot)
+
+# create_tikz(plot,
+#             "score_dssp_rsa.tex",
+#             2,
+#             latex_textwidth * 0.45)
+
+# create_tikz(plot,
+#             "presentation_score_dssp_rsa.tex",
+#             latex_beamer_height * 0.7,
+#             latex_beamer_width * 0.9)
+```
+
+```{r DSSP_RSA-score plot by dataset, dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  group_by(dms_id, position) %>%
+  summarise(score = median(score),
+            dssp_rsa,
+            dssp_asa,
+            netsurf_rsa,
+            netsurf_asa,
+            dms_id) %>%
+  ungroup() %>%
+  distinct()
+
+
+plot <- get_corr_plot(curr_tb, dssp_rsa, score) +
+  xlab("Relative solvent accessibility (DSSP)") +
+  ylab("Scaled fitness score (position median)") +
+  dms_facet_free
+
+print(plot)
+
+# create_tikz(plot,
+#             "score_dssp_rsa_by_dataset.tex",
+#             latex_textheight * 0.5,
+#             latex_textwidth)
+```
+
+# Statistics
+
+# Mutation identity
+
+```{r aa1 kruskal wallis}
+print("AA1")
+get_categorical_continuous_metrics(training_tb, score, aa1)
+```
+
+```{r aa2 kruskal wallis}
+print("AA2")
+get_categorical_continuous_metrics(training_tb, score, aa2)
+```
+
+## PSSM
+
+```{r pssm-score correlation}
+training_tb %>%
+  get_pssm_scores() %>%
+  get_corr_values(score, hmm_pssm_value)
+```
+
+## RSA
+
+```{r nestusrf_rsa-score correlation}
+get_corr_values(training_tb, score, netsurf_rsa)
+```
+
+```{r nestusrf_rsa-score correlation dropping dssp_rsa nan}
+training_tb %>%
+  subset(select=c(dms_id, position, score, dssp_rsa, netsurf_rsa)) %>%
+  drop_na() %>%
+  get_corr_values(score, netsurf_rsa)
+```
+
+```{r dssp_rsa-score correlation}
+get_corr_values(training_tb, score, dssp_rsa)
+```
+
+```{r netsurf_rsa-dssp_rsa correlation}
+get_corr_values(training_tb, dssp_rsa, netsurf_rsa)
+```
+
+## ASA
+
+```{r nestusrf_asa-score correlation}
+get_corr_values(training_tb, score, netsurf_asa)
+```
+
+```{r nestusrf_asa-score correlation dropping dssp_rsa nan}
+training_tb %>%
+  subset(select=c(dms_id, position, score, dssp_rsa, netsurf_asa)) %>%
+  drop_na() %>%
+  get_corr_values(score, netsurf_asa)
+```
+
+```{r dssp_asa-score correlation}
+get_corr_values(training_tb, score, dssp_asa)
+```
+
+```{r netsurf_asa-dssp_asa correlation}
+get_corr_values(training_tb, dssp_asa, netsurf_asa)
+```
+
+## Q3 secondary structure
+
+```{r dssp_q3-netsurf_q3 cat metrics}
+curr_tb <- training_tb %>%
+  get_categorical_sec_struct()
+
+get_categorical_metrics(curr_tb, netsurf_q3, dssp_q3)
+```
+
+```{r netsurf_q3 kruskal wallis}
+curr_tb <- training_tb %>%
+  get_categorical_sec_struct()
+
+get_categorical_continuous_metrics(curr_tb, score, netsurf_q3)
+```
+
+```{r dssp_q3 kruskal wallis}
+curr_tb <- training_tb %>%
+  get_categorical_sec_struct()
+
+get_categorical_continuous_metrics(curr_tb, score, dssp_q3)
+```
+
+```{r netsurf_q3 same positions as ddsp q3 kruskal wallis}
+training_tb %>%
+  get_categorical_sec_struct() %>%
+  subset(select = c(dms_id, position, score, dssp_q3, netsurf_q3)) %>%
+  drop_na() %>%
+  get_categorical_continuous_metrics(score, netsurf_q3)
+```
+
+## Q8 secondary structure
+
+```{r dssp_q8-netsurf_q8 cat metrics}
+curr_tb <- training_tb %>%
+  get_categorical_sec_struct()
+
+get_categorical_metrics(curr_tb, netsurf_q8, dssp_q8)
+```
+
+```{r netsurf_q8 kruskal wallis}
+curr_tb <- training_tb %>%
+  get_categorical_sec_struct()
+
+get_categorical_continuous_metrics(curr_tb, score, netsurf_q8)
+```
+
+```{r dssp_q8 kruskal wallis}
+curr_tb <- training_tb %>%
+  get_categorical_sec_struct()
+
+get_categorical_continuous_metrics(curr_tb, score, dssp_q8)
+```
+
+```{r netsurf_q8 same positions as ddsp q3 kruskal wallis}
+training_tb %>%
+  get_categorical_sec_struct() %>%
+  subset(select = c(dms_id, position, score, dssp_q8, netsurf_q8)) %>%
+  drop_na() %>%
+  get_categorical_continuous_metrics(score, netsurf_q8)
+```
+
+## Torsion angles
+
+```{r netsurf-dssp torsion angles circular correlation}
+print(c(
+  "Netsurf-DSSP PHI circular correlation",
+  get_circular_corr(training_tb, dssp_phi, netsurf_phi)
+))
+print(c(
+  "Netsurf-DSSP PSI circular correlation",
+  get_circular_corr(training_tb, dssp_psi, netsurf_psi)
+))
+```
+
+```{r dssp_torsion angles-score circular correlation}
+print("Score DSSP PHI linear-circular correlation")
+print(get_circular_linear_corr(training_tb, dssp_phi, score))
+print("Score DSSP PSI linear-circular correlation")
+print(get_circular_linear_corr(training_tb, dssp_psi, score))
+```
+
+```{r netsurf_torsion angles-score circular correlation}
+print("Score Netsurf PHI linear-circular correlation all positions")
+print(get_circular_linear_corr(training_tb, netsurf_phi, score))
+print("Score Netsurf PSI linear-circular correlation all positions")
+print(get_circular_linear_corr(training_tb, netsurf_psi, score))
+```
+
+```{r netsurf_torsion angles-score circular correlation}
+curr_tb_phi <- training_tb %>%
+  select(dms_id, position, score, netsurf_phi, dssp_phi) %>%
+  drop_na()
+
+curr_tb_psi <- training_tb %>%
+  select(dms_id, position, score, netsurf_psi, dssp_psi) %>%
+  drop_na()
+
+print("Score Netsurf PHI linear-circular correlation same positions as DSSP")
+print(get_circular_linear_corr(curr_tb_phi, netsurf_phi, score))
+print("Score Netsurf PSI linear-circular correlation same positions as DSSP")
+print(get_circular_linear_corr(curr_tb_psi, netsurf_psi, score))
+```
+
+## Disorder
+
+```{r netsurf_disorder-score correlation}
+get_corr_values(training_tb, score, netsurf_disorder)
+```
+
+## EV couplings epistatic
+
+```{r ev_epistatic-score correlation}
+get_corr_values(training_tb, score, ev_epistatic)
+```
+
+## EV couplings independent
+
+```{r ev_independent-score correlation}
+get_corr_values(training_tb, score, ev_independent)
+```
+
+## EV couplings conservation
+
+```{r ev_conservation-score correlation}
+get_corr_values(training_tb, score, ev_conservation)
+```
+
+## EV couplings conservation
+
+```{r ev_frequency-score correlation}
+get_corr_values(training_tb, score, ev_frequency)
+```
+
+## trRosetta graphs
+
+```{r closeness_centrality-score correlation}
+get_corr_values(training_tb, score, tr_rosetta_graph_closeness_centrality)
+```
+
+```{r betweennes_centrality-score correlation}
+get_corr_values(training_tb, score, tr_rosetta_graph_betweenness_centrality)
+```
+
+```{r degree_centrality-score correlation}
+get_corr_values(training_tb, score, tr_rosetta_graph_degree_centrality)
+```
+
+```{r load_centrality-score correlation}
+get_corr_values(training_tb, score, tr_rosetta_graph_load_centrality)
+```
+
+```{r harmonic_centrality-score correlation}
+get_corr_values(training_tb, score, tr_rosetta_graph_harmonic_centrality)
+```
+
+```{r clustering-score correlation}
+get_corr_values(training_tb, score, tr_rosetta_graph_clustering)
+```
+
+## trRosetta distance validation
+
+```{r topL/n contact precision trRosetta}
+get_top_L_stats(distance_tb)
+```
+
+## Features correlation
+
+```{r features corr heatmap, dev="tikz", results="hide"}
+curr_tb <- training_tb %>%
+  select(-c(dms_id, position, aa1, aa2, starts_with("dssp_"), score)) %>%
+  dplyr::rename(
+      "PSSM score \\texttt{C}" = hmm_pssm_C,
+      "PSSM score \\texttt{G}" = hmm_pssm_G,
+      "PSSM score \\texttt{P}" = hmm_pssm_P,
+      "PSSM score \\texttt{A}" = hmm_pssm_A,
+      "PSSM score \\texttt{V}" = hmm_pssm_V,
+      "PSSM score \\texttt{L}" = hmm_pssm_L,
+      "PSSM score \\texttt{I}" = hmm_pssm_I,
+      "PSSM score \\texttt{M}" = hmm_pssm_M,
+      "PSSM score \\texttt{F}" = hmm_pssm_F,
+      "PSSM score \\texttt{Y}" = hmm_pssm_Y,
+      "PSSM score \\texttt{W}" = hmm_pssm_W,
+      "PSSM score \\texttt{T}" = hmm_pssm_T,
+      "PSSM score \\texttt{S}" = hmm_pssm_S,
+      "PSSM score \\texttt{N}" = hmm_pssm_N,
+      "PSSM score \\texttt{Q}" = hmm_pssm_Q,
+      "PSSM score \\texttt{D}" = hmm_pssm_D,
+      "PSSM score \\texttt{E}" = hmm_pssm_E,
+      "PSSM score \\texttt{H}" = hmm_pssm_H,
+      "PSSM score \\texttt{K}" = hmm_pssm_K,
+      "PSSM score \\texttt{R}" = hmm_pssm_R,
+      "PSSM score mutation from" = hmm_pssm_aa1_likelyhood,
+      "PSSM score mutation towards" = hmm_pssm_aa2_likelyhood,
+      "PSSM score mutation difference" = hmm_pssm_delta_likelyhood,
+      "NetsurfP-2\\hspace{.03ex} RSA" = netsurf_rsa,
+      "NetsurfP-2 ASA" = netsurf_asa,
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{G}" = netsurf_p_q8_G,
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{H}" = netsurf_p_q8_H,
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{I}" = netsurf_p_q8_I,
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{B}" = netsurf_p_q8_B,
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{E}" = netsurf_p_q8_E,
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{S}" = netsurf_p_q8_S, 
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{T}" = netsurf_p_q8_T,
+      "NetsurfP-2 secondary structure $Q_8$ \\texttt{C}" = netsurf_p_q8_C,
+      "NetsurfP-2 secondary structure $Q_3$ \\texttt{H}" = netsurf_p_q3_H,
+      "NetsurfP-2 secondary structure $Q_3$ \\texttt{E}" = netsurf_p_q3_E,
+      "NetsurfP-2 secondary structure $Q_3$ \\texttt{C}" = netsurf_p_q3_C,
+      "NetsurfP-2 $\\phi$\\hspace{.21ex} torsion angle" = netsurf_phi,
+      "NetsurfP-2 $\\psi$ torsion angle" = netsurf_psi,
+      "NetsurfP-2 disorder" = netsurf_disorder,
+      "EVcouplings independent model" = ev_independent,
+      "EVcouplings epistatic model" = ev_epistatic,
+      "EVcouplings conservation" = ev_conservation,
+      "EVcouplings mutation frequency" = ev_frequency,
+      "trRosetta closeness centrality" = tr_rosetta_graph_closeness_centrality,
+      "trRosetta betweenness centrality" = tr_rosetta_graph_betweenness_centrality,
+      "trRosetta degree centrality" = tr_rosetta_graph_degree_centrality,
+      "trRosetta load centrality" = tr_rosetta_graph_load_centrality,
+      "trRosetta harmonic centrality" = tr_rosetta_graph_harmonic_centrality,
+      "trRosetta clustering coefficient" = tr_rosetta_graph_clustering
+  ) %>%
+  cor(use="pairwise.complete.obs", method = "spearman") %>%
+  melt()
+
+plot <- ggplot(data = curr_tb) +
+  geom_tile(aes(x=Var1, y=Var2, fill=value)) +
+  scale_fill_distiller(palette = "Spectral", limits=c(-1,1)) +
+  theme_minimal(text_size) +
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank(),
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.5),
+        legend.position = "bottom") +
+  labs(fill = NULL)
+
+print(plot)
+
+# create_tikz(plot,
+#             "feature_corr_heatmap.tex",
+#             latex_textheight*0.75,
+#             latex_textwidth)
+```
+
+

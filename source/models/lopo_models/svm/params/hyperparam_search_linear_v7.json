@@ -1,0 +1,8 @@
+{
+    "params":{
+	"kernel": ["linear"],
+	"epsilon": [1e-9, 1e-8, 1e-7],
+	"C": [1e-6, 1e-5, 1e-4, 1e-3]
+    },
+    "num_samples": -1
+}

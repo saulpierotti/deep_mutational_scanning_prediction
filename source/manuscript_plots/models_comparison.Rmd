@@ -1,0 +1,75 @@
+---
+title: "Models comparison"
+author: "Saul Pierotti"
+output: 
+  pdf_document:
+    latex_engine: lualatex
+---
+
+```{r imports}
+modules <- list.files(path = "utils", full.names = TRUE)
+sapply(modules, source)
+```
+
+# Plots
+
+```{r single protein models performance comparison plot, dev="tikz", results="hide"}
+plot <-
+  get_performance_comparison_plot(
+    single_protein_comparison_tb %>% filter(method == "pearson")
+    ) +
+  ylab("Pearson correlation coefficient")
+
+print(plot)
+
+create_tikz(plot,
+            "single_protein_models_performance_comparison.tex",
+            3,
+            latex_textwidth)
+```
+
+```{r single protein models performance comparison plot, dev="tikz", results="hide"}
+plot <-
+  get_performance_comparison_plot(
+    xgb_models_comparison_tb %>% filter(method == "spearman") %>%
+    mutate(model = fct_recode(model, "LOPO" = "lopo_models_xgb")) %>%
+    mutate(model = fct_relevel(model, c("by_position", "naive", "LOPO")))
+    ) +
+  ylab("Spearman correlation coefficient")
+
+print(plot)
+
+create_tikz(plot,
+            "xgb_models_performance_comparison.tex",
+            3,
+            latex_textwidth)
+```
+
+```{r general models performance comparison plot, dev="tikz", results="hide"}
+plot <-
+  get_performance_comparison_plot(
+    general_comparison_tb %>%
+      filter(method == "spearman") %>%
+      filter(model != "ev_independent")
+    ) +
+  ylab("Spearman correlation coefficient")
+
+plot_presentation <- plot +
+  theme(legend.position = "top")
+
+print(plot)
+
+print(plot_presentation)
+
+create_tikz(plot,
+            "general_models_performance_comparison.tex",
+            latex_textheight * 0.5,
+            latex_textwidth)
+
+# create_tikz(plot_presentation,
+#             "presentation_general_models_performance_comparison.tex",
+#             latex_beamer_height*0.7,
+#             latex_beamer_width*0.9)
+```
+
+

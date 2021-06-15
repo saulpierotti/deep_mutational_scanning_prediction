@@ -1,0 +1,184 @@
+---
+title: "LOPO models"
+author: "Saul Pierotti"
+output: 
+  pdf_document:
+    latex_engine: lualatex
+---
+
+```{r imports}
+modules <- list.files(path = "utils", full.names = TRUE)
+sapply(modules, source)
+```
+# XGBoost
+
+```{r test results summary xgb, dev="tikz", results="hide"}
+plot <- get_test_result_summary_plot(test_result_lopo_xgb_tb,
+                                     correlation_type = "spearman",
+                                     show_numbers = FALSE)
+
+print(plot)
+
+create_tikz(plot,
+            "lopo_xgb_models_test_result_summary.tex",
+            3,
+            latex_textwidth*0.49)
+```
+
+```{r random search result plot xgb, dev="tikz", results="hide"}
+plot <-
+  get_random_search_results_plot_xgb(
+    random_search_results_lopo_xgb_tb,
+    selected_param_values_lopo_xgb) +
+  coord_cartesian(ylim = c(0.5, 0.6)) +
+  ylab("Maximum average Spearman $\\rho$")
+
+print(plot)
+
+create_tikz(
+  plot,
+  "lopo_models_xgb_random_search.tex",
+  latex_textheight * 0.5,
+  latex_textwidth
+)
+```
+
+```{r learning curves plot xgb, dev="tikz", results="hide"}
+plot <-
+  get_learning_curves_plot_xgb(random_search_results_lopo_xgb_tb,
+                           selected_param_values_lopo_xgb) +
+  ylab("Avergae Spearman $\\rho$")
+
+print(plot)
+
+create_tikz(plot,
+            "lopo_models_xgb_learning_curve.tex",
+            3,
+            latex_textwidth)
+```
+
+```{r feature importance xgb by dataset, dev="tikz", results="hide"}
+plot <- get_feature_importance_by_dataset_plot(feature_importance_lopo_xgb_tb)
+
+print(plot)
+
+create_tikz(plot,
+            "lopo_models_xgb_feature_importance_by_dataset.tex",
+            latex_textheight*0.6,
+            latex_textwidth)
+```
+
+# Linear
+
+```{r test results summary linear, dev="tikz", results="hide"}
+plot <- get_test_result_summary_plot(test_result_lopo_linear_tb,
+                                     correlation_type = "spearman",
+                                     show_numbers = FALSE)
+
+print(plot)
+
+create_tikz(plot,
+            "lopo_linear_models_test_result_summary.tex",
+            3,
+            latex_textwidth*0.49)
+```
+
+```{r test results linear, dev="tikz", results="hide"}
+plot <- get_test_result_by_dataset_plot(test_result_lopo_linear_tb)
+
+print(plot)
+
+# create_tikz(
+#   plot,
+#   "single_protein_models_naive_test_result_correlations.tex",
+#   latex_textheight*0.5,
+#   latex_textwidth
+# )
+```
+
+```{r feature importance linear by dataset, dev="tikz", results="hide"}
+plot <- get_feature_importance_by_dataset_plot(feature_importance_lopo_linear_tb)
+
+print(plot)
+# create_tikz(plot,
+#             "lopo_models_linear_feature_importance_by_dataset.tex",
+#             latex_textheight*0.6,
+#             latex_textwidth)
+```
+
+# SVM
+
+```{r random search result plot svm linear, dev="tikz", results="hide"}
+curr_tb <- random_search_results_svm_tb %>%
+  filter(kernel == "linear") %>%
+  summarise(average, C, epsilon)
+
+x_breaks <- curr_tb$C %>%
+  unique() %>%
+  log10()
+
+y_breaks <- curr_tb$epsilon %>%
+  unique() %>%
+  log10()
+
+plot <- ggplot(data = curr_tb, mapping = aes(x=log10(C), y=log10(epsilon), fill=average)) +
+  geom_tile() +
+  scale_fill_distiller(palette = "Spectral", name = "Average Spearman $\\rho$") +
+  theme_minimal() +
+  theme(legend.position = "bottom", panel.grid = element_blank()) +
+  ylab("$\\epsilon$ parameter") +
+  xlab("C parameter") +
+  scale_x_continuous(breaks=x_breaks, labels=label_math()) +
+  scale_y_continuous(breaks=y_breaks, labels=label_math())
+
+plot0 <- ggplot(data = curr_tb %>% filter(epsilon == 0), mapping = aes(x=log10(C), y=epsilon, fill=average)) +
+  geom_tile() +
+  scale_fill_distiller(palette = "Spectral", name = "Average Spearman $\\rho$", limits=c(min(curr_tb$average), max(curr_tb$average))) +
+  theme_minimal() +
+  theme(legend.position = "bottom", panel.grid = element_blank()) +
+  ylab("$\\epsilon$ parameter") +
+  xlab("C parameter") +
+  scale_x_continuous(breaks=x_breaks, labels=label_math()) +
+  scale_y_continuous(breaks=y_breaks)
+
+print(plot)
+print(plot0)
+```
+
+```{r random search result plot svm rbf, dev="tikz", results="hide"}
+curr_tb <- random_search_results_svm_tb %>%
+  filter(kernel == "rbf") %>%
+  summarise(average, C, epsilon, gamma)
+
+plot <- ggplot(data = curr_tb, mapping = aes(x=log10(C), y=log10(epsilon), fill=average)) +
+  geom_tile() +
+  scale_fill_distiller(palette = "Spectral", name = "Average Spearman $\\rho$") +
+  scale_x_continuous(breaks=x_breaks, labels=label_math()) +
+  scale_y_continuous(breaks=y_breaks, labels=label_math()) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  ylab("$\\epsilon$ parameter") +
+  xlab("C parameter") +
+  facet_wrap(facets = ~gamma, scales="free")
+
+print(plot)
+```
+
+```{r random search result plot svm poly, dev="tikz", results="hide"}
+curr_tb <- random_search_results_svm_tb %>%
+  filter(kernel == "poly") %>%
+  summarise(average, C, epsilon, degree)
+
+plot <- ggplot(data = curr_tb, mapping = aes(x=log10(C), y=log10(epsilon), fill=average)) +
+  geom_tile() +
+  scale_fill_distiller(palette = "Spectral", name = "Average Spearman $\\rho$") +
+  scale_x_continuous(breaks=x_breaks, labels=label_math()) +
+  scale_y_continuous(breaks=y_breaks, labels=label_math()) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  ylab("$\\epsilon$ parameter") +
+  xlab("C parameter") +
+  facet_wrap(facets = ~degree, scales="free")
+
+print(plot)
+```

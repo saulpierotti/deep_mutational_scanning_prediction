@@ -1,0 +1,17 @@
+{
+    "params":{
+        "max_depth": [6],
+        "min_child_weight": [2],
+        "subsample": [0.5],
+        "colsample_bytree": [0.25],
+	"eta": [0.0001, 0.001, 0.01, 0.05, 0.1, 0.5, 1.0],
+	"tree_method": ["hist"],
+	"objective": ["reg:squarederror"],
+	"nthread": [1],
+        "gamma": [0.1],
+        "lambda": [1],
+        "alpha": [0.1],
+	"num_rounds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000]
+    },
+    "num_samples": -1
+}

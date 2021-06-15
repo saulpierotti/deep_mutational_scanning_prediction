@@ -1,0 +1,166 @@
+---
+title: "Single protein models"
+author: "Saul Pierotti"
+output: 
+  pdf_document:
+    latex_engine: lualatex
+---
+
+```{r imports}
+modules <- list.files(path = "utils", full.names = TRUE)
+sapply(modules, source)
+```
+
+# Naive models
+
+```{r random search result plot naive, dev="tikz", results="hide"}
+plot <-
+  get_random_search_results_plot_xgb(
+    random_search_results_naive_tb,
+    selected_param_values_naive) +
+  coord_cartesian(ylim = c(0.8, 0.82))
+
+print(plot)
+# create_tikz(
+#   plot,
+#   "single_protein_models_naive_random_search.tex",
+#   latex_textheight * 0.5,
+#   latex_textwidth
+# )
+```
+
+```{r learning curves plot naive, dev="tikz", results="hide"}
+plot <-
+  get_learning_curves_plot_xgb(random_search_results_naive_tb,
+                           selected_param_values_naive)
+print(plot)
+
+create_tikz(plot,
+            "single_protein_models_naive_learning_curve.tex",
+            3,
+            latex_textwidth*0.5)
+```
+
+```{r test results summary naive, dev="tikz", results="hide"}
+plot <- get_test_result_summary_plot(test_result_naive_tb,
+                                     show_numbers = FALSE)
+
+
+plot_presentation <-
+  get_test_result_summary_plot(test_result_naive_tb,
+                               text_xshift = 0.35,
+                               text_yshift = 0.06)
+
+print(plot)
+print(plot_presentation)
+
+create_tikz(plot,
+            "single_protein_models_naive_test_result_summary.tex",
+            3,
+            latex_textwidth*0.45)
+
+# create_tikz(plot_presentation,
+#             "presentation_single_protein_models_naive_test_result_summary.tex",
+#             latex_beamer_height*0.7,
+#             latex_beamer_width*0.9)
+```
+
+```{r test results naive, dev="tikz", results="hide"}
+plot <- get_test_result_by_dataset_plot(test_result_naive_tb)
+
+print(plot)
+
+# create_tikz(
+#   plot,
+#   "single_protein_models_naive_test_result_correlations.tex",
+#   latex_textheight*0.5,
+#   latex_textwidth
+#   
+# )
+```
+
+```{r feature importance xgb by dataset, dev="tikz", results="hide"}
+plot <- get_feature_importance_by_dataset_plot(feature_importance_naive_tb)
+
+print(plot)
+
+create_tikz(plot,
+            "single_protein models_naive_feature_importance_by_dataset.tex",
+            latex_textheight*0.5,
+            latex_textwidth)
+```
+
+# By position
+
+```{r random search result plot by position, dev="tikz", results="hide"}
+plot <-
+  get_random_search_results_plot_xgb(random_search_results_by_position_tb,
+                                 selected_param_values_by_position) +
+  coord_cartesian(ylim = c(0.58, 0.6))
+
+print(plot)
+
+create_tikz(plot,
+            "single_protein_models_by_position_random_search.tex",
+            latex_textheight*0.5,
+            latex_textwidth)
+```
+
+```{r learning curves plot by position, dev="tikz", results="hide"}
+plot <-
+  get_learning_curves_plot_xgb(random_search_results_by_position_tb,
+                           selected_param_values_by_position)
+
+print(plot)
+
+create_tikz(plot,
+            "single_protein_models_by_position_learning_curve.tex",
+            3,
+            latex_textwidth*0.5)
+```
+
+```{r test results by position, dev="tikz", results="hide"}
+plot <- get_test_result_by_dataset_plot(test_result_by_position_tb)
+print(plot)
+create_tikz(
+  plot,
+  "single_protein_models_by_position_test_result_correlations.tex",
+  latex_textheight*0.5,
+  latex_textwidth
+)
+```
+
+```{r test results summary by position, dev="tikz", results="hide"}
+plot <- get_test_result_summary_plot(test_result_by_position_tb,
+                                     show_numbers = FALSE)
+
+plot_presentation <-
+  get_test_result_summary_plot(test_result_by_position_tb,
+                               text_xshift = 0.35,
+                               text_yshift = 0.06)
+
+print(plot)
+print(plot_presentation)
+
+create_tikz(plot,
+            "single_protein_models_by_position_test_result_summary.tex",
+            3,
+            latex_textwidth*0.45)
+
+# create_tikz(
+#   plot_presentation,
+#   "presentation_single_protein_models_by_position_test_result_summary.tex",
+#   latex_beamer_height * 0.7,
+#   latex_beamer_width * 0.9
+# )
+```
+
+```{r feature importance xgb by dataset, dev="tikz", results="hide"}
+plot <- get_feature_importance_by_dataset_plot(feature_importance_by_position_tb)
+
+print(plot)
+create_tikz(plot,
+            "single_protein_models_by_position_feature_importance_by_dataset.tex",
+            latex_textheight*0.5,
+            latex_textwidth)
+```
