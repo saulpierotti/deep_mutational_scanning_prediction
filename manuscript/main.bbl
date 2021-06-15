@@ -5581,7 +5581,7 @@
       \field{journaltitle}{Proteins: Structure, Function, and Bioinformatics}
       \field{month}{3}
       \field{number}{6}
-      \field{title}{NetSurfP-2.0: Improved prediction of protein structural features by integrated deep learning}
+      \field{title}{{NetSurfP}-2.0: Improved prediction of protein structural features by integrated deep learning}
       \field{volume}{87}
       \field{year}{2019}
       \field{dateera}{ce}
@@ -5776,12 +5776,6 @@
       \field{note}{R package version 6.0-88}
       \field{title}{caret: Classification and Regression Training}
       \field{year}{2021}
-      \verb{urlraw}
-      \verb https://CRAN.R-project.org/package=caret
-      \endverb
-      \verb{url}
-      \verb https://CRAN.R-project.org/package=caret
-      \endverb
     \endentry
     \entry{Liu2013}{article}{}
       \name{author}{2}{}{%
@@ -5828,23 +5822,29 @@
       \endverb
     \endentry
     \entry{Mardia1999}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e3610a8ef6cafec5e7f10bb3bb532389}{%
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1baf705a8eab4cfc67cb516e642dc59b}{%
            family={Mardia},
            familyi={M\bibinitperiod},
-           given={Peter\bibnamedelimb E.\bibnamedelimi Jupp},
-           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Kanti\bibnamedelima V.},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f763bea371ae21d0eae7243c97f2c0a}{%
+           family={Jupp},
+           familyi={J\bibinitperiod},
+           given={Peter\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
         {John Wiley \& Sons}%
       }
-      \strng{namehash}{e3610a8ef6cafec5e7f10bb3bb532389}
-      \strng{fullhash}{e3610a8ef6cafec5e7f10bb3bb532389}
-      \strng{bibnamehash}{e3610a8ef6cafec5e7f10bb3bb532389}
-      \strng{authorbibnamehash}{e3610a8ef6cafec5e7f10bb3bb532389}
-      \strng{authornamehash}{e3610a8ef6cafec5e7f10bb3bb532389}
-      \strng{authorfullhash}{e3610a8ef6cafec5e7f10bb3bb532389}
+      \strng{namehash}{6febf67eb61be5ea0f67191150ebabbb}
+      \strng{fullhash}{aeb6fc776422075d2e4111adcd4aa59b}
+      \strng{bibnamehash}{aeb6fc776422075d2e4111adcd4aa59b}
+      \strng{authorbibnamehash}{aeb6fc776422075d2e4111adcd4aa59b}
+      \strng{authornamehash}{6febf67eb61be5ea0f67191150ebabbb}
+      \strng{authorfullhash}{aeb6fc776422075d2e4111adcd4aa59b}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -5859,12 +5859,6 @@
       \field{title}{Directional Statistics}
       \field{year}{1999}
       \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ebook.de/de/product/3595492/mardia_peter_e_jupp_directional_statistics.html
-      \endverb
-      \verb{url}
-      \verb https://www.ebook.de/de/product/3595492/mardia_peter_e_jupp_directional_statistics.html
-      \endverb
     \endentry
     \entry{Matreyek2017}{article}{}
       \name{author}{3}{}{%
@@ -6034,7 +6028,7 @@
       \field{journaltitle}{RNA}
       \field{month}{9}
       \field{number}{11}
-      \field{title}{Deep mutational scanning of an RRM domain of the Saccharomyces cerevisiae poly(A)-binding protein}
+      \field{title}{Deep mutational scanning of an {RRM} domain of the Saccharomyces cerevisiae poly({A})-binding protein}
       \field{volume}{19}
       \field{year}{2013}
       \field{dateera}{ce}
@@ -6099,7 +6093,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{6}
       \field{number}{14}
-      \field{title}{Comprehensive mutational scanning of a kinasein vivoreveals substrate-dependent fitness landscapes}
+      \field{title}{Comprehensive mutational scanning of a kinase in vivo reveals substrate-dependent fitness landscapes}
       \field{volume}{42}
       \field{year}{2014}
       \field{dateera}{ce}
@@ -6156,7 +6150,7 @@
       \field{journaltitle}{PLOS ONE}
       \field{month}{8}
       \field{number}{8}
-      \field{title}{rawMSA: End-to-end Deep Learning using raw Multiple Sequence Alignments}
+      \field{title}{{rawMSA}: End-to-end Deep Learning using raw Multiple Sequence Alignments}
       \field{volume}{14}
       \field{year}{2019}
       \field{dateera}{ce}
@@ -6288,7 +6282,7 @@
       \field{journaltitle}{Cell Reports}
       \field{month}{4}
       \field{number}{3}
-      \field{title}{Systematic Mutant Analyses Elucidate General and Client-Specific Aspects of Hsp90 Function}
+      \field{title}{Systematic Mutant Analyses Elucidate General and Client-Specific Aspects of {Hsp90} Function}
       \field{volume}{15}
       \field{year}{2016}
       \field{dateera}{ce}
@@ -6513,7 +6507,7 @@
       \field{journaltitle}{Physical Review E}
       \field{month}{6}
       \field{number}{1}
-      \field{title}{Scientific collaboration networks. II. Shortest paths, weighted networks, and centrality}
+      \field{title}{Scientific collaboration networks. {II}. Shortest paths, weighted networks, and centrality}
       \field{volume}{64}
       \field{year}{2001}
       \field{dateera}{ce}
@@ -6775,7 +6769,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{R package version 2.56.0}
       \field{title}{Biostrings: Efficient manipulation of biological strings}
       \field{year}{2020}
     \endentry
@@ -6960,7 +6953,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Machine Learning Research}
-      \field{title}{Scikit-learn: Machine Learning in Python}
+      \field{title}{Scikit-learn: Machine Learning in {Python}}
       \field{volume}{12}
       \field{year}{2011}
       \field{dateera}{ce}
@@ -7039,7 +7032,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computing in Science \& Engineering}
       \field{number}{3}
-      \field{title}{IPython: A System for Interactive Scientific Computing}
+      \field{title}{{IPython}: A System for Interactive Scientific Computing}
       \field{volume}{9}
       \field{year}{2007}
       \field{dateera}{ce}
@@ -7161,7 +7154,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{9}
       \field{number}{17}
-      \field{title}{Human non-synonymous SNPs: server and survey}
+      \field{title}{Human non-synonymous {SNPs}: server and survey}
       \field{volume}{30}
       \field{year}{2002}
       \field{dateera}{ce}
@@ -7321,7 +7314,7 @@
       \field{journaltitle}{Genome Medicine}
       \field{month}{2}
       \field{number}{1}
-      \field{title}{CADD-Splice—improving genome-wide variant effect prediction using deep learning-derived splice scores}
+      \field{title}{{CADD-Splice}—-improving genome-wide variant effect prediction using deep learning-derived splice scores}
       \field{volume}{13}
       \field{year}{2021}
       \field{dateera}{ce}
@@ -7382,7 +7375,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{10}
       \field{number}{D1}
-      \field{title}{CADD: predicting the deleteriousness of variants throughout the human genome}
+      \field{title}{{CADD}: predicting the deleteriousness of variants throughout the human genome}
       \field{volume}{47}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -7481,7 +7474,7 @@
       \field{journaltitle}{Journal of Molecular Biology}
       \field{month}{7}
       \field{number}{15}
-      \field{title}{Systematic Exploration of Ubiquitin Sequence, E1 Activation Efficiency, and Experimental Fitness in Yeast}
+      \field{title}{Systematic Exploration of Ubiquitin Sequence, {E1} Activation Efficiency, and Experimental Fitness in Yeast}
       \field{volume}{426}
       \field{year}{2014}
       \field{dateera}{ce}
@@ -8225,7 +8218,7 @@
       \field{journaltitle}{Science}
       \field{month}{8}
       \field{number}{1756}
-      \field{title}{MUTATIONS IN BARLEY INDUCED BY X-RAYS AND RADIUM}
+      \field{title}{MUTATIONS IN BARLEY INDUCED BY {X}-RAYS AND RADIUM}
       \field{volume}{68}
       \field{year}{1928}
       \field{dateera}{ce}
@@ -9262,7 +9255,7 @@
       \field{journaltitle}{Nature Methods}
       \field{month}{2}
       \field{number}{3}
-      \field{title}{SciPy 1.0: fundamental algorithms for scientific computing in Python}
+      \field{title}{{SciPy} 1.0: fundamental algorithms for scientific computing in {Python}}
       \field{volume}{17}
       \field{year}{2020}
       \field{dateera}{ce}
