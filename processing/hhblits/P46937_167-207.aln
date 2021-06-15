@@ -1,0 +1,2196 @@
+>sp|P46937|YAP1_HUMAN cut to the first WW domain (interpro supefamily) positions 167-207
+IPDDVPLPAGWEMAKTSSGQRYFLNHIDQTTTWQDPRKAML
+>UniRef100_A0A1S3T396 transcriptional coactivator YAP1-like n=1 Tax=Salmo salar TaxID=8030 RepID=A0A1S3T396_SALSA
+IPDDMPLPPGWEVAQTPSGQRYFLNPVVFPPVSALSCSPLS
+>UniRef100_A0A089Q509 YAP n=1 Tax=Hydra vulgaris TaxID=6087 RepID=A0A089Q509_HYDVU
+LESNY-LPSGCEMRTTASGQKYYINHQNQSTSWQDPRKA--
+>UniRef100_A0A091DRA3 WW domain-containing transcription regulator protein 1 n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091DRA3_FUKDA
+FSVDIVDKFSGTLPRGEKGLLFTLDHIEKITTWQDPRKAMN
+>UniRef100_A0A091GIM1 WW domain-containing transcription regulator protein 1 n=1 Tax=Cuculus canorus TaxID=55661 RepID=A0A091GIM1_9AVES
+RKALTKAS----VCVKLVFYLFFLSHIEKITTWQDPRKTMN
+>UniRef100_A0A3B4Y209 WW domain-containing protein n=1 Tax=Seriola lalandi dorsalis TaxID=1841481 RepID=A0A3B4Y209_SERLL
+HCCSGPLPEGWEQAVTADGEVYYIDHINKTTAWVAPRLGKT
+>UniRef100_A0A3P9PTW4 WW domain-containing protein n=1 Tax=Poecilia reticulata TaxID=8081 RepID=A0A3P9PTW4_POERE
+IPDDVPLPEDWEMAKTPTGQRYFINCFIKQLFISLPKICKL
+>UniRef100_A0A5N3VB18 Uncharacterized protein n=1 Tax=Muntiacus muntjak TaxID=9888 RepID=A0A5N3VB18_MUNMU
+LPTELPGKPHSESESRSVTSDSLQP--HGYSPWNSPGQSTG
+>UniRef100_A0A5N3XBC3 Uncharacterized protein (Fragment) n=1 Tax=Muntiacus reevesi TaxID=9886 RepID=A0A5N3XBC3_MUNRE
+VSRVSRPPRAVPTAQRRTCADHHKEALWPGSVSHEHQQWII
+>UniRef100_A0A678XF35 Co-transcriptional factor Yorkie-S n=1 Tax=Locusta migratoria TaxID=7004 RepID=A0A678XF35_LOCMI
+MTDELPLPPGWEQARTPEGQVYYLKASAGGSPHSSSSPQPA
+>UniRef100_R7V5I7 WW domain-containing protein n=1 Tax=Capitella teleta TaxID=283909 RepID=R7V5I7_CAPTE
+LLEDLG-PQGWDPSGKQHNQRYLLNHLNKYTGGDGPGVKCI
+>UniRef100_UPI00103730E4 transcriptional coactivator YAP1-like n=1 Tax=Diabrotica virgifera virgifera TaxID=50390 RepID=UPI00103730E4
+VSSKVRLPSGWEQGRTRDGKIYYINHNTRTTTWDHPTNSLA
+>UniRef100_UPI0010FC9844 transcriptional coactivator YAP1-like n=1 Tax=Acropora millepora TaxID=45264 RepID=UPI0010FC9844
+NTEEPQMPPGWEIRSTPNGQHYFMNHFDQITTWQDPRKT--
+>UniRef100_UPI0009399EE8 transcriptional coactivator YAP1-like isoform X2 n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=UPI0009399EE8
+---LITAALWWENDGDQSKGFENMSHIDQTTTWQDPRKAML
+>UniRef100_A0A2I0U6Z4 WW domain-containing protein n=1 Tax=Limosa lapponica baueri TaxID=1758121 RepID=A0A2I0U6Z4_LIMLA
+--MEIYSRFESSAQIHIDPPRYMKDHIDQTTTWQDPRKAML
+>UniRef100_T1JH25 WW domain-containing protein n=1 Tax=Strigamia maritima TaxID=126957 RepID=T1JH25_STRMM
+ALSDFCFSPLDGHMLEFQK-----DHNTQKTTWEDPRKKM-
+>UniRef100_V4B2R7 WW domain-containing protein n=1 Tax=Lottia gigantea TaxID=225164 RepID=V4B2R7_LOTGI
+-MSILPLTLGWKLSFWGSG---IVYHETQTTTWQDPRKTQ-
+>UniRef100_W4ZH97 WW domain-containing protein n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=W4ZH97_STRPU
+IASQITLMGGPGVVCGDAM-LYAISHSNQQTTWEDPRKPQ-
+>UniRef100_A0A444TWV2 WW domain-containing transcription regulator protein 1 n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=A0A444TWV2_ACIRT
+-ADELQLPPGWEMAFTPSGQRYFLKTSRVVSIATGDQFQM-
+>UniRef100_A0A4S2KXR6 Uncharacterized protein n=1 Tax=Opisthorchis felineus TaxID=147828 RepID=A0A4S2KXR6_OPIFE
+--GEEALPAGWQVARTAGGRRFFINHNEQRTTWDDPRTH--
+>UniRef100_A0A2A2KAR2 WW domain-containing protein n=1 Tax=Diploscapter pachys TaxID=2018661 RepID=A0A2A2KAR2_9BILA
+--TDLSLPSNWEEKYDDEGNRYFADHESKTTTWDDPRKA--
+>UniRef100_A0A4X3P9C1 Yap-1 n=2 Tax=Pristionchus pacificus TaxID=54126 RepID=A0A4X3P9C1_PRIPA
+--SEISLPPNWSIGHTEHGEIFFIDHSNQTTTWYDPRIP--
+>UniRef100_A0A3B4Y209 WW domain-containing protein n=1 Tax=Seriola lalandi dorsalis TaxID=1841481 RepID=A0A3B4Y209_SERLL
+---------SYMSLLKCFTFWKYLLNGQKGLFSMNFMF---
+>UniRef100_H2Z0P3 WW domain-containing protein n=1 Tax=Ciona savignyi TaxID=51511 RepID=H2Z0P3_CIOSA
+------GNLLPPPAHSNPGHNIQTDHSVTPT---DPHV---
+>UniRef100_UPI0011763A75 WW domain-containing transcription regulator protein 1 isoform X1 n=1 Tax=Myripristis murdjan TaxID=586833 RepID=UPI0011763A75
+------LPAGWEQAVSPQGETYLMQHRHPQQ-HHHQ-----
+>UniRef100_UPI0015AD909A WW domain-containing transcription regulator protein 1 isoform X1 n=1 Tax=Anguilla anguilla TaxID=7936 RepID=UPI0015AD909A
+------LPEGWEQAVTPQGETYLMRHQHQQQQALVS-----
+>UniRef100_A0A443RIK9 Yorkie-like protein n=1 Tax=Dinothrombium tinctorium TaxID=1965070 RepID=A0A443RIK9_9ACAR
+--EKMKLPEGWEMAIVNSNRRYFINHNEKTTTWIDPRIAI-
+>UniRef100_A0A0J7KY09 Yorkie-like protein n=1 Tax=Lasius niger TaxID=67767 RepID=A0A0J7KY09_LASNI
+-----PLPHGWEQARTSEGQIYFLNQV-AISTAEIDKM---
+>UniRef100_A0A182IXU2 WW domain-containing protein n=1 Tax=Anopheles atroparvus TaxID=41427 RepID=A0A182IXU2_9DIPT
+-----ELPPGWEQAKTQDGRIYYIKPGVMVMVLL--RF---
+>UniRef100_A0A1B0D0M3 Uncharacterized protein n=1 Tax=Phlebotomus papatasi TaxID=29031 RepID=A0A1B0D0M3_PHLPP
+-----DLPPGWEQARTAEGQIYYLKLVSPCRQFIIPMV---
+>UniRef100_W4YAW0 WW domain-containing protein n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=W4YAW0_STRPU
+ISDTPNLPSGWEMAVTPTGQKYFLDFDDK------------
+>UniRef100_B3RLX5 Predicted protein n=1 Tax=Trichoplax adhaerens TaxID=10228 RepID=B3RLX5_TRIAD
+---QAKLPDGWEKAFTPEGQVYFVNHITRTTSWNDPRRSMM
+>UniRef100_UPI00081154F9 probable basic-leucine zipper transcription factor N n=1 Tax=Rhagoletis zephyria TaxID=28612 RepID=UPI00081154F9
+---KLQLPEGWSMSFTATGERYFLNHKDKSTTWEDPRREVL
+>UniRef100_A0A163J200 WW domain-containing protein n=1 Tax=Absidia glauca TaxID=4829 RepID=A0A163J200_ABSGL
+----ETLPLGWETRNAPDGRPYFIHVESQTTTWEDPRM---
+>UniRef100_A0A066WFC6 Uncharacterized protein (Fragment) n=1 Tax=Rhizoctonia solani AG-8 WAC10335 TaxID=1287689 RepID=A0A066WFC6_9AGAM
+----DHFPLGGKCASPRRRASTLWTTIPRPRPGTTRGC---
+>UniRef100_A0A0C3B084 E3 ubiquitin-protein ligase n=1 Tax=Serendipita vermifera MAFF 305830 TaxID=933852 RepID=A0A0C3B084_9AGAM
+----RPLSSGWEMKPTSTNKIYFVGHNAKSG--NEPRL---
+>UniRef100_A0A4Y9YK99 E3 ubiquitin-protein ligase n=1 Tax=Fomitopsis rosea TaxID=34475 RepID=A0A4Y9YK99_9APHY
+----GDAPDFNGAGVLRGSQHKDDDVGRPATAVDAGRE---
+>UniRef100_A0A210PX21 BAG family molecular chaperone regulator 4 n=1 Tax=Mizuhopecten yessoensis TaxID=6573 RepID=A0A210PX21_MIZYE
+---NSDLPPGWEMIDKMTGWPYFIDHNTRQTSWEDPRIRM-
+>UniRef100_A0A1X2IGH2 WW domain-containing protein n=1 Tax=Absidia repens TaxID=90262 RepID=A0A1X2IGH2_9FUNG
+----SALPPGWTSAQAPDGRYYFIDNNGGRTTWEDPRNS--
+>UniRef100_Q4SQD5 HECT-type E3 ubiquitin transferase n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=Q4SQD5_TETNG
+----HFFYYLHVCFCPITVFKLSWNFNVKAFSFEDPRLK--
+>UniRef100_UPI00084A34D6 E3 ubiquitin-protein ligase Nedd-4-like n=1 Tax=Hyalella azteca TaxID=294128 RepID=UPI00084A34D6
+----AAGGAGVEDAVRGAAAEGASDPQASEGPWDEALRC--
+>UniRef100_A0A060W9F7 Uncharacterized protein n=1 Tax=Oncorhynchus mykiss TaxID=8022 RepID=A0A060W9F7_ONCMY
+----GPLCGEGLVGCKQFNLIAFLISVTKLPAASWTKC---
+>UniRef100_UPI0010FB8255 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2-like n=1 Tax=Protobothrops mucrosquamatus TaxID=103944 RepID=UPI0010FB8255
+----GPLPDNWEMAYTEKGEVYFIETDLNLMGWIQPSF---
+>UniRef100_UPI001403F960 BAG family molecular chaperone regulator 3 n=1 Tax=Petromyzon marinus TaxID=7757 RepID=UPI001403F960
+---QAPLPPGWEMKMPTSGWPYFINHNEQSTTWSDPRVPMV
+>UniRef100_A0A132AIR1 HECT-type E3 ubiquitin transferase n=1 Tax=Sarcoptes scabiei TaxID=52283 RepID=A0A132AIR1_SARSC
+--NEIPLPSGWTQQLSETGRVFYIDHIHKTTTWIDPRTG--
+>UniRef100_A0A1B0GN97 HECT-type E3 ubiquitin transferase n=1 Tax=Phlebotomus papatasi TaxID=29031 RepID=A0A1B0GN97_PHLPP
+--DTTGLPPGWSMQVAPNGRIFFIDHNERKTSWVDPRTG--
+>UniRef100_A0A066WFC6 Uncharacterized protein (Fragment) n=1 Tax=Rhizoctonia solani AG-8 WAC10335 TaxID=1287689 RepID=A0A066WFC6_9AGAM
+----CQLDGRNVTRLKAVR--IMSTTTLARPPGSTLAGK--
+>UniRef100_A0A098VSL8 HECT-type E3 ubiquitin transferase n=1 Tax=Mitosporidium daphniae TaxID=1485682 RepID=A0A098VSL8_9MICR
+----GDVCDGQPMQLIPPS-----QSTPLPMGWGKMLSG--
+>UniRef100_A0A0C3B084 E3 ubiquitin-protein ligase n=1 Tax=Serendipita vermifera MAFF 305830 TaxID=933852 RepID=A0A0C3B084_9AGAM
+----GPLPDDWEERFTPEGRPYYFSLTERKTQWLDPRRN--
+>UniRef100_A0A146IKY5 E3 ubiquitin-protein ligase n=1 Tax=Mycena chlorophos TaxID=658473 RepID=A0A146IKY5_9AGAR
+-----GLLSSVDADDSHPGRPYFVDHSTRSTTWVDPRRG--
+>UniRef100_A0A1X2ISS1 E3 ubiquitin-protein ligase n=1 Tax=Absidia repens TaxID=90262 RepID=A0A1X2ISS1_9FUNG
+----NPLPAGWEIRTSPEGRTYFANRNTLMTAWTDPRRQ--
+>UniRef100_A0A4Y9YK99 E3 ubiquitin-protein ligase n=1 Tax=Fomitopsis rosea TaxID=34475 RepID=A0A4Y9YK99_9APHY
+----GPLPAGWEERYTPEAQHSHDDMGGPAAADDHPGHG--
+>UniRef100_A0A195CN11 Protein kibra n=1 Tax=Cyphomyrmex costatus TaxID=456900 RepID=A0A195CN11_9HYME
+--LCVLVP-----AHQYRNYVNNYHHHQQQQLAQEQQHR--
+>UniRef100_A0A232F5N5 C2 domain-containing protein n=1 Tax=Trichomalopsis sarcophagae TaxID=543379 RepID=A0A232F5N5_9HYME
+--QQHQQQQQQQQQQQQQQQLHYYRHNVYHQQNQKQNYQ--
+>UniRef100_A0A2A3E781 Protein kibra n=1 Tax=Apis cerana cerana TaxID=94128 RepID=A0A2A3E781_APICC
+--CVPGMDRQYTLCVLVPAHQYRTYVNNYHQQAH---QR--
+>UniRef100_A0A2P8Y7I1 Uncharacterized protein n=1 Tax=Blattella germanica TaxID=6973 RepID=A0A2P8Y7I1_BLAGE
+--NSIPTPDSWSEERRVRVMLWFSVPAANSCAVMESPPD--
+>UniRef100_U4UFU5 Uncharacterized protein n=1 Tax=Dendroctonus ponderosae TaxID=77166 RepID=U4UFU5_DENPD
+--TEIRVARAIIIGRRTDN-----HTGSVEMEMWPLCYV--
+>UniRef100_UPI00034F3C69 protein kibra isoform X2 n=1 Tax=Bombyx mori TaxID=7091 RepID=UPI00034F3C69
+--GWDYARDFDGKLYFIDHNNRKTTWIDPRDRYTKPQTF--
+>UniRef100_UPI0005D07B16 protein kibra isoform X1 n=1 Tax=Plutella xylostella TaxID=51655 RepID=UPI0005D07B16
+--NLEELRKRPDFADLDEISREFGYRMCPEGQNLEDEAI--
+>UniRef100_UPI0005D0ACD7 protein kibra isoform X3 n=1 Tax=Plutella xylostella TaxID=51655 RepID=UPI0005D0ACD7
+--FIDHNNRKTTWIDRDRYTKPQSFADCTGNEPLGWEEA--
+>UniRef100_UPI0006D52967 protein kibra isoform X1 n=1 Tax=Microplitis demolitor TaxID=69319 RepID=UPI0006D52967
+--QYRTYVDNYNSGHSAINNERHQRYHQRQYQRNYHQLQ--
+>UniRef100_UPI000994D256 protein kibra isoform X1 n=1 Tax=Pseudomyrmex gracilis TaxID=219809 RepID=UPI000994D256
+--LCVLVPHQYCSYVDNYHHLHHRYHYQRQQAHEQQCKS--
+>UniRef100_UPI000B982BD6 protein kibra-like n=1 Tax=Nilaparvata lugens TaxID=108931 RepID=UPI000B982BD6
+----MVAMELQHYWNPYDGSIGSYYTESPASSVSPASSV--
+>UniRef100_UPI000E77777C protein kibra isoform X1 n=1 Tax=Vanessa tameamea TaxID=334116 RepID=UPI000E77777C
+--LCVRDEPQYQNLDELRKRPEYANLDEISREYLEDEAI--
+>UniRef100_UPI0013F21E98 protein kibra isoform X1 n=1 Tax=Odontomachus brunneus TaxID=486640 RepID=UPI0013F21E98
+--TLCVLVPAHQYRSYVDDYHHQPQNQQRRHQHQPPTYH--
+>UniRef100_UPI00071AA0EA membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 n=1 Tax=Equus asinus TaxID=9793 RepID=UPI00071AA0EA
+----RCFLCSQSLSRPAAGGCTAASADARTCSAAGPGPC--
+>UniRef100_UPI000CDB6AD6 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 isoform X9 n=1 Tax=Cyanistes caeruleus TaxID=156563 RepID=UPI000CDB6AD6
+----PSLRLEPHSSMASPGAAGLLHRPQGSRAGLTTAPL--
+>UniRef100_A0A1D1VXI2 E3 ubiquitin-protein ligase n=1 Tax=Ramazzottius varieornatus TaxID=947166 RepID=A0A1D1VXI2_RAMVA
+--DDEALPEGWEMCKTADDKTYFIDHNSRTTTFEDPRK---
+>UniRef100_G1PVG2 E3 ubiquitin-protein ligase n=1 Tax=Myotis lucifugus TaxID=59463 RepID=G1PVG2_MYOLU
+--TQ-FLPKILSYTFPAFGLSY-----DRLPLSKSPEP---
+>UniRef100_A0A6J1S027 uncharacterized protein LOC113202249 n=1 Tax=Frankliniella occidentalis TaxID=133901 RepID=A0A6J1S027_FRAOC
+---PQGTPQGSTSTTNNSTPTALLSHVNRTTSYQDPRRG--
+>UniRef100_A0A0G2HT43 HECT-type E3 ubiquitin transferase n=1 Tax=Diaporthe ampelina TaxID=1214573 RepID=A0A0G2HT43_9PEZI
+--PRGQAANNRPSLASPHPSAASLNPDRSTTTWVDPRRQ--
+>UniRef100_A0A4E0RF14 WW domain-containing protein n=1 Tax=Fasciola hepatica TaxID=6192 RepID=A0A4E0RF14_FASHE
+-----ELPAEFELAINENKQVYFLNHQTQATTWFDPRI---
+>UniRef100_UPI0011320727 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3-like n=1 Tax=Oncorhynchus nerka TaxID=8023 RepID=UPI0011320727
+----HPLPSTYLITHRPPPTITLHSHNTKTTTWLDPRLA--
+>UniRef100_F6YR85 Uncharacterized protein n=2 Tax=Ciona intestinalis TaxID=7719 RepID=F6YR85_CIOIN
+---EYNLPYGYEMAVDYSDRVYFLNHIAQRVSYNDPRVG--
+>UniRef100_M4C6D3 Uncharacterized protein n=1 Tax=Hyaloperonospora arabidopsidis (strain Emoy2) TaxID=559515 RepID=M4C6D3_HYAAE
+----PLLPSGWEMRVTLSGAIFFYNKFTSTTTWTDPRL---
+>UniRef100_A0A0V1N297 E3 ubiquitin-protein ligase n=1 Tax=Trichinella papuae TaxID=268474 RepID=A0A0V1N297_9BILA
+------QSNHFSCMYSELKRKSSFETNEIEVDYFFLRL---
+>UniRef100_A0A3N0YMF2 HECT-type E3 ubiquitin transferase n=1 Tax=Anabarilius grahami TaxID=495550 RepID=A0A3N0YMF2_ANAGA
+---IACHPS---IPLSCASIHPFLYRVHPSIHPSIVC----
+>UniRef100_UPI0008113C4D E3 ubiquitin-protein ligase Nedd-4-like n=1 Tax=Rhagoletis zephyria TaxID=28612 RepID=UPI0008113C4D
+---SSGVPVEAAAEAAEEQQLVVEDSSAPDMATRRHSE---
+>UniRef100_K7G9Z6 Uncharacterized protein n=1 Tax=Pelodiscus sinensis TaxID=13735 RepID=K7G9Z6_PELSI
+---KDALPHNQDECLTAERSLNHEDHFHPKTTWPPPPS---
+>UniRef100_M7CF92 Syntaxin-binding protein 4 n=1 Tax=Chelonia mydas TaxID=8469 RepID=M7CF92_CHEMY
+---KDDVQLKMVQKYQSPVRVPFELVMALRMESGSKMK---
+>UniRef100_UPI00094F2BE3 syntaxin-binding protein 4 isoform X1 n=2 Tax=Hippocampus comes TaxID=109280 RepID=UPI00094F2BE3
+---VDRYPMALGI-APAHACQIGRRFSTQSPSHSWSLF---
+>UniRef100_UPI000A367205 syntaxin-binding protein 4 isoform X1 n=1 Tax=Columba livia TaxID=8932 RepID=UPI000A367205
+---VDCEFALWMGRSLYSRRNQVLYQLCCRLTPWCLQQ---
+>UniRef100_UPI001592251E syntaxin-binding protein 4-like n=1 Tax=Zootoca vivipara TaxID=8524 RepID=UPI001592251E
+---KEAFLYDWDDCTAGDSTPDYKDYLHQKTTWPPPPS---
+>UniRef100_UPI0015D62361 syntaxin-binding protein 4 isoform X3 n=1 Tax=Cygnus atratus TaxID=8868 RepID=UPI0015D62361
+---VDCESTLWMGRSLYSRWNQILHQPCDPDNIMDPSC---
+>UniRef100_UPI0015E09515 syntaxin-binding protein 4 isoform X1 n=2 Tax=Scophthalmus maximus TaxID=52904 RepID=UPI0015E09515
+---GGFSCFVRNKHARSPAARLSLETLKSARRLRASLL---
+>UniRef100_W4ZHH9 PDZ domain-containing protein n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=W4ZHH9_STRPU
+---SELY-M-IEMIYQRQGLD--TKHRSD--YHLHPLS---
+>UniRef100_A0A067CUG1 Uncharacterized protein n=1 Tax=Saprolegnia parasitica (strain CBS 223.65) TaxID=695850 RepID=A0A067CUG1_SAPPC
+---DTPLPPGWEMRVTNTGDVYFIHRHSKVTTWVDPRS---
+>UniRef100_W4XEL5 C2 domain-containing protein n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=W4XEL5_STRPU
+-PSPNELPDGIQIGEGHKGQV----HISQTNKICL------
+>UniRef100_A0A0X3P403 Transcriptional coactivator YAP1 n=1 Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3P403_SCHSO
+----MEMPPGWEMSRVKGNRAYFINHKDHTTTWEDPRIAY-
+>UniRef100_A0A3D8RNU3 Uncharacterized protein n=1 Tax=Coleophoma crateriformis TaxID=565419 RepID=A0A3D8RNU3_9HELO
+---GIALPVGWEQSTTPAGRPYFINHNNHTTTWIDPRTS--
+>UniRef100_A0A4Y2DF16 Uncharacterized protein n=1 Tax=Araneus ventricosus TaxID=182803 RepID=A0A4Y2DF16_ARAVE
+---QESLPPGWDCRDPRTGRHYFLNHIEHITTWEDPRL---
+>UniRef100_W6KMP3 Uncharacterized protein n=1 Tax=Phytomonas sp. isolate EM1 TaxID=134006 RepID=W6KMP3_9TRYP
+-PAPMTLPPGWQVAYTGNGDMYYIDHNTRTTHWQIPPEVM-
+>UniRef100_A0A2U3Z110 WW domain-containing transcription regulator protein 1-like n=1 Tax=Leptonychotes weddellii TaxID=9713 RepID=A0A2U3Z110_LEPWE
+--------GLKNEKYSRKGDAWENYHIEKITTWQDPRKAM-
+>UniRef100_UPI000B4D655E WW domain-containing transcription regulator protein 1 isoform X2 n=1 Tax=Lonchura striata domestica TaxID=299123 RepID=UPI000B4D655E
+--------EGWAMPWLCSGRCSKADHIEKITTWQDPRKPM-
+>UniRef100_A9UR50 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9UR50_MONBE
+---GVSLPHGWEMALTPDGLPYFIDHVNKRTSWEDPRSQ--
+>UniRef100_UPI001560083B transcriptional coactivator YAP1-like n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=UPI001560083B
+---KGPLPEGWEQAITPEGEIYYITIRAQDHLLAGTRW---
+>UniRef100_A0A0K8TKG7 Hipothetical protein (Fragment) n=1 Tax=Tabanus bromius TaxID=304241 RepID=A0A0K8TKG7_TABBR
+----KKLPHGWEAKDHPSGKMYYTNYLTKEKQLEDPRF---
+>UniRef100_A0A1B6INP8 WW domain-containing protein n=2 Tax=Homalodisca liturata TaxID=320908 RepID=A0A1B6INP8_9HEMI
+----NPLPPGWDCKDHITGKRYYINYFTRHTSMEDPRV---
+>UniRef100_A0A1I8FKZ3 HECT-type E3 ubiquitin transferase n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8FKZ3_9PLAT
+--EDLPLPTGWQAAVAPNGRKFFINHNDKTTTWRDPREGA-
+>UniRef100_A0A6L2Q0P1 Uncharacterized protein n=1 Tax=Coptotermes formosanus TaxID=36987 RepID=A0A6L2Q0P1_COPFO
+----RFCPNRVEFPHITESESNISNHITRTTTWEDPRKTL-
+>UniRef100_A0A401KNA7 Heterokaryon incompatibility protein 6, OR allele n=1 Tax=Aspergillus awamori TaxID=105351 RepID=A0A401KNA7_ASPAW
+--QDVGIPPGWEQRLSPGGRLYYVNHIAQTTTWTDPRLIM-
+>UniRef100_A0A2D4CB89 WW domain-containing protein n=1 Tax=Pythium insidiosum TaxID=114742 RepID=A0A2D4CB89_PYTIN
+--PPRPLPLGWEEKRDAKGRVFFVDHIHRLTTWTDPRETS-
+>UniRef100_G1N6M5 E3 ubiquitin-protein ligase n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=G1N6M5_MELGA
+----SLMPGSIELYSGATSSIFYVGHCDRIGFLHITRF---
+>UniRef100_Q4RZ64 Chromosome undetermined SCAF14961, whole genome shotgun sequence (Fragment) n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=Q4RZ64_TETNG
+----GAALGGWLTRCSASG-----TWPASAARSSDPCR---
+>UniRef100_A0A2A2J3T3 HECT-type E3 ubiquitin transferase n=1 Tax=Diploscapter pachys TaxID=2018661 RepID=A0A2A2J3T3_9BILA
+-SSSYSLPAGWKMKNNFFGLIYYFDHNTCSARWQRPTAEML
+>UniRef100_T1JSN4 WW domain-containing protein n=1 Tax=Tetranychus urticae TaxID=32264 RepID=T1JSN4_TETUR
+-PQPQPQPQPQQPQQQPQQPQ---PQPQPQPQPQPQQI---
+>UniRef100_A0A1I8FFY6 HECT domain-containing protein n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8FFY6_9PLAT
+----TPWQPEAGRGAPPAGGLGDPVHSRRSKVLCGSQHQ--
+>UniRef100_A0A6G1SIJ2 HECT-type E3 ubiquitin transferase n=1 Tax=Aceria tosichella TaxID=561515 RepID=A0A6G1SIJ2_9ACAR
+--LSGPLPPRWEQKFDSEGKPYFVNHKNYTTQWHDPRTQ--
+>UniRef100_E4YWL1 E3 ubiquitin-protein ligase n=1 Tax=Oikopleura dioica TaxID=34765 RepID=E4YWL1_OIKDI
+--GEGPLPDGWDMATTEEGVRYFIDHKNKTTTFQDPREG--
+>UniRef100_H2YXU6 HECT-type E3 ubiquitin transferase n=1 Tax=Ciona savignyi TaxID=51511 RepID=H2YXU6_CIOSA
+--MNEKLKQNIRISLNMKEIHRNPITNNKINIPTPLPTT--
+>UniRef100_UPI0010BD57B9 NEDD4-like E3 ubiquitin-protein ligase WWP1 n=1 Tax=Galendromus occidentalis TaxID=34638 RepID=UPI0010BD57B9
+-----PALAKDDAKTTAQSLALVVEKEEKVASDDDLRRK--
+>UniRef100_V8P2V3 HECT-type E3 ubiquitin transferase (Fragment) n=1 Tax=Ophiophagus hannah TaxID=8665 RepID=V8P2V3_OPHHA
+--FRGPQHPHHYLQGPPPWVRVWVRSPCLANSAASRGLA--
+>UniRef100_A0A183MAT8 WW domain-containing protein n=1 Tax=Schistosoma margrebowiei TaxID=48269 RepID=A0A183MAT8_9TREM
+-ADDSSLPPGWEVKYTSEGRIYYVDHLTKTTTWCKPT----
+>UniRef100_UPI0004EFFDAA protein KIBRA-like n=1 Tax=Merops nubicus TaxID=57421 RepID=UPI0004EFFDAA
+---------MWQFGTAFDGRRSVTAERVCGGSWCPVAQR--
+>UniRef100_A0A5J4NK63 HECT-type E3 ubiquitin transferase (Fragment) n=1 Tax=Paragonimus westermani TaxID=34504 RepID=A0A5J4NK63_9TREM
+---GNPLPRGWELRITAEGFPYFINHIKKITTFADPRR---
+>UniRef100_A0A2A2JQN6 HECT domain-containing protein n=1 Tax=Diploscapter pachys TaxID=2018661 RepID=A0A2A2JQN6_9BILA
+---LNGLPNGFSVGSGS-------QSSSGTTMFELVFSL--
+>UniRef100_A0A4U5P0Y9 HECT-type E3 ubiquitin transferase n=1 Tax=Steinernema carpocapsae TaxID=34508 RepID=A0A4U5P0Y9_STECR
+-----PLPEGWATRRDPSGRRYFINHVNRTSQWQKTQNS--
+>UniRef100_A0A4W4HPU2 Uncharacterized protein n=1 Tax=Electrophorus electricus TaxID=8005 RepID=A0A4W4HPU2_ELEEL
+----GGSGTVFRCLFRRDA------HNTKTTSWLDPRLA--
+>UniRef100_A0A212CTG3 HECT-type E3 ubiquitin transferase (Fragment) n=1 Tax=Cervus elaphus hippelaphus TaxID=46360 RepID=A0A212CTG3_CEREH
+----THLAEELNARLSASGQPVSSNHSSRRGSLQAYTF---
+>UniRef100_A0A3M7P668 HECT-type E3 ubiquitin transferase n=1 Tax=Brachionus plicatilis TaxID=10195 RepID=A0A3M7P668_BRAPC
+---EAALPSGWDFSFSDKGRMFFIDHVNKTTTWVDPRT---
+>UniRef100_A0A3B4VEQ3 Uncharacterized protein n=1 Tax=Seriola dumerili TaxID=41447 RepID=A0A3B4VEQ3_SERDU
+-----PLPENWELAYSDSGEPYYIESVSLSVIIY--QLK--
+>UniRef100_A0A369SGR4 Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1 n=1 Tax=Trichoplax sp. H2 TaxID=287889 RepID=A0A369SGR4_9METZ
+---LGPLPEEWIVKYSSSNQPYYIDTSTQTVHWLDPRLT--
+>UniRef100_UPI000C6CB641 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like isoform X1 n=2 Tax=Centruroides sculpturatus TaxID=218467 RepID=UPI000C6CB641
+------MASRPNDGLKINNVIHHANYKTATPQWQDTQLH--
+>UniRef100_A0A4Z2B3L2 Uncharacterized protein (Fragment) n=1 Tax=Takifugu bimaculatus TaxID=433685 RepID=A0A4Z2B3L2_9TELE
+----M--PDHWEPAFSDPGELHYIDHNPKRTSWQSPRAS--
+>UniRef100_A0A3Q3WFL8 Uncharacterized protein n=1 Tax=Mola mola TaxID=94237 RepID=A0A3Q3WFL8_MOLML
+--DNVPLPLGWEVKIPHTGWPFFVDHNNRLCKLVYVLL---
+>UniRef100_UPI0010A0E0E1 LOW QUALITY PROTEIN: E3 ubiquitin-protein ligase NEDD4 n=1 Tax=Peromyscus leucopus TaxID=10041 RepID=UPI0010A0E0E1
+----RFLPQGWEVWHTPSGRPFFIDLTSKSTTWDDPTS---
+>UniRef100_A0A1R0GSB4 HECT-type E3 ubiquitin transferase (Fragment) n=1 Tax=Smittium mucronatum TaxID=133383 RepID=A0A1R0GSB4_9FUNG
+----APLPSGWEMIQSAAGKTYFFDHNTSTKTWDDPRQP--
+>UniRef100_A0A0C2XMJ3 mRNA (guanine-N(7)-)-methyltransferase n=1 Tax=Serendipita vermifera MAFF 305830 TaxID=933852 RepID=A0A0C2XMJ3_9AGAM
+----SPLPTGWEERFTPEGQPYYISHIDRTTQSHDPRGNP-
+>UniRef100_A0A2A2JHH9 Uncharacterized protein n=1 Tax=Diploscapter pachys TaxID=2018661 RepID=A0A2A2JHH9_9BILA
+----QLFN---DVVYFSPPSTSYSNQAYIPDGYL-PQE---
+>UniRef100_A0A0Q3MD23 WW domain-containing transcription regulator protein 1 n=1 Tax=Amazona aestiva TaxID=12930 RepID=A0A0Q3MD23_AMAAE
+----DMNPSENKVVKTLTILKKTLRKIEEKMFMYNQGL---
+>UniRef100_G3NEJ3 Membrane associated guanylate kinase, WW and PDZ domain containing 1a n=1 Tax=Gasterosteus aculeatus TaxID=69293 RepID=G3NEJ3_GASAC
+----GGRGEKYKIGAAASAQVHPCDPGIFLTSQIYTPC---
+>UniRef100_G3WYI4 Membrane associated guanylate kinase, WW and PDZ domain containing 1 n=1 Tax=Sarcophilus harrisii TaxID=9305 RepID=G3WYI4_SARHA
+----GYTPRNWTVKYTSLGQIRFTDSKQYTTKSIKRNC---
+>UniRef100_UPI0008113BEB protein kibra n=2 Tax=Rhagoletis zephyria TaxID=28612 RepID=UPI0008113BEB
+-------SSVWRVCRKLVITIAILGHSLEQENIYKARYI--
+>UniRef100_A0A0P1A9Q3 Mitochondrial carrier family n=1 Tax=Plasmopara halstedii TaxID=4781 RepID=A0A0P1A9Q3_PLAHL
+-DEEDKKKKEEEDKWTASNQGYRLADQRRTTTWMDPRVA--
+>UniRef100_A0A1S3MIH3 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like n=1 Tax=Salmo salar TaxID=8030 RepID=A0A1S3MIH3_SALSA
+----HSCANNWRICCLKRVELYYIDHISKTTSWLDPRA---
+>UniRef100_A0A5A9NZG8 Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1 n=1 Tax=Triplophysa tibetana TaxID=1572043 RepID=A0A5A9NZG8_9TELE
+----ARVTENWEMMYSDSGNPYYKDHHLKLSSWCSRQT---
+>UniRef100_UPI000A1C6E75 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like n=1 Tax=Boleophthalmus pectinirostris TaxID=150288 RepID=UPI000A1C6E75
+----GVLADNWDD-----PDHYFTDHNSKSSSWLEPRI---
+>UniRef100_UPI0015CFA004 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3 n=1 Tax=Electrophorus electricus TaxID=8005 RepID=UPI0015CFA004
+----GAGLETWEMTYSDSGEPYYTDHQPKPAPWHSYRS---
+>UniRef100_A0A091DWY7 Syntaxin-binding protein 4 (Fragment) n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091DWY7_FUKDA
+-----WNINARDGIAYMALLPS--SDACGEVCWASYVK---
+>UniRef100_A0A3Q2YCX1 Syntaxin binding protein 4 n=1 Tax=Hippocampus comes TaxID=109280 RepID=A0A3Q2YCX1_HIPCM
+-----TLPYGWEEAYTEHGVKYFIEQTQTSSSPHPAVN---
+>UniRef100_A0A5N3WWJ2 PDZ domain-containing protein (Fragment) n=1 Tax=Muntiacus muntjak TaxID=9888 RepID=A0A5N3WWJ2_MUNMU
+-----WWQQQRETPAAESSVALGIP-V---NSVPQNPG---
+>UniRef100_UPI000A30FE5A syntaxin-binding protein 4 isoform X3 n=1 Tax=Mus pahari TaxID=10093 RepID=UPI000A30FE5A
+-----CKLSSSSSSSSSSSSSSASSSFSSSSCNLLNKE---
+>UniRef100_UPI000DC6AF86 syntaxin-binding protein 4 isoform X1 n=3 Tax=Canis lupus dingo TaxID=286419 RepID=UPI000DC6AF86
+-----YLPYGWEEAYTADGIKYFIKCESYEDQKPPLLE---
+>UniRef100_A0A2I0TI56 WW domain-containing protein n=1 Tax=Limosa lapponica baueri TaxID=1758121 RepID=A0A2I0TI56_LIMLA
+---IACLLSG--TVALLLGFVLFFSRNSKGKEL-----E--
+>UniRef100_UPI001113A3FB LOW QUALITY PROTEIN: E3 ubiquitin-protein ligase Smurf1-like n=1 Tax=Acyrthosiphon pisum TaxID=7029 RepID=UPI001113A3FB
+----VVLYETWLLNDVN----FFINGYQSFNSLGVNNK---
+>UniRef100_A0A4S4KSG1 Uncharacterized protein n=2 Tax=Phlebia centrifuga TaxID=98765 RepID=A0A4S4KSG1_9APHY
+-PDDDPLPEFWEAVRMPDGNIFFVDHKTQTTTWDDPRSR--
+>UniRef100_H3DLR6 Membrane associated guanylate kinase, WW and PDZ domain containing 3b n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=H3DLR6_TETNG
+----NDSNFDFQCFETHSNVRYFVVMKLNHVFFVSQDVY--
+>UniRef100_A0A068WB74 BCL2 associated athanogene 3 n=1 Tax=Echinococcus granulosus TaxID=6210 RepID=A0A068WB74_ECHGR
+-PHVDPIPDGWEMRLDEMTKYYFIDHKNQRTQWQHPIN---
+>UniRef100_A0A444SLX8 E3 ubiquitin-protein ligase n=1 Tax=Armadillidium vulgare TaxID=13347 RepID=A0A444SLX8_ARMVU
+----RRDASESNGSINNSLTVNPLPTSQTNAEEPLPQ----
+>UniRef100_A0A060XRJ6 WW domain-containing protein n=1 Tax=Oncorhynchus mykiss TaxID=8022 RepID=A0A060XRJ6_ONCMY
+---AHPAPNTHTQSNTSS------NTGTTLFFSLSVSV---
+>UniRef100_UPI0003C0FEE4 WW domain-containing transcription regulator protein 1 n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=UPI0003C0FEE4
+-------MQQRSMALSQPNLVNNELSKKKLVALLLNTW---
+>UniRef100_A0A1X0P2P7 WW domain-containing protein n=1 Tax=Trypanosoma theileri TaxID=67003 RepID=A0A1X0P2P7_9TRYP
+----QPLPEGWEESFTYDGRRYYIEKSTKQATWENPR----
+>UniRef100_G0TWS2 WW domain-containing protein n=1 Tax=Trypanosoma vivax (strain Y486) TaxID=1055687 RepID=G0TWS2_TRYVY
+----RPLPPKWEEKFTNDGRSYFIEWSVKKITWEDPR----
+>UniRef100_UPI0004F47CB4 hypothetical protein n=1 Tax=Trypanosoma grayi TaxID=71804 RepID=UPI0004F47CB4
+----RPLSFDWEGSHTHDARHRYGDKTNRQSPWEESR----
+>UniRef100_UPI000719E0B4 transcriptional coactivator YAP1-like n=1 Tax=Priapulus caudatus TaxID=37621 RepID=UPI000719E0B4
+--ENLPLPSGWEAKFSAQANRYFINHADKSTSWVDPRT---
+>UniRef100_UPI0006B0833E WW domain-containing transcription regulator protein 1 n=2 Tax=Apteryx TaxID=8821 RepID=UPI0006B0833E
+-------DSKLRSFTPSLQPSWSGNHIEKITTWQDPRKTM-
+>UniRef100_E0W0S2 Uncharacterized protein n=1 Tax=Pediculus humanus subsp. corporis TaxID=121224 RepID=E0W0S2_PEDHC
+------MSLNVENRCIRGRRSFIMDGFNRLPNNEDPRF---
+>UniRef100_UPI000BA805F8 uncharacterized protein LOC106467584 n=1 Tax=Limulus polyphemus TaxID=6850 RepID=UPI000BA805F8
+---NSPLPPGWERRDLNSGRFYYINHINHTTTWQKPQQ---
+>UniRef100_A0A1D1VWW6 Uncharacterized protein n=1 Tax=Ramazzottius varieornatus TaxID=947166 RepID=A0A1D1VWW6_RAMVA
+----RTEMEQQVEHDQHSNHTFHAPQRKEDGGLWGSIAS--
+>UniRef100_A0A1W0X1B2 Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 n=1 Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0X1B2_HYPDU
+----RPGDQDEDNPADQQQHHFVAPQMKQDGGFWKDIAS--
+>UniRef100_A0A0N5BG16 Uncharacterized protein n=1 Tax=Strongyloides papillosus TaxID=174720 RepID=A0A0N5BG16_STREA
+------IPNTQLSLKETSSGEHSVSDIDISESSTEPPSA--
+>UniRef100_A0A428NVD1 Uncharacterized protein n=1 Tax=Fusarium sp. AF-8 TaxID=1325734 RepID=A0A428NVD1_9HYPO
+------LRDGWSMRHTPEGHIYFANSVSQATTWSDPRYKIL
+>UniRef100_A0A2A2K9A3 E3 ubiquitin-protein ligase n=1 Tax=Diploscapter pachys TaxID=2018661 RepID=A0A2A2K9A3_9BILA
+---DQPLPKNWKMEFTDQGVPFFINHVNRTSTYDDPR----
+>UniRef100_A0A0V1N297 E3 ubiquitin-protein ligase n=1 Tax=Trichinella papuae TaxID=268474 RepID=A0A0V1N297_9BILA
+-----TSGAEWSEVFHRSQHKDY-HLDTKTTQWEDPR----
+>UniRef100_B7Q8Q0 HECT-type E3 ubiquitin transferase n=1 Tax=Ixodes scapularis TaxID=6945 RepID=B7Q8Q0_IXOSC
+-------RDGWEERIHTDGRIFFIDHTARITQWDDPR----
+>UniRef100_UPI0014041DB5 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like isoform X1 n=1 Tax=Petromyzon marinus TaxID=7757 RepID=UPI0014041DB5
+-----GMPTGLDYSAVMSADSFLRNHNPKDPVSLEQQ----
+>UniRef100_A0A0S7L0H8 MAGI1 (Fragment) n=1 Tax=Poeciliopsis prolifica TaxID=188132 RepID=A0A0S7L0H8_9TELE
+-----ISDMDYRFTIKDDEDDLFFSHVSKTTSWVDPR----
+>UniRef100_A0A2T7NTY1 Uncharacterized protein n=1 Tax=Pomacea canaliculata TaxID=400727 RepID=A0A2T7NTY1_POMCA
+-----PLPANWEMAFTEDGHPYFIDMHASQDKLLHLR----
+>UniRef100_K1QNC4 Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 n=1 Tax=Crassostrea gigas TaxID=29159 RepID=K1QNC4_CRAGI
+-----PLPQNWERAMTEEGIPYFIDCCTEAVSHT-------
+>UniRef100_A0A2H9TJG0 HECT-type E3 ubiquitin transferase n=1 Tax=Paramicrosporidium saccamoebae TaxID=1246581 RepID=A0A2H9TJG0_9FUNG
+VPSLGSLPAGWEMRISPDGRPYYLDHGAKTSTWDDPR----
+>UniRef100_A0A177BAJ2 HECT-type E3 ubiquitin transferase n=1 Tax=Intoshia linei TaxID=1819745 RepID=A0A177BAJ2_9BILA
+-PIEYPLPSGWEIRYTNNLRRYFVNHNDHTTTYTDPRQ---
+>UniRef100_A0A6C0L4C2 WW domain-containing protein n=1 Tax=viral metagenome TaxID=1070528 RepID=A0A6C0L4C2_9ZZZZ
+-PASAELPSGWEARNTDDGRTFFIDHNTQQTTWDDPRQA--
+>UniRef100_W4ZDH5 Uncharacterized protein n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=W4ZDH5_STRPU
+---EFPLPGGWEEACDGDGKVYFIDHSTRKTSWMDPRDRLI
+>UniRef100_A0A060YJM7 Uncharacterized protein n=1 Tax=Oncorhynchus mykiss TaxID=8022 RepID=A0A060YJM7_ONCMY
+-----VMSKNWKKAFSNSGEPFYTDHYSKTTSWQDRR----
+>UniRef100_A0A2I4BFD1 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2-like isoform X1 n=2 Tax=Austrofundulus limnaeus TaxID=52670 RepID=A0A2I4BFD1_9TELE
+-----VMPDHWEQAFSDPGETLEIERSPKRTSWQSPR----
+>UniRef100_A0A6J2W9V3 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like n=1 Tax=Chanos chanos TaxID=29144 RepID=A0A6J2W9V3_CHACN
+-----AQPEVWDMVYTDSGEPLYINQYSKSPSWLDSR----
+>UniRef100_UPI00094EE2F1 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3-like isoform X2 n=1 Tax=Hippocampus comes TaxID=109280 RepID=UPI00094EE2F1
+-----PVADTWEVTFGNGANAFFVDHMSKSRQDLRAQ----
+>UniRef100_UPI000CD5E457 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like isoform X2 n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=UPI000CD5E457
+------LPENWDLSFSDSGEPCYMDQNLKTTSWLEPR----
+>UniRef100_UPI000D627F4E LOW QUALITY PROTEIN: membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like n=1 Tax=Cynoglossus semilaevis TaxID=244447 RepID=UPI000D627F4E
+-----PLPENWELAFTDSGDASCLNNNSKTTGWLDPL----
+>UniRef100_UPI0010A2DED4 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 3-like isoform X1 n=2 Tax=Denticeps clupeoides TaxID=299321 RepID=UPI0010A2DED4
+-----ASSEAWEMVYDDSGDTYYTDRDSKTSSWLEPR----
+>UniRef100_A0A0R3WI84 Uncharacterized protein n=1 Tax=Hydatigena taeniaeformis TaxID=6205 RepID=A0A0R3WI84_HYDTA
+------VNCRQSFKWRLTKISKFIFSITKQNKRFDPR----
+>UniRef100_W6UW02 Uncharacterized protein n=1 Tax=Echinococcus granulosus TaxID=6210 RepID=W6UW02_ECHGR
+------LPPEFQMAINENKQVYFLNHETKQTTRFDPR----
+>UniRef100_A0A1W0WS14 WW domain-containing oxidoreductase n=1 Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0WS14_HYPDU
+------CPPDWTFRVSGDGDILFVNHQH-LTQWEHPT----
+>UniRef100_UPI00051E5C8B WW domain-containing oxidoreductase n=1 Tax=Struthio camelus australis TaxID=441894 RepID=UPI00051E5C8B
+------LLVFLLAGVEKTVSQVSRTHLEEKTQWEHPK----
+>UniRef100_UPI0005ABD83B WW domain-containing oxidoreductase isoform X2 n=1 Tax=Fopius arisanus TaxID=64838 RepID=UPI0005ABD83B
+------LGGRRGQHLMEMFITSKSCHYTKLTQWKHPR----
+>UniRef100_UPI0007E6D041 WW domain-containing oxidoreductase isoform X2 n=1 Tax=Drosophila bipectinata TaxID=42026 RepID=UPI0007E6D041
+------KKNRHTYRNLNFILNFFFSQQSKTSQWTHPR----
+>UniRef100_UPI000BF40911 WW domain-containing oxidoreductase-like n=1 Tax=Varroa jacobsoni TaxID=62625 RepID=UPI000BF40911
+------LTSGWIERANKDGSAAYVNVVTGPSTFEHPT----
+>UniRef100_UPI00148A370A WW domain-containing oxidoreductase isoform X1 n=1 Tax=Crassostrea gigas TaxID=29159 RepID=UPI00148A370A
+------KVEKCMLMCCKTAAKFFNSHETKETQWDHPR----
+>UniRef100_A0A0C9UZ92 HECT-type E3 ubiquitin transferase n=1 Tax=Sphaerobolus stellatus (strain SS14) TaxID=990650 RepID=A0A0C9UZ92_SPHS4
+-SDVLDLELGGHERYTPEGRPYYVDHNTRTTTWVDPRRQ--
+>UniRef100_A0A1C7LWP0 HECT-type E3 ubiquitin transferase n=1 Tax=Grifola frondosa TaxID=5627 RepID=A0A1C7LWP0_GRIFR
+-PPLDPLPDGWEEGIEESGRVYYYNRNTHETAWVRPNTG--
+>UniRef100_A0A1S3G5I4 protein KIBRA n=1 Tax=Dipodomys ordii TaxID=10020 RepID=A0A1S3G5I4_DIPOR
+---PVSAAQAWRGGRPMEVSCVLV-SAVQIRRPCTPR----
+>UniRef100_A0A2I0MN79 WW and C2 domain containing 2 n=3 Tax=Columba livia TaxID=8932 RepID=A0A2I0MN79_COLLI
+----ISVPSNPQQLDDVE--LSHQECRASHLLLILVS----
+>UniRef100_A0A384DL45 protein WWC2 n=1 Tax=Ursus maritimus TaxID=29073 RepID=A0A384DL45_URSMA
+---ICACAHTALTITELGRVNLSV-----CGRRLMPK----
+>UniRef100_A0A4W2G0F9 Uncharacterized protein n=3 Tax=Bos indicus x Bos taurus TaxID=30522 RepID=A0A4W2G0F9_BOBOX
+---PQPSPAPGSGVRRPGPGSRVPAASRARFPYGGAR----
+>UniRef100_A0A670J8J6 Uncharacterized protein n=1 Tax=Podarcis muralis TaxID=64176 RepID=A0A670J8J6_PODMU
+---PLPGSLALSVCCCCRRRRRRRRRRCPGRSCLCPR----
+>UniRef100_M7BSM9 Protein WWC2 n=1 Tax=Chelonia mydas TaxID=8469 RepID=M7BSM9_CHEMY
+---MIKVMEDQTELPPLQHMHLHLSLNTKKPPFLLKQ----
+>UniRef100_UPI00022F3486 protein WWC2 isoform X1 n=2 Tax=Cricetulus griseus TaxID=10029 RepID=UPI00022F3486
+---SLLRIRPVFPGRPLGRMCRGAHGSGTRLYFAPRG----
+>UniRef100_UPI0003C034B1 LOW QUALITY PROTEIN: protein KIBRA n=1 Tax=Bos mutus TaxID=72004 RepID=UPI0003C034B1
+---QLCLPRAPLSIRPVLGNFQFAMGCARTLRFMGKP----
+>UniRef100_UPI00071C2D3B protein KIBRA n=1 Tax=Calidris pugnax TaxID=198806 RepID=UPI00071C2D3B
+---GQSVWGGRWQRQYVESEMQEQTCGSVLLFILILH----
+>UniRef100_UPI0007BACF48 protein KIBRA n=1 Tax=Poecilia formosa TaxID=48698 RepID=UPI0007BACF48
+---LDPSQTVWDGLGNKRDGKHRENVSEFVCHVIKVL----
+>UniRef100_UPI0009510721 protein WWC2 n=1 Tax=Bos indicus TaxID=9915 RepID=UPI0009510721
+---PLTFPKDAELTALPSSEEHAGGAGTRAVGWTVTR----
+>UniRef100_UPI00115CD581 protein WWC2 n=1 Tax=Manacus vitellinus TaxID=328815 RepID=UPI00115CD581
+---RLVSPTSVPGKKEFNSFVKYCLSGGFYTKSNSVC----
+>UniRef100_UPI0005224623 protein WWC3-like n=1 Tax=Leptosomus discolor TaxID=188344 RepID=UPI0005224623
+---LLPVPELWQDCRVSESKIGYLMTKERRYFW----K---
+>UniRef100_A0A0C3FA86 HECT-type E3 ubiquitin transferase n=1 Tax=Piloderma croceum (strain F 1598) TaxID=765440 RepID=A0A0C3FA86_PILCF
+ISQSDPLHSGWEMRATSASRVYFVNHSTKTTTWEDPQ----
+>UniRef100_A0A4Y2QC24 Transcription factor Sp9 n=1 Tax=Araneus ventricosus TaxID=182803 RepID=A0A4Y2QC24_ARAVE
+----VPLPEGWENYKHPNGRVYFASHKNETTQWKDPRIQRL
+>UniRef100_A0A6F9DRL8 E3 ubiquitin-protein ligase BRE1A-like n=1 Tax=Phallusia mammillata TaxID=59560 RepID=A0A6F9DRL8_9ASCI
+LTQQQPLPPGWEAKYDPTNRKWFMNHQTKTTQWDDPRLTM-
+>UniRef100_G3H1B8 TOM1-like protein 1 n=1 Tax=Cricetulus griseus TaxID=10029 RepID=G3H1B8_CRIGR
+ILDMDCLPYGWEEAYTADGIKYFINHVTQTTSWIHPVMSVL
+>UniRef100_A0A0B2VED0 E3 ubiquitin-protein ligase n=1 Tax=Toxocara canis TaxID=6265 RepID=A0A0B2VED0_TOXCA
+-----PLPNGWQVNEELDKQRLFVDHFGRRTTLIDPR----
+>UniRef100_A0A1I7SST2 HECT-type E3 ubiquitin transferase n=1 Tax=Bursaphelenchus xylophilus TaxID=6326 RepID=A0A1I7SST2_BURXY
+-----PLPNGWEIAV-EDSQRFFVDHNNKTIGLLDPR----
+>UniRef100_A0A1I8AKU0 E3 ubiquitin-protein ligase n=2 Tax=Steinernema glaseri TaxID=37863 RepID=A0A1I8AKU0_9BILA
+-----PLPAGWQIAQHSQNRVLYIDHDSKKISLIDPR----
+>UniRef100_A0A4V6A1Z7 HECT-type E3 ubiquitin transferase n=1 Tax=Steinernema carpocapsae TaxID=34508 RepID=A0A4V6A1Z7_STECR
+-----PLPNGWQIAQHSQSTVLYIDHDTKKITLIDPR----
+>UniRef100_A0A2J8N4K9 HECW2 isoform 3 n=1 Tax=Pan troglodytes TaxID=9598 RepID=A0A2J8N4K9_PANTR
+---DGACAAEPTSSGPAEGSQESVCTAGSLPVVQVP-----
+>UniRef100_A0A226EPC5 E3 ubiquitin-protein ligase Nedd-4 n=1 Tax=Folsomia candida TaxID=158441 RepID=A0A226EPC5_FOLCA
+-----QGPHGLATMTWAHSQMVGRKGYTQMGEFSSLI----
+>UniRef100_A0A673LJW2 Uncharacterized protein n=1 Tax=Sinocyclocheilus rhinocerous TaxID=307959 RepID=A0A673LJW2_9TELE
+-----CVY-DSSLVSPPTAPVFYPEFLARSLFPSPLL----
+>UniRef100_A0A1B6E1K9 Uncharacterized protein (Fragment) n=1 Tax=Clastoptera arizonana TaxID=38151 RepID=A0A1B6E1K9_9HEMI
+------LSSCGCTSAKRGRLKASLSHVNKTTTYEDPR----
+>UniRef100_A0A336MTY6 CSON003989 protein (Fragment) n=1 Tax=Culicoides sonorensis TaxID=179676 RepID=A0A336MTY6_CULSO
+------VCVNGAPLFPVSISIYYYYHLNKTSTYEAPE----
+>UniRef100_A0A085LV37 WW domain-containing oxidoreductase n=1 Tax=Trichuris suis TaxID=68888 RepID=A0A085LV37_9BILA
+------LPSTWRRLVDNEGRAVFQDLRTGETTFSDPRLAQ-
+>UniRef100_A0A0V0XKJ3 WW domain-containing oxidoreductase n=1 Tax=Trichinella pseudospiralis TaxID=6337 RepID=A0A0V0XKJ3_TRIPS
+------LPKNWKRIVDEENKILYENQVTGFKTYADPRLAV-
+>UniRef100_A0A1D2N5P5 WW domain-containing oxidoreductase n=1 Tax=Orchesella cincta TaxID=48709 RepID=A0A1D2N5P5_ORCCI
+------LPYGWKKEKDESGVEIFFEEATGKRTYTDPRLAF-
+>UniRef100_A0A1I8HD31 WW domain-containing oxidoreductase n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8HD31_9PLAT
+------LPPGWEMTATDYGNLLFFDRVRGLQSHTDPRLAF-
+>UniRef100_A0A1W0WS14 WW domain-containing oxidoreductase n=1 Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0WS14_HYPDU
+------LPFGWERVISTDEEITFVNHIQGTTTIEDPRLAY-
+>UniRef100_A0A1X7TVA5 WW domain-containing oxidoreductase n=1 Tax=Amphimedon queenslandica TaxID=400682 RepID=A0A1X7TVA5_AMPQE
+------LSYGWQLFKDEDDAVVFVDHLEGVCSKVDPRLAF-
+>UniRef100_A0A3M7STA1 WW domain-containing oxidoreductase (Fragment) n=1 Tax=Brachionus plicatilis TaxID=10195 RepID=A0A3M7STA1_BRAPC
+------LPYGWERKVQEDGTIVFVDQINNVSSYTDPRLAF-
+>UniRef100_A7SUS7 WW domain-containing oxidoreductase n=1 Tax=Nematostella vectensis TaxID=45351 RepID=A7SUS7_NEMVE
+------LPPGWLKQSDGKGDVFYINTVNHQTTFTDPRSSK-
+>UniRef100_B3SBN3 WW domain-containing oxidoreductase n=2 Tax=Trichoplax TaxID=10227 RepID=B3SBN3_TRIAD
+------LPFGWIQIKNENGTILYVNQRNQKKTYVDPRLAF-
+>UniRef100_E0VY39 WW domain-containing oxidoreductase n=1 Tax=Pediculus humanus subsp. corporis TaxID=121224 RepID=E0VY39_PEDHC
+------LPPNWEKIIENG-QMIFIDRTTQQKTFTDPRLAF-
+>UniRef100_T1FMS1 WW domain-containing oxidoreductase n=1 Tax=Helobdella robusta TaxID=6412 RepID=T1FMS1_HELRO
+------LPYGWTKEICHEGNEIFKNSRDNKTSLVDPRLAY-
+>UniRef100_T1KXR1 WW domain-containing oxidoreductase n=1 Tax=Tetranychus urticae TaxID=32264 RepID=T1KXR1_TETUR
+------LPFGWEKIVNDQGEIIFEDHINKKKTLTDPRLAF-
+>UniRef100_T2M468 WW domain-containing oxidoreductase (Fragment) n=2 Tax=Hydra vulgaris TaxID=6087 RepID=T2M468_HYDVU
+------LPFGWSKASTEDGKIIFINHIENRTTCIDPRIAY-
+>UniRef100_UPI0007E6D041 WW domain-containing oxidoreductase isoform X2 n=1 Tax=Drosophila bipectinata TaxID=42026 RepID=UPI0007E6D041
+------LPIGWEKYYDEQRRFMFLNKTTQQRTNVDPRLAF-
+>UniRef100_UPI0008F9D8F7 WW domain-containing oxidoreductase n=1 Tax=Bemisia tabaci TaxID=7038 RepID=UPI0008F9D8F7
+------LPYGWKKTVDENGKIFYENTVKNSVTFTDPRLAF-
+>UniRef100_UPI000BF40911 WW domain-containing oxidoreductase-like n=1 Tax=Varroa jacobsoni TaxID=62625 RepID=UPI000BF40911
+------LPFGWVESSESNSKVF-VNVDTGQTTSVNPRLAF-
+>UniRef100_UPI000F692913 WW domain-containing oxidoreductase-like n=1 Tax=Dermatophagoides pteronyssinus TaxID=6956 RepID=UPI000F692913
+------LPEGWQRKFDDDGNHVYYNINSDQSTYTDPRLGS-
+>UniRef100_UPI0010FC8EE4 WW domain-containing oxidoreductase-like isoform X1 n=1 Tax=Acropora millepora TaxID=45264 RepID=UPI0010FC8EE4
+------LPHGWQKQHDSRGNVFFFDAVNRCTTYADPRLAQ-
+>UniRef100_UPI001182725C WW domain-containing oxidoreductase n=1 Tax=Manduca sexta TaxID=7130 RepID=UPI001182725C
+------LPFGWTKSVNEEGETIFIQKETNTTTYLDPRLAF-
+>UniRef100_A0A2A2L5V5 HECT-type E3 ubiquitin transferase n=2 Tax=Diploscapter pachys TaxID=2018661 RepID=A0A2A2L5V5_9BILA
+-PSNQPLPTSWEMRRDTRGWIYYFDHSTCSTTWQRPTADML
+>UniRef100_UPI0005237E0E LOW QUALITY PROTEIN: protein salvador homolog 1 n=1 Tax=Chaetura pelagica TaxID=8897 RepID=UPI0005237E0E
+--EDLPLPPGWSVDWTIRGNCFSXSSLKSGVVFVSC-----
+>UniRef100_UPI000B939A59 uncharacterized protein LOC111041679 isoform X3 n=1 Tax=Myzus persicae TaxID=13164 RepID=UPI000B939A59
+--PTIQIQHKNEIISTHHS-TPALHNIGQSVPIPLP-----
+>UniRef100_A0A1J1IL00 CLUMA_CG014683, isoform A n=1 Tax=Clunio marinus TaxID=568069 RepID=A0A1J1IL00_9DIPT
+--ENLPLPYNWEVRQDYDGKTYYIDHTRKITTWIDPRDRL-
+>UniRef100_A0A096LYY4 E3 ubiquitin-protein ligase n=1 Tax=Poecilia formosa TaxID=48698 RepID=A0A096LYY4_POEFO
+-----SLDQYWEFGKPLVARIYKVFSRSRSGKFINR-----
+>UniRef100_A0A3P7EK62 E3 ubiquitin-protein ligase n=1 Tax=Hydatigena taeniaeformis TaxID=6205 RepID=A0A3P7EK62_HYDTA
+-----D-PDAIEDPQQ-VRQTLRHGGQTLLSHHTQS-----
+>UniRef100_A0A654GL56 E3 ubiquitin-protein ligase n=1 Tax=Sparganum proliferum TaxID=64606 RepID=A0A654GL56_9CEST
+-----E-DGEVDEPTR-TRRILRRGQSSTTATLSRP-----
+>UniRef100_A0A672IQ71 E3 ubiquitin-protein ligase n=1 Tax=Salarias fasciatus TaxID=181472 RepID=A0A672IQ71_SALFA
+-----VNVKVKKKKRQHYVQYNLIAKQSLAKTFPFP-----
+>UniRef100_F2U154 E3 ubiquitin-protein ligase n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U154_SALR5
+-----PLDLGFAKMVG-HAEPSSATTHARDGRDDRN-----
+>UniRef100_A0A6B0SH46 Uncharacterized protein n=1 Tax=Bos mutus TaxID=72004 RepID=A0A6B0SH46_9CETA
+-----PLPPGWEWRVDNMGRIYYVDHSQERQRGRGQ-----
+>UniRef100_A0A6F9DU26 Syntaxin-binding protein 4-like n=1 Tax=Phallusia mammillata TaxID=59560 RepID=A0A6F9DU26_9ASCI
+------MPFGWERASLSDGQTFFIDHVNHVTSWNDPR----
+>UniRef100_A0A0L0GHC5 HECT-type E3 ubiquitin transferase n=1 Tax=Sphaeroforma arctica JP610 TaxID=667725 RepID=A0A0L0GHC5_9EUKA
+------IPES-DSEVAALGVQPEQSNAQRVASIPARPPAPA
+>UniRef100_A0A0P7UT76 E3 ubiquitin-protein ligase n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7UT76_SCLFO
+-----PLLPGWEKCVDNVGRIYYLDHNSRTTSWQQPTKESV
+>UniRef100_A0A1I8FFY6 HECT domain-containing protein n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8FFY6_9PLAT
+-----CRCPGSAERTRTATTYYGSQHPDNHLAAAQHQFAQQ
+>UniRef100_A0A2R8RTJ0 HECT-type E3 ubiquitin transferase n=1 Tax=Danio rerio TaxID=7955 RepID=A0A2R8RTJ0_DANRE
+-----SPQAEWSHCHPGQTQTQTHLITLTPPHPECCAECVC
+>UniRef100_A0A4W5REG6 HECT-type E3 ubiquitin transferase n=1 Tax=Hucho hucho TaxID=62062 RepID=A0A4W5REG6_9TELE
+-----CDTARDRTRICRDASSYAFDRCATREALNPLSKCIT
+>UniRef100_A0A670Z4A3 HECT-type E3 ubiquitin transferase n=1 Tax=Pseudonaja textilis TaxID=8673 RepID=A0A670Z4A3_PSETE
+---------GWLRLASGCG--WQVPRAEELLDFGRRGGTGL
+>UniRef100_UPI0010BD57B9 NEDD4-like E3 ubiquitin-protein ligase WWP1 n=1 Tax=Galendromus occidentalis TaxID=34638 RepID=UPI0010BD57B9
+-----PMGIGWLKCKDDRNRTYFYHPETQARSWVKPTVQQL
+>UniRef100_V8P2V3 HECT-type E3 ubiquitin transferase (Fragment) n=1 Tax=Ophiophagus hannah TaxID=8665 RepID=V8P2V3_OPHHA
+-----KLRY---KHCHGTALVHFHELLKGGAKLGRLRPALC
+>UniRef100_A0A1I8CCF7 WW domain-containing protein n=1 Tax=Rhabditophanes sp. KR3021 TaxID=114890 RepID=A0A1I8CCF7_9BILA
+IHNDQPLPEGWSQKLDSRGIAYFEDHNTKTTTWLDPR----
+>UniRef100_A0A0G4IH88 Uncharacterized protein n=1 Tax=Plasmodiophora brassicae TaxID=37360 RepID=A0A0G4IH88_PLABS
+--DPRPLPQGWEARVDPRTKRYFVNHIERRTAWEDPR----
+>UniRef100_A0A3M7PZH7 Transcriptional coactivator YAP1-like n=1 Tax=Brachionus plicatilis TaxID=10195 RepID=A0A3M7PZH7_BRAPC
+ILSQIQMPPGWQKAFTDKGEAYFINHNTRTTCWEDPRLPLI
+>UniRef100_A0A0P7USN8 HECT-type E3 ubiquitin transferase n=1 Tax=Scleropages formosus TaxID=113540 RepID=A0A0P7USN8_SCLFO
+------LPEGY--GESPVRSSPSPPEQQHCTSLLSPR----
+>UniRef100_A0A1I8IPB3 HECT-type E3 ubiquitin transferase n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8IPB3_9PLAT
+------APDEWQQCQTPQGQVYFLNRSTGLTTWQDPR----
+>UniRef100_G1N6M5 E3 ubiquitin-protein ligase n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=G1N6M5_MELGA
+------LPFGLSIYLCRKSLVYICILQSLSRSSHHPD----
+>UniRef100_G5CTM3 E3 ubiquitin-protein ligase n=1 Tax=Mnemiopsis leidyi TaxID=27923 RepID=G5CTM3_MNELE
+------LYGQFVKCVTPRGQVYYHNRLTGAQSFHDPR----
+>UniRef100_Q4RZ64 Chromosome undetermined SCAF14961, whole genome shotgun sequence (Fragment) n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=Q4RZ64_TETNG
+------TQSRERCRARCTSSTRRRASHPGTTPGSRGR----
+>UniRef100_UPI0008117DB1 E3 ubiquitin-protein ligase SMURF1-like n=1 Tax=Rhagoletis zephyria TaxID=28612 RepID=UPI0008117DB1
+------MPDGYQMRTTDQGQVYFVHPESSATSWIDPR----
+>UniRef100_UPI000DF11D4E E3 ubiquitin-protein ligase SMURF2 n=1 Tax=Puma concolor TaxID=9696 RepID=UPI000DF11D4E
+------LPEGYEVVAVGSGLTWASHL--TSALWHLFY----
+>UniRef100_A0A1L8DSI9 Putative eukaryotic translation initiation factor 4 gamma (Fragment) n=1 Tax=Nyssomyia neivai TaxID=330878 RepID=A0A1L8DSI9_9DIPT
+----ISVSCGIECGISCISFFFYINYITKTTTFDDPR----
+>UniRef100_A0A6L2Q5Y8 Uncharacterized protein n=1 Tax=Coptotermes formosanus TaxID=36987 RepID=A0A6L2Q5Y8_COPFO
+--SD-C--PQFLSLFKCEHRYHGLKFIGERCFFLS------
+>UniRef100_UPI001037D8A7 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 n=1 Tax=Diabrotica virgifera virgifera TaxID=50390 RepID=UPI001037D8A7
+--------FIEDNIYVNKWYIIFYSHSTGTSHWLDPR----
+>UniRef100_UPI000BAEC9C3 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like isoform X13 n=1 Tax=Crassostrea virginica TaxID=6565 RepID=UPI000BAEC9C3
+-----RSLPNLQLDLSEESRPRGDVRTPL------SPLPPP
+>UniRef100_A0A4Y7TWL3 HECT-type E3 ubiquitin transferase n=1 Tax=Coprinellus micaceus TaxID=71717 RepID=A0A4Y7TWL3_9AGAR
+-PDQRPLPFGWDRATTDDGKVYFVNHQKKITTWNHP-----
+>UniRef100_A0A194X6V2 Uncharacterized protein n=1 Tax=Phialocephala scopiformis TaxID=149040 RepID=A0A194X6V2_9HELO
+-----PLPEGWEAGRNSLGQDFWTNAEQRLKTYYDPRKD--
+>UniRef100_A0A0C3U4P7 WW domain-containing protein n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=A0A0C3U4P7_GUITC
+---VAPLPDGWSEHTNDHGEVFYHHRESGSSVWQHPL----
+>UniRef100_L1IT28 WW domain-containing protein (Fragment) n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1IT28_GUITC
+---DAPVPEGWSAHEDGNGHTYYFHAETQSSSWEHPS----
+>UniRef100_L1JEA1 WW domain-containing protein (Fragment) n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1JEA1_GUITC
+---LARLPPNWKTYKDPEGHAYFHNHATGVTSWTHPR----
+>UniRef100_L1JUS1 WW domain-containing protein (Fragment) n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1JUS1_GUITC
+---MAPLPPGWTENKDSTGNVFFHNRSMSLSSYEHPL----
+>UniRef100_A0A3R7GQ48 Uncharacterized protein n=1 Tax=Clonorchis sinensis TaxID=79923 RepID=A0A3R7GQ48_CLOSI
+--AVFDGKCNYLSIFAEQVARYVPNLADQETVFVRPRAPL-
+>UniRef100_A0A5J4NBM8 WW domain-containing protein n=1 Tax=Paragonimus westermani TaxID=34504 RepID=A0A5J4NBM8_9TREM
+--TTLPLPPNWETRFDVALQRWFFDHANKSTSWEDPRPAY-
+>UniRef100_A0A6B2EF86 Putative scaffold protein salvador n=1 Tax=Phlebotomus kandelakii TaxID=1109342 RepID=A0A6B2EF86_9DIPT
+--DELPLPPGWSVHNTLRGRKYYFDHSAQTTHWSHPL----
+>UniRef100_A0A1I8P175 WW domain-containing oxidoreductase n=1 Tax=Stomoxys calcitrans TaxID=35570 RepID=A0A1I8P175_STOCA
+---EDELPPGWEEQATENGYVCYINKQTNVAQMTHPRTG--
+>UniRef100_A0A6A3BD05 Putative phosphoinositide phosphatase SAC9 n=1 Tax=Hibiscus syriacus TaxID=106335 RepID=A0A6A3BD05_HIBSY
+----APLPPGWEKQSDATGKNYYIDHNTETTISNHPC----
+>UniRef100_UPI00098E6D05 LOW QUALITY PROTEIN: probable phosphoinositide phosphatase SAC9 n=1 Tax=Asparagus officinalis TaxID=4686 RepID=UPI00098E6D05
+----GHCHPGWEERSDATGKPFYIDHNTRKTTWEHPC----
+>UniRef100_UPI000D62A060 probable phosphoinositide phosphatase SAC9 n=1 Tax=Cynara cardunculus var. scolymus TaxID=59895 RepID=UPI000D62A060
+----TSSSPGWKKQSNDTGTPNYTDQNTRTTSGKHPC----
+>UniRef100_A0A315V624 WW domain-containing protein n=1 Tax=Gambusia affinis TaxID=33528 RepID=A0A315V624_GAMAF
+---------MCLSADGIVPENHFVDREKESGSEIQ-CSR--
+>UniRef100_A0A452TEI8 WW domain-containing protein n=1 Tax=Ursus maritimus TaxID=29073 RepID=A0A452TEI8_URSMA
+--MQWGRGAREARRRQEALGAILKAGCHGCPAAGVRVSR--
+>UniRef100_A0A5J5D8C3 Uncharacterized protein n=1 Tax=Etheostoma spectabile TaxID=54343 RepID=A0A5J5D8C3_9PERO
+--ATLSGPPPFIVRMPRQDHASRTVCIGSILHWEGSL----
+>UniRef100_A0A663M3M1 WWC family member 3 n=1 Tax=Athene cunicularia TaxID=194338 RepID=A0A663M3M1_ATHCN
+--KSVTKKRRNILHSAFLNFISFLRDIQLHCFDTLKKLK--
+>UniRef100_G5B653 Protein WWC3 n=2 Tax=Euarchontoglires TaxID=314146 RepID=G5B653_HETGA
+--NPTKFR-TLQNILEVEKEMYGTEWKVGATLALMWLKR--
+>UniRef100_UPI00077AE9CE WW domain-containing oxidoreductase-like n=1 Tax=Acropora digitifera TaxID=70779 RepID=UPI00077AE9CE
+----GDLPHGWQKQHDSRGNVFFFDAVNRCTTYADPRLAQ-
+>UniRef100_A0A1I7TC00 Uncharacterized protein n=1 Tax=Caenorhabditis tropicalis TaxID=1561998 RepID=A0A1I7TC00_9PELO
+--SDLPLPENWAVEFTTENQPYFVDHSNRRTHWVHP-----
+>UniRef100_A0A1I8C860 WW domain-containing protein n=1 Tax=Rhabditophanes sp. KR3021 TaxID=114890 RepID=A0A1I8C860_9BILA
+--DEMAMPANWTIETTKDGLTYYVDHNNRVTHWVHP-----
+>UniRef100_A0A151Z8H1 WW domain-containing protein n=1 Tax=Tieghemostelium lacteum TaxID=361077 RepID=A0A151Z8H1_9MYCE
+-DQGIKLPQGWEARTDIVGRTYYVDHNTKQSTWISP-----
+>UniRef100_Q54T86 WW domain-containing protein A n=1 Tax=Dictyostelium discoideum TaxID=44689 RepID=DWWA_DICDI
+-LQHVKLPDGWESRIDPVGKVFYLNHNNKTTSWISP-----
+>UniRef100_UPI0006C97A77 E3 ubiquitin-protein ligase HECW2 n=1 Tax=Trichogramma pretiosum TaxID=7493 RepID=UPI0006C97A77
+GASTMQHPKPWEARVDNHGRIFYIDHINRTTAWECP-----
+>UniRef100_A0A0C3BDJ8 Uncharacterized protein n=1 Tax=Serendipita vermifera MAFF 305830 TaxID=933852 RepID=A0A0C3BDJ8_9AGAM
+LPLNDQLPSGWETKLSTTGRVYFVNNNTKTTTWDDPRL---
+>UniRef100_A0A267GFV0 WW domain-containing protein (Fragment) n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A267GFV0_9PLAT
+LMEVCPLPTGWEMAYDNEAKIYFVDHNSKSTSWLDPRI---
+>UniRef100_UPI000C6E7758 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like isoform X1 n=1 Tax=Centruroides sculpturatus TaxID=218467 RepID=UPI000C6E7758
+LSNLGPLPDNWEKAYTPNGEVYFIDHNSGTSQWLDPRMARI
+>UniRef100_A0A075AJA4 HECT-type E3 ubiquitin transferase n=1 Tax=Opisthorchis viverrini TaxID=6198 RepID=A0A075AJA4_9TREM
+MDETQPLPRGWEKRYTPQGQRFFIDHNTRTTTFIDPRTGQ-
+>UniRef100_A0A182H252 C2 domain-containing protein n=1 Tax=Aedes albopictus TaxID=7160 RepID=A0A182H252_AEDAL
+-------SPAWLAEDCHRHAANNTHDVSHSARYDSS-----
+>UniRef100_A0A1S3D449 E3 ubiquitin-protein ligase Nedd-4-like n=1 Tax=Diaphorina citri TaxID=121845 RepID=A0A1S3D449_DIACI
+VEQQGALPPGWEERTDANGRTYYVNHIARCTQWERPTV---
+>UniRef100_A0A3Q0DJG3 BAG family molecular chaperone regulator 3 n=1 Tax=Tarsius syrichta TaxID=1868482 RepID=A0A3Q0DJG3_TARSY
+--------MGKHLRVQPHGLNLLDRYNRLSASAQDLLS---
+>UniRef100_F1S415 BAG domain-containing protein n=1 Tax=Sus scrofa TaxID=9823 RepID=F1S415_PIG
+--RRRPRPPAPRLGNRSNRLALLRGPQQPHHDVERPAR---
+>UniRef100_M3XVC6 BAG domain-containing protein n=1 Tax=Mustela putorius furo TaxID=9669 RepID=M3XVC6_MUSPF
+--G--TADAGGGGRAQDWGRWHLAPCFCLCGVFSSHVL---
+>UniRef100_U3JHJ7 BCL2 associated athanogene 3 n=1 Tax=Ficedula albicollis TaxID=59894 RepID=U3JHJ7_FICAL
+--SQSKYVHGRRARRGEPGFCQSDPFGSGSPAFGEYSP---
+>UniRef100_UPI0004BD07FD BAG family molecular chaperone regulator 3 n=1 Tax=Equus przewalskii TaxID=9798 RepID=UPI0004BD07FD
+--ADRAGEAGSQLSAVTVVGPVTWSHRQNPGRWPQSPL---
+>UniRef100_UPI00051B13C5 BAG family molecular chaperone regulator 3 n=1 Tax=Cuculus canorus TaxID=55661 RepID=UPI00051B13C5
+--VRDHTEGAVFVGTAVSGLVEGEVAVVLVPGVLEPLA---
+>UniRef100_UPI00051E4176 BAG family molecular chaperone regulator 3 n=1 Tax=Struthio camelus australis TaxID=441894 RepID=UPI00051E4176
+--TDEETCGPNHRKILETPARSSADSGDTGNVIGPAEG---
+>UniRef100_UPI0005282C7E BAG family molecular chaperone regulator 3 n=1 Tax=Buceros rhinoceros silvestris TaxID=175836 RepID=UPI0005282C7E
+--ADSSVGSGLQCGARACQMLPVLRGAEEVSQVPQDLS---
+>UniRef100_UPI0005400CCC BAG family molecular chaperone regulator 3 n=1 Tax=Fukomys damarensis TaxID=885580 RepID=UPI0005400CCC
+--GAPPIQLRLCLTVSERTWASSLVFSYGSVVLGTLRA---
+>UniRef100_UPI000766399F BAG family molecular chaperone regulator 3 n=1 Tax=Panthera tigris altaica TaxID=74533 RepID=UPI000766399F
+--EEEDEQNGHRHQPGDPDWNSW---GSLTLVAQPVFG---
+>UniRef100_UPI000788D4CF BAG family molecular chaperone regulator 3 n=1 Tax=Rousettus aegyptiacus TaxID=9407 RepID=UPI000788D4CF
+--STKKHPVSRCCLL-----PPFRSLPHGKNVVLNVKP---
+>UniRef100_UPI0008166CB6 BAG family molecular chaperone regulator 3 n=1 Tax=Corvus brachyrhynchos TaxID=85066 RepID=UPI0008166CB6
+--SKAPLERGVTVGQTPSAAPRGSSRPFHMACAGRERL---
+>UniRef100_UPI0012AC4C88 BAG family molecular chaperone regulator 3 n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=UPI0012AC4C88
+--KGRALVLSAASSSKPHSGLASSTSSCQRSARLQYRY---
+>UniRef100_UPI001402CF51 BAG family molecular chaperone regulator 3 n=1 Tax=Tyto alba alba TaxID=507980 RepID=UPI001402CF51
+-----VRCEMYVTCCCRQDRPLGQLFLTRCIRLSSQQV---
+>UniRef100_A0A4S2LCI0 WW domain-containing protein (Fragment) n=1 Tax=Opisthorchis felineus TaxID=147828 RepID=A0A4S2LCI0_OPIFE
+--ESLPLPPNWETRFDDSRRWFFINHSTKSTTWEDPRPAY-
+>UniRef100_A0A183IXC6 Uncharacterized protein n=1 Tax=Soboliphyme baturini TaxID=241478 RepID=A0A183IXC6_9BILA
+--EEDPLPLGWETRFDEYGRRYYVDHNTRSTTWERPTSEPL
+>UniRef100_UPI001267376D E3 ubiquitin-protein ligase Smurf1-like n=1 Tax=Photinus pyralis TaxID=7054 RepID=UPI001267376D
+-PQEDELPPGWEERRTPNGRLYYVNHITLTTQWLKPHVS--
+>UniRef100_A0A4Z2BPH2 Uncharacterized protein n=1 Tax=Takifugu bimaculatus TaxID=433685 RepID=A0A4Z2BPH2_9TELE
+---DEPLPPSLGGSYRQPWPNILRGPCEQNHNLAAS-----
+>UniRef100_A0A653BF25 Uncharacterized protein n=2 Tax=Callosobruchus maculatus TaxID=64391 RepID=A0A653BF25_CALMS
+----DATDSGVEVSNSRDRHSLRSEADLSEAGYNGSA----
+>UniRef100_C3ZML1 Uncharacterized protein n=1 Tax=Branchiostoma floridae TaxID=7739 RepID=C3ZML1_BRAFL
+----GDLPPPWRYAVTRDSRIYFINDENMSTSWLHPL----
+>UniRef100_F2U9A0 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U9A0_SALR5
+----DRLPDEWEKAVTDDGTPYYINHTTRQTQWTDPRLESC
+>UniRef100_UPI001401CB55 uncharacterized protein LOC116940453 isoform X1 n=1 Tax=Petromyzon marinus TaxID=7757 RepID=UPI001401CB55
+--DLGPLPPGWEENVHTDGRTYYTNHNTQKTQWEDPRLQNC
+>UniRef100_K3WI11 WW domain-containing protein n=1 Tax=Globisporangium ultimum (strain ATCC 200006 / CBS 805.95 / DAOM BR144) TaxID=431595 RepID=K3WI11_GLOUD
+------LPDGWETRFTEKGKPYFCNHSQRSTQWKHPK----
+>UniRef100_A0A1W0WKU5 WW domain-containing protein n=1 Tax=Hypsibius dujardini TaxID=232323 RepID=A0A1W0WKU5_HYPDU
+--ESVRLPFGWSVDWTQSGRRYFIDHNTRTTHWIPP-----
+>UniRef100_A0A1V4KDZ8 HECT-type E3 ubiquitin transferase n=1 Tax=Patagioenas fasciata monilis TaxID=372326 RepID=A0A1V4KDZ8_PATFA
+-----PVPCLFEFVPGSNGPQKFCIEKVGKENWL-PR----
+>UniRef100_A0A504ZAJ9 E3 ubiquitin-protein ligase n=1 Tax=Fasciola gigantica TaxID=46835 RepID=A0A504ZAJ9_FASGI
+--EADPLPPGWDERVDQNGRVYYVDHVNKRTQWDRPSFSL-
+>UniRef100_A0A1S3FR71 E3 ubiquitin-protein ligase SMURF1 n=1 Tax=Dipodomys ordii TaxID=10020 RepID=A0A1S3FR71_DIPOR
+--VRGQRGEGRSRGLCCSEAIVLWGAGGGGARPSPPRRKLA
+>UniRef100_A0A444U3B6 HECT-type E3 ubiquitin transferase n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=A0A444U3B6_ACIRT
+--DLGPLPPGWEVRSTVSGRIYFVDHNNRTTQFTDPRLHHI
+>UniRef100_UPI00064BCA8C E3 ubiquitin-protein ligase SMURF1 n=1 Tax=Ochotona princeps TaxID=9978 RepID=UPI00064BCA8C
+--ELGPLPPGWEVRSTVSGRIYFVDHNNRTTQFTDPRLHHI
+>UniRef100_A0A6J0BHI0 E3 ubiquitin-protein ligase HECW2 n=1 Tax=Neodiprion lecontei TaxID=441921 RepID=A0A6J0BHI0_NEOLC
+---LKELPRGYESKLDRTGKRFFISHARKATSFIDPRLPT-
+>UniRef100_UPI00096B5633 LOW QUALITY PROTEIN: E3 ubiquitin-protein ligase HECW2-like n=1 Tax=Aethina tumida TaxID=116153 RepID=UPI00096B5633
+---SLDLPVGWDTKKDRNDKQFFIDHTNKRTTYMDPRVPT-
+>UniRef100_UPI000EAB45DC E3 ubiquitin-protein ligase HECW2-like isoform X3 n=1 Tax=Ceratina calcarata TaxID=156304 RepID=UPI000EAB45DC
+---SKELPRGYDSKLDRTGKRFFICHARKATSFIDPRLPT-
+>UniRef100_UPI0011E50F8F LOW QUALITY PROTEIN: E3 ubiquitin-protein ligase HECW2-like n=1 Tax=Rhodamnia argentea TaxID=178133 RepID=UPI0011E50F8F
+---NDPLPPDWDVKVDDDGKSIFIDHKRKTTTYVDPRLPS-
+>UniRef100_A0A0V0Y9M9 HECT-type E3 ubiquitin transferase n=1 Tax=Trichinella pseudospiralis TaxID=6337 RepID=A0A0V0Y9M9_TRIPS
+-------TSGWSEVFHSQHKDYHLDT--KTTQWEDPRF---
+>UniRef100_A0A226N3Y7 HECT-type E3 ubiquitin transferase n=1 Tax=Callipepla squamata TaxID=9009 RepID=A0A226N3Y7_CALSU
+--DLGPLPVGWLPKSGEVIMKYLAD--TKKTQWEDPRL---
+>UniRef100_G0U1C5 Uncharacterized protein n=1 Tax=Trypanosoma vivax (strain Y486) TaxID=1055687 RepID=G0U1C5_TRYVY
+-PQRADLLPFWEEHFDPVGRSFYVNQQTRETTWVRP-----
+>UniRef100_W6LBH1 Uncharacterized protein n=1 Tax=Phytomonas sp. isolate Hart1 TaxID=134013 RepID=W6LBH1_9TRYP
+------LPPNWEAHVDPTGRTFFINHETNESSWNIP-----
+>UniRef100_T1FS72 Uncharacterized protein n=1 Tax=Helobdella robusta TaxID=6412 RepID=T1FS72_HELRO
+--GDERLPDGWEMRIDPTRWPFFIDHINKSTTWIDPRETF-
+>UniRef100_A0A024UAR5 Calmodulin n=1 Tax=Aphanomyces invadans TaxID=157072 RepID=A0A024UAR5_9STRA
+------LPEKWDMQFTPKGKPYFRNFTTRSTQWNHPV----
+>UniRef100_E9FVX5 Uncharacterized protein (Fragment) n=1 Tax=Daphnia pulex TaxID=6669 RepID=E9FVX5_DAPPU
+--DSRPLPSGWEARLDKHGRPFYVDHQNKSTWYIDPRLPQL
+>UniRef100_A0A6A6CHF7 Uncharacterized protein n=1 Tax=Zasmidium cellare ATCC 36951 TaxID=1080233 RepID=A0A6A6CHF7_9PEZI
+LADTYALPSGWEERHLPDGRSYYIDHVTRTTSWERP-----
+>UniRef100_A0A6A4TDE9 HECT-type E3 ubiquitin transferase n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=A0A6A4TDE9_SCOMX
+IPTSAELPPGWEEKRDSKGRRYYINHNSRATTWTRPLIQ--
+>UniRef100_UPI00023EA0F1 syntaxin-binding protein 4-like isoform X1 n=1 Tax=Amphimedon queenslandica TaxID=400682 RepID=UPI00023EA0F1
+LSAGVELPEGWEVAYTADGEKYYINHGNRKTSWEHPETRL-
+>UniRef100_A0A0S7K3D5 MAGI1 n=1 Tax=Poeciliopsis prolifica TaxID=188132 RepID=A0A0S7K3D5_9TELE
+----FDMIDCLLPAELLRCCLFPLSHNTKTTSWLDPRC---
+>UniRef100_A0A0C3DDW0 Uncharacterized protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3DDW0_9PEZI
+----DDLPAGLEAAISKSGRTYYIDHNTKTTSWMHPRGAQF
+>UniRef100_A0A0C3GUA7 WW domain-containing protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3GUA7_9PEZI
+-----DLPPNFASATDPTGKTYYINEKEGTTSFTHPRHTEL
+>UniRef100_A0A1E1XBZ3 WW domain-containing oxidoreductase (Fragment) n=1 Tax=Amblyomma aureolatum TaxID=187763 RepID=A0A1E1XBZ3_9ACAR
+--SEDELPAGWEERTTSDGAVYYADHLGQRTQWTHPR----
+>UniRef100_A0A4Z2GVN7 Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1 n=1 Tax=Liparis tanakae TaxID=230148 RepID=A0A4Z2GVN7_9TELE
+----EEEEEQEEQEEEEEEEVSCL----KTGSWPSVTQES-
+>UniRef100_UPI00077CFDD7 membrane-associated guanylate kinase, WW and PDZ domain-containing protein 1-like isoform X1 n=1 Tax=Nothobranchius furzeri TaxID=105023 RepID=UPI00077CFDD7
+------MMSMMMLMMMTTSVFVFISHKSKTTSWLDPHSQM-
+>UniRef100_UPI000359377D uncharacterized protein LOC101852180 n=1 Tax=Aplysia californica TaxID=6500 RepID=UPI000359377D
+------WPRSPSAMLLVTGSRGTLDHNNEVTTFSPP-----
+>UniRef100_UPI000BAF5631 uncharacterized protein LOC111122855 isoform X1 n=2 Tax=Crassostrea virginica TaxID=6565 RepID=UPI000BAF5631
+MLDRDPMPPGWEARWDPNNAYFFVDHNSRQTTWVDPRL---
+>UniRef100_UPI0011E50F8F LOW QUALITY PROTEIN: E3 ubiquitin-protein ligase HECW2-like n=1 Tax=Rhodamnia argentea TaxID=178133 RepID=UPI0011E50F8F
+----NASSATIVDCDSIDGNCLSSSATNQARSYNAF-----
+>UniRef100_A0A267EQ15 WW domain-containing protein n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A267EQ15_9PLAT
+-----PMPPGWEMKYDFNKRYFYIDHTNKVTSWDDPRQKY-
+>UniRef100_A0A0N1HZ37 Uncharacterized protein n=1 Tax=Leptomonas seymouri TaxID=5684 RepID=A0A0N1HZ37_LEPSE
+------LPQGWEQLVDHTGRTFYVDNINKVTSWTMP-----
+>UniRef100_K2MK44 Uncharacterized protein n=1 Tax=Trypanosoma cruzi marinkellei TaxID=85056 RepID=K2MK44_TRYCR
+------ATKDWDECVDPSGRKYYVNRHTKQTTWTLP-----
+>UniRef100_A0A2G8LA36 Putative BAG family molecular chaperone regulator 3 n=1 Tax=Stichopus japonicus TaxID=307972 RepID=A0A2G8LA36_STIJA
+VTTEDPLPSGWEMVIHPDGWPVFVNHNTKTTSFTDPRPA--
+>UniRef100_A0A183AZW6 Uncharacterized protein n=1 Tax=Echinostoma caproni TaxID=27848 RepID=A0A183AZW6_9TREM
+VDFSPSLSASWERRLDPNNRVYYVDHNTRTTTWQHPSPTLL
+>UniRef100_A0A2G9RUP3 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Lithobates catesbeianus TaxID=8400 RepID=A0A2G9RUP3_LITCT
+MADQEKLAPGWEKRMRSSGRVYYFNHMTNASQWERP-----
+>UniRef100_A0A3L7HUA0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Cricetulus griseus TaxID=10029 RepID=A0A3L7HUA0_CRIGR
+LPPESPCQCQWQRPERIGIRVYYFNHITNASQWERP-----
+>UniRef100_A0A401NPJ4 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Scyliorhinus torazame TaxID=75743 RepID=A0A401NPJ4_SCYTO
+SDQYFGIYSSWSRI-KLHGRIYFFNHITNRSQWERP-----
+>UniRef100_S7MG99 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Myotis brandtii TaxID=109478 RepID=S7MG99_MYOBR
+IGDLKKLIKKWYTIFDHVSRVYYFNHITNASQWERP-----
+>UniRef100_UPI0004F4E0EF peptidyl-prolyl cis-trans isomerase NIMA-interacting 1-like n=1 Tax=Pygoscelis adeliae TaxID=9238 RepID=UPI0004F4E0EF
+VAEHSQKSLCRRGQADSWGRVYYFNHITNASQWERP-----
+>UniRef100_UPI00051E30F1 peptidyl-prolyl cis-trans isomerase NIMA-interacting 1 n=1 Tax=Struthio camelus australis TaxID=441894 RepID=UPI00051E30F1
+-ASSRGLTFYNPDALLSAGRVYYFNHITNASQWERP-----
+>UniRef100_UPI0003F05E5F dystrophin, isoforms A/C/F/G/H-like n=1 Tax=Saccoglossus kowalevskii TaxID=10224 RepID=UPI0003F05E5F
+------GLEGWDRSETNSGIPYYINHYTERTQWDHPNFVKF
+>UniRef100_A0A2P6N1E1 Rho GTPase activating protein n=1 Tax=Planoprotostelium fungivorum TaxID=1890364 RepID=A0A2P6N1E1_9EUKA
+IVRDMSMPPGWEESVDPKGRTYYIDRKNRKTQWEHPRAS--
+>UniRef100_K1QIS6 WW domain-containing protein n=1 Tax=Crassostrea gigas TaxID=29159 RepID=K1QIS6_CRAGI
+--DQESLPPGWEARWNAQKAYFYIDHNSRQTTWVDPRL---
+>UniRef100_A0A0V0Y9M9 HECT-type E3 ubiquitin transferase n=1 Tax=Trichinella pseudospiralis TaxID=6337 RepID=A0A0V0Y9M9_TRIPS
+-FETDEIEVDYFFLRLISYASLVHNADGLARDWTFIRRG--
+>UniRef100_C3YBE1 HECT-type E3 ubiquitin transferase n=1 Tax=Branchiostoma floridae TaxID=7739 RepID=C3YBE1_BRAFL
+--------PRQAAAASPQPHRSMMPRAATVTSPAAGTLD--
+>UniRef100_S4RL99 HECT-type E3 ubiquitin transferase n=1 Tax=Petromyzon marinus TaxID=7757 RepID=S4RL99_PETMA
+-PGFSFLPAGWEMRFAPNGRPFFIDHNNRTTTWSHISLS--
+>UniRef100_UPI001470CD38 E3 ubiquitin-protein ligase HECW2-like n=1 Tax=Thalassophryne amazonica TaxID=390379 RepID=UPI001470CD38
+--IEDMLDLTFTVNEEVFGQINKKEYIERMVKWRIER----
+>UniRef100_A7T3M8 Predicted protein (Fragment) n=3 Tax=Nematostella vectensis TaxID=45351 RepID=A7T3M8_NEMVE
+---ECKLPEGWERSETTSGIPYYINHETEKTQWDHPAMIQL
+>UniRef100_A0A0N4ZNW2 E3 ubiquitin-protein ligase n=1 Tax=Parastrongyloides trichosuri TaxID=131310 RepID=A0A0N4ZNW2_PARTI
+----QPLPYGWQELSNDSFTKFYANHKTKQITAIDPRLPI-
+>UniRef100_W4GWG8 Uncharacterized protein n=2 Tax=Aphanomyces astaci TaxID=112090 RepID=W4GWG8_9STRA
+-PSSLPLPPGWEELRDAQGRVYFVDHATRTTTWIDPRESQL
+>UniRef100_A0A6A6Y8L4 uncharacterized protein n=1 Tax=Mytilinidion resinicola TaxID=574789 RepID=A0A6A6Y8L4_9PEZI
+IEPDLGLPSGWDQRTTEAGKIYYMDHRNRLTQWVPP-----
+>UniRef100_A0A1I8C8R8 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Rhabditophanes sp. KR3021 TaxID=114890 RepID=A0A1I8C8R8_9BILA
+--EDAPLPKNWEYRHSSSGVGYYINKQTGQSQWEKP-----
+>UniRef100_UPI000B92C6A8 putative peptidyl-prolyl cis-trans isomerase dodo isoform X2 n=1 Tax=Pieris rapae TaxID=64459 RepID=UPI000B92C6A8
+--KDGPLPEGWEMRKSRSGMAYFLNTYTKKSQWERP-----
+>UniRef100_T1PIF2 WW domain protein n=1 Tax=Musca domestica TaxID=7370 RepID=T1PIF2_MUSDO
+VEEELPLPPGWATHYTLHGRKYYVDHNAHTTHWSHP-----
+>UniRef100_A0A4Q9LX33 HECT-type E3 ubiquitin transferase n=1 Tax=Hamiltosporidium tvaerminnensis TaxID=1176355 RepID=A0A4Q9LX33_9MICR
+--VAVALPANWEENFTKNGIPYYINHDYRITTWVRP-----
+>UniRef100_C4V987 HECT-type E3 ubiquitin transferase n=1 Tax=Nosema ceranae (strain BRL01) TaxID=578460 RepID=C4V987_NOSCE
+--TTSSLPLGWETAVYKKRI-LYVNHNIKLCYWKSP-----
+>UniRef100_S7W727 HECT-type E3 ubiquitin transferase n=1 Tax=Spraguea lophii (strain 42_110) TaxID=1358809 RepID=S7W727_SPRLO
+--DPVDVIEGWEKRIDNNGKTFYIDHYNRTTHRSYP-----
+>UniRef100_A0A165E4C4 Uncharacterized protein n=1 Tax=Calocera cornea HHB12733 TaxID=1353952 RepID=A0A165E4C4_9BASI
+----RPLPPGWEIFRTREHKIYYVDHNTRSMSEWDPRYPI-
+>UniRef100_A0A1S3HHH4 pleckstrin homology domain-containing family A member 7-like n=1 Tax=Lingula unguis TaxID=7574 RepID=A0A1S3HHH4_LINUN
+LTASSDLPRGWEHAFNSDGVLYFIDHNTQVSTFTHP-----
+>UniRef100_G0U1C5 Uncharacterized protein n=1 Tax=Trypanosoma vivax (strain Y486) TaxID=1055687 RepID=G0U1C5_TRYVY
+-----KVIQFWEKHMDPTGRPFYVNRQTRETTWAPPP----
+>UniRef100_W6LBH1 Uncharacterized protein n=1 Tax=Phytomonas sp. isolate Hart1 TaxID=134013 RepID=W6LBH1_9TRYP
+-----NAQDEWESRVDPTNRIFYVNHATRQTSWTRPG----
+>UniRef100_UPI0004BE0695 E3 ubiquitin-protein ligase HECW2-like n=1 Tax=Equus przewalskii TaxID=9798 RepID=UPI0004BE0695
+------FQSHLKLTT-TLPRAFFVDHNSRTTTFIDPRL---
+>UniRef100_A0A6F9AK17 Uncharacterized protein n=1 Tax=Coregonus sp. 'balchen' TaxID=861768 RepID=A0A6F9AK17_9TELE
+---VERVREGGETERGSHGEDGETERGSHGEDGETERE---
+>UniRef100_A0A1E1XKL9 Putative e3 ubiquitin ligase (Fragment) n=1 Tax=Amblyomma sculptum TaxID=1581419 RepID=A0A1E1XKL9_9ACAR
+VELEEPLPPHWEARIDSHGRIFYIDHLNRTTTWNRPSLSQ-
+>UniRef100_A0A2K6K0T5 Uncharacterized protein n=1 Tax=Rhinopithecus bieti TaxID=61621 RepID=A0A2K6K0T5_RHIBE
+--IIVYFGNM-------KQPNHFCNRTIKLYYFLLEIVL--
+>UniRef100_A0A4W5Q3I9 Membrane associated guanylate kinase, WW and PDZ domain containing 2 n=1 Tax=Hucho hucho TaxID=62062 RepID=A0A4W5Q3I9_9TELE
+--ELGPLPDNWEMAYTEKGEVGYID-LCSIWQPPHQGKR--
+>UniRef100_H2ZDG5 Uncharacterized protein n=1 Tax=Ciona savignyi TaxID=51511 RepID=H2ZDG5_CIOSA
+--LIKQARDPVRFKTVKEGQTLTKD----LKQYLSQRFN--
+>UniRef100_A0A0R3X742 WW domain-containing protein n=1 Tax=Hydatigena taeniaeformis TaxID=6205 RepID=A0A0R3X742_HYDTA
+-PNTEGLPPHWEQRTDPSGRTYYVDHLTKRTQWEKPQ----
+>UniRef100_A9V217 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9V217_MONBE
+--NDSELPFGWDEGETEDGKQFWINHLDGSHHDEHPRIKM-
+>UniRef100_A9VD85 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9VD85_MONBE
+--EGDELPYGWDQAQTAKGEYYYIDHNTGTTHWLHPRLLL-
+>UniRef100_A0A553Q7B8 Uncharacterized protein n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553Q7B8_9TELE
+----GALPYGWEQETDESGHIVYVDHINKRRTFFDPRQAF-
+>UniRef100_W4YSL9 Uncharacterized protein n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=W4YSL9_STRPU
+--DLGPLPTEWEIAFTETGDMYYIDHRDERTQWLDPRL---
+>UniRef100_A0A3Q0KSG6 WW domain-containing protein n=3 Tax=Schistosoma TaxID=6181 RepID=A0A3Q0KSG6_SCHMA
+--SDKPLPPNWESRLDSSGLWFYINHEEKTTSWDDPRPAY-
+>UniRef100_T1EHL2 WW domain-containing protein n=1 Tax=Helobdella robusta TaxID=6412 RepID=T1EHL2_HELRO
+---DHELPFGWEKVRDVHGDVYYVNHHKKTTQIEDPRIQ--
+>UniRef100_L1IZV3 WW domain-containing protein (Fragment) n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1IZV3_GUITC
+-----PLPKNWSEHEARDGRVYFYNRRTDHTQWEHP-----
+>UniRef100_L1J063 WW domain-containing protein (Fragment) n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1J063_GUITC
+-----KLPENWKEFFTADGQSYFYNDSQKKTQWEHP-----
+>UniRef100_UPI00077AF89E WW domain-containing oxidoreductase-like n=1 Tax=Acropora digitifera TaxID=70779 RepID=UPI00077AF89E
+LGTEDDLPDGWDVRTMDDGRIYYVNHVLQATQWGHPQ----
+>UniRef100_A0A6H5JUP4 Uncharacterized protein n=1 Tax=Ectocarpus sp. CCAP 1310/34 TaxID=867726 RepID=A0A6H5JUP4_9PHAE
+--DGRPLPEGWEMQTTDQGIPYYVDHMNKRTSWDPP-----
+>UniRef100_A0A0C4DPV6 Uncharacterized protein n=1 Tax=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) TaxID=644358 RepID=A0A0C4DPV6_MAGP6
+--DDVPVP-PWCRARSTFGQLYYITFDTKSVSRTHP-----
+>UniRef100_A0A0C4DQI3 Uncharacterized protein n=1 Tax=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) TaxID=644358 RepID=A0A0C4DQI3_MAGP6
+--DHIPVPEPWERKRDQEGRVFYVNHATRTTAWRHP-----
+>UniRef100_A0A0C4E7R6 WW domain-containing protein n=1 Tax=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) TaxID=644358 RepID=A0A0C4E7R6_MAGP6
+--DDHPVPERWERRRDGQDRVYYLDRESKTTQWQHP-----
+>UniRef100_J3NSG9 WW domain-containing protein n=1 Tax=Gaeumannomyces tritici (strain R3-111a-1) TaxID=644352 RepID=J3NSG9_GAET3
+--DDYTVPRHRERRRDDKGRAYYLNHEAKKTQWEHP-----
+>UniRef100_J3PEB5 WW domain-containing protein n=1 Tax=Gaeumannomyces tritici (strain R3-111a-1) TaxID=644352 RepID=J3PEB5_GAET3
+--VPAPVPAPWEREGREPGEVEYRNRDTGAVEGIHP-----
+>UniRef100_A0A0R3Q723 Uncharacterized protein n=1 Tax=Brugia timori TaxID=42155 RepID=A0A0R3Q723_9BILA
+LKEDLTLPPNWAVEVTSEGIRYYVDHNNRRTHWIHP-----
+>UniRef100_UPI00084A9C2E WW domain-containing oxidoreductase-like isoform X3 n=1 Tax=Hyalella azteca TaxID=294128 RepID=UPI00084A9C2E
+--SEDELGPGWEERVTNDGQVFYAHHGLKATQWNHPR----
+>UniRef100_A0A6G1SLG8 Protein kibra n=1 Tax=Aceria tosichella TaxID=561515 RepID=A0A6G1SLG8_9ACAR
+LGSQGGLPSQWEQAYDPSNRYFYVDHNNKTTTWINP-----
+>UniRef100_UPI0006763F70 E3 ubiquitin-protein ligase Su(dx)-like n=1 Tax=Papilio polytes TaxID=76194 RepID=UPI0006763F70
+--SREWF---FLLSHEVLNPMYCLFEYANKNNYS-------
+>UniRef100_UPI0007A71101 BAG family molecular chaperone regulator 3 n=1 Tax=Miniopterus natalensis TaxID=291302 RepID=UPI0007A71101
+--LHHHLLHGKQLSPSPVSFNVL-------STWNSSDL---
+>UniRef100_A9V1E0 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9V1E0_MONBE
+---DEELPARWECLVDANGLCYYVDHETKTSSWIHPRFT--
+>UniRef100_D7G818 Ubiquitin-protein ligase n=1 Tax=Ectocarpus siliculosus TaxID=2880 RepID=D7G818_ECTSI
+---DSPLPPGWGRSVTPNGELYYVNHVSKTTTWSRPQ----
+>UniRef100_A0A0D2VP63 Uncharacterized protein n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2VP63_CAPO3
+--SDEHLPSGWERGVTSNGRTFYVDHTTRTTHWSIP-----
+>UniRef100_A0A0L0DSL0 HECT-type E3 ubiquitin transferase n=1 Tax=Thecamonas trahens ATCC 50062 TaxID=461836 RepID=A0A0L0DSL0_THETB
+--QLGPMPPGWELGSEGAAKPYFINHSLRKTTWDDPRVP--
+>UniRef100_UPI00123B6682 BAG family molecular chaperone regulator 3 isoform X1 n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=UPI00123B6682
+ITIDDPLPKNWEMLTDPTGWLFFVNHAARATTWEDPRDA--
+>UniRef100_UPI0005151CE6 protein KIBRA-like n=1 Tax=Phalacrocorax carbo TaxID=9209 RepID=UPI0005151CE6
+----DELPLGWETVYDQQIGVYYMDHINQLTQIEDPREQ--
+>UniRef100_W4YGS3 HECT-type E3 ubiquitin transferase n=1 Tax=Strongylocentrotus purpuratus TaxID=7668 RepID=W4YGS3_STRPU
+---QGDLPRGWETKKDKSGKDFFIDHNNRATSFIDPRLPL-
+>UniRef100_A0A166CZR4 WW domain-containing protein n=1 Tax=Sistotremastrum suecicum HHB10207 ss-3 TaxID=1314776 RepID=A0A166CZR4_9AGAM
+----GPLPPHWEMRLSSDNRVFFVDYESGQSTWRDPRLTL-
+>UniRef100_A0A401T5D8 WW domain-containing protein n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401T5D8_CHIPU
+-----PLPKYWNSAVTRDGRIFFIDDLTCSTTWIDPR----
+>UniRef100_A0A0L7LG22 WW domain-containing oxidoreductase n=1 Tax=Operophtera brumata TaxID=104452 RepID=A0A0L7LG22_9NEOP
+--SEDELPSGWKEKSTMDGNVYYVNDYTNKIQWVHP-----
+>UniRef100_V9KM58 BAG family molecular chaperone regulator 4-like protein (Fragment) n=1 Tax=Callorhinchus milii TaxID=7868 RepID=V9KM58_CALMI
+MASEGPLPRGWEVRRDPTGWPYYINHNTGTTSWEPPR----
+>UniRef100_A0A672Z584 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Sphaeramia orbicularis TaxID=375764 RepID=A0A672Z584_9TELE
+--LASLLPSVWKETVQY--RVYFFNHITNCSQWERP-----
+>UniRef100_A0A139WDJ4 WW domain-containing oxidoreductase n=2 Tax=Tribolium castaneum TaxID=7070 RepID=A0A139WDJ4_TRICA
+---SGDLPFGWERCIDKTGKVIYVDHENRRTTYTDPRLAFA
+>UniRef100_A0A182K0M2 WW domain-containing oxidoreductase n=1 Tax=Anopheles christyi TaxID=43041 RepID=A0A182K0M2_9DIPT
+---SGELPIGWTRHIEEDRKVIFVEEKTQRKSYTDPRLAFA
+>UniRef100_A0A1I8P175 WW domain-containing oxidoreductase n=1 Tax=Stomoxys calcitrans TaxID=35570 RepID=A0A1I8P175_STOCA
+---TTELPLGWEKRFEEGQKTVFFNTLTNQTTHIDPRLAFA
+>UniRef100_A0A1Z5L1X3 WW domain-containing oxidoreductase (Fragment) n=1 Tax=Ornithodoros moubata TaxID=6938 RepID=A0A1Z5L1X3_ORNMO
+---SPNLPFGWRKSVSPDGAVTYEEITSGRISSTDPRLAFP
+>UniRef100_UPI0007E7458E WW domain-containing oxidoreductase isoform X2 n=1 Tax=Drosophila biarmipes TaxID=125945 RepID=UPI0007E7458E
+---TGHLPLGWEKYYDEDKRFMFLNKETQQRTNVDPRLAFA
+>UniRef100_A0A654GKW0 WW domain-containing protein n=1 Tax=Sparganum proliferum TaxID=64606 RepID=A0A654GKW0_9CEST
+------LPSEYQMAINDENQVYFLNHKTKETTWFDPRI---
+>UniRef100_A0A1B6G035 WW domain-containing protein (Fragment) n=1 Tax=Cuerna arida TaxID=1464854 RepID=A0A1B6G035_9HEMI
+--DQSDLPDGWEERCTETGQAYYVNRELRLSQWKRPQ----
+>UniRef100_D7G0H2 WW domain-containing protein n=1 Tax=Ectocarpus siliculosus TaxID=2880 RepID=D7G0H2_ECTSI
+----LPLPPGWEEKVASDGRTFFVDHKKVPAALWSAFFAVF
+>UniRef100_W4GX32 WW domain-containing protein n=1 Tax=Aphanomyces astaci TaxID=112090 RepID=W4GX32_9STRA
+-PVQRTLPLGWDTAVDSKGRRYYIDHVRKQTTWDAPPEHII
+>UniRef100_A0A0G4J505 Uncharacterized protein n=1 Tax=Plasmodiophora brassicae TaxID=37360 RepID=A0A0G4J505_PLABS
+--DPRYLPPGWEQSITLDGDVFFFSHVTKNSTWTDPR----
+>UniRef100_A0A0D2WLI7 Uncharacterized protein n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2WLI7_CAPO3
+--EDEPWPAGWEKVEAPEGKLYFHDHNSKITYWTDPRLRV-
+>UniRef100_A0A674F457 Syntaxin binding protein 4 n=1 Tax=Salmo trutta TaxID=8032 RepID=A0A674F457_SALTR
+ILEVEYLPYGWEEAYTAEGTQPNISALISVLHA--------
+>UniRef100_A0A2J7RCM1 HECT-type E3 ubiquitin transferase (Fragment) n=1 Tax=Cryptotermes secundus TaxID=105785 RepID=A0A2J7RCM1_9NEOP
+--NSEGLPQGWIMQVAPSGRVFFIDHNERAITWVDPHIG--
+>UniRef100_A0A0L0DQY7 WW domain-containing protein n=1 Tax=Thecamonas trahens ATCC 50062 TaxID=461836 RepID=A0A0L0DQY7_THETB
+-PSGVHLPEFWEERTAPDGRIYYLNHKDRSTHWKPP-----
+>UniRef100_A0A672R7M2 WW domain-containing protein n=1 Tax=Sinocyclocheilus grahami TaxID=75366 RepID=A0A672R7M2_SINGR
+------MPLVGCF-FTFSSPLFFSSEEAKSTTWLHPV----
+>UniRef100_A9V217 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9V217_MONBE
+----GPLPPQWRKALDPTERFYFKDYQTQTTTWIDPRSG--
+>UniRef100_L5L3U0 Protein WWC3 n=1 Tax=Pteropus alecto TaxID=9402 RepID=L5L3U0_PTEAL
+----SKQRRGAAGLVAPE---SKRSVRRELTQIEDPR----
+>UniRef100_UPI0004D047D9 LOW QUALITY PROTEIN: protein WWC3 n=1 Tax=Galeopterus variegatus TaxID=482537 RepID=UPI0004D047D9
+----DKLLLXWETVYDKQIEIYYMDHINKLTQIENPR----
+>UniRef100_A9V4T7 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9V4T7_MONBE
+--ENDDLPQGWEEIWDPTQKMFYVDHNTQTTTWVHP-----
+>UniRef100_A0A0D2W0H7 Uncharacterized protein n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2W0H7_CAPO3
+-PSTLPIPPGWNMRKDHTAKVFFVNHNSQSTTWVDPRDRF-
+>UniRef100_UPI000BAFB18F uncharacterized protein LOC111126576 isoform X1 n=1 Tax=Crassostrea virginica TaxID=6565 RepID=UPI000BAFB18F
+-PGTDGQPYGWECAIDKSDKSYFINHIEKYTTRDDPR----
+>UniRef100_A0A0L0DX74 Uncharacterized protein n=1 Tax=Thecamonas trahens ATCC 50062 TaxID=461836 RepID=A0A0L0DX74_THETB
+LPLAAALPPGWEERHDPSGQPYYVDHKSQATHWSMPPEAY-
+>UniRef100_A0A2I1GCC4 WW domain-containing protein n=1 Tax=Rhizophagus irregularis TaxID=588596 RepID=A0A2I1GCC4_9GLOM
+IEMSTPLPPGWNSYVDYNGRVYYHDTNTGISQWEHPQ----
+>UniRef100_A0A0G4ECB1 Uncharacterized protein n=1 Tax=Vitrella brassicaformis (strain CCMP3155) TaxID=1169540 RepID=A0A0G4ECB1_VITBC
+--EEIELPPNWEMRKDRTGRPYFADHRSKCTCWTDPRF---
+>UniRef100_A0A4S2L012 E3 ubiquitin-protein ligase n=1 Tax=Temnothorax longispinosus TaxID=300112 RepID=A0A4S2L012_9HYME
+--QLGPLPEGWEERIQEQHRVCLILK--LLARYDYKCF---
+>UniRef100_A0A2K5JY58 Uncharacterized protein n=1 Tax=Colobus angolensis palliatus TaxID=336983 RepID=A0A2K5JY58_COLAP
+--QSTDLPTGWEEAYTFEGARYYINWIDFLFILPESRR---
+>UniRef100_UPI0002B463C7 E3 ubiquitin-protein ligase SMURF1-like n=1 Tax=Hydra vulgaris TaxID=6087 RepID=UPI0002B463C7
+VQTNSSLPNSIQNRRSGNASDTFANDNNLVNDLNGA-----
+>UniRef100_UPI000549B35D E3 ubiquitin-protein ligase SMURF1-like n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=UPI000549B35D
+LSCFMEEPAPYTDTTGAAG-----GGNCRFVESPSQ-----
+>UniRef100_A0A1Y1Y6L3 WW domain-containing protein n=1 Tax=Basidiobolus meristosporus CBS 931.73 TaxID=1314790 RepID=A0A1Y1Y6L3_9FUNG
+---DSPLPYGWTAQTDQSGKTYFIETSSGTVTWEDPRLVF-
+>UniRef100_F2U1K0 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U1K0_SALR5
+-PGETPLPSGWRMMFDEDGDVFYVDDNSGTRTYDDPRL---
+>UniRef100_UPI001401D636 protein salvador homolog 1-like isoform X1 n=1 Tax=Petromyzon marinus TaxID=7757 RepID=UPI001401D636
+--EEPPLPIGWSAERTAHGRRFYIDRNTGTTHWSHPR----
+>UniRef100_A0A1B6F4J8 Uncharacterized protein (Fragment) n=1 Tax=Cuerna arida TaxID=1464854 RepID=A0A1B6F4J8_9HEMI
+IISSCGCA-----SSKRLSPQFYSSHVNKTTSYEDPRT---
+>UniRef100_A0A443SGM6 FERM and PDZ domain-containing protein 4-like protein (Fragment) n=1 Tax=Leptotrombidium deliense TaxID=299467 RepID=A0A443SGM6_9ACAR
+YSSDPGLPYGWEIAVDKKGKPYYINHVNKTTTYENPRK---
+>UniRef100_A0A151ZGG4 Uncharacterized protein n=1 Tax=Tieghemostelium lacteum TaxID=361077 RepID=A0A151ZGG4_9MYCE
+---QAFLPEGWEQRVHTNGQIYYVHHPTKSTHWELP-----
+>UniRef100_A0A024GV07 Uncharacterized protein n=1 Tax=Albugo candida TaxID=65357 RepID=A0A024GV07_9STRA
+LPVDLALPEEWQEMTDDNGYTFFADHKNQITTWVDPRLP--
+>UniRef100_A0A2I0LLK5 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Columba livia TaxID=8932 RepID=A0A2I0LLK5_COLLI
+-TRWDKIVLKFKDHVTLDCRVYYFNHLTNASQWERP-----
+>UniRef100_A0A0D2LST6 WW domain-containing protein n=1 Tax=Monoraphidium neglectum TaxID=145388 RepID=A0A0D2LST6_9CHLO
+------LPPDWAVAHDAAGKPYYWNKATRVTTWSLE-----
+>UniRef100_A0A2P6TVJ8 E3 ubiquitin-ligase Su(Dx)-like n=1 Tax=Chlorella sorokiniana TaxID=3076 RepID=A0A2P6TVJ8_CHLSO
+-----DLPEGWAVAFDAQKKPYFWHKQTKKVQWDKP-----
+>UniRef100_C1FHI1 Uncharacterized protein n=1 Tax=Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) TaxID=296587 RepID=C1FHI1_MICCC
+-----APASDWKVFYDTSGRPYYHNAKTGVTQWTPP-----
+>UniRef100_C1N7X9 Predicted protein n=1 Tax=Micromonas pusilla (strain CCMP1545) TaxID=564608 RepID=C1N7X9_MICPC
+-----APASDWRVFYDNLGRPYYHNSVTGVTQWTPP-----
+>UniRef100_A0A3B3T3V5 PH domain-containing protein n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3T3V5_9TELE
+------TSQQTTAKDDGSPTEGVPSHNQRTTTFQHP-----
+>UniRef100_A0A3P9J6V1 Pleckstrin homology domain containing, family A member 7b n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9J6V1_ORYLA
+------AVEPQLKEGQKEESQIETSHNLRATSFRHP-----
+>UniRef100_A0A3P9K1A5 PH domain-containing protein n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3P9K1A5_ORYLA
+------FTNSGGHEFSTWDLNCDSSHNQRSTSFCHP-----
+>UniRef100_A0A3Q0GPU5 pleckstrin homology domain-containing family A member 7 isoform X2 n=1 Tax=Alligator sinensis TaxID=38654 RepID=A0A3Q0GPU5_ALLSI
+------HVSSFLLHIKLLVFSFHTRHNQQTTTFRHP-----
+>UniRef100_A0A402ET89 PH domain-containing protein n=1 Tax=Paroedura picta TaxID=143630 RepID=A0A402ET89_9SAUR
+------SKPVYSNSISQLEHPFFVSHNQQTTTFKHP-----
+>UniRef100_A0A553MYL6 PH domain-containing protein n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553MYL6_9TELE
+------ALRRQENTIFTNLFCHICSHNQRTTTFIHP-----
+>UniRef100_A0A5C6P7P3 Pleckstrin-like proteiny domain-containing family A member 7 n=1 Tax=Takifugu flavidus TaxID=433684 RepID=A0A5C6P7P3_9TELE
+------FCSMGCQDRVMGGVEGDVGHNQRGSTFRHP-----
+>UniRef100_UPI0003314934 pleckstrin homology domain-containing family A member 7 n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI0003314934
+------LPWRKLEGLCLLGGRSLHQHNQRTTAFRHP-----
+>UniRef100_UPI000B432D30 pleckstrin homology domain-containing family A member 7 isoform X15 n=1 Tax=Danio rerio TaxID=7955 RepID=UPI000B432D30
+------IELDTIREEEDETASVEESHNQRSTTFRHP-----
+>UniRef100_UPI000E411BC5 pleckstrin homology domain-containing family A member 7-like isoform X7 n=1 Tax=Astatotilapia calliptera TaxID=8154 RepID=UPI000E411BC5
+------QSTSHVSYKRQPVYGATHSHNLKATSFRHP-----
+>UniRef100_UPI000F0A5D65 pleckstrin homology domain-containing family A member 7 isoform X7 n=1 Tax=Electrophorus electricus TaxID=8005 RepID=UPI000F0A5D65
+------VRRKFATPWGYNACRNTDSHNQRKTTFTHP-----
+>UniRef100_UPI0010F8F960 pleckstrin homology domain-containing family A member 7 isoform X4 n=1 Tax=Betta splendens TaxID=158456 RepID=UPI0010F8F960
+------QTASSAGEHEFSRWDLPRGHNQRTTTFRHP-----
+>UniRef100_UPI001176115A pleckstrin homology domain-containing family A member 7-like isoform X2 n=1 Tax=Myripristis murdjan TaxID=586833 RepID=UPI001176115A
+------SQSGYCNHLPHPGHPFYCSHNQRTTAFRHP-----
+>UniRef100_UPI001176FFF3 pleckstrin homology domain-containing family A member 7-like isoform X2 n=1 Tax=Salarias fasciatus TaxID=181472 RepID=UPI001176FFF3
+------Q-SGYCNHIPHPGYPFYCSHNQRATAFCHP-----
+>UniRef100_UPI00125CECA7 pleckstrin homology domain-containing family A member 7-like isoform X2 n=1 Tax=Sander lucioperca TaxID=283035 RepID=UPI00125CECA7
+------ATAKLVTNLDDHEFSTWTSHSQRTTAFRHP-----
+>UniRef100_UPI001301D8CB pleckstrin homology domain-containing family A member 7 isoform X1 n=2 Tax=Sarcophilus harrisii TaxID=9305 RepID=UPI001301D8CB
+------GGAPGAGTSGPRRWSPNRDHNQQTTAFRHP-----
+>UniRef100_UPI001470E18B pleckstrin homology domain-containing family A member 7-like isoform X5 n=1 Tax=Gymnodraco acuticeps TaxID=8218 RepID=UPI001470E18B
+------VVANVEDHFSTWDLTGDASHNQRTTAFRHP-----
+>UniRef100_UPI00147761BF pleckstrin homology domain-containing family A member 7 isoform X6 n=1 Tax=Esox lucius TaxID=8010 RepID=UPI00147761BF
+------VKCLANVPMQTRAVAVTESHNQRTTAFRHP-----
+>UniRef100_A0A0A9J483 WW domain-containing protein n=2 Tax=Arundo donax TaxID=35708 RepID=A0A0A9J483_ARUDO
+LNFDAPLPPEWQRCLDISGQIHYYNTRTHKRTWKDPR----
+>UniRef100_A0A0K9PLY3 WW domain-containing protein n=1 Tax=Zostera marina TaxID=29655 RepID=A0A0K9PLY3_ZOSMR
+LQLEEPLPPEWQRCLDISGRIHFYNTRTSERTTKVPR----
+>UniRef100_A0A1E5VHS7 WW domain-containing protein n=1 Tax=Dichanthelium oligosanthes TaxID=888268 RepID=A0A1E5VHS7_9POAL
+LQLGDPLPLDWEQCLDLSGRMYYLNRKTMKKSWVRPS----
+>UniRef100_B6U8S2 WW domain containing protein n=1 Tax=Zea mays TaxID=4577 RepID=B6U8S2_MAIZE
+LQLGDPLPLDWEQCLDLSGRMYYQNRKTKNKSWDRPS----
+>UniRef100_M0SB88 WW domain-containing protein n=1 Tax=Musa acuminata subsp. malaccensis TaxID=214687 RepID=M0SB88_MUSAM
+LHLNHPLPLEWEQCLDLSGNMYYLNRKTMKKSWVRL-----
+>UniRef100_A0A444U9D2 Pleckstrin homology domain-containing family A member 7 n=1 Tax=Acipenser ruthenus TaxID=7906 RepID=A0A444U9D2_ACIRT
+LLGRDTLPEYWSYGVCEDGRVFFVNDETPHTTWLHPR----
+>UniRef100_A0A6H5JZ12 Uncharacterized protein n=1 Tax=Ectocarpus sp. CCAP 1310/34 TaxID=867726 RepID=A0A6H5JZ12_9PHAE
+-----PLPPNWERRIASNDRPYYVNTVTRESKWEDPR----
+>UniRef100_D7FP34 Similar to neural cell expressed, developmentally down-regulated 4-like n=1 Tax=Ectocarpus siliculosus TaxID=2880 RepID=D7FP34_ECTSI
+---DAPLPQNWSKRTAPDNRTYYVNSVTKKTQWEAPL----
+>UniRef100_A0A672JUU3 Uncharacterized protein n=1 Tax=Sinocyclocheilus grahami TaxID=75366 RepID=A0A672JUU3_SINGR
+----SQQKKTDDVI---NRKWLDFALVFPETTWERP-----
+>UniRef100_A0A673WF38 Uncharacterized protein n=1 Tax=Salmo trutta TaxID=8032 RepID=A0A673WF38_SALTR
+--VGEPLPQHWKCYMSPEGRRYYVNTSSNGKDWEDQ-----
+>UniRef100_UPI00105495E8 growth arrest-specific protein 7-like n=1 Tax=Gouania willdenowi TaxID=441366 RepID=UPI00105495E8
+--AGQNSVHSRLALLRSSQRDLCLVAAVRCHVSLPP-----
+>UniRef100_UPI0014771CA1 growth arrest-specific protein 7 isoform X2 n=1 Tax=Esox lucius TaxID=8010 RepID=UPI0014771CA1
+-MKRVPLPHGWRCHVSPKGPRNYVNTASNETTWELP-----
+>UniRef100_A0A2T3B9D9 Uncharacterized protein n=1 Tax=Amorphotheca resinae ATCC 22711 TaxID=857342 RepID=A0A2T3B9D9_AMORE
+--QDPQLPKHIERCVDVRGRSYYINHETKTTSWLNP-----
+>UniRef100_A0A139ARS3 Uncharacterized protein n=1 Tax=Gonapodya prolifera (strain JEL478) TaxID=1344416 RepID=A0A139ARS3_GONPJ
+----GPLPSGWIVGKTPGGRAFYVEQSTKTVTWVDPR----
+>UniRef100_A0A024GB20 Uncharacterized protein n=1 Tax=Albugo candida TaxID=65357 RepID=A0A024GB20_9STRA
+--ASAGLTPPWRAYKTAEGKEYYYNTQTKVTTWDHP-----
+>UniRef100_A0A2D4C204 Uncharacterized protein n=1 Tax=Pythium insidiosum TaxID=114742 RepID=A0A2D4C204_PYTIN
+--SSANLPHPWLAYKTKDGKEYYYNQQTKVTTWDRP-----
+>UniRef100_A0A662XCB4 Uncharacterized protein n=1 Tax=Nothophytophthora sp. Chile5 TaxID=2483409 RepID=A0A662XCB4_9STRA
+--DFRPLSVD-ERYELLEGE-YYYNPQTKVTTWTRP-----
+>UniRef100_W4H796 Uncharacterized protein n=1 Tax=Aphanomyces astaci TaxID=112090 RepID=W4H796_9STRA
+--MSSALPVGWMAYKTADGKEYYYHAQSKVTQWNRP-----
+>UniRef100_A9V724 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9V724_MONBE
+-PVPANLPHGWDCRVAPDGHVFYVDHVNKVTQWSPPGV---
+>UniRef100_UPI000549B35D E3 ubiquitin-protein ligase SMURF1-like n=1 Tax=Meleagris gallopavo TaxID=9103 RepID=UPI000549B35D
+----GGILCMYRCKLNLLEQKSVKSLRVIIIKQTI------
+>UniRef100_A0A397GD89 WW domain-containing protein n=1 Tax=Diversispora epigaea TaxID=1348612 RepID=A0A397GD89_9GLOM
+---SGPLPPGWIEEFDQHQRSYYLNTLNKTTTWHDPR----
+>UniRef100_A0A6G1SIY8 HECT-type E3 ubiquitin transferase n=1 Tax=Aceria tosichella TaxID=561515 RepID=A0A6G1SIY8_9ACAR
+----GPLSSNWEIGRASTGKVYFINHLKKTTQFTDPRL---
+>UniRef100_A0A6H5JUP4 Uncharacterized protein n=1 Tax=Ectocarpus sp. CCAP 1310/34 TaxID=867726 RepID=A0A6H5JUP4_9PHAE
+--QEAPLPPGWEKLYTEGGVPFWTNHNERTTSWDPP-----
+>UniRef100_A0A6H5K7T1 Uncharacterized protein n=1 Tax=Ectocarpus sp. CCAP 1310/34 TaxID=867726 RepID=A0A6H5K7T1_9PHAE
+---QQPLAPGWSEATAPDGKTFYLNHADKSTSWDRPVLAQA
+>UniRef100_A0A3M0KG94 WW domain-containing protein n=1 Tax=Hirundo rustica rustica TaxID=333673 RepID=A0A3M0KG94_HIRRU
+------LPRGWEEGFSEEGASYFIETGYQLQRAEEV-----
+>UniRef100_A0A1S3WFF0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Erinaceus europaeus TaxID=9365 RepID=A0A1S3WFF0_ERIEU
+MADEEKLPPGWEKRMSRSGAA---GSGLQRRGWERH-----
+>UniRef100_A0A1I8FEL5 WW domain-containing protein n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8FEL5_9PLAT
+-PEEVPAAARWSVDWTVRGRKYYIDHVNRATSWSHP-----
+>UniRef100_UPI0010A509B3 growth arrest-specific protein 7-like n=1 Tax=Denticeps clupeoides TaxID=299321 RepID=UPI0010A509B3
+--EDLPLPHNWMCYTTPEGHKYYVNIFTNETTWTRP-----
+>UniRef100_A0A4S4M5B5 HECT-type E3 ubiquitin transferase n=1 Tax=Antrodiella citrinella TaxID=2447956 RepID=A0A4S4M5B5_9APHY
+----GPLAERWEMRHDRTGRTYFVDHKLKISFWDDPRL---
+>UniRef100_A0A182S793 Uncharacterized protein n=1 Tax=Anopheles maculatus TaxID=74869 RepID=A0A182S793_9DIPT
+------MDSVHYHQNGRKPTRIVASHNTGTSHWLDPRLS--
+>UniRef100_A0A6A6URI3 WW domain-containing protein n=1 Tax=Microthyrium microscopicum TaxID=703497 RepID=A0A6A6URI3_9PEZI
+------LPPGYELRHDKQGRQYYVNHNDETTSYMNP-----
+>UniRef100_A0A6A5BLU7 Uncharacterized protein n=1 Tax=Naegleria fowleri TaxID=5763 RepID=A0A6A5BLU7_NAEFO
+LPTTPGLPYGWERKVDKTNKEYFVNHNTRTTHWSLP-----
+>UniRef100_A0A6C0ICQ4 WW domain-containing protein n=1 Tax=viral metagenome TaxID=1070528 RepID=A0A6C0ICQ4_9ZZZZ
+-PLVDELPPGYEKKQTLDGNWYYVNHNDGTTSWTPP-----
+>UniRef100_A0A068SF93 Peptide-binding protein n=1 Tax=Lichtheimia corymbifera JMRC:FSU:9682 TaxID=1263082 RepID=A0A068SF93_9FUNG
+-----PLPPNWQMTMTPQGEVYYYNAVTGVTSWTRP-----
+>UniRef100_A0A367IS00 Transcription elongation regulator n=1 Tax=Rhizopus stolonifer TaxID=4846 RepID=A0A367IS00_RHIST
+-----KLPSGWKEYRTVTGQPYWYNTVTHTSSWVFP-----
+>UniRef100_A0A2P6MZG9 Mitogen-activated protein kinase kinase kinase kinase n=1 Tax=Planoprotostelium fungivorum TaxID=1890364 RepID=A0A2P6MZG9_9EUKA
+--DLNHLPPGWATALDPKGRRYFIDHTTRMTHWKLPDTAI-
+>UniRef100_A0A2B4SPF2 EF-hand calcium-binding domain-containing protein 11 n=1 Tax=Stylophora pistillata TaxID=50429 RepID=A0A2B4SPF2_STYPI
+LPSIAELPFGWEELNDKVLGSYFIDHNTGSQQHEDPRVQ--
+>UniRef100_A0A0C9Z5W0 Unplaced genomic scaffold CY34scaffold_960, whole genome shotgun sequence n=1 Tax=Suillus luteus UH-Slu-Lm8-n1 TaxID=930992 RepID=A0A0C9Z5W0_9AGAM
+LHDSWQLIPGCEWHISPLGRSYFVNHNTRTTSWKKPR----
+>UniRef100_A0A0D0AKC2 Unplaced genomic scaffold CY34scaffold_111, whole genome shotgun sequence n=1 Tax=Suillus luteus UH-Slu-Lm8-n1 TaxID=930992 RepID=A0A0D0AKC2_9AGAM
+LDYHGELIPGCEWQMSPLGRSYFVNHNTRTTSWKKPK----
+>UniRef100_A0A1B7MRE4 WD40 repeat-like protein n=1 Tax=Rhizopogon vinicolor AM-OR11-026 TaxID=1314800 RepID=A0A1B7MRE4_9AGAM
+LDAPKDLVPQCEWHISPLGRSYFVNHNTRITSWKKPI----
+>UniRef100_A9RXE4 Predicted protein n=2 Tax=Physcomitrium patens TaxID=3218 RepID=A9RXE4_PHYPA
+LDPEEPLPSVWEKCLDLTGKLYYVNKCSGVSSYDDPRM---
+>UniRef100_A9SJA2 Predicted protein n=1 Tax=Physcomitrium patens TaxID=3218 RepID=A9SJA2_PHYPA
+LDSDAPVPSGWEKCLDLTGKLFLVNKNSDESSFGEPCD---
+>UniRef100_A0A0K2TL07 Dystrophin, isoforms A/C/F/G/Hlike [Apis florea] n=1 Tax=Lepeophtheirus salmonis TaxID=72036 RepID=A0A0K2TL07_LEPSM
+----EDLPPGWERGFTEDHIPYFLNHEDAKTTWDHPVFSSL
+>UniRef100_A0A194PX88 Dystrophin, isoforms A/C/F/G/H n=1 Tax=Papilio xuthus TaxID=66420 RepID=A0A194PX88_PAPXU
+----GSVRPPWERAVTPANVPYYINHELETTHWDHPKMIEL
+>UniRef100_A0A1B6HWQ9 Uncharacterized protein (Fragment) n=1 Tax=Homalodisca liturata TaxID=320908 RepID=A0A1B6HWQ9_9HEMI
+----ASVDHPWERATTQNRVPYYINHQLETTHWDHPKMMDL
+>UniRef100_UPI001425973C dystrophin-like isoform X2 n=1 Tax=Anneissia japonica TaxID=1529436 RepID=UPI001425973C
+------MNSTWDRSTTTNGIPYFINHSTEQTQWDHPDLVKA
+>UniRef100_A0A2P6NGX3 Ephrin type-A receptor 3 n=1 Tax=Planoprotostelium fungivorum TaxID=1890364 RepID=A0A2P6NGX3_9EUKA
+-----PLPSGFEQCKDNKGRVYYVNHIEKNTTFENPRL---
+>UniRef100_D8LJ33 Uncharacterized protein n=1 Tax=Ectocarpus siliculosus TaxID=2880 RepID=D8LJ33_ECTSI
+-----PLPPGWSESKTAGGEIFYVNHKEKKTTWVRPK----
+>UniRef100_F2UPI7 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2UPI7_SALR5
+VMPDDVLPDGWEQAFDRNGHIYFIDHRNKLTQRNPP-----
+>UniRef100_A0A1I8FGS9 Uncharacterized protein n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8FGS9_9PLAT
+--SEQQLPPGWERRAQPGRILLITIPVQQPGEIRG--L---
+>UniRef100_A0A0G4HB68 WW domain-containing protein n=1 Tax=Chromera velia CCMP2878 TaxID=1169474 RepID=A0A0G4HB68_9ALVE
+------LPPGWSVARDAKDRTYFVNKRDKEASWQHPLQNM-
+>UniRef100_D8LJ33 Uncharacterized protein n=1 Tax=Ectocarpus siliculosus TaxID=2880 RepID=D8LJ33_ECTSI
+---EAPLPSGWTAKTTSSGAVYFENHVTKTTSWERPAAA--
+>UniRef100_A0A1Z5KHW1 RUN and FYVE domain-containing protein 1 n=1 Tax=Fistulifera solaris TaxID=1519565 RepID=A0A1Z5KHW1_FISSO
+--NEAPLPSNWQVMHDPTGKPFYVDHERKITTWTRPTVA--
+>UniRef100_A0A067Q7S2 HECT-type E3 ubiquitin transferase n=1 Tax=Jaapia argillacea MUCL 33604 TaxID=933084 RepID=A0A067Q7S2_9AGAM
+LESLGPLPPGWGIWYCAEGTPYFWDQNCNIITWIDPRWDQL
+>UniRef100_A0A058Z2B4 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Fonticula alba TaxID=691883 RepID=A0A058Z2B4_FONAL
+----QDAPPGWAVISSR-GKYYYLNKATGATQWEYP-----
+>UniRef100_A0A060SS01 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Pycnoporus cinnabarinus TaxID=5643 RepID=A0A060SS01_PYCCI
+-----LVQSGWEVRLSNSGVPYFYNPETRESMWEAP-----
+>UniRef100_A0A061BDB9 Peptidyl-prolyl cis-trans isomerase n=2 Tax=Cyberlindnera fabianii TaxID=36022 RepID=A0A061BDB9_CYBFA
+-----GLPSGWTIKFSRSQRDYYFNPDTRESVWEPP-----
+>UniRef100_A0A0C2XPV0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Amanita muscaria Koide BX008 TaxID=946122 RepID=A0A0C2XPV0_AMAMU
+-------MFSHNFSFQNIRHAYFYNTETEVSTWETP-----
+>UniRef100_A0A0D2WJU7 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2WJU7_CAPO3
+----VALPDGWEIRHSATKRAYYFHVPTQKSQWEPP-----
+>UniRef100_A0A0H2S7E0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Schizopora paradoxa TaxID=27342 RepID=A0A0H2S7E0_9AGAM
+------MASEWEVRFSTRGRAYFFNTKTEQSQWDPP-----
+>UniRef100_A0A197K096 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Mortierella elongata AG-77 TaxID=1314771 RepID=A0A197K096_9FUNG
+----YNLPNDWELRWSRSNLPYFYNRTSTESRWQAP-----
+>UniRef100_A0A1E4SVX0 Peptidyl-prolyl cis-trans isomerase n=1 Tax=[Candida] arabinofermentans NRRL YB-2248 TaxID=983967 RepID=A0A1E4SVX0_9ASCO
+----TGLPKPWTIKTSKTNQEYYYNPETQESTWNIP-----
+>UniRef100_A0A1Y2CY84 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Rhizoclosmatium globosum TaxID=329046 RepID=A0A1Y2CY84_9FUNG
+----QQPVEHWIHNWSKSNRPYYFNAKTNESVWDKP-----
+>UniRef100_A0A1Y3N8X1 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Piromyces sp. (strain E2) TaxID=73868 RepID=A0A1Y3N8X1_PIRSE
+------MTKVWEEKWSRSNRVYYFNPRTGESRWEKP-----
+>UniRef100_A0A2G8JLZ2 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Stichopus japonicus TaxID=307972 RepID=A0A2G8JLZ2_STIJA
+-----VFQCPFTFKQGGGGKDYYFNAKTGESQWEMP-----
+>UniRef100_A0A2G8SBD2 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Ganoderma sinense ZZ0214-1 TaxID=1077348 RepID=A0A2G8SBD2_9APHY
+-----GGQAHWEIRLSSSGVVYYYNHDTKESVWDPP-----
+>UniRef100_A0A2H3IX57 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Wolfiporia cocos (strain MD-104) TaxID=742152 RepID=A0A2H3IX57_WOLCO
+-----MSSLGWEVRLSNSKVPYYYHTESRESSWEPP-----
+>UniRef100_A0A2N5VQT7 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Puccinia coronata var. avenae f. sp. avenae TaxID=200324 RepID=A0A2N5VQT7_9BASI
+-----PAADDWEIRFSRSQRAYFYSNMLQKSRWDRP-----
+>UniRef100_A0A2T9YJV2 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Smittium simulii TaxID=133385 RepID=A0A2T9YJV2_9FUNG
+----SALPPHWEVRMSRSNMPYYFNTKTKESRWAPP-----
+>UniRef100_A0A397J8R9 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Diversispora epigaea TaxID=1348612 RepID=A0A397J8R9_9GLOM
+----EDVNSQWETRISRSKIVYYYNRATKESTWDLP-----
+>UniRef100_A0A4P9WYD7 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Caulochytrium protostelioides TaxID=1555241 RepID=A0A4P9WYD7_9FUNG
+-------PRKWEKRMSRKQRHYYFDAETRTSVWDCP-----
+>UniRef100_A0A507CF38 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Synchytrium microbalum TaxID=1806994 RepID=A0A507CF38_9FUNG
+----LTIDSLLLERYSSSSRLYYFNTETQTSQWEKP-----
+>UniRef100_B7PAM5 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Ixodes scapularis TaxID=6945 RepID=B7PAM5_IXOSC
+----LVRPGGWSAEAGLPGEHYYLNVLTKESQWDVP-----
+>UniRef100_D2V3Z5 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Naegleria gruberi TaxID=5762 RepID=D2V3Z5_NAEGR
+----PSVPEGWRVKESSRGVFYYINKFTNETQWEKP-----
+>UniRef100_UPI0004407CA6 rotamase-domain-containing protein n=1 Tax=Fomitiporia mediterranea (strain MF3/22) TaxID=694068 RepID=UPI0004407CA6
+-----ADMIPWEVRMSRSQQPYFFNKDSQESSWTNP-----
+>UniRef100_UPI0006D4F835 peptidyl-prolyl cis-trans isomerase Pin1-like isoform X1 n=1 Tax=Halyomorpha halys TaxID=286706 RepID=UPI0006D4F835
+-----MKPLHCCRSPPIFSQHYYLNVYTKESQWERP-----
+>UniRef100_A0A6H5K7T1 Uncharacterized protein n=1 Tax=Ectocarpus sp. CCAP 1310/34 TaxID=867726 RepID=A0A6H5K7T1_9PHAE
+---EQPLPPGWSKAYTKTGEVYYRNKNDKTTTWDRPVV---
+>UniRef100_UPI0012DBCCD0 pleckstrin homology domain-containing family A member 7-like isoform X1 n=1 Tax=Oncorhynchus kisutch TaxID=8019 RepID=UPI0012DBCCD0
+------LPLGWEEGFSDEGASYFIDHNQKRTSFRHPVTGQI
+>UniRef100_A0A6L2Q1C3 Uncharacterized protein (Fragment) n=1 Tax=Coptotermes formosanus TaxID=36987 RepID=A0A6L2Q1C3_COPFO
+------LKSGWTVHVAQDGRLYYCNHLTQTSSWLPP-----
+>UniRef100_A0A0D1YRH0 WW domain-containing protein n=1 Tax=Verruconis gallopava TaxID=253628 RepID=A0A0D1YRH0_9PEZI
+--SQEGLPPGWEEITAPDGRICFANRNENYVTWDDPR----
+>UniRef100_A0A6H5JBE8 WW domain-containing protein n=1 Tax=Ectocarpus sp. CCAP 1310/34 TaxID=867726 RepID=A0A6H5JBE8_9PHAE
+-LNSGPLPAGWVEGTGGNGKNYYLDTINKTTQWERP-----
+>UniRef100_A0A2N0RVH3 WW domain-containing protein n=1 Tax=Rhizophagus irregularis TaxID=588596 RepID=A0A2N0RVH3_9GLOM
+-MDPRPLPPGFISQYDQTQRYYYVDTSTGVSQWNHPLDAK-
+>UniRef100_A0A397SXR5 WW domain-containing protein n=1 Tax=Glomus cerebriforme TaxID=658196 RepID=A0A397SXR5_9GLOM
+-MDPRPLPPGFISQYDQTQRYFYVDTRTGVSQWNHPLDVY-
+>UniRef100_A0A4P9XFP6 WW domain-containing protein n=1 Tax=Thamnocephalis sphaerospora TaxID=78915 RepID=A0A4P9XFP6_9FUNG
+MEDQRPLPPGWIAQYDEAQRFFFVDTSTGQSDWDDPRPAY-
+>UniRef100_F2U2A7 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U2A7_SALR5
+--DLGPLPPGWEIRYTSSGEECFFNRDTQMTHMIDPRIERL
+>UniRef100_A0A1J1IU20 WW domain-containing oxidoreductase n=1 Tax=Clunio marinus TaxID=568069 RepID=A0A1J1IU20_9DIPT
+----GDLPFGWEKRVEDDGRILFINAQKNIQSFTDPRLAFA
+>UniRef100_A0A081B4I9 CMGC/MAPK protein kinase n=1 Tax=Phytophthora parasitica P1976 TaxID=1317066 RepID=A0A081B4I9_PHYPR
+----ESLPEGWIRRISKSGREYFYDTLNKVASWKLPVKQQL
+>UniRef100_A0A485KHD5 Aste57867_5594 protein n=1 Tax=Aphanomyces stellatus TaxID=120398 RepID=A0A485KHD5_9STRA
+----AQLPPGWEERFKKVNRVYYVDLANKTTSWVHPGAKAV
+>UniRef100_A0A662Y5M8 Uncharacterized protein n=1 Tax=Nothophytophthora sp. Chile5 TaxID=2483409 RepID=A0A662Y5M8_9STRA
+----ETLPEGWIRRTSKSGREYFYDTLNKVSSWKLPVKQPL
+>UniRef100_F0WQZ1 Mitogenactivated protein kinase putative n=1 Tax=Albugo laibachii Nc14 TaxID=890382 RepID=F0WQZ1_9STRA
+----EALPKGWVRKTGKTGGEYFYDAKHKGTSWIHPSR-SY
+>UniRef100_A0A507CFU4 Uncharacterized protein n=1 Tax=Synchytrium microbalum TaxID=1806994 RepID=A0A507CFU4_9FUNG
+-SDEYPLPEGWLKAFSDEHKRYYFIHKTRSTSWIDPR----
+>UniRef100_A0A507D479 Uncharacterized protein n=1 Tax=Synchytrium endobioticum TaxID=286115 RepID=A0A507D479_9FUNG
+-SDEYPLPEDWYKAYSDEHKKYFFIHKTRTTSWVDPR----
+>UniRef100_A0A0A1U449 WW domain-containing protein (Fragment) n=1 Tax=Entamoeba invadens IP1 TaxID=370355 RepID=A0A0A1U449_ENTIV
+LPEIFNLPKGWGMGCD-RGELYFINWNKKYTTWIDPR----
+>UniRef100_D8S089 WW domain-containing protein n=2 Tax=Selaginella moellendorffii TaxID=88036 RepID=D8S089_SELML
+LDMEMSAPSGWEKRLDLLGKFYYVNLSTGKSTYNHPFAA--
+>UniRef100_UPI000D1CC3A7 uncharacterized protein LOC112342109 n=1 Tax=Selaginella moellendorffii TaxID=88036 RepID=UPI000D1CC3A7
+LGQDVPLPKGWEKRLDLSGTVFFINWNTGKTTCNDPREG--
+>UniRef100_F2U0S4 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U0S4_SALR5
+--E-DELPAGWTKELDVDGDPYFFDHDTGMATYDDPRY---
+>UniRef100_A9V612 Predicted protein n=1 Tax=Monosiga brevicollis TaxID=81824 RepID=A9V612_MONBE
+-----PLPDEWEELIDQEKHRFFANHKTRQTSWTDPRDKLV
+>UniRef100_A0A151Z8M0 Patatin family protein n=1 Tax=Tieghemostelium lacteum TaxID=361077 RepID=A0A151Z8M0_9MYCE
+-QCTGDLPSGWQEKMDDRGSKYFVQEDMKKKTWFDPRL---
+>UniRef100_Q54CM2 WW domain-containing protein n=1 Tax=Dictyostelium discoideum TaxID=44689 RepID=Q54CM2_DICDI
+-SCNGELPHGWKEKTDGVGTKYFVQEEHNKQTFMDPRI---
+>UniRef100_A0A0C3GUA7 WW domain-containing protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3GUA7_9PEZI
+------IPYPYERMIDERGRAYYLDREAKTSSWLHP-----
+>UniRef100_A0A5C6NMX4 Pleckstrin-like proteiny domain-containing family A member 7 n=1 Tax=Takifugu flavidus TaxID=433684 RepID=A0A5C6NMX4_9TELE
+------LPRGWEEGFTDEGASYFIKSVAFEHCF-TALACC-
+>UniRef100_A0A6J2S731 pleckstrin homology domain-containing family A member 5-like isoform X17 n=1 Tax=Cottoperca gobio TaxID=56716 RepID=A0A6J2S731_COTGO
+------LPTGWEEGYTFEGARCFINLFPQMPGDFGRKILF-
+>UniRef100_UPI0007F92C00 pleckstrin homology domain-containing family A member 5-like isoform X9 n=1 Tax=Kryptolebias marmoratus TaxID=37003 RepID=UPI0007F92C00
+------LPTGWEEGYTFEGARCFIKAFAILDVSDLPFNYS-
+>UniRef100_UPI0009A26800 pleckstrin homology domain-containing family A member 5-like n=1 Tax=Rhincodon typus TaxID=259920 RepID=UPI0009A26800
+------LPTGWEEGYTFEGARYYIKYPFNKDVQKKVEVLK-
+>UniRef100_UPI0009B3D54C pleckstrin homology domain-containing family A member 5 isoform X10 n=1 Tax=Monopterus albus TaxID=43700 RepID=UPI0009B3D54C
+------LPTGWEEGYTFEGARCFIKNDVPHLFFIVVLQST-
+>UniRef100_L1IHE2 Uncharacterized protein n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1IHE2_GUITC
+------LGHGWEMKQTPDGKQYFINHIRKGTQWEAPGNGFV
+>UniRef100_A0A436ZNT3 WW domain-containing protein n=1 Tax=Arthrobotrys flagrans TaxID=97331 RepID=A0A436ZNT3_9PEZI
+-PPEEPPSDGWEAIWEPNGQYYFYNHQTGETTWTNPRV---
+>UniRef100_A0A091KRH4 Centrosomal protein of 164 kDa (Fragment) n=1 Tax=Chlamydotis macqueenii TaxID=187382 RepID=A0A091KRH4_9GRUI
+-----PLPVEWRICNNSRGDIYYFNLATSQSTCIHP-----
+>UniRef100_S3DVR5 WW n=1 Tax=Glarea lozoyensis (strain ATCC 20868 / MF5171) TaxID=1116229 RepID=S3DVR5_GLAL2
+------LPPNWECRMEPTGKIFFVDHANKTTSRSHPR----
+>UniRef100_A0A3Q0JCC1 uncharacterized protein LOC103516377 n=1 Tax=Diaphorina citri TaxID=121845 RepID=A0A3Q0JCC1_DIACI
+--NQMGMPPGWDTKYDSTGKSYFFNHITKNASLDDPRIRF-
+>UniRef100_A0A139AD03 WW domain-containing protein n=1 Tax=Gonapodya prolifera (strain JEL478) TaxID=1344416 RepID=A0A139AD03_GONPJ
+--DPNSLPPDWDAVFDPSGKWYFYNKRIGETTWTDPRMA--
+>UniRef100_A0A428Q223 WW domain-containing protein n=1 Tax=Fusarium floridanum TaxID=1325733 RepID=A0A428Q223_9HYPO
+-----PLPAGWEIKSDASGRPYLVDHNTGTSHRSPP-----
+>UniRef100_A0A197KH00 RhoGAP-domain-containing protein n=1 Tax=Mortierella elongata AG-77 TaxID=1314771 RepID=A0A197KH00_9FUNG
+--TEEPLPVGWSSAQDDDGSQYFFNSSTGETTWDRPTSPEI
+>UniRef100_G4MRV3 WW domain-containing protein n=2 Tax=Magnaporthe oryzae TaxID=318829 RepID=G4MRV3_MAGO7
+--DLVALPAQYQRKWTKRGCVFYVNHVDKTTSWLHP-----
+>UniRef100_UPI0012496C66 hypothetical protein n=1 Tax=Magnaporthe grisea TaxID=148305 RepID=UPI0012496C66
+--DFIALPGQYQRKWTKRGCVFYVNHVDKTTSWLHP-----
+>UniRef100_F2U5K0 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U5K0_SALR5
+VLSALPLPAGWEARVHGQRRVVFLNHERQMTTWHDPRLRLL
+>UniRef100_A0A4S4N4B1 Uncharacterized protein n=1 Tax=Antrodiella citrinella TaxID=2447956 RepID=A0A4S4N4B1_9APHY
+---------MQLLCVGPNNQPYYFNAITQQSTYVRPLPTF-
+>UniRef100_UPI00044499BA hypothetical protein n=1 Tax=Stereum hirsutum (strain FP-91666) TaxID=721885 RepID=UPI00044499BA
+-----PSPVSSFNTYCPGGRVYYFNANTQESTYVRPLPIF-
+>UniRef100_T0RJF6 Uncharacterized protein n=1 Tax=Saprolegnia diclina (strain VS20) TaxID=1156394 RepID=T0RJF6_SAPDV
+--DDPTLPKGWEAKVSRNDKTYYINRSLKITQWEHP-----
+>UniRef100_A0A058Z4R3 Uncharacterized protein n=1 Tax=Fonticula alba TaxID=691883 RepID=A0A058Z4R3_FONAL
+----GPLPSGWTARTVREGRVVFLDHKRKRTSWLDPRIPI-
+>UniRef100_A0A6A5AQH6 WW domain-containing protein n=1 Tax=Aphanomyces astaci TaxID=112090 RepID=A0A6A5AQH6_9STRA
+--AVPPMPPGWEMRMSRSGRPYFCHEGQRLTLWDPP-----
+>UniRef100_A0A081CDA5 Proteophosphoglycan ppg4 n=1 Tax=Pseudozyma antarctica TaxID=84753 RepID=A0A081CDA5_PSEA2
+--DEPPLPPDWEARQSRNGSTYYVHKPTRKTQWERP-----
+>UniRef100_A0A0D1DX20 Chromosome 8, whole genome shotgun sequence n=1 Tax=Ustilago maydis (strain 521 / FGSC 9021) TaxID=237631 RepID=A0A0D1DX20_USTMA
+--DTRPLLPGWQARKSRNGMYYYVHTATKKTQWERP-----
+>UniRef100_A0A316UBR5 WW domain-containing protein n=1 Tax=Pseudomicrostroma glucosiphilum TaxID=1684307 RepID=A0A316UBR5_9BASI
+--DPPPLREGWIVQSSRNHGVYYAHPATKTTTWERP-----
+>UniRef100_A0A316W5L2 WW domain-containing protein n=1 Tax=Ceraceosorus guamensis TaxID=1522189 RepID=A0A316W5L2_9BASI
+--EEPPLPPGWIKKVSRKQGTYYANPELRKVSWERP-----
+>UniRef100_A0A316YN30 WW domain-containing protein n=1 Tax=Acaromyces ingoldii TaxID=215250 RepID=A0A316YN30_9BASI
+--DAGPLPPGWQLRRSRQPEMYYANPQKGKTLWTRP-----
+>UniRef100_A0A0L0G576 Uncharacterized protein n=1 Tax=Sphaeroforma arctica JP610 TaxID=667725 RepID=A0A0L0G576_9EUKA
+--SNDEMPEGWYKGVCPNDRNYFINPHTKTTTWLDPR----
+>UniRef100_A0A061QWJ9 Uncharacterized protein n=1 Tax=Tetraselmis sp. GSL018 TaxID=582737 RepID=A0A061QWJ9_9CHLO
+-------PAGWTQYRCAEGEYYYHNHRTNQTTWDKP-----
+>UniRef100_A0A2V0NZD4 Uncharacterized protein n=1 Tax=Raphidocelis subcapitata TaxID=307507 RepID=A0A2V0NZD4_9CHLO
+-------PNGWVAYKTQDGETYFHNHSTNLTQWERP-----
+>UniRef100_A0A0D6ESN1 SPOSA6832_05033-mRNA-1:cds n=1 Tax=Sporidiobolus salmonicolor TaxID=5005 RepID=A0A0D6ESN1_SPOSA
+QAFLPPVPPPWTEHKAPGGQPYWFNPITNVSTYTRP-----
+>UniRef100_A0A0L0HMD3 Uncharacterized protein n=1 Tax=Spizellomyces punctatus (strain DAOM BR117) TaxID=645134 RepID=A0A0L0HMD3_SPIPD
+PPPPGPVHLAWSEHRDPNGSFYYYNSITKESRWERP-----
+>UniRef100_A0A0L6UBU3 Uncharacterized protein n=1 Tax=Puccinia sorghi TaxID=27349 RepID=A0A0L6UBU3_9BASI
+IYTAAPLPPGWTEHRAPTGQFYYYHAASGESTYVRP-----
+>UniRef100_A0A1Y1VGR1 Uncharacterized protein n=1 Tax=Piromyces finnis TaxID=1754191 RepID=A0A1Y1VGR1_9FUNG
+NSNSKP-YTPWTEHKAPSGEFYYYNHITKQSTWKKP-----
+>UniRef100_A0A1Y2FY60 Uncharacterized protein n=1 Tax=Leucosporidium creatinivorum TaxID=106004 RepID=A0A1Y2FY60_9BASI
+QNFLPPVPPPWTEHRAPAGQPYWFNPQTNVSTYTRP-----
+>UniRef100_A0A261Y5P4 Uncharacterized protein n=1 Tax=Bifiguratus adelaidae TaxID=1938954 RepID=A0A261Y5P4_9FUNG
+PPPPPPLPPGWSEHVAPGGQTYWYNAATGKSTWQHP-----
+>UniRef100_A0A4P9XP50 Uncharacterized protein n=1 Tax=Thamnocephalis sphaerospora TaxID=78915 RepID=A0A4P9XP50_9FUNG
+--AHMPHPSGWSEHRGPTGQPYYYNAFTRQSTWKRP-----
+>UniRef100_A0A4P9Z5C5 Uncharacterized protein n=1 Tax=Syncephalis pseudoplumigaleata TaxID=1712513 RepID=A0A4P9Z5C5_9FUNG
+--RAMPHPSGWTQHPGPTGQPYYYNTFTRQSTWKRP-----
+>UniRef100_A0A507E263 Uncharacterized protein n=1 Tax=Powellomyces hirtus TaxID=109895 RepID=A0A507E263_9FUNG
+----PP-QVVWTQHRDPSGRIYYHHAATKESRWDHP-----
+>UniRef100_A0A507FAY6 Uncharacterized protein n=1 Tax=Chytriomyces confervae TaxID=246404 RepID=A0A507FAY6_9FUNG
+---RAP-SAAWTEHIAPTGVKYYHNSATGQSMWTNP-----
+>UniRef100_UPI0004A55283 hypothetical protein n=1 Tax=Mixia osmundae (strain CBS 9802 / IAM 14324 / JCM 22182 / KY 12970) TaxID=764103 RepID=UPI0004A55283
+IDRKQSLAPGWTEHVSPKGVPYYYNAETKKSTYTRP-----
+>UniRef100_A0A0L0DPY9 MHC_I family protein n=1 Tax=Thecamonas trahens ATCC 50062 TaxID=461836 RepID=A0A0L0DPY9_THETB
+--DGRPLPQHWSRKTHDDGRPFYVDHVAKATTWISP-----
+>UniRef100_A0A329SKD5 Uncharacterized protein n=1 Tax=Phytophthora cactorum TaxID=29920 RepID=A0A329SKD5_9STRA
+-TTADRLADGWEEVPDASGDVYYWNQKTNETTWTRP-----
+>UniRef100_A0A484E289 Uncharacterized protein n=1 Tax=Bremia lactucae TaxID=4779 RepID=A0A484E289_BRELC
+-TECNDIVNEWKEVYDASGDVYFWNKQTNETSWTRP-----
+>UniRef100_A0A0A0MS68 Growth arrest-specific protein 7 n=7 Tax=Hominoidea TaxID=314295 RepID=A0A0A0MS68_HUMAN
+-SQTVILPPGWQSYLSPQGRRYYVNTTTNETTWERP-----
+>UniRef100_A0A0S7GG87 GAS7 n=2 Tax=Poeciliopsis prolifica TaxID=188132 RepID=A0A0S7GG87_9TELE
+-DLRKQLASRYAAV--EKARKALADRQKELELKTQQ-----
+>UniRef100_L8Y673 Protein WWC2 n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L8Y673_TUPCH
+-SRQLPLHWGWEEARDYDSKVFYIDHKARRTSWIDSPRQLL
+>UniRef100_A0A131ZYB4 Uncharacterized protein n=1 Tax=Sarcoptes scabiei TaxID=52283 RepID=A0A131ZYB4_SARSC
+----DELPIGWEQAYHPLLGHYFIDHINRSNQIEDPRIEWL
+>UniRef100_UPI0009A29084 LOW QUALITY PROTEIN: uncharacterized protein LOC109934055 n=1 Tax=Rhincodon typus TaxID=259920 RepID=UPI0009A29084
+----DELPLGWEDAYDPQIGIFYIDHINKTTQLEDPRAQ--
+>UniRef100_D7FVQ3 WW domain-containing protein n=1 Tax=Ectocarpus siliculosus TaxID=2880 RepID=D7FVQ3_ECTSI
+-----PLPEGWLQLKDESGHPYYYNQASGDSSWEHPRDSF-
+>UniRef100_A0A444T3K0 E3 ubiquitin-protein ligase HECW2 n=1 Tax=Armadillidium vulgare TaxID=13347 RepID=A0A444T3K0_ARMVU
+VAFDDPLPANVEARKDSQGRIFFIDHVAKTTSWEWP-----
+>UniRef100_A0A0E0K0C4 Uncharacterized protein n=1 Tax=Oryza punctata TaxID=4537 RepID=A0A0E0K0C4_ORYPU
+LNSEVALPYHWEQCLDIVHGASLLH-QLGGRHPDDRR----
+>UniRef100_A0A426Y0Y7 Uncharacterized protein n=1 Tax=Ensete ventricosum TaxID=4639 RepID=A0A426Y0Y7_ENSVE
+LNSEPVLPYQWEQCLDMVREIYYINWETGVRTTEDPR----
+>UniRef100_D5AB40 Uncharacterized protein n=1 Tax=Picea sitchensis TaxID=3332 RepID=D5AB40_PICSI
+FKSQSALPYQWEQFLDLTGELYYIDWSVCKKARNDPR----
+>UniRef100_M8BX28 Uncharacterized protein n=1 Tax=Aegilops tauschii TaxID=37682 RepID=M8BX28_AEGTA
+LGAQQRALHGWCLCLTGTGQVYYINWEDGTRTTIDPR----
+>UniRef100_A0A4Z2DXF9 WW domain-containing oxidoreductase n=1 Tax=Schistosoma japonicum TaxID=6182 RepID=A0A4Z2DXF9_SCHJA
+------LPRSWSCCYDKSGKVVYVNSETGCSTYSDPRLT--
+>UniRef100_A0A0G2YN23 Uncharacterized protein (Fragment) n=1 Tax=Schmidtea mediterranea TaxID=79327 RepID=A0A0G2YN23_SCHMD
+------LPEGWEMRNGENGQMYFYNEELNKRSWMKPSKSMI
+>UniRef100_A0A2R7VQE8 WW domain-containing protein n=1 Tax=Oncopeltus fasciatus TaxID=7536 RepID=A0A2R7VQE8_ONCFA
+LLQEVGLPPGWEQFVDSSGQKKYINKVKEITTQIDPRLPLV
+>UniRef100_A0A5B8MZZ4 Uncharacterized protein n=1 Tax=Chloropicon primus TaxID=1764295 RepID=A0A5B8MZZ4_9CHLO
+-----PLPDHWEEAITDEDHVYYVNGKTGVTQWEHP-----
+>UniRef100_UPI0005151CE6 protein KIBRA-like n=1 Tax=Phalacrocorax carbo TaxID=9209 RepID=UPI0005151CE6
+--AARAVCAGHVPASNIACKIVNFDHFNLKNTEIVLG----
+>UniRef100_U4KXS7 Similar to Yorkie homolog acc. no. Q2EJA0 n=1 Tax=Pyronema omphalodes (strain CBS 100304) TaxID=1076935 RepID=U4KXS7_PYROM
+-----PISGSWEKIPLEIRRAFFVNHNAQETTWEDPR----
+>UniRef100_T2MB42 Membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2 n=1 Tax=Hydra vulgaris TaxID=6087 RepID=T2MB42_HYDVU
+LPPEESLPPGWEKVDDPKYGTYYIDHVNRKTQYEKPDFPQ-
+>UniRef100_E4X0S8 HECT-type E3 ubiquitin transferase n=1 Tax=Oikopleura dioica TaxID=34765 RepID=E4X0S8_OIKDI
+------LPKHYERRVTSKGQVFWLNHNTGQKTWHDPRFA--
+>UniRef100_UPI001425B6C6 pleckstrin homology domain-containing family A member 7-like n=1 Tax=Anneissia japonica TaxID=1529436 RepID=UPI001425B6C6
+LLSREDLPKGWEQGWTTEGAVFFVNHNRETTTFYHP-----
+>UniRef100_A0A024UDG9 Uncharacterized protein n=1 Tax=Aphanomyces invadans TaxID=157072 RepID=A0A024UDG9_9STRA
+---DIGLLPGWRSAVDKSGDVYYWSKTTKETTWEKP-----
+>UniRef100_A0A0C4DPV6 Uncharacterized protein n=1 Tax=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) TaxID=644358 RepID=A0A0C4DPV6_MAGP6
+--SDLVNPNDYQRYVDLHGRACYQRHFNTSLTFMDPLT---
+>UniRef100_A0A0C4DQI3 Uncharacterized protein n=1 Tax=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) TaxID=644358 RepID=A0A0C4DQI3_MAGP6
+--SKVPIPHLYTEYRTERGDPYYANHITRTTSWIHPGK---
+>UniRef100_A0A0C4E7R6 WW domain-containing protein n=1 Tax=Magnaporthiopsis poae (strain ATCC 64411 / 73-15) TaxID=644358 RepID=A0A0C4E7R6_MAGP6
+--RDLAVPDRYTEHFTENGVAYYCQHATRTVSYLHPAK---
+>UniRef100_J3NFH8 WW domain-containing protein n=1 Tax=Gaeumannomyces tritici (strain R3-111a-1) TaxID=644352 RepID=J3NFH8_GAET3
+--RDLAVPDGYTEHFTENGVAYYCQHATRTVSHLHPAK---
+>UniRef100_J3PEB5 WW domain-containing protein n=1 Tax=Gaeumannomyces tritici (strain R3-111a-1) TaxID=644352 RepID=J3PEB5_GAET3
+--SNVPVPYAYSKRISEDGHVYHADHATRTTSWLHPGK---
+>UniRef100_A0A0S7K3Y0 MAGI1 n=1 Tax=Poeciliopsis prolifica TaxID=188132 RepID=A0A0S7K3Y0_9TELE
+----IFIDVQVPLLCFDMIDCLLLSHNTKTTSWLDPRC---
+>UniRef100_G7YRW7 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Clonorchis sinensis TaxID=79923 RepID=G7YRW7_CLOSI
+------SSRGAISRVALLAKTYYVNTETQESQWEFP-----
+>UniRef100_UPI000CEFAA77 uncharacterized protein LOC106667542 isoform X1 n=1 Tax=Cimex lectularius TaxID=79782 RepID=UPI000CEFAA77
+MSQVRRLPPGWDTKCEPTGKSYFVNYFTRHVTLEDPR----
+>UniRef100_A0A316UXB2 Uncharacterized protein n=1 Tax=Jaminaea rosea TaxID=1569628 RepID=A0A316UXB2_9BASI
+-----ALPAGWAVYYTHEGMPYYYNAATGQSTHQPP-----
+>UniRef100_A0A316VIL0 Uncharacterized protein n=1 Tax=Meira miltonrushii TaxID=1280837 RepID=A0A316VIL0_9BASI
+-----SLLPGWTEHVAPNGQLYWHNQHSRQSTYQQA-----
+>UniRef100_I2FWN1 Uncharacterized protein n=1 Tax=Ustilago hordei (strain Uh4875-4) TaxID=1128400 RepID=I2FWN1_USTH4
+-----QPPPRWTAHVSPVGRTYYHNSGSGVSTYHPP-----
+>UniRef100_A0A067PZD5 Uncharacterized protein n=1 Tax=Jaapia argillacea MUCL 33604 TaxID=933084 RepID=A0A067PZD5_9AGAM
+LLDMQPLPVGWEMRFSDNDSLYFFNSKTQVGTFNDPRL---
+>UniRef100_A0A0M0JKZ5 WW domain-containing protein n=1 Tax=Chrysochromulina tobinii TaxID=1460289 RepID=A0A0M0JKZ5_9EUKA
+-PSQSALPPGWFEYFAENGEPYYYNAANGVTTWEMPQ----
+>UniRef100_T1FV36 WW domain-containing protein n=1 Tax=Helobdella robusta TaxID=6412 RepID=T1FV36_HELRO
+------MPFGRDMRFDSKKKYYFLDHKNRSTSWDDPRLVL-
+>UniRef100_A0A1E7EPV8 p-loop containing nucleoside triphosphate hydrolase protein n=1 Tax=Fragilariopsis cylindrus CCMP1102 TaxID=635003 RepID=A0A1E7EPV8_9STRA
+-----PLAQVWEIRVDETGRVFFVNHQDQSTTFECP-----
+>UniRef100_A0A4D9CTX5 WW domain-containing protein n=1 Tax=Nannochloropsis salina CCMP1776 TaxID=1027361 RepID=A0A4D9CTX5_9STRA
+-----VLPYGWDARVEDSGTVIFFAPETGQTSQDFP-----
+>UniRef100_B8CBI5 WW domain-containing protein n=1 Tax=Thalassiosira pseudonana TaxID=35128 RepID=B8CBI5_THAPS
+-----PLAKDWEIRIDEKPRVYFVNHKEKITSYEVP-----
+>UniRef100_A0A438J7E5 Polyglutamine tract-binding protein 1 n=1 Tax=Vitis vinifera TaxID=29760 RepID=A0A438J7E5_VITVI
+-LCHTFLFNHFLNSFASTGQKYYYNRKTQASQWEPP-----
+>UniRef100_M0SIT2 WW domain-containing protein n=1 Tax=Musa acuminata subsp. malaccensis TaxID=214687 RepID=M0SIT2_MUSAM
+--MIGTLYSLWICNFHHIRQTYYYNRKTCISQWERP-----
+>UniRef100_A8NPX8 Uncharacterized protein n=1 Tax=Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003) TaxID=240176 RepID=A8NPX8_COPC7
+-----PLPDGWEERWDAFGRVYFEEQQSGNKQWAHPALG--
+>UniRef100_A0A1Y2D1K5 SET domain-containing protein 2 n=1 Tax=Rhizoclosmatium globosum TaxID=329046 RepID=A0A1Y2D1K5_9FUNG
+------LPKGWKVNKTEEGRLYYYNHDLGLSRWDFPR----
+>UniRef100_A0A0D0A1E3 Unplaced genomic scaffold scaffold_9, whole genome shotgun sequence n=1 Tax=Pisolithus microcarpus 441 TaxID=765257 RepID=A0A0D0A1E3_9AGAM
+HDNGDSLPPGWEAKWSRSIGVYYYNTRTQESTWTRP-----
+>UniRef100_A0A0D2UG10 Uncharacterized protein n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2UG10_CAPO3
+-----PLPPGWQEQIDSSGRPFFVNNDTRQVSYSSPSI---
+>UniRef100_UPI0003F0EB36 FERM and PDZ domain-containing protein 4-like n=1 Tax=Saccoglossus kowalevskii TaxID=10224 RepID=UPI0003F0EB36
+------LEPGWQAKLNADGRLYYINHNDKITRWLPPSV---
+>UniRef100_A0A2G5VU82 Uncharacterized protein n=1 Tax=Caenorhabditis nigoni TaxID=1611254 RepID=A0A2G5VU82_9PELO
+------MPQGWEEREDGNGRTVYINHALRTTQFTPP-----
+>UniRef100_A0A2G5B950 WW domain-containing protein n=1 Tax=Coemansia reversa (strain ATCC 12441 / NRRL 1564) TaxID=763665 RepID=A0A2G5B950_COERN
+MNSGVPLPPNFIVYRDQSGRDYFVDRNTGRSQWEDPRNS--
+>UniRef100_A0A2V0RNS3 WW domain-containing protein n=1 Tax=viral metagenome TaxID=1070528 RepID=A0A2V0RNS3_9ZZZZ
+--DEVPLPDGWGRRVDPEKMTYYVDHVNEKTQWKHP-----
+>UniRef100_A0A6C0H304 Uncharacterized protein n=1 Tax=viral metagenome TaxID=1070528 RepID=A0A6C0H304_9ZZZZ
+IEDEKPLPTGWEKKVSRCKNVYYVNNNLNRSQWEIPR----
+>UniRef100_A0A1A8D9W4 Pleckstrin homology domain containing, family A member 7b n=1 Tax=Nothobranchius kadleci TaxID=1051664 RepID=A0A1A8D9W4_9TELE
+----IDLFCCGRMGTCCSHKSM--QEEAGHELVAIKR----
+>UniRef100_A0A3B3T3V5 PH domain-containing protein n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3T3V5_9TELE
+----SAETGLQKIQPVQKGNGDSASGMGTCYGCLSTG----
+>UniRef100_A0A3B5PX55 Uncharacterized protein n=1 Tax=Xiphophorus maculatus TaxID=8083 RepID=A0A3B5PX55_XIPMA
+----LFWLFSFFFLLPFSNRCLSCSDKTRSTTWLHPR----
+>UniRef100_A0A493TL00 Pleckstrin homology domain containing A7 n=1 Tax=Anas platyrhynchos platyrhynchos TaxID=8840 RepID=A0A493TL00_ANAPP
+----VRGRQRREGGREGQGRGRPRSDLTRSTTWLHPR----
+>UniRef100_A0A5C6P7P3 Pleckstrin-like proteiny domain-containing family A member 7 n=1 Tax=Takifugu flavidus TaxID=433684 RepID=A0A5C6P7P3_9TELE
+----RRGEERRERRGEERRGEERRGEEISDNKPFQRV----
+>UniRef100_L9L700 Pleckstrin homology domain-containing family A member 7 n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9L700_TUPCH
+----SALSLGFHKAAAEEDPIVNMELERVNVSAAFPC----
+>UniRef100_UPI0003314934 pleckstrin homology domain-containing family A member 7 n=1 Tax=Sorex araneus TaxID=42254 RepID=UPI0003314934
+----FLPCQLFFQGRFLPCQLFFQGREEEAAHALRPA----
+>UniRef100_UPI000B432D30 pleckstrin homology domain-containing family A member 7 isoform X15 n=1 Tax=Danio rerio TaxID=7955 RepID=UPI000B432D30
+----MRKFVDRRGSRRRGRRHAKSNGRMGTCCTCLPL----
+>UniRef100_UPI000BBD584B pleckstrin homology domain-containing family A member 7 n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=UPI000BBD584B
+-------MREPVRTRQERGQERPAGSMGTCCSCLPLQ----
+>UniRef100_UPI000D63ECB3 pleckstrin homology domain-containing family A member 7 isoform X1 n=3 Tax=Gallus gallus TaxID=9031 RepID=UPI000D63ECB3
+----ERRPPARTPPPRPAGRPR--ARRTWRRRWGGLS----
+>UniRef100_UPI000F50C518 pleckstrin homology domain-containing family A member 7 isoform X2 n=1 Tax=Tachysurus fulvidraco TaxID=1234273 RepID=UPI000F50C518
+----GVRADTERESRRTGPLGRGGTGSSVSMSICCGC----
+>UniRef100_UPI0010A36F58 pleckstrin homology domain-containing family A member 7-like isoform X1 n=4 Tax=Denticeps clupeoides TaxID=299321 RepID=UPI0010A36F58
+-----MIDRPAETGPSRRGGGDSDPNMGSGCG-CVPF----
+>UniRef100_UPI001301D8CB pleckstrin homology domain-containing family A member 7 isoform X1 n=2 Tax=Sarcophilus harrisii TaxID=9305 RepID=UPI001301D8CB
+----KLKQRSREGGGETGAAQVPCPPLATAEPERPGG----
+>UniRef100_A4S2B9 Uncharacterized protein n=1 Tax=Ostreococcus lucimarinus (strain CCE9901) TaxID=436017 RepID=A4S2B9_OSTLU
+-PAATPLPPGWRATTDPSGREYFFNPHTQRTSWERPR----
+>UniRef100_Q012B2 WW domain n=1 Tax=Ostreococcus tauri TaxID=70448 RepID=Q012B2_OSTTA
+-TKSTVLPPGWHSTIDPSGREYYFNPHTQKTSWERPV----
+>UniRef100_Q5BSG8 SJCHGC04341 protein n=1 Tax=Schistosoma japonicum TaxID=6182 RepID=Q5BSG8_SCHJA
+------LPNGWSERRSGLGRSYYTCDSSRRSTWNHP-----
+>UniRef100_UPI0012ED0224 E3 ubiquitin-protein ligase SMURF2-like n=1 Tax=Anarrhichthys ocellatus TaxID=433405 RepID=UPI0012ED0224
+----SLCVFGIGTYKELQSSFFHPVPVCLSLGPFLPPLPAS
+>UniRef100_UPI0015AB3C88 E3 ubiquitin-protein ligase SMURF2 n=1 Tax=Anguilla anguilla TaxID=7936 RepID=UPI0015AB3C88
+----GVGTPG---GSDGHTKVPEDGRFSLRTVVSAE-LSPF
+>UniRef100_A0A061EVV4 Polyglutamine tract-binding protein 1 n=1 Tax=Theobroma cacao TaxID=3641 RepID=A0A061EVV4_THECC
+VPFATQLVGDWVEAVDETGHKYFYNTRTNISQWECP-----
+>UniRef100_A0A072VTM8 Polyglutamine tract-binding protein 1 n=1 Tax=Medicago truncatula TaxID=3880 RepID=A0A072VTM8_MEDTR
+STTVLCLPDSWVEALDETGHKYYYNTKTKVSQWKHP-----
+>UniRef100_A0A087H4A4 Polyglutamine tract-binding protein 1 n=1 Tax=Arabis alpina TaxID=50452 RepID=A0A087H4A4_ARAAL
+NVPPVPPKEEWIETLDESGQKYYYNTRTHVSQWEPP-----
+>UniRef100_A0A087SDU7 OTU domain-containing protein n=1 Tax=Auxenochlorella protothecoides TaxID=3075 RepID=A0A087SDU7_AUXPR
+--VRPRLPPGWEEARDPSGKVYYFNAAAGLTQWEHP-----
+>UniRef100_A0A0K9P1Y9 Polyglutamine tract-binding protein 1 n=1 Tax=Zostera marina TaxID=29655 RepID=A0A0K9P1Y9_ZOSMR
+SPVLPKLLEGWEEALDATGQAYYYNKITNATQWDRP-----
+>UniRef100_A0A150GSN9 Polyglutamine tract-binding protein 1 n=1 Tax=Gonium pectorale TaxID=33097 RepID=A0A150GSN9_GONPE
+---IKSVPRGWGFARDPTGVTYYYNPVTGERTWTRP-----
+>UniRef100_A0A1S4CP63 Polyglutamine tract-binding protein 1 n=1 Tax=Nicotiana tabacum TaxID=4097 RepID=A0A1S4CP63_TOBAC
+SWGHSVLPEFWQEVFDETGQKYYYNAKTNVSQWEHP-----
+>UniRef100_A0A6A2XA09 Polyglutamine tract-binding protein 1 n=1 Tax=Hibiscus syriacus TaxID=106335 RepID=A0A6A2XA09_HIBSY
+ISYTTRLVGDWVESVDETGHKYYYNTKTHISQWECP-----
+>UniRef100_A0A0B7N769 Uncharacterized protein n=1 Tax=Parasitella parasitica TaxID=35722 RepID=A0A0B7N769_9FUNG
+-----GLPLGWSLSRDEASAAFDYNETAGEAQWEGQ-----
+>UniRef100_A0A0B7NB51 Uncharacterized protein n=1 Tax=Parasitella parasitica TaxID=35722 RepID=A0A0B7NB51_9FUNG
+-----CLPTGWEHAFDSEGTIYYFNETTGESRWDKP-----
+>UniRef100_A0A167QQW1 Pre-mRNA-splicing factor n=1 Tax=Penicillium chrysogenum TaxID=5076 RepID=A0A167QQW1_PENCH
+-----PFASGMDTASGPHGHLYYYNSSTKQSTYTRP-----
+>UniRef100_A0A1Q5UL75 Pre-mRNA-splicing factor dre4 n=1 Tax=Penicillium subrubescens TaxID=1316194 RepID=A0A1Q5UL75_9EURO
+-----PLAKSGKDLTNCDGHLYYYNAATKQSTYKRP-----
+>UniRef100_A0A2S7P0K8 WW domain-containing protein n=1 Tax=Rutstroemia sp. NJR-2017a BVV2 TaxID=2070413 RepID=A0A2S7P0K8_9HELO
+-----DGCLASRLAKLIIGHTYYFNSETKQSTYTRP-----
+>UniRef100_A0A437ABB9 WW domain-containing protein n=1 Tax=Arthrobotrys flagrans TaxID=97331 RepID=A0A437ABB9_9PEZI
+-----DGTSRSNRTSRALGHSYYYHAESKTSTYTRP-----
+>UniRef100_A0A0P7BIE7 Uncharacterized protein n=1 Tax=Neonectria ditissima TaxID=78410 RepID=A0A0P7BIE7_9HYPO
+-PGDSGLPPGWGQRKAPDGRTFYFNTRTGTSTWTKPSNSL-
+>UniRef100_A0A0P1L2Q9 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Lachancea quebecensis TaxID=1654605 RepID=A0A0P1L2Q9_9SACH
+------LPEPWTVRFSKSKREYFFHPETKQSQWEEP-----
+>UniRef100_A0A139AS29 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Gonapodya prolifera (strain JEL478) TaxID=1344416 RepID=A0A139AS29_GONPJ
+-------MTQWVQQYSKSRRPYWFNPATGESRWEDP-----
+>UniRef100_A0A1D2V9S2 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Ascoidea rubescens DSM 1968 TaxID=1344418 RepID=A0A1D2V9S2_9ASCO
+------LPADWILLKSRSHRHYFHNPTTKQSVWDAP-----
+>UniRef100_A0A5J4YI48 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Porphyridium purpureum TaxID=35688 RepID=A0A5J4YI48_PORPP
+------PNRGRPPSEETTRVEHSVGAICEACCKSLV-----
+>UniRef100_J7SAS6 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Kazachstania naganishii (strain ATCC MYA-139 / BCRC 22969 / CBS 8797 / KCTC 17520 / NBRC 10181 / NCYC 3082 / Yp74L-3) TaxID=1071383 RepID=J7SAS6_KAZNA
+------LPDGWTVKYSKSKRAYFLYTEASRSQWDAP-----
+>UniRef100_A0A150H0Z3 WW domain-containing protein n=1 Tax=Gonium pectorale TaxID=33097 RepID=A0A150H0Z3_GONPE
+-----PLPDGWDEFRDPTKQPFYVNRETGEKSWTRPEIA--
+>UniRef100_A0A2J7ZU90 COBW domain-containing protein 1 n=1 Tax=Tetrabaena socialis TaxID=47790 RepID=A0A2J7ZU90_9CHLO
+-----DLPDGWDEYRDNTKQPFYVNRNTGEKMWTRPEIA--
+>UniRef100_A0A383VPD3 WW domain-containing protein n=1 Tax=Tetradesmus obliquus TaxID=3088 RepID=A0A383VPD3_TETOB
+-----KLPEGWQEFQDPTLQPYYYNPNTKEKTWARPNAT--
+>UniRef100_A0A0C3B093 Uncharacterized protein n=1 Tax=Serendipita vermifera MAFF 305830 TaxID=933852 RepID=A0A0C3B093_9AGAM
+--DLGPLPAGWKEKVTPEGRSYFVG--PGPTTWVDPR----
+>UniRef100_A0A0R3WLY5 Uncharacterized protein n=1 Tax=Hydatigena taeniaeformis TaxID=6205 RepID=A0A0R3WLY5_HYDTA
+--SSIVLPNGWEVIDHPEYGLFYVDHIHQKTQYEPPTEA--
+>UniRef100_A0A067MQT0 WW domain-containing protein n=1 Tax=Botryobasidium botryosum FD-172 SS1 TaxID=930990 RepID=A0A067MQT0_9AGAM
+----GHLPHGVEEKTTPDGRTFWVDHRPGKPTWEDPR----
+>UniRef100_A0A6A5TZU0 Uncharacterized protein n=1 Tax=Byssothecium circinans TaxID=147558 RepID=A0A6A5TZU0_9PLEO
+------LPPNWDRRLDCDGNLFFVDHNTQSATRIDPRF---
+>UniRef100_A0A1X7VQQ3 HECT-type E3 ubiquitin transferase n=1 Tax=Amphimedon queenslandica TaxID=400682 RepID=A0A1X7VQQ3_AMPQE
+---DREIPSDWEKKLNKEGRIFFIDHKHQLTTFIDPRL---
+>UniRef100_A0A3B1INA0 Uncharacterized protein n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=A0A3B1INA0_ASTMX
+-------LNGWDMTSSRDGRDCFIDHVSQSSSLEEVRL---
+>UniRef100_G1TVP1 FERM and PDZ domain containing 4 n=2 Tax=Oryctolagus cuniculus TaxID=9986 RepID=G1TVP1_RABIT
+-------PCGWETMTNRDGRDGFLSHMTQAIPCDDPRL---
+>UniRef100_UPI000CD64CCB FERM and PDZ domain-containing protein 4-like isoform X1 n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=UPI000CD64CCB
+-------PYGWDPAFGREWRDCFVNVSQSS-SLEEVCL---
+>UniRef100_UPI000F506442 FERM and PDZ domain-containing protein 4-like isoform X1 n=1 Tax=Tachysurus fulvidraco TaxID=1234273 RepID=UPI000F506442
+-------GDGWDSVSNRDERDCFIDHVSQSSSLDEVRL---
+>UniRef100_UPI0010F64189 FERM and PDZ domain-containing protein 4-like n=1 Tax=Betta splendens TaxID=158456 RepID=UPI0010F64189
+-------PYSWDSMNSTRDC--LTSQVSQSSSLEEVHL---
+>UniRef100_A0A2V1C2M0 Uncharacterized protein (Fragment) n=1 Tax=Cadophora sp. DSE1049 TaxID=1485229 RepID=A0A2V1C2M0_9HELO
+---PTPLPSGWERTTP-DGKVYYYQLTSQLTTWERP-----
+>UniRef100_B8C8L3 Uncharacterized protein (Fragment) n=1 Tax=Thalassiosira pseudonana TaxID=35128 RepID=B8C8L3_THAPS
+--ESPSLPSDWETLDPTSGKTYYYNEATNETTWDKPAV---
+>UniRef100_UPI000BBD8106 centrosomal protein of 164 kDa isoform X1 n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=UPI000BBD8106
+---CVTPSSPSLPSQDVTGDVYYFNFSTGQSTWDHPC----
+>UniRef100_F2U2G7 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U2G7_SALR5
+--GEAPLPPGWKQQVTPDGQVYYFNTKTRESSYTRP-----
+>UniRef100_F6SI60 Uncharacterized protein n=2 Tax=Ciona intestinalis TaxID=7719 RepID=F6SI60_CIOIN
+---SQDLPDGWELGFTIEGIPFYINHKERYTTPMKP-----
+>UniRef100_A0A023B894 WW domain protein n=1 Tax=Gregarina niphandrodes TaxID=110365 RepID=A0A023B894_GRENI
+---DQQLPEGWEPVAMENGQVYYYSKALDRTQWERPTSA--
+>UniRef100_UPI0001CBBFF8 NEDD4-like E3 ubiquitin-protein ligase WWP1-like n=1 Tax=Saccoglossus kowalevskii TaxID=10224 RepID=UPI0001CBBFF8
+------LPKGWEERDDPNGFPYYLDSRTGFITWEKPEV---
+>UniRef100_A0A1A6A1C4 WW domain-containing protein n=1 Tax=Kwoniella dejecticola CBS 10117 TaxID=1296121 RepID=A0A1A6A1C4_9TREE
+--EQRDLPEGWVRCFDPQQHAFYVDERTKRSTWLHP-----
+>UniRef100_A0A0N4YB59 HECT-type E3 ubiquitin transferase n=1 Tax=Nippostrongylus brasiliensis TaxID=27835 RepID=A0A0N4YB59_NIPBR
+INVISPLPAGWEACTDRKGRTFYIDHTTKKTTWQRPSPEA-
+>UniRef100_A0A158PFC9 HECT-type E3 ubiquitin transferase n=1 Tax=Angiostrongylus costaricensis TaxID=334426 RepID=A0A158PFC9_ANGCS
+LHENEPALAAYNASP-------VVKHIVHKI---RKCGEM-
+>UniRef100_UPI000B45B44C uncharacterized protein LOC110463302 n=1 Tax=Mizuhopecten yessoensis TaxID=6573 RepID=UPI000B45B44C
+--QETPLPLGWQKAKDRRAQFYYVSHNDCYTTWSDPRI---
+>UniRef100_A0A1J5X038 HECT-type E3 ubiquitin transferase n=1 Tax=Amphiamblys sp. WSBS2006 TaxID=1866961 RepID=A0A1J5X038_9MICR
+----DSLPAGWEQRVDREGRIFYVSHETQMVTRSHP-----
+>UniRef100_A8BBN7 WW domain-containing protein n=2 Tax=Giardia intestinalis (strain ATCC 50803 / WB clone C6) TaxID=184922 RepID=A8BBN7_GIAIC
+-----PLPPDWRVASTADGDIYYYHKDKREPTWDHP-----
+>UniRef100_A0A5E3XGF5 Uncharacterized protein n=1 Tax=Peniophora sp. CBMAI 1063 TaxID=718367 RepID=A0A5E3XGF5_9AGAM
+-------PANWEMKRA-RGRIWFKNAITHKTTDTDIRI---
+>UniRef100_A0A0D0CA27 Unplaced genomic scaffold GYMLUscaffold_110, whole genome shotgun sequence n=1 Tax=Gymnopus luxurians FD-317 M1 TaxID=944289 RepID=A0A0D0CA27_9AGAR
+VDQYRSLPASWEHCTTPLSRTYYINFNTKTTTWNRP-----
+>UniRef100_B8LCQ7 Predicted protein n=1 Tax=Thalassiosira pseudonana TaxID=35128 RepID=B8LCQ7_THAPS
+---DNELPTPWQQHMDPSGKPYYYNPETSVTQWERP-----
+>UniRef100_A0A091N527 Dystrophin-related protein 2 n=1 Tax=Acanthisitta chloris TaxID=57068 RepID=A0A091N527_9PASS
+----------GQLLVHRNQSRRHLNHQAQTTCWDHPKMTEL
+>UniRef100_A0A091SHA9 Dystrophin-related protein 2 (Fragment) n=1 Tax=Pelecanus crispus TaxID=36300 RepID=A0A091SHA9_PELCR
+-----------PLSKSPGSEPFPP-TKCRTTSRCQTVVLFF
+>UniRef100_A0A3B3R0P7 Dystrophin n=1 Tax=Paramormyrops kingsleyae TaxID=1676925 RepID=A0A3B3R0P7_9TELE
+----------HCESFSYMLSTSLNFHQAQTTCWDHPKMAEL
+>UniRef100_A0A3B5L5R9 Utrophin n=1 Tax=Xiphophorus couchianus TaxID=32473 RepID=A0A3B5L5R9_9TELE
+----------WPRFRDDRKKVY--NKTTQTTCWDHPKMTEL
+>UniRef100_H3BBK9 Dystrophin related protein 2 n=1 Tax=Latimeria chalumnae TaxID=7897 RepID=H3BBK9_LATCH
+----------ATEKKEKERIISFFSHQAQTTCWDHPKMTEL
+>UniRef100_UPI000CDFB43F dystrophin-related protein 2-like n=1 Tax=Salvelinus alpinus TaxID=8036 RepID=UPI000CDFB43F
+----------WRRPSGPDDMLGSKNDGAVPGTGPSPATSAG
+>UniRef100_A0A6F9C0R8 HECT-type E3 ubiquitin transferase n=1 Tax=Coregonus sp. 'balchen' TaxID=861768 RepID=A0A6F9C0R8_9TELE
+LHTPPDLPEGYEQRTTQQGQVYFLHTQTGVSTWHDPRVP--
+>UniRef100_A0A0D2VU74 Uncharacterized protein n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2VU74_CAPO3
+-NGEIALPDGWKAYTTPEGRAYYVHLATKERSWKAPEYV--
+>UniRef100_F2U671 Uncharacterized protein n=1 Tax=Salpingoeca rosetta (strain ATCC 50818 / BSB-021) TaxID=946362 RepID=F2U671_SALR5
+-PSNDDLPPGWKAVVQASGRSYYVNEQTQETRWDKPQ-A--
+>UniRef100_A0A4P9X4V8 Uncharacterized protein n=1 Tax=Caulochytrium protostelioides TaxID=1555241 RepID=A0A4P9X4V8_9FUNG
+-----PLPEGWSKEWSEHRKCYFYNRVQRVTSWVDPRDAY-
+>UniRef100_A0A662WZ89 Polyglutamine tract-binding protein 1 n=1 Tax=Nothophytophthora sp. Chile5 TaxID=2483409 RepID=A0A662WZ89_9STRA
+------LPDGWKEATDDSGDTYYWNE-VRKALYVGIGY---
+>UniRef100_UPI0008118089 WW domain-containing oxidoreductase-like n=1 Tax=Rhagoletis zephyria TaxID=28612 RepID=UPI0008118089
+--SDDDIPAGWEQRVDNSDFVYYVNPDTDQTSRSDPRLAY-
+>UniRef100_A0A662YH78 Myosin motor domain-containing protein n=1 Tax=Nothophytophthora sp. Chile5 TaxID=2483409 RepID=A0A662YH78_9STRA
+-----SLTSAMQQRRQQAHAVQQRRQQASAAMAQRR-----
+>UniRef100_A0A2J7ZXE5 WW domain-containing protein n=1 Tax=Tetrabaena socialis TaxID=47790 RepID=A0A2J7ZXE5_9CHLO
+---DDALPPGWGVATDATGRSYFWHKKTQKVQWDRP-----
+>UniRef100_G4TDR4 WW domain-containing protein n=1 Tax=Serendipita indica (strain DSM 11827) TaxID=1109443 RepID=G4TDR4_SERID
+------LPEGWEERKSSKGETYYCEIRSGKTQWEHPAKSM-
+>UniRef100_A0A0L7LG22 WW domain-containing oxidoreductase n=1 Tax=Operophtera brumata TaxID=104452 RepID=A0A0L7LG22_9NEOP
+------LPFGWTKTTEEDGKVLYSHKETGNLTSIDPRLAFA
+>UniRef100_A0A2P8Z9T5 Rho GTPase-activating protein 12 n=1 Tax=Blattella germanica TaxID=6973 RepID=A0A2P8Z9T5_BLAGE
+------LHEGWEEYQTPQGRTFYYNRRTRDKSWKPPR----
+>UniRef100_A0A0E9NJU6 4-aminobutyrate aminotransferase n=3 Tax=Saitoella complicata (strain BCRC 22490 / CBS 7301 / JCM 7358 / NBRC 10748 / NRRL Y-17804) TaxID=698492 RepID=A0A0E9NJU6_SAICN
+-PDVNALPPGWEEAQDDSGRTYYYNKAEGKNQWTRP-----
+>UniRef100_A0A2P4WF89 Phosphatidylinositol-glycan biosynthesis class W protein n=1 Tax=Caenorhabditis remanei TaxID=31234 RepID=A0A2P4WF89_CAERE
+MSSENPLPAGWEKRQSRNDRVYYFNTATGVSQWDRPEAS--
+>UniRef100_A0A329RVA7 WW domain-containing protein n=1 Tax=Phytophthora cactorum TaxID=29920 RepID=A0A329RVA7_9STRA
+------LPADSEQGETEDVTLYYFNSSTEESIWEHP-----
+>UniRef100_A0A2V3J2A1 Pre-mRNA-processing protein 40A n=1 Tax=Gracilariopsis chorda TaxID=448386 RepID=A0A2V3J2A1_9FLOR
+-PNVEPLPAGWAEHRTPDGKVYYYHSVTRETRWDRPTNA--
+>UniRef100_R7QSQ1 Uncharacterized protein n=1 Tax=Chondrus crispus TaxID=2769 RepID=R7QSQ1_CHOCR
+-EEPQPLPEGWAQNSAADGRVYYYHAATRETRWDRPTVS--
+>UniRef100_A0A024GK95 Uncharacterized protein n=1 Tax=Albugo candida TaxID=65357 RepID=A0A024GK95_9STRA
+-----ALPKGWTICVSRSRKIYYYHQETNTVQWSRP-----
+>UniRef100_A0A5D6XQR7 Uncharacterized protein n=1 Tax=Pythium brassicum TaxID=1485010 RepID=A0A5D6XQR7_9STRA
+--DALPLPVGWEAKVSRSGRVYYVNRKLGKSQFERPTLASL
+>UniRef100_A0A3Q2DXV4 PH domain-containing protein n=1 Tax=Cyprinodon variegatus TaxID=28743 RepID=A0A3Q2DXV4_CYPVA
+-----PVDELFGFLLGVEVIVRTYTSSIAAGSLLNL-----
+>UniRef100_A0A3Q2WCE2 Uncharacterized protein n=1 Tax=Haplochromis burtoni TaxID=8153 RepID=A0A3Q2WCE2_HAPBU
+-----SISNKVTAGFERISRSFLNSEEAKSTTWLHP-----
+>UniRef100_A0A024TIS9 Uncharacterized protein n=1 Tax=Aphanomyces invadans TaxID=157072 RepID=A0A024TIS9_9STRA
+--NECCLPPGWTARFSPTKQRVCFIHESGAMQFTHP-----
+>UniRef100_H2Z4S7 Uncharacterized protein n=1 Tax=Ciona savignyi TaxID=51511 RepID=H2Z4S7_CIOSA
+--EDTKLPPDWEAVATPTGEKYYVNTKTNETAWEIPK----
+>UniRef100_A0A0A1TDV5 WW domain-containing protein n=1 Tax=Torrubiella hemipterigena TaxID=1531966 RepID=A0A0A1TDV5_9HYPO
+VPGKPMLPPGWATLHDAEGRWYYVEQTTNRTQWEVPTLQ--
+>UniRef100_A0A179G1J6 WW domain-containing protein n=1 Tax=Pochonia chlamydosporia 170 TaxID=1380566 RepID=A0A179G1J6_METCM
+-PNQPTLPSGWTTLFDSQQKWYYVEQKTCRTQWEVPTAE--
+>UniRef100_A0A366Q6C1 WW domain-containing protein n=1 Tax=Verticillium dahliae TaxID=27337 RepID=A0A366Q6C1_VERDA
+RPGSPALPDGWIKRFDERGRWYYVDETTGTSQWEPPKTA--
+>UniRef100_A0A3Q2DXV4 PH domain-containing protein n=1 Tax=Cyprinodon variegatus TaxID=28743 RepID=A0A3Q2DXV4_CYPVA
+------SPFQLSQAATAEDLNGVQSHNERKVTCKHP-----
+>UniRef100_A0A0D2VPB1 Uncharacterized protein n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2VPB1_CAPO3
+------LPYGWDFAEDPDVGIYFIDHLSKRNTLDDPRMTQ-
+>UniRef100_A0A6C0C1K4 WW domain-containing protein n=1 Tax=viral metagenome TaxID=1070528 RepID=A0A6C0C1K4_9ZZZZ
+----DDLPEGWKRGQDSNGRTYYYNETTNKTQWEKPKKG--
+>UniRef100_A0A6F9DE33 Growth arrest-specific protein 7 n=1 Tax=Phallusia mammillata TaxID=59560 RepID=A0A6F9DE33_9ASCI
+VQESETTSDEWNEVKTPTGEIYYVNTRTNKSSWELP-----
+>UniRef100_UPI00005227AB growth arrest-specific protein 7 n=1 Tax=Ciona intestinalis TaxID=7719 RepID=UPI00005227AB
+LEDEEALPAGWEAISTPNGEKYYVNTKTNETTWEIP-----
+>UniRef100_A0A366RZL9 Uncharacterized protein n=1 Tax=Fusarium coffeatum TaxID=231269 RepID=A0A366RZL9_9HYPO
+WHQGGNLPSGWEIRQDEQGRIYFVDHNRRETSWDPP-----
+>UniRef100_UPI0012497F97 hypothetical protein n=1 Tax=Magnaporthe grisea TaxID=148305 RepID=UPI0012497F97
+IHARQHLPADWGVHIKPDNAVYYKNIKSGITTSEFP-----
+>UniRef100_UPI000D0A505A membrane-associated guanylate kinase, WW and PDZ domain-containing protein 2-like isoform X1 n=1 Tax=Oncorhynchus tshawytscha TaxID=74940 RepID=UPI000D0A505A
+----CTKPLSLSLSVVSICLCASLHFSLLSVSFPT-L----
+>UniRef100_A0A068RGQ7 SET domain-containing protein 2 n=1 Tax=Lichtheimia corymbifera JMRC:FSU:9682 TaxID=1263082 RepID=A0A068RGQ7_9FUNG
+-----KLPANWQKAVTDAGDTYYYNTITKVSQWEFP-----
+>UniRef100_A0A137PAT3 Uncharacterized protein n=1 Tax=Conidiobolus coronatus (strain ATCC 28846 / CBS 209.66 / NRRL 28638) TaxID=796925 RepID=A0A137PAT3_CONC2
+-----GLPKPYSAFMSPDRQVFFYNNITKKAQWTAP-----
+>UniRef100_A0A168PC94 SET domain-containing protein 2 n=1 Tax=Absidia glauca TaxID=4829 RepID=A0A168PC94_ABSGL
+-----PLPPNWRQATTEDGNVYYYHKITNKTQWSFP-----
+>UniRef100_A0A1C7NMC3 SET domain-containing protein 2 n=1 Tax=Choanephora cucurbitarum TaxID=101091 RepID=A0A1C7NMC3_9FUNG
+-----Q-SP-WQMATTEEGAVYYCNLVTNQTQWHAP-----
+>UniRef100_A0A1X0SD36 SET domain-containing protein 2 n=2 Tax=Rhizopus TaxID=4842 RepID=A0A1X0SD36_RHIZD
+-----PLPANWQLIMNEDGTYYYYNALTQQVQWEIP-----
+>UniRef100_A0A1X2H542 Uncharacterized protein n=1 Tax=Syncephalastrum racemosum TaxID=13706 RepID=A0A1X2H542_SYNRA
+-----ALSGDWER-VNRDGQVYYHNKVTHKTQWEPP-----
+>UniRef100_A0A2T9YK70 SET domain-containing protein 2 n=1 Tax=Smittium simulii TaxID=133385 RepID=A0A2T9YK70_9FUNG
+------LKSGWYPAKSQDGRTYYYSEMNKDILWDPP-----
+>UniRef100_A0A397SJM6 Uncharacterized protein n=1 Tax=Glomus cerebriforme TaxID=658196 RepID=A0A397SJM6_9GLOM
+-----PLAPNWYETKDEYGQIYYYNKYTLQASWERP-----
+>UniRef100_A0A507D2G9 Histone-lysine N-methyltransferase n=1 Tax=Synchytrium endobioticum TaxID=286115 RepID=A0A507D2G9_9FUNG
+-----GVNPDWVPTSNTSGANPDWSTSGANPDWVSM-----
+>UniRef100_A0A1Y3ED67 WW domain protein (Fragment) n=1 Tax=Trichinella nativa TaxID=6335 RepID=A0A1Y3ED67_9BILA
+--DTPPLPKGWEKRMSRTGEPYYYNVYSHESQWRRPTEPAL
+>UniRef100_A0A3D8Q4Z7 Uncharacterized protein n=1 Tax=Coleophoma crateriformis TaxID=565419 RepID=A0A3D8Q4Z7_9HELO
+VDAEGSLPDGWECAETETGELYYIDRNKKSAMWDRPVTSL-
+>UniRef100_A0A1B2JAL2 BA75_02088T0 n=1 Tax=Komagataella pastoris TaxID=4922 RepID=A0A1B2JAL2_PICPA
+-PPPPALPEGWVAQWDEEQRYFYVNTATGASQWEVP-----
+>UniRef100_A0A1D2VQU6 WW domain-containing protein n=1 Tax=Ascoidea rubescens DSM 1968 TaxID=1344418 RepID=A0A1D2VQU6_9ASCO
+-PPPPSIPDGWLAVWDEEQCYFYVNKYTNESTWELP-----
+>UniRef100_A0A1E3PKS4 WW domain-containing protein n=1 Tax=Nadsonia fulvescens var. elongata DSM 6958 TaxID=857566 RepID=A0A1E3PKS4_9ASCO
+-PPPPSLPENWIAQYDPEKQYYFVNLITKVSQWEIP-----
+>UniRef100_A0A0C3CF42 WW domain-containing protein n=1 Tax=Hebeloma cylindrosporum h7 TaxID=686832 RepID=A0A0C3CF42_HEBCY
+-PDP-ELPPGWEVRRSRNDQRYYYNKDTNNSQWHLP-----
+>UniRef100_A0A409XCK6 WW domain-containing protein n=1 Tax=Psilocybe cyanescens TaxID=93625 RepID=A0A409XCK6_PSICY
+-SSPADLPPDWQTRYSRNGQMYYYNPETEETTWDFP-----
+>UniRef100_A0A2G8JW72 Putative rho GTPase-activating protein 12-like n=1 Tax=Stichopus japonicus TaxID=307972 RepID=A0A2G8JW72_STIJA
+FPSGDPSSGEWKELTDQQGRKYYFNQNTRQTQWEAPR----
+>UniRef100_UPI000C7F06E8 LOW QUALITY PROTEIN: histone-lysine N-methyltransferase SETD2 n=1 Tax=Otolemur garnettii TaxID=30611 RepID=UPI000C7F06E8
+------XPPEKMAEMPMPGFSYFLVMISRQTQWDPP-----
+>UniRef100_A0A0S4INS5 Uncharacterized protein n=1 Tax=Bodo saltans TaxID=75058 RepID=A0A0S4INS5_BODSA
+--DGSPLPPNWKLVAPADGRSYYFNTITKKVQWTRP-----
+>UniRef100_A0A0M0JQ15 WW domain-containing protein n=1 Tax=Chrysochromulina tobinii TaxID=1460289 RepID=A0A0M0JQ15_9EUKA
+--SSVSLPPGWVMGTDPSGRNYYIDTANGVTQWNPPPSMM-
+>UniRef100_A0A0M0JPD4 Superoxide-generating NADPh oxidase flavocytochrome n=1 Tax=Chrysochromulina tobinii TaxID=1460289 RepID=A0A0M0JPD4_9EUKA
+-SADAPLPDGWCTQTTAEGEVYYWNKYTNLTSWDRPR----
+>UniRef100_L1I908 WW domain-containing protein n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1I908_GUITC
+------LPAGWKREEDRNGRIYYINHKLHKSSWTFPSSDIV
+>UniRef100_G0P6S3 Uncharacterized protein n=1 Tax=Caenorhabditis brenneri TaxID=135651 RepID=G0P6S3_CAEBE
+MSSSYPTGSDLSVIYFAPSTSSSTVFNTPASRYSTAT----
+>UniRef100_A0A1E1XMJ8 WW domain-containing protein (Fragment) n=1 Tax=Amblyomma sculptum TaxID=1581419 RepID=A0A1E1XMJ8_9ACAR
+---EVSLPPPWCPVEDPQGRIYYYNSVTKETKWEHP-----
+>UniRef100_A0A6B0V0T0 WW domain-containing protein (Fragment) n=2 Tax=Ixodes ricinus TaxID=34613 RepID=A0A6B0V0T0_IXORI
+---EVSLPPPWYPVEDSQGRIYYYNSVTKETKWEHP-----
+>UniRef100_UPI00051505D3 centrosomal protein of 164 kDa n=1 Tax=Phalacrocorax carbo TaxID=9209 RepID=UPI00051505D3
+---VAPLPPEWKPCSDVGSSVDSSLVAKGGAQSLHGT----
+>UniRef100_UPI000CDA982A centrosomal protein of 164 kDa isoform X1 n=1 Tax=Cyanistes caeruleus TaxID=156563 RepID=UPI000CDA982A
+---VTPMPPEWKACQDIAGGIYFFNFENGLSTWEHPC----
+>UniRef100_UPI0014191CDA centrosomal protein of 164 kDa isoform X2 n=1 Tax=Lacerta agilis TaxID=80427 RepID=UPI0014191CDA
+---SVQLRGERRHGERLHSGGGGGSGGSVTSSLADHL----
+>UniRef100_UPI00148D57F4 centrosomal protein of 164 kDa-like isoform X1 n=1 Tax=Hippoglossus hippoglossus TaxID=8267 RepID=UPI00148D57F4
+---VTENIRCIKKQESNEGEEDDSDENVERCFKAKDR----
+>UniRef100_W5MGJ4 Centrosomal protein 164 n=1 Tax=Lepisosteus oculatus TaxID=7918 RepID=W5MGJ4_LEPOC
+---VAPLPAEWKPWPSAAGNPAP-TFPHKPLSWKHAC----
+>UniRef100_A0A069DRZ6 Polyglutamine tract-binding protein 1 n=1 Tax=Panstrongylus megistus TaxID=65343 RepID=A0A069DRZ6_9HEMI
+-----PLPNNWKEVYDPGGKHYYWEMSSDMVSWLPPA----
+>UniRef100_A0A0D8XLD1 Polyglutamine tract-binding protein 1 n=1 Tax=Dictyocaulus viviparus TaxID=29172 RepID=A0A0D8XLD1_DICVI
+-----PLPEPWVEVYDAGARHYYWNQDTDEVCWVSPR----
+>UniRef100_A0A183CPC9 Polyglutamine tract-binding protein 1 n=1 Tax=Globodera pallida TaxID=36090 RepID=A0A183CPC9_GLOPA
+-----PLPKDWVEIYDAGRRHYYWNQMTDEVCWLSPK----
+>UniRef100_A0A336K7P6 Polyglutamine tract-binding protein 1 n=1 Tax=Culicoides sonorensis TaxID=179676 RepID=A0A336K7P6_CULSO
+-----PLPKGWTPIYDPGAAFYFWNEEEQNVSWLPPS----
+>UniRef100_A0A3S3P4V3 Polyglutamine tract-binding protein 1 n=1 Tax=Dinothrombium tinctorium TaxID=1965070 RepID=A0A3S3P4V3_9ACAR
+-----PLPDEWQQIWDPGACYYFWNTDTDEVSWLPPS----
+>UniRef100_UPI00083C88E5 polyglutamine-binding protein 1 n=1 Tax=Nicrophorus vespilloides TaxID=110193 RepID=UPI00083C88E5
+-----PLPKNCTELFDNGGRYYYWDIEKNLVSWLPPT----
+>UniRef100_F4R8Y0 WW domain-containing protein n=1 Tax=Melampsora larici-populina (strain 98AG31 / pathotype 3-4-7) TaxID=747676 RepID=F4R8Y0_MELLP
+------LPNGWMSRLSKQGKVYYVNAITRTSQWTLPTEA--
+>UniRef100_A0A3R7Z9S9 WW domain-containing protein n=1 Tax=Aphanomyces astaci TaxID=112090 RepID=A0A3R7Z9S9_9STRA
+-----PVPEDWEQGESDDGTIYYFNVNTEESVWEHP-----
+>UniRef100_A0A176WL24 WW domain-containing protein n=2 Tax=Marchantia polymorpha TaxID=3197 RepID=A0A176WL24_MARPO
+LRPNPPLPAGWEKCLDLSGNIYFKDRITGTSTYKDPRKKL-
+>UniRef100_A0A2K1L0X5 WW domain-containing protein n=1 Tax=Physcomitrium patens TaxID=3218 RepID=A0A2K1L0X5_PHYPA
+MQPESQLPCGWEKCLDLTGLVYFKDWSSGSLSYKDPRQSV-
+>UniRef100_A9RPM2 Predicted protein n=1 Tax=Physcomitrium patens TaxID=3218 RepID=A9RPM2_PHYPA
+IQPEPLIRSGWGKCRDSSGPLYFKDWNCATQTNRDPRQSD-
+>UniRef100_A0A0M0JUA6 E3 ubiquitin-protein ligase nedd4-like protein n=1 Tax=Chrysochromulina tobinii TaxID=1460289 RepID=A0A0M0JUA6_9EUKA
+----GKLPNGWRMVSSPEGTPYYFNKKTGETSWERP-----
+>UniRef100_A0A058Z8M6 Uncharacterized protein n=1 Tax=Fonticula alba TaxID=691883 RepID=A0A058Z8M6_FONAL
+-SQLGQLPTGWEMLQSRGSDPLYIDHLNQQTTWIDPR----
+>UniRef100_A0A194PT29 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Papilio xuthus TaxID=66420 RepID=A0A194PT29_PAPXU
+-----PLPEGWSIGYCVSKRYYYINNFTNKTQWNRP-----
+>UniRef100_A0A1Y1ZBR6 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Basidiobolus meristosporus CBS 931.73 TaxID=1314790 RepID=A0A1Y1ZBR6_9FUNG
+-----QLPEFWQMLHSRHNRIYYFNTKTSESRWEPP-----
+>UniRef100_A0A6G0XYN5 WW domain-containing protein n=1 Tax=Aphanomyces euteiches TaxID=100861 RepID=A0A6G0XYN5_9STRA
+---REPVADEWKEAFTADGKKYYYNRRTRESSWTCPENAIL
+>UniRef100_W4H7G9 WW domain-containing protein n=1 Tax=Aphanomyces astaci TaxID=112090 RepID=W4H7G9_9STRA
+---PQGV-DEWKEAFTEDGKTYYYNRRTRETSWTCPENAIV
+>UniRef100_A0A096PA04 WW domain n=1 Tax=Ostreococcus tauri TaxID=70448 RepID=A0A096PA04_OSTTA
+------LPSGWRAFVDESGEVFYGHVDTKQTQWARPSC---
+>UniRef100_A0A3L6S4T1 WW domain-containing protein n=1 Tax=Panicum miliaceum TaxID=4540 RepID=A0A3L6S4T1_PANMI
+------LPSGWQAYVDETKQVYYGNSLASETSWERPMK---
+>UniRef100_A0A672H0R1 WW domain-containing protein n=1 Tax=Salarias fasciatus TaxID=181472 RepID=A0A672H0R1_SALFA
+---VARLPPEWRPSKDEEGNLYYFNFSTGQSTWEHP-----
+>UniRef100_A0A150FUW4 WW domain-containing protein n=1 Tax=Gonium pectorale TaxID=33097 RepID=A0A150FUW4_GONPE
+----------WTVHKSNEGRAFFYNVESGSTQWTDPRIQPL
+>UniRef100_L1J8Q1 Uncharacterized protein n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1J8Q1_GUITC
+ISVDTTLPNGWATASTSDGKVYYYNVDTKQTQWEKP-----
+>UniRef100_A0A4Q9MAS1 WW domain-containing protein n=1 Tax=Dichomitus squalens TaxID=114155 RepID=A0A4Q9MAS1_9APHY
+---SDPLPPDWEIRYPRNGAVYYYKSKTDKSTWTRPRLPNC
+>UniRef100_R1D2M6 WW domain-containing protein n=1 Tax=Emiliania huxleyi TaxID=2903 RepID=R1D2M6_EMIHU
+-----PLPEGWKRATSPEGREYYYHATSGETSWTLP-----
+>UniRef100_A0A5A8DFK1 Uncharacterized protein n=1 Tax=Cafeteria roenbergensis TaxID=33653 RepID=A0A5A8DFK1_CAFRO
+--EDKPLPAGWEAMETDDGRTYYYNAEEEVTQWDFP-----
+>UniRef100_A0A067PPG8 Uncharacterized protein n=1 Tax=Jaapia argillacea MUCL 33604 TaxID=933084 RepID=A0A067PPG8_9AGAM
+LLDIQPLPVGWEMLFSPKDIPYFFDSRARVRTFEDPR----
+>UniRef100_UPI0009808CA6 WW domain-containing oxidoreductase-like n=1 Tax=Castor canadensis TaxID=51338 RepID=UPI0009808CA6
+---SSSSHRHLYRKAKEKGKTLLINIEEARVCMEHER----
+>UniRef100_UPI000A2B210A WW domain-containing oxidoreductase isoform X5 n=1 Tax=Sus scrofa TaxID=9823 RepID=UPI000A2B210A
+---QGSKRSEHIKEVVESG-CFLVPWTQASVTACHSG----
+>UniRef100_A0A3D8SNJ1 WW domain-containing protein n=1 Tax=Coleophoma crateriformis TaxID=565419 RepID=A0A3D8SNJ1_9HELO
+----GVLPPGWSVHVCSDGSPLFVNDETDVVTTDDPRLESL
+>UniRef100_L1IAA6 WW domain-containing protein n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1IAA6_GUITC
+-SEEENLPEGWKSAVDQEGKVYYYNANTGESTWEPP-----
+>UniRef100_A0A061DBC8 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Babesia bigemina TaxID=5866 RepID=A0A061DBC8_BABBI
+------FLRSLPHVWSQTGLNYLLVAVRYMSNRRRR-----
+>UniRef100_A0A061H148 Peptidyl-prolyl cis-trans isomerase n=2 Tax=Anthracocystis flocculosa TaxID=84751 RepID=A0A061H148_9BASI
+------MSAQWEIRFSNSRLPYFYDAASGQSTWEIP-----
+>UniRef100_A0A0D0D5P6 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Paxillus rubicundulus Ve08.2h10 TaxID=930991 RepID=A0A0D0D5P6_9AGAM
+------STSGWEIRLSSTSIPYFFNVDTKQSTWEPP-----
+>UniRef100_A0A0D6EG74 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Sporidiobolus salmonicolor TaxID=5005 RepID=A0A0D6EG74_SPOSA
+------ARRSRGIRFSNSKRPYFYNQSTQESRWEVP-----
+>UniRef100_A0A177WDP1 Peptidyl-prolyl cis-trans isomerase n=2 Tax=Batrachochytrium dendrobatidis TaxID=109871 RepID=A0A177WDP1_BATDL
+------MTAEWEERWSRSKRIYYFSPDTKQSHWEKP-----
+>UniRef100_A0A2R5FZ84 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Hondaea fermentalgiana TaxID=2315210 RepID=A0A2R5FZ84_9STRA
+------LPPGWVARESSHGSIYFFNEFSRTSRWEKP-----
+>UniRef100_A7AV64 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Babesia bovis TaxID=5865 RepID=A7AV64_BABBO
+------LLGNGLVRIPEVIYTWIKTALRSMSNRRRR-----
+>UniRef100_G7DTW2 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Mixia osmundae (strain CBS 9802 / IAM 14324 / JCM 22182 / KY 12970) TaxID=764103 RepID=G7DTW2_MIXOS
+------PSKEWGVYFSRTQRPYFRSSVTNESLWEAP-----
+>UniRef100_U4L5Z1 Peptidyl-prolyl cis-trans isomerase n=1 Tax=Pyronema omphalodes (strain CBS 100304) TaxID=1076935 RepID=U4L5Z1_PYROM
+------LPTGWVVKYSTSVLPYYYYSPTNTSQWEPP-----
+>UniRef100_H2ZDG5 Uncharacterized protein n=1 Tax=Ciona savignyi TaxID=51511 RepID=H2ZDG5_CIOSA
+------IRDNLYLRTLPLVCVKMI-HLDKKTQFENP-----
+>UniRef100_A0A5D6XQT0 Conserved oligomeric Golgi complex subunit 5 n=1 Tax=Pythium brassicum TaxID=1485010 RepID=A0A5D6XQT0_9STRA
+LDSEAPLPPGWEARLSRSGKVYFCNPALKLTQWDRPTVESL
+>UniRef100_A9YH73 CG1716-PA (Fragment) n=1 Tax=Drosophila melanogaster TaxID=7227 RepID=A9YH73_DROME
+-PGVDPLPPAWNWQVTSDGDIYYYNLRERISQWEPP-----
+>UniRef100_A0A197JQG5 WW domain-containing protein n=1 Tax=Mortierella elongata AG-77 TaxID=1314771 RepID=A0A197JQG5_9FUNG
+--NQRPLPPGWISQYDSNHQAYFYKTNPPTITWEDPRPAY-
+>UniRef100_UPI000811A30A putative uncharacterized protein DDB_G0286901 n=1 Tax=Rhagoletis zephyria TaxID=28612 RepID=UPI000811A30A
+-----PLPEGWQQTTVPTGDTYYVNVAEQTTSWYHPAVA--
+>UniRef100_A0A0R3STX0 Uncharacterized protein n=2 Tax=Hymenolepis diminuta TaxID=6216 RepID=A0A0R3STX0_HYMDI
+---SLPLPAGWAVGVSSSGRRFYVSNRTRTTTWQHPVIA--
+>UniRef100_A0A1S3FR71 E3 ubiquitin-protein ligase SMURF1 n=1 Tax=Dipodomys ordii TaxID=10020 RepID=A0A1S3FR71_DIPOR
+------LPEGYGETGLRPG-VRCPRGRGRLGEGGGQPV---
+>UniRef100_A0A1Q9E287 Alpha-amylase n=1 Tax=Symbiodinium microadriaticum TaxID=2951 RepID=A0A1Q9E287_SYMMI
+LIDPRGLPDNFDAALDDSARMYFKNHENQSTTWDDPR----
+>UniRef100_UPI0009824004 uncharacterized protein LOC109722222 isoform X1 n=1 Tax=Ananas comosus TaxID=4615 RepID=UPI0009824004
+-LVSSSFP-DWEEAIDATGVKYYYNTKTLATQWEPP-----
+>UniRef100_A0A151Z8A0 WW domain-containing protein n=1 Tax=Tieghemostelium lacteum TaxID=361077 RepID=A0A151Z8A0_9MYCE
+----DQLPDKMEIRMDEEGRPYFVDHQTQTTSW--------
+>UniRef100_UPI000B90DD20 uncharacterized protein LOC110978001 isoform X1 n=2 Tax=Acanthaster planci TaxID=133434 RepID=UPI000B90DD20
+-SDRDDLPPGWQEGITREGVAYFMNHHTGETTFNHP-----
+>UniRef100_A0A1E7FMQ4 Uncharacterized protein (Fragment) n=1 Tax=Fragilariopsis cylindrus CCMP1102 TaxID=635003 RepID=A0A1E7FMQ4_9STRA
+-----ELPESWELEEPTSGQIYYYNSASGETSWERPNA---
+>UniRef100_UPI0011327158 centrosomal protein of 164 kDa-like isoform X3 n=1 Tax=Salmo trutta TaxID=8032 RepID=UPI0011327158
+---EVTPSSPSSRSQDVSGDVYYFNFSSGQSTWDHPC----
+>UniRef100_UPI0014776B04 centrosomal protein of 164 kDa n=1 Tax=Esox lucius TaxID=8010 RepID=UPI0014776B04
+---GTPSPVEWRRPAEWSAGLK--RQRKGRSDFGVSL----
+>UniRef100_A0A1I8GQR0 Uncharacterized protein n=1 Tax=Macrostomum lignano TaxID=282301 RepID=A0A1I8GQR0_9PLAT
+--------PPWQRMLNGSQLPYYRNADTRETSWDHPIMAEL
+>UniRef100_A0A061RY85 Uncharacterized protein n=1 Tax=Tetraselmis sp. GSL018 TaxID=582737 RepID=A0A061RY85_9CHLO
+-PREETLPSGWARATDLYGRTYYYNMKTKESAWDLP-----
+>UniRef100_A0A0N4W1E2 WW domain-containing protein n=1 Tax=Haemonchus placei TaxID=6290 RepID=A0A0N4W1E2_HAEPC
+------LNNGWMEYETEAGRTYFYNFETGKSQWIPPRF---
+>UniRef100_A0A428UW34 Uncharacterized protein n=1 Tax=Fusarium ambrosium TaxID=131363 RepID=A0A428UW34_9HYPO
+VDKSGDLPPGWEK-YSSNGRDYYACHDTQTWTGFDPRESL-
+>UniRef100_A0A024SIL6 Uncharacterized protein n=1 Tax=Hypocrea jecorina (strain ATCC 56765 / BCRC 32924 / NRRL 11460 / Rut C-30) TaxID=1344414 RepID=A0A024SIL6_HYPJR
+FAPPFAQPAAWQEHKTPEGRAYYYNSVTKVTQWTKP-----
+>UniRef100_A0A093V5J2 Pre-mRNA-processing protein prp40 n=1 Tax=Talaromyces marneffei PM1 TaxID=1077442 RepID=A0A093V5J2_TALMA
+TSSMPAGSSLWQEARNADGRVYYYNVQTKVTQWEKP-----
+>UniRef100_A0A0C1BW10 Formin binding protein n=1 Tax=Aspergillus ustus TaxID=40382 RepID=A0A0C1BW10_9EURO
+MNGPGGPAVIWQEARNADGRVYYYNVQTKATQWAKP-----
+>UniRef100_A0A0D2ISG8 Rhinocladiella mackenziei CBS 650.93 unplaced genomic scaffold supercont1.11, whole genome shotgun sequence n=1 Tax=Rhinocladiella mackenziei CBS 650.93 TaxID=1442369 RepID=A0A0D2ISG8_9EURO
+MTSLPPTPGQWQEARSPDGRTYYYNTATKETTWNKP-----
+>UniRef100_A0A0F2MK05 Pre-mRNA-processing factor 40 n=1 Tax=Sporothrix schenckii 1099-18 TaxID=1397361 RepID=A0A0F2MK05_SPOSC
+EQSPAAAPAAWVEYRNADGRVYYHNAAMGKTQWTKP-----
+>UniRef100_A0A0W4ZET7 Uncharacterized protein n=1 Tax=Pneumocystis jirovecii (strain RU7) TaxID=1408657 RepID=A0A0W4ZET7_PNEJ7
+VETDENAPSKWGEYKAPDGRIYWSNGK--TSVWEKP-----
+>UniRef100_A0A136J496 Uncharacterized protein n=1 Tax=Microdochium bolleyi TaxID=196109 RepID=A0A136J496_9PEZI
+APGPYGQPNPWQEHKTPEGRVYFYNSLTKVTQWTKP-----
+>UniRef100_A0A150V9U4 Uncharacterized protein n=1 Tax=Acidomyces richmondensis BFW TaxID=766039 RepID=A0A150V9U4_9PEZI
+-------MGLWREVKTAGGRPYYYHIETKETRWDKP-----
+>UniRef100_A0A151GM61 Pre-mRNA-processing protein prp40 n=1 Tax=Drechmeria coniospora TaxID=98403 RepID=A0A151GM61_9HYPO
+FTAPFGPPAPWQEHHTPDGRAYFYNSATKVTQWTKP-----
+>UniRef100_A0A177D069 Uncharacterized protein n=1 Tax=Paraphaeosphaeria sporulosa TaxID=1460663 RepID=A0A177D069_9PLEO
+MPPPMPPPAAWKSVTTPEGKTYYFNALTNATQWTKP-----
+>UniRef100_A0A178E4U7 U1 snRNP-associated protein Usp104 n=1 Tax=Pyrenochaeta sp. DS3sAY3a TaxID=765867 RepID=A0A178E4U7_9PLEO
+FPPPGGAPPSWNAVKTDDGKEYYYNAVTNQTTWEKP-----
+>UniRef100_A0A2C5WA37 Pre-mRNA-processing protein prp40 n=1 Tax=Ceratocystis fimbriata CBS 114723 TaxID=1035309 RepID=A0A2C5WA37_9PEZI
+MSAAAG--A-WQAHTSGEGRTYYHNSVTGATQWEKP-----
+>UniRef100_A0A2H1FPR7 Uncharacterized protein n=1 Tax=Zymoseptoria tritici ST99CH_1E4 TaxID=1276532 RepID=A0A2H1FPR7_ZYMTR
+-------MSDWGKAQTAEGKVYYWNKVTKATSWTAP-----
+>UniRef100_A0A2T2P5M1 Uncharacterized protein n=1 Tax=Corynespora cassiicola Philippines TaxID=1448308 RepID=A0A2T2P5M1_CORCC
+VPGAAAMPASWRQVTQ-NGQTYYHNTITNETAWQIP-----
+>UniRef100_A0A2V1DCY2 Uncharacterized protein n=1 Tax=Periconia macrospinosa TaxID=97972 RepID=A0A2V1DCY2_9PLEO
+MPPPPAPEQEWKLARTEQGKEYYYHTITKKTRWDPP-----
+>UniRef100_A0A4T0BL01 Uncharacterized protein n=2 Tax=Aureobasidium pullulans TaxID=5580 RepID=A0A4T0BL01_AURPU
+LQSH---PA-WQILLDKTNKPYYYNRSANINTYTVP-----
+>UniRef100_A0A4U0TS53 Uncharacterized protein n=1 Tax=Hortaea thailandica TaxID=706561 RepID=A0A4U0TS53_9PEZI
+-------MCVWREAKAADGRVYYWHTGSKERRWERP-----
+>UniRef100_A0A5N6KS02 Uncharacterized protein n=1 Tax=Carpinus fangiana TaxID=176857 RepID=A0A5N6KS02_9ROSI
+A----AAPGVWQEVKDQNGKAYYWHTGTKQTQWEKP-----
+>UniRef100_A0A6A5RZY8 Uncharacterized protein n=1 Tax=Didymella exigua CBS 183.55 TaxID=1150837 RepID=A0A6A5RZY8_9PLEO
+YPPPVGMAPAWRAVKTADGKEYYHNAATNATTWEKP-----
+>UniRef100_A0A6A5Y2L2 Uncharacterized protein n=1 Tax=Aaosphaeria arxii CBS 175.79 TaxID=1450172 RepID=A0A6A5Y2L2_9PLEO
+FPHP-PRPVAWQEAKTPDGRVYYFKPGTQETTWAKP-----
+>UniRef100_A0A6A5YNB4 Uncharacterized protein n=1 Tax=Lophiotrema nucula TaxID=690887 RepID=A0A6A5YNB4_9PLEO
+M---LC--D-WQEVPQGDGKPYYWNKKSGDTTWDKP-----
+>UniRef100_A0A6A6J7L1 Uncharacterized protein n=1 Tax=Westerdykella ornata TaxID=318751 RepID=A0A6A6J7L1_9PLEO
+MNGF--GSRVWQEAKTADGKIYFYNTVTQETTWSKP-----
+>UniRef100_A0A6A6TF48 Uncharacterized protein n=1 Tax=Lophiostoma macrostomum CBS 122681 TaxID=1314788 RepID=A0A6A6TF48_9PLEO
+FPPP--AAAPWREQKTDDGRTYYYHADSRITSWENP-----
+>UniRef100_A0A6A6WFW3 Uncharacterized protein n=1 Tax=Pseudovirgaria hyperparasitica TaxID=470096 RepID=A0A6A6WFW3_9PEZI
+MS-T--TPATWRRFETPEGRPYYFNATTNQTVWNRP-----
+>UniRef100_A0A6A6YZ94 uncharacterized protein n=1 Tax=Mytilinidion resinicola TaxID=574789 RepID=A0A6A6YZ94_9PEZI
+MNGHLNPPSVWIKAQTDAGRTYYWHRDTKATRWDTP-----
+>UniRef100_A0A6G1KYC8 Uncharacterized protein n=1 Tax=Teratosphaeria nubilosa TaxID=161662 RepID=A0A6G1KYC8_9PEZI
+-------MSVWKATRTGNGRVYYYHTETKQTTWEKP-----
+>UniRef100_B6JYJ3 U1 snRNP-associated protein Usp104 n=1 Tax=Schizosaccharomyces japonicus (strain yFS275 / FY16936) TaxID=402676 RepID=B6JYJ3_SCHJY
+AEAETPNEGNWQQVKTDDGRVYYYNSQTQESVWEKP-----
+>UniRef100_M7NQH6 Uncharacterized protein n=1 Tax=Pneumocystis murina (strain B123) TaxID=1069680 RepID=M7NQH6_PNEMU
+IKASDS--GKWEAYKAPDGRIYWSDGT--TSVWEKP-----
+>UniRef100_O14176 Pre-mRNA-processing protein prp40 n=1 Tax=Schizosaccharomyces pombe (strain 972 / ATCC 24843) TaxID=284812 RepID=PRP40_SCHPO
+PSAAPSTVADWHEVKTEDSRVYYYNSVTRKSVWEKP-----
+>UniRef100_R4XGI0 Uncharacterized protein n=1 Tax=Taphrina deformans (strain PYCC 5710 / ATCC 11124 / CBS 356.35 / IMI 108563 / JCM 9778 / NBRC 8474) TaxID=1097556 RepID=R4XGI0_TAPDE
+AQSQTGTSGVWSEHVANDNRVYYWNSETKQSSWEKP-----
+>UniRef100_UPI000CE2843D pre-mRNA-processing protein prp40-like n=1 Tax=Quercus suber TaxID=58331 RepID=UPI000CE2843D
+-------MAVWSCNSTPDGRVYYFRAGNASTTWNKP-----
+>UniRef100_W2RJF0 Uncharacterized protein n=1 Tax=Cyphellophora europaea CBS 101466 TaxID=1220924 RepID=W2RJF0_9EURO
+MDVLPPNPMTWQETRAPDGRTYYYNTVTRETTWSKP-----
+>UniRef100_A0A1X7V890 Uncharacterized protein n=1 Tax=Amphimedon queenslandica TaxID=400682 RepID=A0A1X7V890_AMPQE
+-LNSILRSPSWTVYATVEGKLYYVNNNSKETSWT-------
+>UniRef100_A0A3B3I985 F-BAR domain-containing protein n=1 Tax=Oryzias latipes TaxID=8090 RepID=A0A3B3I985_ORYLA
+-SSVLPRGESDRQRSYHKRQKSLTNGSSRGHLHKTK-----
+>UniRef100_A0A3Q1EDU5 F-BAR domain-containing protein n=2 Tax=Pomacentridae TaxID=30863 RepID=A0A3Q1EDU5_9TELE
+------MPTHVVNYESDEGIRCHDHTGEYRESWAIW-----
+>UniRef100_A0A401PIV6 F-BAR domain-containing protein n=1 Tax=Scyliorhinus torazame TaxID=75743 RepID=A0A401PIV6_SCYTO
+-AIPKQMPAFLIIRLCRSGIALKSFSFIIETTWERP-----
+>UniRef100_A0A5J5CGP9 F-BAR domain-containing protein n=1 Tax=Etheostoma spectabile TaxID=54343 RepID=A0A5J5CGP9_9PERO
+------MGTEVRTHRQRTGTEVRLSTQRKGTQFREP-----
+>UniRef100_A0A672JZ12 F-BAR domain-containing protein n=1 Tax=Sinocyclocheilus grahami TaxID=75366 RepID=A0A672JZ12_SINGR
+-NEPFNDSGRVHTYMGIFINRVFLSS-----VFKKI-----
+>UniRef100_A0A672VDT8 Growth arrest specific 7 n=1 Tax=Strigops habroptila TaxID=2489341 RepID=A0A672VDT8_STRHB
+-CQTCRTAAGGKGRRRTGCAAGSRPATCS--SWSRA-----
+>UniRef100_A0A6G1QB51 Growth arrest-specific protein 7 n=1 Tax=Channa argus TaxID=215402 RepID=A0A6G1QB51_9TELE
+-TPCVRVCQLWKRRPAKTVKAHALGVLE----LRIT-----
+>UniRef100_G3NCA4 F-BAR domain-containing protein n=1 Tax=Gasterosteus aculeatus TaxID=69293 RepID=G3NCA4_GASAC
+--MCTFHLTSYFIVLQSEVHSKLAHTHTH--THTHT-----
+>UniRef100_L9JRF3 Growth arrest-specific protein 7 n=1 Tax=Tupaia chinensis TaxID=246437 RepID=L9JRF3_TUPCH
+-SSSFLLLLGSRESSVPLRVNGYHASTPHEMSLRKP-----
+>UniRef100_UPI0003F0DCC2 growth arrest-specific protein 7-like n=1 Tax=Saccoglossus kowalevskii TaxID=10224 RepID=UPI0003F0DCC2
+-HSKTDLPSDWTIYQSPEGKPYYVHQVTRETRWE-------
+>UniRef100_UPI000874EAF7 growth arrest-specific protein 7-like isoform X1 n=1 Tax=Lates calcarifer TaxID=8187 RepID=UPI000874EAF7
+-YIKISVQDDLSVVIELNCRMLAPHLLIIIKLLNNS-----
+>UniRef100_UPI000B3AAD92 growth arrest-specific protein 7 n=1 Tax=Fundulus heteroclitus TaxID=8078 RepID=UPI000B3AAD92
+-PDRLLPPSGRASFTSSGGARSHSKA------FRCS-----
+>UniRef100_UPI000BBD4F19 LOW QUALITY PROTEIN: growth arrest-specific protein 7 n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=UPI000BBD4F19
+-TQRSISQGASTPYVTEVGLHLDLVSEIN--TLT-------
+>UniRef100_UPI000DF4A7E0 LOW QUALITY PROTEIN: growth arrest-specific protein 7 n=1 Tax=Puma concolor TaxID=9696 RepID=UPI000DF4A7E0
+-SQIILLPPGWQSYLSPQVSITYVNTTTNETTWERP-----
+>UniRef100_UPI000F09E5FF growth arrest-specific protein 7a isoform X1 n=1 Tax=Electrophorus electricus TaxID=8005 RepID=UPI000F09E5FF
+-GDAASLPAGWRCIRSAEGRRSYISGAE-----TRW-----
+>UniRef100_UPI000FFFC609 growth arrest-specific protein 7 isoform X2 n=1 Tax=Marmota flaviventris TaxID=93162 RepID=UPI000FFFC609
+-RATCPLRAGVTMSTRPPMRPPGNVPAVL-LGFQPA-----
+>UniRef100_UPI00101A73F4 growth arrest-specific protein 7 isoform X4 n=1 Tax=Eptesicus fuscus TaxID=29078 RepID=UPI00101A73F4
+-GARCRTLYPFSGERHSQGLRFAAGELIT--LLQVP-----
+>UniRef100_UPI0010F6572F growth arrest-specific protein 7 isoform X1 n=1 Tax=Betta splendens TaxID=158456 RepID=UPI0010F6572F
+-TAQFLNICQWMREDQAAGSERRSEEAGQQDSRGEW-----
+>UniRef100_UPI0014718B0D growth arrest-specific protein 7-like isoform X2 n=1 Tax=Gymnodraco acuticeps TaxID=8218 RepID=UPI0014718B0D
+-EVLQAAPGGWWRGQREGSSGWFPSSYV-Q-VLERT-----
+>UniRef100_UPI00148723B1 growth arrest-specific protein 7 isoform X3 n=1 Tax=Cyclopterus lumpus TaxID=8103 RepID=UPI00148723B1
+----MEPEDGSPRLMSRSSREQPLWVSSR--TLKTP-----
+>UniRef100_A0A0S7GNN0 DGCR8 (Fragment) n=1 Tax=Poeciliopsis prolifica TaxID=188132 RepID=A0A0S7GNN0_9TELE
+-PPTEPLPDGWIMTFHNSGIPVYLHRETRVVTWSRP-----
+>UniRef100_A0A2R5GQC4 Kinesin, putative n=1 Tax=Hondaea fermentalgiana TaxID=2315210 RepID=A0A2R5GQC4_9STRA
+------LPREWEPAEDADGNPYYYNHRTGQSTWENP-----
+>UniRef100_Q4SRG8 Chromosome undetermined SCAF14526, whole genome shotgun sequence n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=Q4SRG8_TETNG
+----QLLP--W-FPPGEEQQLLAHSEVQGASAYLLM-----
+>UniRef100_A0A022VWN8 WW domain-containing protein n=3 Tax=Trichophyton TaxID=5550 RepID=A0A022VWN8_TRIRU
+-PQPPPLPAGWVQHWDQNQRAYHVEQATGRSQWEAP-----
+>UniRef100_A0A086TDX3 WW domain-containing protein n=1 Tax=Acremonium chrysogenum (strain ATCC 11550 / CBS 779.69 / DSM 880 / JCM 23072 / IMI 49137) TaxID=857340 RepID=A0A086TDX3_ACRC1
+-SDKPPLPSGWRPFFDPTQHWYYLEEATGSTQWEAP-----
+>UniRef100_A0A0D2BSI0 WW domain-containing protein n=1 Tax=Exophiala oligosperma TaxID=215243 RepID=A0A0D2BSI0_9EURO
+-PQNPPLPPGWISQFDHSQRWYYIYQPTGQVQWEFP-----
+>UniRef100_A0A0G4NGP9 Uncharacterized protein n=2 Tax=Verticillium longisporum TaxID=100787 RepID=A0A0G4NGP9_9PEZI
+-MAAPSVPPGWVAQWNAYQRWFYVDHNTGRSQWEHP-----
+>UniRef100_A0A0M9VVN6 WW domain-containing protein n=1 Tax=Escovopsis weberi TaxID=150374 RepID=A0A0M9VVN6_9HYPO
+-GDRPPLPQGWIPIWDHNQRWYYANEQTGQTQWEAP-----
+>UniRef100_A0A135TK17 WW domain-containing protein n=1 Tax=Colletotrichum simmondsii TaxID=703756 RepID=A0A135TK17_9PEZI
+-MAAPSVSSGWLVQWDTNNRWFYVDQSTGRSQWEHP-----
+>UniRef100_A0A166UTW0 WW/Rsp5/WWP domain protein n=1 Tax=Moelleriella libera RCEF 2490 TaxID=1081109 RepID=A0A166UTW0_9HYPO
+-AGRPPLPPGWTPCFDFHERWYYYQEAAGQSQWFAP-----
+>UniRef100_A0A1V8V328 WW domain-containing protein n=1 Tax=Rachicladosporium sp. CCFEE 5018 TaxID=1974281 RepID=A0A1V8V328_9PEZI
+-GV-PTCPPGWSSQWDQQQRWFFIEQATGHSTWDPP-----
+>UniRef100_A0A3M2SU15 WW domain protein n=1 Tax=Aspergillus sp. HF37 TaxID=1960876 RepID=A0A3M2SU15_9EURO
+-GPPPPLPDGWCQRWEPSQRAYYIEQATGHSYWILP-----
+>UniRef100_L7JQ74 Uncharacterized protein n=1 Tax=Magnaporthe oryzae (strain P131) TaxID=1143193 RepID=L7JQ74_MAGOP
+-PGQPQLPPGWTSHWDPSQRYYYPSPYGQQSPYGQQ-----
+>UniRef100_N1PFW9 WW domain-containing protein n=1 Tax=Dothistroma septosporum (strain NZE10 / CBS 128990) TaxID=675120 RepID=N1PFW9_DOTSN
+-QQQPPQPPRWVKQFDQSQREYYVE-TTGRAEWNAP-----
+>UniRef100_S4R4T2 WW domain-containing protein n=1 Tax=Petromyzon marinus TaxID=7757 RepID=S4R4T2_PETMA
+-PKVISLPPNWRTATDQEGKIYYYHVVSRVTQWDPP-----
+>UniRef100_B0E9T1 WW domain-containing protein n=1 Tax=Entamoeba dispar (strain ATCC PRA-260 / SAW760) TaxID=370354 RepID=B0E9T1_ENTDS
+------LPQGWSCGYF-RNERYFINTLTNETSWHDPRDNPL
+>UniRef100_K8ZBY4 Growth arrest-specific 7 (Fragment) n=1 Tax=Nannochloropsis gaditana (strain CCMP526) TaxID=1093141 RepID=K8ZBY4_NANGC
+--DSTPLPAGWEAVMDPSGDYYYWHAGTNVTTWERPSSQI-
+>UniRef100_A0A2P6N8L4 Uncharacterized protein n=1 Tax=Planoprotostelium fungivorum TaxID=1890364 RepID=A0A2P6N8L4_9EUKA
+VPNQPTLPPGWQLFTDSAGRPFYWNHSNNESSWTPP-----
+>UniRef100_A0A2P6NBY5 Myosin light chain kinase n=1 Tax=Planoprotostelium fungivorum TaxID=1890364 RepID=A0A2P6NBY5_9EUKA
+------LPYPWEVAYTEEGDVYYYNIETQDVTWEHPQ----
+>UniRef100_A0A087HRC7 Uncharacterized protein n=1 Tax=Arabis alpina TaxID=50452 RepID=A0A087HRC7_ARAAL
+------IPSYMEQCLDLTGEIYYMNSTNGMRVKEDPR----
+>UniRef100_A0A2I0V9A0 Uncharacterized protein n=1 Tax=Dendrobium catenatum TaxID=906689 RepID=A0A2I0V9A0_9ASPA
+------FPNHWKQCLDMTGKLFYVNGKSGERKTEVPR----
+>UniRef100_A0A484MHP3 Uncharacterized protein n=1 Tax=Cuscuta campestris TaxID=132261 RepID=A0A484MHP3_9ASTE
+------CCHNAEEAVSYKREVYYINWRTGKRVKEDPR----
+>UniRef100_UPI0009E5C5C0 uncharacterized protein LOC110032883 n=1 Tax=Phalaenopsis equestris TaxID=78828 RepID=UPI0009E5C5C0
+------FSNNWKQCLDMTGKLFYVNWESGERRTETPS----
+>UniRef100_UPI000CD4C5C9 uncharacterized protein LOC111832502 n=1 Tax=Capsella rubella TaxID=81985 RepID=UPI000CD4C5C9
+------VPSHLEQCLDLTGEIYYRNWNNGMRVKEDDP----
+>UniRef100_A0A2D4Q241 WW domain-containing protein (Fragment) n=1 Tax=Micrurus surinamensis TaxID=129470 RepID=A0A2D4Q241_MICSU
+-PPTEPLPDGWIMTFHNSGIPVYLHRESRVVTWSRP-----
+>UniRef100_A0A168PUJ2 WW domain-containing protein n=1 Tax=Absidia glauca TaxID=4829 RepID=A0A168PUJ2_ABSGL
+-PQPPKVPDGWLALWDESQRFYFVNQASGATQWDHP-----
+>UniRef100_A0A397CMA9 Uncharacterized protein n=3 Tax=Aphanomyces astaci TaxID=112090 RepID=A0A397CMA9_9STRA
+IQEEAAPPSHWEVCGTDDGSVYYYNTVSGATQWEKPRI---
+>UniRef100_A0A0L0DMF5 Uncharacterized protein n=1 Tax=Thecamonas trahens ATCC 50062 TaxID=461836 RepID=A0A0L0DMF5_THETB
+----DKLPPFWEEMRADDGRQYYVDHTTGEKHWRLP-----
+>UniRef100_A0A669F284 Calponin-homology (CH) domain-containing protein n=1 Tax=Oreochromis niloticus TaxID=8128 RepID=A0A669F284_ORENI
+----------LTSKVFPSSLLLSALALRVSSSLSSAGCRLL
+>UniRef100_A0A670ISI5 Utrophin n=1 Tax=Podarcis muralis TaxID=64176 RepID=A0A670ISI5_PODMU
+----------YNLSLILTALVTKCNERTQTTCWDHPKMTEL
+>UniRef100_A0A671MVE4 Uncharacterized protein n=1 Tax=Sinocyclocheilus anshuiensis TaxID=1608454 RepID=A0A671MVE4_9TELE
+----------WQRAVSQNKVPYYINSVYSLVYFSST--FSS
+>UniRef100_K7GFL2 Utrophin n=1 Tax=Pelodiscus sinensis TaxID=13735 RepID=K7GFL2_PELSI
+----------WQRSVSHNKVPYYINFFLLF--LKYPPGMKV
+>UniRef100_UPI00074297AE LOW QUALITY PROTEIN: dystrophin-like n=1 Tax=Cyprinodon variegatus TaxID=28743 RepID=UPI00074297AE
+----------FEQGISPNNVPYYIKSAERVMQSAQNGSTPQ
+>UniRef100_UPI000BBD607A dystrophin isoform X6 n=1 Tax=Astyanax mexicanus TaxID=7994 RepID=UPI000BBD607A
+----------FERSVSPNNVPYYINIPQTTRRKQHVGTIQR
+>UniRef100_UPI000FFDBAD0 utrophin isoform X8 n=2 Tax=Vombatus ursinus TaxID=29139 RepID=UPI000FFDBAD0
+----------WQRSVAQTTAPYYVNHQTESTCWNHPKMTEL
+>UniRef100_UPI00147F51F6 dystrophin isoform X7 n=1 Tax=Pangasianodon hypophthalmus TaxID=310915 RepID=UPI00147F51F6
+----------FERSVSPNSVPYYINSTRRPPIYTVNGSDMC
+>UniRef100_UPI000F685DB2 putative uncharacterized protein DDB_G0286901 n=1 Tax=Dermatophagoides pteronyssinus TaxID=6956 RepID=UPI000F685DB2
+----DELPVGWEQANHPLLGNYFIDHKRRINQLDDPRIELL
+>UniRef100_A0A4U5MF73 WW domain-containing protein n=1 Tax=Steinernema carpocapsae TaxID=34508 RepID=A0A4U5MF73_STECR
+------VPSNCDLCVLSDQRIFYIHHPTKRSYWEPPRVS--
+>UniRef100_A0A058Z9M1 WW domain-containing protein n=1 Tax=Fonticula alba TaxID=691883 RepID=A0A058Z9M1_FONAL
+------LSSGWTMEKDPSGRRYFSSSSLQSTSWFDPRIPL-
+>UniRef100_A0A0D2W0H7 Uncharacterized protein n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2W0H7_CAPO3
+--EGDELPYAWEQASDAVVGLYFVNHSTRTTQIEDPRIS--
+>UniRef100_A0A1Q9CGN0 WW domain-containing protein n=1 Tax=Symbiodinium microadriaticum TaxID=2951 RepID=A0A1Q9CGN0_SYMMI
+-PDAGGLPPNWEEHKDATGKVFYYNEITKETSRAKPK----
+>UniRef100_A0A098VV54 Putative pre-mRNA-processing protein Prp40 n=1 Tax=Mitosporidium daphniae TaxID=1485682 RepID=A0A098VV54_9MICR
+VVEDPTLPAGWSAFKTPEGKIYYFNSEAKKSSWTHP-----
+>UniRef100_A0A182K9X5 Uncharacterized protein n=1 Tax=Anopheles christyi TaxID=43041 RepID=A0A182K9X5_9DIPT
+--EQIGLPPGWDCKYDSTGRYYYVNLFTKTTQWEDPRSRI-
+>UniRef100_A0A5E4MK27 Uncharacterized protein n=1 Tax=Cinara cedri TaxID=506608 RepID=A0A5E4MK27_9HEMI
+--DMIKNTFAWHNKNSYSGKPY--NLFNYFTNNEESHTKY-
+>UniRef100_C5KHS1 WW domain-containing protein n=1 Tax=Perkinsus marinus (strain ATCC 50983 / TXsc) TaxID=423536 RepID=C5KHS1_PERM5
+MSQANPLPAGWKEYHTPEGKPYYHCAARGITQWERP-----
+>UniRef100_A0A4P9W350 Uncharacterized protein n=1 Tax=Blyttiomyces helicus TaxID=388810 RepID=A0A4P9W350_9FUNG
+-SDSRPLPDGYISQVDPSQQTFYVETKTGTTTWEDPR----
+>UniRef100_A0A067D9K6 Uncharacterized protein n=1 Tax=Saprolegnia parasitica (strain CBS 223.65) TaxID=695850 RepID=A0A067D9K6_SAPPC
+-PAEDGLPEGWVLQHSKSNKPFYVHVATQKTQWTAPTLA--
+>UniRef100_A0A485KA31 Aste57867_2843 protein n=1 Tax=Aphanomyces stellatus TaxID=120398 RepID=A0A485KA31_9STRA
+-SLDDPLPEGWVMRMSSSKKPYYVHTATNKTQWHHPNED--
+>UniRef100_A0A1R2AKF4 WW domain-containing protein n=1 Tax=Stentor coeruleus TaxID=5963 RepID=A0A1R2AKF4_9CILI
+-PISKPEPPKYIQYTSSDGRPYYLNTETGQTQWEAP-----
+>UniRef100_A0A177C323 WW domain-containing protein n=1 Tax=Paraphaeosphaeria sporulosa TaxID=1460663 RepID=A0A177C323_9PLEO
+-PRLGPLPKGWIYAKDFNEDRVFKSRETGNVTYFDPRLT--
+>UniRef100_A0A6A5UBN4 HET-domain-containing protein n=1 Tax=Byssothecium circinans TaxID=147558 RepID=A0A6A5UBN4_9PLEO
+-PRLGLLPEGWKFARHYEPRRGFRNTKTGEKTYKDPRLS--
+>UniRef100_A0A6A6I143 Uncharacterized protein n=1 Tax=Trematosphaeria pertusa TaxID=390896 RepID=A0A6A6I143_9PLEO
+-PRLGALPDDWEFKKAYDPGRYFINRSTSAERWEDPRLA--
+>UniRef100_A0A6A6S086 Uncharacterized protein n=1 Tax=Massarina eburnea CBS 473.64 TaxID=1395130 RepID=A0A6A6S086_9PLEO
+-PRLGPLPDGWEFSRHYEPSRFYYNTEDREVSKHDPRLS--
+>UniRef100_UPI0001A635B0 hypothetical protein n=1 Tax=Schistosoma mansoni TaxID=6183 RepID=UPI0001A635B0
+------LPKGWSSCSDRSGRTIYLNLETGCSTYSDPRLA--
+>UniRef100_A0A3M6UHF7 WW domain-containing protein n=1 Tax=Pocillopora damicornis TaxID=46731 RepID=A0A3M6UHF7_9CNID
+----GHLPPHWKSATDSQGKVYYYHALTRKTKWDVP-----
+>UniRef100_A0A0D2ES36 Uncharacterized protein n=1 Tax=Exophiala xenobiotica TaxID=348802 RepID=A0A0D2ES36_9EURO
+------LPPAWEVHLSDNKRPYFINHTTRKTSFNDPRGEF-
+>UniRef100_A0A0C3D9V7 WW domain-containing protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3D9V7_9PEZI
+---ETPLPAGYTRCFDEMNRPYYQNENTKISSWLHP-----
+>UniRef100_UPI000719A9A5 uncharacterized protein LOC106816347 n=1 Tax=Priapulus caudatus TaxID=37621 RepID=UPI000719A9A5
+--SEATLPPGWVAKRSRSNLVYYANAITRTSTWDDPRL---
+>UniRef100_A0A061EVV4 Polyglutamine tract-binding protein 1 n=1 Tax=Theobroma cacao TaxID=3641 RepID=A0A061EVV4_THECC
+LMAIEKLPPGWVEAKDPTGASYYYNDGTGKSQWERP-----
+>UniRef100_A0A087H4A4 Polyglutamine tract-binding protein 1 n=1 Tax=Arabis alpina TaxID=50452 RepID=A0A087H4A4_ARAAL
+PSNTSTLPLGWVDVKDPSGATYYFNQHTGTTQWERP-----
+>UniRef100_A0A087SDU7 OTU domain-containing protein n=1 Tax=Auxenochlorella protothecoides TaxID=3075 RepID=A0A087SDU7_AUXPR
+GGPVSSLPPGWYSAVDAYNTVYYYNLGTGERSWERP-----
+>UniRef100_A0A150GSN9 Polyglutamine tract-binding protein 1 n=1 Tax=Gonium pectorale TaxID=33097 RepID=A0A150GSN9_GONPE
+SLQDEPLLPGWYEAIDPHGRPYYYNPTTGERIWLKP-----
+>UniRef100_A0A178VPL2 Uncharacterized protein n=1 Tax=Arabidopsis thaliana TaxID=3702 RepID=A0A178VPL2_ARATH
+QANASTLPLGWVDAKDPSGATYYYNQHTGTCQWERP-----
+>UniRef100_A0A1U7XFY3 Polyglutamine tract-binding protein 1 n=1 Tax=Nicotiana sylvestris TaxID=4096 RepID=A0A1U7XFY3_NICSY
+KTSDTNLPVGWIEARDPSGALYFYNESTMKSQWDRP-----
+>UniRef100_A0A251UQD9 Polyglutamine tract-binding protein 1 n=1 Tax=Helianthus annuus TaxID=4232 RepID=A0A251UQD9_HELAN
+ITVPSTLPPGWIESRDPTGCVFYYNEKSGISQWEKP-----
+>UniRef100_A0A4D8YHL5 Polyglutamine tract-binding protein 1 n=1 Tax=Salvia splendens TaxID=180675 RepID=A0A4D8YHL5_SALSN
+ATTPGNLPPGWIEARDHNGAVFYHHASSGKSQWEKP-----
+>UniRef100_A0A068S0S4 WW domain-containing protein n=1 Tax=Lichtheimia corymbifera JMRC:FSU:9682 TaxID=1263082 RepID=A0A068S0S4_9FUNG
+-PDTRQLSQGWITQFDPSGRWFYVYTPMGHRQWEHP-----
+>UniRef100_A0A1Y2GZS5 WW domain-containing protein n=1 Tax=Lobosporangium transversale TaxID=64571 RepID=A0A1Y2GZS5_9FUNG
+----STLPSGWISQFDPKQRLYYVYPQTGHVTWAHP-----
+>UniRef100_L1JZX4 WW domain-containing protein n=1 Tax=Guillardia theta (strain CCMP2712) TaxID=905079 RepID=L1JZX4_GUITC
+LQPVEPLPEGWAAAWDEASGAFYYYHTSGVTQWEHP-----
+>UniRef100_A0A074Z6V9 SET domain protein n=1 Tax=Opisthorchis viverrini TaxID=6198 RepID=A0A074Z6V9_9TREM
+--PVNVLPAGWQSAVDPSGRIYYYNMSTKVVQWEKP-----
+>UniRef100_W6V3V6 Histone-lysine N-methyltransferase SETD2 n=1 Tax=Echinococcus granulosus TaxID=6210 RepID=W6V3V6_ECHGR
+--PETKLEFPWRSAVDSSGLTYYYNSVTREVRWDAP-----
+>UniRef100_A0A3M0JZV1 Uncharacterized protein n=1 Tax=Hirundo rustica rustica TaxID=333673 RepID=A0A3M0JZV1_HIRRU
+-------KERRKKRPTYRKSRGFICHMTQSATFEDPRI---
+>UniRef100_A0A401RVG8 Uncharacterized protein n=1 Tax=Chiloscyllium punctatum TaxID=137246 RepID=A0A401RVG8_CHIPU
+-------YQYQELVTNKYIFSRKGSHVTQSTSFEDPRL---
+>UniRef100_A0A6G1QVE0 FERM and PDZ domain-containing protein 4 n=1 Tax=Channa argus TaxID=215402 RepID=A0A6G1QVE0_9TELE
+-------DHSWIARQRIKQKRELVKQVSQSSSLEEVH----
+>UniRef100_L5LVR0 FERM and PDZ domain-containing protein 4 n=2 Tax=Laurasiatheria TaxID=314145 RepID=L5LVR0_MYODS
+-------ARNYPATIFLDALSPPQSHMTQALPFDDPRL---
+>UniRef100_UPI0009B4C721 FERM and PDZ domain-containing protein 4 isoform X5 n=1 Tax=Monopterus albus TaxID=43700 RepID=UPI0009B4C721
+-------PNGWDIGANRERRDCYINHVSQSSSLEEIRL---
+>UniRef100_UPI000CE2267A FERM and PDZ domain-containing protein 4 n=1 Tax=Oryzias latipes TaxID=8090 RepID=UPI000CE2267A
+--------YSWEMNIARDGRNFLINQGSQSSSLEEVH----
+>UniRef100_UPI0010A0004C FERM and PDZ domain-containing protein 4 isoform X1 n=3 Tax=Erpetoichthys calabaricus TaxID=27687 RepID=UPI0010A0004C
+-------PYGWEMATNREGKDCYINHMTHTAPFEELRF---
+>UniRef100_A0A1Q9F704 Adenylate cyclase type 10 n=1 Tax=Symbiodinium microadriaticum TaxID=2951 RepID=A0A1Q9F704_SYMMI
+------LGQAWVVIYTKDGRPYYHNHATGETTWAHPNTGVV
+>UniRef100_A0A091DWS5 Pleckstrin homology domain-containing family A member 5 n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091DWS5_FUKDA
+-----HCRRGALQGLCICGRVVSLVIDPPLTLSVVS-----
+>UniRef100_A0A3N0Z3B7 Pleckstrin homology domain-containing family A member 5 n=1 Tax=Anabarilius grahami TaxID=495550 RepID=A0A3N0Z3B7_ANAGA
+-----PLAKSTTSLRRRLSSMQCRTTDSNAISRRRR-----
+>UniRef100_A0A3Q3N430 Uncharacterized protein n=1 Tax=Mastacembelus armatus TaxID=205130 RepID=A0A3Q3N430_9TELE
+-----CLFS--GSLLTFPPFSSTNSEEAKSTTWLHP-----
+>UniRef100_A0A5A9PFD7 Pleckstrin-like proteiny domain-containing family A member 5 n=1 Tax=Triplophysa tibetana TaxID=1572043 RepID=A0A5A9PFD7_9TELE
+-----VADVFSPVLQPLSDLLGHPDNMKMPDSCTIH-----
+>UniRef100_G3RR68 Pleckstrin homology domain containing A5 n=1 Tax=Gorilla gorilla gorilla TaxID=9595 RepID=G3RR68_GORGO
+-----FWETEACSVAQSGVQWHNLSSLQPPSPRFKQ-----
+>UniRef100_M7B9V7 Pleckstrin like proteiny domain-containing family A member 5 (Fragment) n=1 Tax=Chelonia mydas TaxID=8469 RepID=M7B9V7_CHEMY
+-----NLQNQARSRRQHGDEIDE-DMDTDFSQSTGP-----
+>UniRef100_UPI000742B67E LOW QUALITY PROTEIN: pleckstrin homology domain-containing family A member 5-like n=1 Tax=Cyprinodon variegatus TaxID=28743 RepID=UPI000742B67E
+-----CEEEEWLPGRLRAALVELHLLDSDESFSEPS-----
+>UniRef100_UPI000A2B4D3E pleckstrin homology domain-containing family A member 5 isoform X19 n=1 Tax=Sus scrofa TaxID=9823 RepID=UPI000A2B4D3E
+-----CLSCGCNDMLVRDVSLVAWQASPAAPVYFLG-----
+>UniRef100_UPI000DBCB128 pleckstrin homology domain-containing family A member 5 isoform X2 n=1 Tax=Bubalus bubalis TaxID=89462 RepID=UPI000DBCB128
+-----SLVSDWQGGKRSAGHSAFPEGSVPRALIWEP-----
+>UniRef100_UPI0010563A37 pleckstrin homology domain-containing family A member 5 isoform X1 n=1 Tax=Gouania willdenowi TaxID=441366 RepID=UPI0010563A37
+-----LLLERLQLLDTEKLQIYPQDGRKDTRSRERA-----
+>UniRef100_UPI0010A311A7 pleckstrin homology domain-containing family A member 5-like isoform X7 n=1 Tax=Denticeps clupeoides TaxID=299321 RepID=UPI0010A311A7
+-----RECVSRNPGGRHRSGPLLFRSPTARAELTHP-----
+>UniRef100_UPI001132270B pleckstrin homology domain-containing family A member 5-like n=1 Tax=Oncorhynchus nerka TaxID=8023 RepID=UPI001132270B
+-----SLVDFMEESSTVSLADFYPASSCRRPNLVNH-----
+>UniRef100_UPI0015E128EC pleckstrin homology domain-containing family A member 5 isoform X2 n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=UPI0015E128EC
+-----FHGSLHSRRTRRSGSRRECLCCAATERALSS-----
+>UniRef100_A0A1D2A052 Uncharacterized protein n=1 Tax=Auxenochlorella protothecoides TaxID=3075 RepID=A0A1D2A052_AUXPR
+-------PNGWTQYQTPDGEHYFHHRERNETQWDPP-----
+>UniRef100_A0A4S8ID41 WW domain-containing protein n=1 Tax=Musa balbisiana TaxID=52838 RepID=A0A4S8ID41_MUSBA
+LNSETALPYHWEQCLDMTGEVYYINRETGTRTSKDPRTAVA
+>UniRef100_A0A3R6ZC61 WW domain-containing protein n=1 Tax=Aphanomyces astaci TaxID=112090 RepID=A0A3R6ZC61_9STRA
+-----PVPDDWEQGESDDGTIYYFNVNTEESVWEHP-----
+>UniRef100_A0A388KMS9 Uncharacterized protein n=1 Tax=Chara braunii TaxID=69332 RepID=A0A388KMS9_CHABU
+-PAKQPLPKNWEEATDPSGQKYYYNSKTNETRWERPTEPM-
+>UniRef100_C1E291 Polyglutamine tract-binding protein 1 n=1 Tax=Micromonas commoda (strain RCC299 / NOUM17 / CCMP2709) TaxID=296587 RepID=C1E291_MICCC
+--KESSLPPGWKETIDAYGKPYYYNTALGISSWTRPT----
+>UniRef100_C1MPC5 Polyglutamine tract-binding protein 1 n=1 Tax=Micromonas pusilla (strain CCMP1545) TaxID=564608 RepID=C1MPC5_MICPC
+--TEDPLPEGWAEAIDKYGTKYYYNAKLGQSSWTRPR----
+>UniRef100_A0A2P4YA72 mRNA cap guanine-N7 methyltransferase (Fragment) n=1 Tax=Phytophthora palmivora var. palmivora TaxID=611791 RepID=A0A2P4YA72_9STRA
+---DDELPRGWSQQFDRDGRRFYFHVKDKTAT---------
+>UniRef100_A0A643C2E1 Uncharacterized protein n=1 Tax=Balaenoptera physalus TaxID=9770 RepID=A0A643C2E1_BALPH
+--DWLDLPGRWTYGVDRGGRVFFINDEEKSTSWVHP-----
+>UniRef100_A0A1L8GEH0 WW domain-containing oxidoreductase n=1 Tax=Xenopus laevis TaxID=8355 RepID=A0A1L8GEH0_XENLA
+LDHTDNLPYGWEQKTDENGQIYFVEYRFETS----------
+>UniRef100_L5M520 WW domain-containing oxidoreductase n=1 Tax=Myotis davidii TaxID=225400 RepID=L5M520_MYODS
+LHSEDEVPLGSEQRTTKDGWVYDVGHTEKTQ----------
+>UniRef100_A0A067PZD5 Uncharacterized protein n=1 Tax=Jaapia argillacea MUCL 33604 TaxID=933084 RepID=A0A067PZD5_9AGAM
+VLDPEPLPARWRMRVSPDDTLYFINLATGVSTFQDPRVG--
+>UniRef100_E4WQN6 WW domain-containing protein n=1 Tax=Oikopleura dioica TaxID=34765 RepID=E4WQN6_OIKDI
+--DRIPLPGNWEMCFQ-NGICFFVDRVRKISQLEDPRVPIL
+>UniRef100_A0A067C4J7 Uncharacterized protein n=1 Tax=Saprolegnia parasitica (strain CBS 223.65) TaxID=695850 RepID=A0A067C4J7_SAPPC
+---PESLPPGWSEAFDNTQHTYYVNEATKETSWTRPQASP-
+>UniRef100_A0A485LRK3 Aste57867_24842 protein n=1 Tax=Aphanomyces stellatus TaxID=120398 RepID=A0A485LRK3_9STRA
+------LPPHWVKMLDETQRVFYANPDTGETSWTVPELTF-
+>UniRef100_A0A1Z5JQ21 WW domain-containing protein n=1 Tax=Fistulifera solaris TaxID=1519565 RepID=A0A1Z5JQ21_FISSO
+-PAVPPLPDGWEELDEVTGISFFIDTVSGKRTWVRP-----
+>UniRef100_A0A2C9LVT7 WW domain-containing protein n=1 Tax=Biomphalaria glabrata TaxID=6526 RepID=A0A2C9LVT7_BIOGL
+---NAPLPDNWKPCQTPTGDIYYFNFASGESIWDHPCDEF-
+>UniRef100_UPI00094818C5 centrosomal protein of 164 kDa-like n=1 Tax=Branchiostoma belcheri TaxID=7741 RepID=UPI00094818C5
+---NAPLPDDWKPCQDGNGDIYYFNFATGDSVWDHPCDEY-
+>UniRef100_G4YE82 Uncharacterized protein (Fragment) n=1 Tax=Phytophthora sojae (strain P6497) TaxID=1094619 RepID=G4YE82_PHYSP
+--------PPWTQAYDDSGRVYYLNTGTMETRWTPPPTA--
+>UniRef100_A0A0D2VF83 Rho GTPase-activating protein 15 n=1 Tax=Capsaspora owczarzaki (strain ATCC 30864) TaxID=595528 RepID=A0A0D2VF83_CAPO3
+-PLDRPLPENWKAVADASGKTYYYNSVTRETSWSFP-----
+>UniRef100_A0A1D1XIZ5 Protein transport protein SEC24 n=1 Tax=Anthurium amnicola TaxID=1678845 RepID=A0A1D1XIZ5_9ARAE
+--ETRPLPPGWVSQWEPNVGRYFYVDTTKVSTWDDPR----
+>UniRef100_A0A2Z6SEC9 WW domain-containing protein n=1 Tax=Rhizophagus clarus TaxID=94130 RepID=A0A2Z6SEC9_9GLOM
+--DTKPLPSGWVSQWEPSVGRYFFVDTTKVSTWDDPR----
+>UniRef100_H9F044 FERM and PDZ domain-containing protein 4 (Fragment) n=1 Tax=Macaca mulatta TaxID=9544 RepID=H9F044_MACMU
+-------PYGWEMTANRDGRDYFINHMTQAIPFDDPRLESC
+>UniRef100_A0A0S6XQG7 Uncharacterized protein n=1 Tax=fungal sp. No.11243 TaxID=1603295 RepID=A0A0S6XQG7_9FUNG
+-------PGGWAETIHQGNRPYYWNQHTNETSWTKP-----
+>UniRef100_A0A0L0DNN3 NEK protein kinase n=1 Tax=Thecamonas trahens ATCC 50062 TaxID=461836 RepID=A0A0L0DNN3_THETB
+--NNHPLPDGIKPLLSPERRVYFADAARRTTSWTDPRLPL-
+>UniRef100_A0A3S1HRA4 WW domain-containing protein n=1 Tax=Elysia chlorotica TaxID=188477 RepID=A0A3S1HRA4_ELYCH
+------MPPNWKTAKDAEGRIYYYHAFTRCKSAKPNNLKLI
+>UniRef100_A0A163JIW9 Uncharacterized protein n=1 Tax=Absidia glauca TaxID=4829 RepID=A0A163JIW9_ABSGL
+-----PLPPGWIEYFTPGGHPYWFNTYNQDRTWERP-----
+>UniRef100_A0A0C3H3X6 Uncharacterized protein n=1 Tax=Oidiodendron maius Zn TaxID=913774 RepID=A0A0C3H3X6_9PEZI
+----GALPLGWQEAKDPDGKLFFVHHELQLASWHRP-----
+>UniRef100_A0A044VA74 Uncharacterized protein n=3 Tax=Onchocerca TaxID=6281 RepID=A0A044VA74_ONCVO
+------VGSGWYEYLTDTGRSYFYNRETGDCHWKPPR----
+>UniRef100_A0A090LAS0 Rho GTPase-activating protein domain and WW domain and Pleckstrin homology domain and Rho GTPase activation protein domain and Pleckstrin homology-like domain-containing protein n=1 Tax=Strongyloides ratti TaxID=34506 RepID=A0A090LAS0_STRRB
+------LPTGWREYKTPGGRSYFYHPVMLVCQWKPPR----
+>UniRef100_A0A0N4U9Z7 Uncharacterized protein n=1 Tax=Dracunculus medinensis TaxID=318479 RepID=A0A0N4U9Z7_DRAME
+------LGNGWLEFFTETGRSYFFNPESNRCHWKPPR----
+>UniRef100_A0A131XHD7 Putative rho gtpase-activating protein n=1 Tax=Hyalomma excavatum TaxID=257692 RepID=A0A131XHD7_9ACAR
+------LSDHWAEFDARVGRKFYYNFHTGQRSWKPPR----
+>UniRef100_A0A443QVN0 Rho GTPase-activating protein 12-like protein (Fragment) n=1 Tax=Dinothrombium tinctorium TaxID=1965070 RepID=A0A443QVN0_9ACAR
+------LLNHWAEYMDENGRKYYYNSVSRESSWKPPR----
+>UniRef100_UPI00077FCED5 rho GTPase-activating protein 27 isoform X1 n=1 Tax=Parasteatoda tepidariorum TaxID=114398 RepID=UPI00077FCED5
+------LSNDWFEYVEESGRKYYYHSSTRKVTWKPPR----
+>UniRef100_UPI000F6812F0 WW domain-containing protein tag-325-like isoform X1 n=2 Tax=Dermatophagoides pteronyssinus TaxID=6956 RepID=UPI000F6812F0
+------VCDDWLEYYDENGRFFYYNSRDNFSSWKPPR----
+>UniRef100_UPI0014255B91 rho GTPase-activating protein 15-like n=1 Tax=Anneissia japonica TaxID=1529436 RepID=UPI0014255B91
+------NSKTVSIYDDEYRTNSFIPRFPVDSS-SQPS----
+>UniRef100_A0A1X7VFR2 Uncharacterized protein n=1 Tax=Amphimedon queenslandica TaxID=400682 RepID=A0A1X7VFR2_AMPQE
+--DESDLPDGWEVVKSKRYGTYYVNHNNFTAQYQHP-----
+>UniRef100_A0A0C3PMH6 WW domain-containing protein n=1 Tax=Pisolithus tinctorius Marx 270 TaxID=870435 RepID=A0A0C3PMH6_PISTI
+---DDSLPPGWEVKLSRSTGEYYYNSRTQESTWTQP-----
+>UniRef100_A0A6A5H327 HECT-type E3 ubiquitin transferase n=1 Tax=Caenorhabditis remanei TaxID=31234 RepID=A0A6A5H327_CAERE
+----QPLPSGWEC-ITMNNRTVFLNHSIKETSYFDPRI---
+>UniRef100_UPI000675F2DB transcription elongation regulator 1-like n=1 Tax=Papilio polytes TaxID=76194 RepID=UPI000675F2DB
+-PPNMPAPELWVETKSEEGKLYYYHSRTRDTTWTRP-----
+>UniRef100_A0A0M0JYB4 WW domain-containing protein n=1 Tax=Chrysochromulina tobinii TaxID=1460289 RepID=A0A0M0JYB4_9EUKA
+IPLPGPLPAGWAWARDGDGQPYFYNRSLDVVTYDDPR----
+>UniRef100_R1D906 Uncharacterized protein n=1 Tax=Emiliania huxleyi TaxID=2903 RepID=R1D906_EMIHU
+--QKGVLPHGWEYIDDNSGRPYYYNVHTRETTWYKPK----
+>UniRef100_A0A494BAU6 Amyloid-beta A4 precursor protein-binding family B member 3 n=1 Tax=Mus musculus TaxID=10090 RepID=A0A494BAU6_MOUSE
+LEGETGLPPGWRKIRDAAG-TYYWHVPSGSTQWQRPTWE--
+>UniRef100_A0A091DWS5 Pleckstrin homology domain-containing family A member 5 n=1 Tax=Fukomys damarensis TaxID=885580 RepID=A0A091DWS5_FUKDA
+------APAALHHADVGLCGLVMVSHNERKVTCKHP-----
+>UniRef100_A0A1A6G2M9 PH domain-containing protein n=1 Tax=Neotoma lepida TaxID=56216 RepID=A0A1A6G2M9_NEOLE
+------FTETVFSPYPLEEEI-FTEHNERKVTCKHP-----
+>UniRef100_A0A3N0Z3B7 Pleckstrin homology domain-containing family A member 5 n=1 Tax=Anabarilius grahami TaxID=495550 RepID=A0A3N0Z3B7_ANAGA
+------SPIRLPIQHPPATKAPAAEKKERPTSTMSE-----
+>UniRef100_A0A553PZA6 PH domain-containing protein n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553PZA6_9TELE
+------VERLYLLALFFLHVLVKQQHNERKVTCKHP-----
+>UniRef100_A0A5A9PFD7 Pleckstrin-like proteiny domain-containing family A member 5 n=1 Tax=Triplophysa tibetana TaxID=1572043 RepID=A0A5A9PFD7_9TELE
+------RESDGGDGVVILRERDMLKHNERKVTCKHP-----
+>UniRef100_G3RR68 Pleckstrin homology domain containing A5 n=1 Tax=Gorilla gorilla gorilla TaxID=9595 RepID=G3RR68_GORGO
+------PHLANFCIFSRDGVSWSGCHNERKVTCKHP-----
+>UniRef100_M7B9V7 Pleckstrin like proteiny domain-containing family A member 5 (Fragment) n=1 Tax=Chelonia mydas TaxID=8469 RepID=M7B9V7_CHEMY
+------TSTDWWDRIVLQVRDWLRNRKGTFMELCDL-----
+>UniRef100_UPI000742B67E LOW QUALITY PROTEIN: pleckstrin homology domain-containing family A member 5-like n=1 Tax=Cyprinodon variegatus TaxID=28743 RepID=UPI000742B67E
+------HRLEPKSSSAFRQAHGG-CHNERKVTCKHP-----
+>UniRef100_UPI000A2B4D3E pleckstrin homology domain-containing family A member 5 isoform X19 n=1 Tax=Sus scrofa TaxID=9823 RepID=UPI000A2B4D3E
+------WSQIFTPGSVFPVVECLFYHNERKVTCKHP-----
+>UniRef100_UPI000DBCB128 pleckstrin homology domain-containing family A member 5 isoform X2 n=1 Tax=Bubalus bubalis TaxID=89462 RepID=UPI000DBCB128
+------LFLPVSPLPVVECNFDGGCHNERKVTCKHP-----
+>UniRef100_UPI0010563A37 pleckstrin homology domain-containing family A member 5 isoform X1 n=1 Tax=Gouania willdenowi TaxID=441366 RepID=UPI0010563A37
+------TQLVHEQTFPMFMMKFSACHNERKVTCKHP-----
+>UniRef100_UPI0010A311A7 pleckstrin homology domain-containing family A member 5-like isoform X7 n=1 Tax=Denticeps clupeoides TaxID=299321 RepID=UPI0010A311A7
+------CVCVRGRTVHQKCLRFPTSHNERKVTCKHP-----
+>UniRef100_UPI001132270B pleckstrin homology domain-containing family A member 5-like n=1 Tax=Oncorhynchus nerka TaxID=8023 RepID=UPI001132270B
+------KDCVYFTSFTGFSTTGVHSHNERKVTCKHP-----
+>UniRef100_UPI00147128F6 LOW QUALITY PROTEIN: pleckstrin homology domain-containing family A member 5-like n=1 Tax=Gymnodraco acuticeps TaxID=8218 RepID=UPI00147128F6
+------AFSRRGRGASCLLQLHVLRHNERKVTCKHP-----
+>UniRef100_UPI0015E128EC pleckstrin homology domain-containing family A member 5 isoform X2 n=1 Tax=Scophthalmus maximus TaxID=52904 RepID=UPI0015E128EC
+------VCFFFFFSFFLDAYGSFSRHNERKVSCKHP-----
+>UniRef100_A0A1Q9E287 Alpha-amylase n=1 Tax=Symbiodinium microadriaticum TaxID=2951 RepID=A0A1Q9E287_SYMMI
+--DPRFLPDSWDQRVDPSGKVYFQYHKTRKTTYVDPRSCPV
+>UniRef100_A0A553PZ97 PH domain-containing protein n=1 Tax=Danionella translucida TaxID=623744 RepID=A0A553PZ97_9TELE
+-------MSSPDGSEEEGGELSVERLYLLALFFLHV-----
+>UniRef100_U6GAZ9 WW domain-containing protein n=1 Tax=Eimeria praecox TaxID=51316 RepID=U6GAZ9_9EIME
+--MSTPLPRLWIQYETKEGIPYYYNQLTQKTQWERP-----
+>UniRef100_D7G9G9 Neural cell expressed, developmentally down-regulated 4-like, isoform CRA_e n=1 Tax=Ectocarpus siliculosus TaxID=2880 RepID=D7G9G9_ECTSI
+---EGGLPGYIEVRTHADGRTYYVNHRTKVTSWVPP-----
+>UniRef100_R1FG61 Uncharacterized protein n=2 Tax=Emiliania huxleyi TaxID=2903 RepID=R1FG61_EMIHU
+----LPPPDGWRVKANPDGRFYYVHEETGATQWENP-----
+>UniRef100_A0A5A8CUY0 Uncharacterized protein n=1 Tax=Cafeteria roenbergensis TaxID=33653 RepID=A0A5A8CUY0_CAFRO
+-SAEQELPPGWIKMYDDDGDAYYYNETTEETQWEPP-----
+>UniRef100_C5LH74 WW domain-containing protein (Fragment) n=1 Tax=Perkinsus marinus (strain ATCC 50983 / TXsc) TaxID=423536 RepID=C5LH74_PERM5
+-----PIPKPWVQCQTDSGDVFFHNSKTKESVWDHP-----
+>UniRef100_G4YE82 Uncharacterized protein (Fragment) n=1 Tax=Phytophthora sojae (strain P6497) TaxID=1094619 RepID=G4YE82_PHYSP
+-PDQATVETGWEVRQDDSGQAYYWNSITGETSWEPP-----
+>UniRef100_Q4RG01 HECT-type E3 ubiquitin transferase (Fragment) n=1 Tax=Tetraodon nigroviridis TaxID=99883 RepID=Q4RG01_TETNG
+------LPRGWELKTDPQGKVLLCGPQQSGHHLHRPSHPA-
+>UniRef100_A0A5J4Y6Y1 RNA binding n=1 Tax=Trebouxia sp. A1-2 TaxID=2608996 RepID=A0A5J4Y6Y1_9CHLO
+MAQPNGLPFGWMSMADPEGRIFYFNNLTGAAQWNPP-----
+>UniRef100_A0A4W4GVP5 Amyloid beta (A4) precursor protein-binding, family B, member 3 n=1 Tax=Electrophorus electricus TaxID=8005 RepID=A0A4W4GVP5_ELEEL
+LAPDSDLPPGWRTIRDNAG-TYYWHVPSGTTQWQ-VGW---
+>UniRef100_A0A5J4XQN8 Kinesin-like protein n=1 Tax=Trebouxia sp. A1-2 TaxID=2608996 RepID=A0A5J4XQN8_9CHLO
+LAQGRVLPAGWTSGYDNQNRQYFVDEVKRESTWHHPLLPY-
+>UniRef100_A0A0L0D3R1 Uncharacterized protein n=1 Tax=Thecamonas trahens ATCC 50062 TaxID=461836 RepID=A0A0L0D3R1_THETB
+-SSEPPLAPGWEEHKAPSGQSYYYNPSTKESVWVRP-----
+>UniRef100_A0A6I9Z118 E3 ubiquitin-protein ligase SMURF1 n=1 Tax=Thamnophis sirtalis TaxID=35019 RepID=A0A6I9Z118_9SAUR
+----PVLDHTFCVEHNAFGRIHELKPNGRNVSVTEENKK--
+>UniRef100_UPI00148F85B8 E3 ubiquitin-protein ligase SMURF2-like n=1 Tax=Notolabrus celidotus TaxID=1203425 RepID=UPI00148F85B8
+----GVLDHTFCVEHNAYGEIHELKPNGKSIQVTQDTKK--
+>UniRef100_A0A066W9V4 Uncharacterized protein (Fragment) n=1 Tax=Rhizoctonia solani AG-8 WAC10335 TaxID=1287689 RepID=A0A066W9V4_9AGAM
+--EEIRLPKGVEKHYTPSGSVYYVD-SRPRASWVDPR----
+>UniRef100_A0A0B7F326 HlyD domain-containing protein n=1 Tax=Thanatephorus cucumeris (strain AG1-IB / isolate 7/3/14) TaxID=1108050 RepID=A0A0B7F326_THACB
+--EHIQLPKGVERHYTPSGSVYYVD-SRPRASWIDPR----
+>UniRef100_A0A0M0LSA9 Voltage dependent ion channel n=1 Tax=Chrysochromulina tobinii TaxID=1460289 RepID=A0A0M0LSA9_9EUKA
+-----PLPTGWFEAKSAEGKAYFFHAVTKQTVWERP-----
+>UniRef100_A0A3B6JH44 Uncharacterized protein n=6 Tax=Triticinae TaxID=1648030 RepID=A0A3B6JH44_WHEAT
+VSSSDPSPLDWQEYFSHEGKKYYYNRRTKQSSWYKPAELM-
+>UniRef100_A0A6A6BCA0 WW domain-containing protein n=1 Tax=Aplosporella prunicola CBS 121167 TaxID=1176127 RepID=A0A6A6BCA0_9PEZI
+-----PLPQGWFSSWDSRNRAYYFEPGSGRTQWEQP-----
+>UniRef100_R7YPU0 WW domain-containing protein n=1 Tax=Coniosporium apollinis (strain CBS 100218) TaxID=1168221 RepID=R7YPU0_CONA1
+------MPSGWTCQYDFSRHWYIVEQVTGRSQWDPP-----
+>UniRef100_E5A9F9 WW domain-containing protein n=1 Tax=Leptosphaeria maculans (strain JN3 / isolate v23.1.3 / race Av1-4-5-6-7-8) TaxID=985895 RepID=E5A9F9_LEPMJ
+-PRPDEEDDGWEALLDQHGNYYFYNHKTGLSQWENPRV---
+>UniRef100_A0A0X3PAX2 WW domain-containing oxidoreductase (Fragment) n=1 Tax=Schistocephalus solidus TaxID=70667 RepID=A0A0X3PAX2_SCHSO
+-----PFPDGWLRTQSPTNTTLFVNHQQGKQSYVDPRLAL-
+>UniRef100_A0A5K3FXW0 WW domain-containing protein n=1 Tax=Mesocestoides corti TaxID=53468 RepID=A0A5K3FXW0_9CEST
+-----EMPKMWVKTTTPKGESMFVNKETGAKTYTDPRLAL-
+>UniRef100_UPI0009E254BE transcriptional protein SWT1-like n=1 Tax=Orbicella faveolata TaxID=48498 RepID=UPI0009E254BE
+--DDRPLPTGWIRRQSRKDKYYYFNTVTGKSSWKNP-----
+>UniRef100_UPI000A2AA01C transcriptional protein SWT1 n=1 Tax=Exaiptasia pallida TaxID=1720309 RepID=UPI000A2AA01C
+--DTSTLPKGWVVRESRIGRSYFFNTSTGQSSWKHP-----
+>UniRef100_UPI0010693F8B transcriptional protein SWT1-like n=1 Tax=Dendronephthya gigantea TaxID=151771 RepID=UPI0010693F8B
+--AQKDLPKDWKVFHSKSKRFYYYNNVTKKTQWQHP-----
+>UniRef100_UPI0013905318 uncharacterized protein LOC5502110 isoform X2 n=1 Tax=Nematostella vectensis TaxID=45351 RepID=UPI0013905318
+--EMRPLPNGWIMKESRPGRKYFFHKMSGMTSWKHP-----
+>UniRef100_A0A6A7FR80 Microtubule-associated protein futsch-like isoform X2 (Fragment) n=1 Tax=Hirondellea gigas TaxID=1518452 RepID=A0A6A7FR80_9CRUS
+VLT-INLPPHWHIARDQHNRVYFYHSRSRQTQWDIP-----
+>UniRef100_UPI0006CF03AC histone-lysine N-methyltransferase SETD2 isoform X1 n=1 Tax=Cimex lectularius TaxID=79782 RepID=UPI0006CF03AC
+LPPPRKLPQGWKSAKDKEGRFYFYHVKVRKSQWQFP-----
+>UniRef100_UPI001482E2BE histone-lysine N-methyltransferase SETD2 n=1 Tax=Thrips palmi TaxID=161013 RepID=UPI001482E2BE
+LPPPVKLPPKWKCAKDAEGRTYYYHVKTRISQWEPP-----
+>UniRef100_UPI00158BFCCE probable histone-lysine N-methyltransferase CG1716 isoform X1 n=1 Tax=Chelonus insularis TaxID=460826 RepID=UPI00158BFCCE
+MPM-LDLPPKWKCAKDSRGRFYYYHIKDRISQWLPP-----

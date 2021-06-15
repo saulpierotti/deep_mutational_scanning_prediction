@@ -1,0 +1,5 @@
+*
+!.gitignore
+!*.csv
+!*.a2m
+!config_*.txt
