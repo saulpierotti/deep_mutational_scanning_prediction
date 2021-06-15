@@ -1,0 +1,72 @@
+\pagenumbering{roman}%
+\begin{titlepage}
+	\centering
+
+	\pdfbookmark[1]{Cover}{title} % add reference to the title in PDF index
+
+	\newgeometry{right=2.5 cm, left=2.5 cm, bottom=3 cm, top=3 cm}
+
+	\normalsize
+	\Large
+	\textbf{Alma Mater Studiorum --- University of Bologna}
+	\vspace{1ex}
+	\hrule
+
+	\normalsize
+	\large
+	\uppercase{Department of Pharmacy and Biotechnology}\\
+	\vspace{1ex}
+	International Master Degree in Bioinformatics
+
+	\vspace{\fill}
+
+	\normalsize
+	\LARGE
+	\makeatletter
+	\textbf{\@title}
+	\makeatother
+
+	\vspace{\fill}
+
+	\normalsize
+	\begin{tabularx}{\textwidth}{lXl}
+		\makecell[l]{%
+			\small
+		Candidate:                                       \\
+			\large
+			\textbf{Saul Pierotti}
+		} &
+		  &
+		\makecell[l]{%
+			\small
+		Internal Advisor:                                \\
+			\large
+			\textbf{Prof.~Pietro Di Lena}
+		}                                                \\
+		  &
+		  &
+		\makecell[l]{%
+		\vspace{2ex}                                     \\
+			\small
+		External Advisor:                                \\
+			\large
+		\textbf{Prof.~Arne Elofsson}~\textsuperscript{1} \\
+		}                                                \\
+	\end{tabularx}
+
+	\vspace{\fill}
+	\vspace{-2ex}
+
+	\textsuperscript{1}~Department of Biochemistry and Biophysics, Stockholm University\\
+
+	\vspace{\fill}
+
+	\hrule
+	\normalsize
+	\large
+	\textbf{Thesis submitted \today}
+
+	\thispagestyle{empty}
+	\restoregeometry%
+
+\end{titlepage}

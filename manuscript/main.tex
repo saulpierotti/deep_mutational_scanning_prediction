@@ -1,0 +1,123 @@
+\documentclass[%
+	11pt,
+	%twoside, %makes the text goood for two sides printing, disable for digital versiion
+]{report}
+
+\author{Saul Pierotti}
+\title{Prediction of the effect of single amino acid protein variants using deep mutational scanning data}
+
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage[a4paper]{geometry}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{placeins}
+\usepackage{makecell}
+\usepackage[sf]{titlesec} % sans serif titles
+\usepackage[style=apa]{biblatex}
+\usepackage{abstract}
+\usepackage[
+	colorlinks=true,
+	bookmarksnumbered=true,
+	urlcolor=blue,
+	citecolor=blue,
+	linkcolor=blue
+]{hyperref}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{url}
+\usepackage{siunitx}
+\usepackage[inline]{enumitem}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage[labelformat=parens]{subcaption}
+\usepackage{floatrow}
+\usepackage{blindtext}
+\usepackage{appendix}
+
+% caption
+\DeclareCaptionLabelFormat{boldparens}{\textbf{(#2)}}
+\DeclareFloatSeparators{larger}{\hskip 3em}
+\captionsetup{singlelinecheck=false, subrefformat=boldparens}
+
+% do not use link color in subref
+\let\oldsubref\subref%
+\renewcommand{\subref}[1]{{\hypersetup{linkcolor=.}{\oldsubref{#1}}}}
+
+% fontspec fonts
+\setmonofont[Scale=0.8]{Fira Code}
+
+% biblatex
+\addbibresource{../references/references.bib}
+
+% tikz
+\usetikzlibrary{external}
+\tikzexternalize[prefix=./tikz/cache/]%
+\tikzstyle{every picture}+=[font=\sffamily]
+
+% siunitx
+\sisetup{round-mode=places,round-precision=2,exponent-product=\ensuremath{\cdot}}
+
+% floatrow
+\floatsetup[subfigure]{capposition=top, captionskip=1ex}
+\newcommand\subfigvsep{\vspace{2em}\\}
+\newcommand\tabsep{\vspace{1em}}
+
+% show a black line if overful
+\overfullrule=1mm
+
+% hyperlink on the whole authoryear citation, not only the year
+\ExecuteBibliographyOptions{maxcitenames=1}
+\DeclareFieldFormat{citehyperref}{%
+	\DeclareFieldAlias{bibhyperref}{noformat}% Avoid nested links
+	\bibhyperref{#1}}
+\DeclareFieldFormat{textcitehyperref}{%
+	\DeclareFieldAlias{bibhyperref}{noformat}% Avoid nested links
+	\bibhyperref{%
+		#1%
+		\ifbool{cbx:parens}
+		{\bibcloseparen\global\boolfalse{cbx:parens}}
+		{}}}
+\savebibmacro{cite}
+\savebibmacro{textcite}
+\renewbibmacro*{cite}{%
+	\printtext[citehyperref]{%
+		\restorebibmacro{cite}%
+		\usebibmacro{cite}}}
+\renewbibmacro*{textcite}{%
+	\ifboolexpr{%
+		(not test {\iffieldundef{prenote}} and
+		test {\ifnumequal{\value{citecount}}{1}})
+		or
+		(not test {\iffieldundef{postnote}} and
+		test {\ifnumequal{\value{citecount}}{\value{citetotal}}})
+	}
+	{\DeclareFieldAlias{textcitehyperref}{noformat}}
+	{}%
+	\printtext[textcitehyperref]{%
+		\restorebibmacro{textcite}%
+		\usebibmacro{textcite}}}
+
+% make urls monospaced
+\urlstyle{tt}%
+
+% autoref custom names
+\addto\extrasenglish{%
+	\renewcommand{\sectionautorefname}{Section}%
+	\renewcommand{\subsectionautorefname}{Section}%
+	\renewcommand{\subsubsectionautorefname}{Section}%
+}
+
+\begin{document}
+\include{cover}
+\include{preamble}
+\include{introduction}
+\include{materials_methods}
+\include{results}
+\include{discussion}
+\include{references}
+\include{appendix}
+\end{document}
