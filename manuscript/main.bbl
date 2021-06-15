@@ -2710,7 +2710,7 @@
       \field{journaltitle}{Advances in Water Resources}
       \field{month}{9}
       \field{number}{9}
-      \field{title}{Parallel distributed computing using Python}
+      \field{title}{Parallel distributed computing using {Python}}
       \field{volume}{34}
       \field{year}{2011}
       \field{dateera}{ce}
@@ -2784,7 +2784,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{11}
       \field{number}{D1}
-      \field{title}{SIFTS: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins}
+      \field{title}{{SIFTS}: updated Structure Integration with Function, Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins}
       \field{volume}{47}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -2849,7 +2849,7 @@
       \field{journaltitle}{Journal of Molecular Biology}
       \field{month}{9}
       \field{number}{2}
-      \field{title}{Structural and thermodynamic analysis of the packing of two $\alpha$-helices in bacteriophage T4 lysozyme}
+      \field{title}{Structural and thermodynamic analysis of the packing of two $\alpha$-helices in bacteriophage {T4} lysozyme}
       \field{volume}{221}
       \field{year}{1991}
       \field{dateera}{ce}
@@ -2986,7 +2986,7 @@
       \field{journaltitle}{PLoS Computational Biology}
       \field{month}{10}
       \field{number}{10}
-      \field{title}{Accelerated Profile HMM Searches}
+      \field{title}{Accelerated Profile {HMM} Searches}
       \field{volume}{7}
       \field{year}{2011}
       \field{dateera}{ce}
@@ -3342,7 +3342,7 @@
       \field{journaltitle}{Science}
       \field{month}{1}
       \field{number}{5910}
-      \field{title}{Real-Time DNA Sequencing from Single Polymerase Molecules}
+      \field{title}{Real-Time {DNA} Sequencing from Single Polymerase Molecules}
       \field{volume}{323}
       \field{year}{2009}
       \field{dateera}{ce}
