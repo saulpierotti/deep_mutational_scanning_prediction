@@ -1,0 +1,67 @@
+\thispagestyle{empty}
+\cleardoublepage%
+\chapter{Discussion}
+
+As evidenced by the comparison of my models to Envision \parencite{Gray2018}, it is possible to obtain relatively good performances on quantitative variant effect prediction also by replacing experimental structural features with sequence-based predictions.
+The use of structure-derived features, particularly solvent accessibility \parencite{Savojardo2021} but also, as shown in \autoref{sec:res:feature_imp}, residue contacts, is of paramount importance in the prediction of the effect of mutations.
+The observation that it is possible to obtain good results using predicted structural features is interesting since for many protein families an experimental structure is not yet available.
+My method builds upon the substantial improvements in the protein structure prediction field that happened in the last few years.
+Notable protein structure predictors that obtained impressive results in the last two edition of the Critical Assessment of Structure Prediction \parencite{Abriata2019} are trRosetta \parencite[][CASP13]{Yang2020}, AlphaFold \parencite[][CASP13]{Senior2020}, and AlphaFold2 \parencite[][CASP14]{Jumper2020}.
+
+A surprising observation from my results is the relatively small importance of the identity of the mutant residue in predicting the effect of a mutation.
+This indicates that the position along the protein of a given mutation and its local context, more than which residue is introduced, are strong determinants of the effect of mutations.
+Nonetheless, the limited importance of the mutated residue could be explained by collinearity with other features.
+As described in \autoref{sec:mm_feature_importance} collinearity can lead to underestimation of feature importance.
+The same reasoning applies also to the identity of the wild-type residue, which appeared to be non-critical for predictions.
+In general, structural properties and information on mutational patterns obtained from multiple sequence alignments seem to be superior features for predicting the effect of mutations than the identity of the mutation itself.
+
+In the exploratory phase of the project, it was observed how mutations from polar residues tend to be less damaging than mutations from apolar residues, in a manner that is independent of the solvent accessibility of the mutated residue.
+It would be interesting to validate this trend further, for example using mutation data from other deep mutational scanning studies and other experimental sources.
+
+The results of my work suggest also that simple models, such as linear regression, can reach comparable performances to those obtained by more complex architectures such as gradient boosted trees.
+What is more, unsupervised models perform comparatively very well, rivalling and in some instances even exceeding the results of supervised models.
+However, it is important to notice that some of those unsupervised models such as DeepSequence \parencite{Riesselman2018} do so at the cost of training protein-specific deep neural network models.
+This is a notable computational requirement that can make the predictor inaccessible for casual users who lack computational expertise and available resources.
+
+Another main conclusion from this work is that how a mutation effect predictor is tested is crucial when comparing the performance of different models.
+A naive approach to validation and testing, which involves simply splitting a deep mutational scanning dataset randomly, can lead to serious overestimation of the performances.
+Nonetheless, such an approach has been used in recent work, for example in \textcite{Gelman2020}.
+
+It is noteworthy how just subdividing the training and test sets according to the mutated position in a protein-specific model leads to similar performances to training a general model on completely different proteins.
+This suggests that knowledge of the mutational pattern at different positions of the same protein is not very informative for the susceptibility to mutations of other protein positions.
+This fact could be considered in the design of new predictors.
+
+A central point in the use of deep mutational scanning data for variant effect prediction is how to make the experimental scores from different datasets comparable.
+Different experiments target proteins with very different susceptibility to mutation, in different biological organisms, and using vastly different selection techniques.
+It is not trivial to devise a way to disentangle the experimental range of a particular experiment from the mutational sensitivity of the protein.
+For example, a wide score distribution in a particular experiment could be due to the methodology adopted, but also to intrinsic sensitivity to mutations of some residues in the protein.
+The use of an intra-dataset ranking loss instead of a regression loss, or the quantile normalization of the fitness scores could be possible solutions.
+These approaches, however, inevitably lead to a loss of information and predictive power.
+It would be interesting to assess systematically which normalization strategy works best for deep mutational scanning data, and how information can be extracted from the vast variability intrinsic in this methodology.
+Said this, the finding of this work that single protein models trained by segregating protein positions perform at a similar level to a general model trained in a LOPO fashion suggest that this issue of normalization is less influential than I expected.
+
+The fact that unsupervised models perform well compared to supervised ones, and their independence from deep mutational scanning data altogether, makes them an interesting research direction in the field.
+In addition, the use of unsupervised models would completely bypass the issue of how to normalize deep mutational scanning data.
+
+Coming back to supervised models, the relative scarcity of deep mutational scanning datasets is probably a big factor in the limited performances that can be obtained with quantitative effect predictors.
+When more deep mutational scanning studies will be available, it will be possible to use increasingly complex models and extract more subtle signals of mutation effect.
+This will lead to better predictions on one hand, and a better understanding of the biology underpinning the effect of mutations on the other.
+
+On a more practical note, the set of features used in this work, albeit easy to obtain and not dependent on structural data, is probably sub-optimal.
+Many of the features used showed to have very limited importance.
+It would be interesting to find new features that better capture the factors determining the effect of mutations.
+I believe that the use of predicted structural features instead of experimental ones can expand the applicability of mutation effect predictors, and could be explored further.
+
+As said above simple models such as linear regression performed at the same level as more complex ones, but this is not to say that further exploration of model architectures is not advisable.
+The poor performances obtained with complex models could be also due to a lack of data.
+I suggest that the exploration of new models and architectures in the field is still of great interest.
+In particular, the use of a deep learning model could be attempted.
+The availability of contacts graph predictions from trRosetta would make it possible to implement a graph-convolutional network, similar to what was done, albeit for a different purpose, in \textcite{Baldassarre2020}.
+Also, the implementation of a sliding window on the sequence context of a mutation could be done, for example using a recurrent neural network architecture.
+Once more deep mutational scanning data will be available, it could be also attempted an approach that dispenses from crafted features altogether and just relies on the raw multiple sequence alignments, similarly to what was done by \textcite{Mirabello2019}.
+Finally, the fact that all of the feature used in this work are obtainable from multiple sequence alignments suggests that it could be possible, instead of using other models to predict structural features, to create a single, end-to-end differentiable model from the multiple sequence alignments to the fitness scores.
+To achieve this, a self-supervised approach could be suitable.
+
+A final issue that must be addressed, even though outside of the scope of this project, is how the deep mutational scanning fitness scores relate to pathogenicity.
+This is very dependent on the experimental selection adopted and on how critical the assessed protein is.
+When interpreting the biological meaning of mutation effect predictions obtained with a model trained on something other than pathogenicity, I would caution against the direct connection between fitness scores, which are often a proxy for thermodynamic stability, and the pathogenicity of a genotypic variation.

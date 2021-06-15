@@ -1,0 +1,24 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of the deep mutational scanning datasets used in this work}}{19}{table.caption.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces Number of mutations in each dataset before and after filtering}}{19}{table.caption.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.3}{\ignorespaces PDB structures and chain identifiers used for the validation of predicted features}}{24}{table.caption.4}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Relationship between features and fitness scores}}{33}{table.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Agreement between the structural features predicted by NetSurfP-2 and their experimental counterparts}}{34}{table.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces Precision of trRosetta in predicting residue contacts}}{34}{table.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Number of mutations with missing features}}{40}{table.caption.10}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

@@ -1,0 +1,589 @@
+\thispagestyle{empty}
+\cleardoublepage%
+\chapter{Results}
+
+\section{Dataset overview}\label{sec:res_dataset}
+The aggregated data used in this study, after preprocessing and filtration (\autoref{sec:mm_dataset}), consisted of \num{21842} mutations.
+Nine independent experimental datasets were included, covering eight different proteins from bacteria, yeast, rat, and humans.
+\autoref{tab:datasets} reports a summary of each dataset, while \autoref{tab:excluded} reports the number of mutations in each of them before and after filtering.
+Each dataset consists of a set of single amino acid variants associated with a fitness score.
+
+The fitness scores have a distribution which is extremely dataset-specific (\autoref{subfig:fitness_score_distribution}) and the number of mutations in each dataset is quite variable (\autoref{subfig:datasets_abundancies}).
+Synonymous mutations tend to have scores that are close to \num{0} (indicating neutral effect), but some variability is observed.
+This could be potentially due to differences in codon preferences.
+The distribution of fitness scores is heavily not normal, with a large number of outliers.
+A more or less pronounced bimodal distribution is observed for all datasets (\autoref{sup:fig:score_distribution_by_dataset}), with the highest peak close to \num{0} and a second, smaller peak towards negative values (detrimental effect).
+The distributions are strongly asymmetrical, skewed towards negative effects.
+The datasets are of different sizes, with \texttt{beta-lactamase}, \texttt{hsp90}, and \texttt{WW\_domain} having many more mutations than the other ones.
+
+A comparison of fitness scores for identical mutations in the datasets \texttt{Ubiquitin} and \texttt{E1\_Ubiquitin} (which refer to the same protein but examined with different experimental approaches) is reported in \autoref{subfig:datasets_correlations}.
+A relatively low correlation between the fitness score from these two experiments is observed (Pearson r=\num{0.58}).
+There is an agreement between the experiments on the effect of most quasi-neutral mutations.
+Synonymous mutations are consistently assigned neutral effects in both datasets.
+A cluster of mutations with a unanimously disruptive effect can be also observed.
+Mutations with intermediate effect have more variability in their experimental score.
+
+The unbiased nature of deep mutational scanning experiments is testified by the fact that the frequency of occurrence of mutations towards each of the \num{20} standard residues is very similar (\autoref{subfig:aa2_frequencies}).
+The overall composition of the aggregated data in terms of wild-type residues for each mutation is consistent with the residue composition of the wild-type sequence of the mutagenized protein regions (\autoref{subfig:datasets_composition}).
+Thus, no observable bias is present in the number of mutations originating from different wild-type residues.
+This holds also on a per-experiment basis (\autoref{sup:fig:dataset_composition_by_dataset}).
+The aggregated residue composition of the wild-type sequences is similar to that of the whole UniProt (\autoref{subfig:datasets_composition}), even though there is consistent variability among the nine constituent experiments (\autoref{sup:fig:dataset_composition_by_dataset}).
+This is expected since single proteins can vary significantly in residue composition (for instance, membrane proteins tend to have a larger fraction of apolar residues than soluble proteins).
+
+The median effect of mutations is overwhelmingly negative (destabilizing) for mutations towards and from all the \num{20} standard residue types and in all datasets.
+Proline has the strongest disruptive effect, consistently with the perturbating effect that this residue has on secondary structures (\autoref{subfig:median_residue_fitness}).
+Cysteine and tryptophan are the wild-type residues that are hardest to replace.
+A breakdown of the median scores per residue and per dataset is reported in \autoref{sup:fig:median_residue_fitness_by_dataset}.
+
+The number of sampled mutations per position along the primary sequence was examined in \autoref{sup:fig:coverage_by_position_by_dataset}.
+Most datasets show almost full coverage of the mutational landscape for the respective mutagenized regions.
+Synonymous mutations are not reported in each dataset, but for those that do report them, they are uniformly distributed along the primary sequence (except for \texttt{Pab1}, where synonymous mutation scores are available only for a limited region).
+The dataset \texttt{WW\_domain} has a lower mutational landscape coverage compared to the other experiments.
+
+\thisfloatsetup{subfloatrowsep=none}
+\begin{figure}[!htb]
+	\ffigbox{%
+		\begin{subfloatrow}
+			\ffigbox[\FBwidth]{\input{tikz/fitness_score_distribution.tex}}{\caption{}\label{subfig:fitness_score_distribution}}%
+			\ffigbox[\FBwidth]{\input{tikz/datasets_abundancies.tex}}{\caption{}\label{subfig:datasets_abundancies}}%
+		\end{subfloatrow}%
+	}
+	{\caption[Dataset distributions and number of mutations]{%
+			\textbf{Dataset distributions and number of mutations.} Nine deep mutational scanning studies were used in this work.
+			To make comparisons more meaningful, the fitness scores were scaled independently for each dataset to the range \numrange{0}{1} and centred such that a neutral mutation would have a scaled score of \num{0}.
+			This scaling was only done for the visualizations and was not used in model development.
+			\subref{subfig:fitness_score_distribution} Distribution of fitness scores.
+			Orange crosses are synonymous mutations. Black crosses are outliers.
+			\subref{subfig:datasets_abundancies} Number of mutations in each dataset (in thousands).
+			The orange portion shows the number of synonymous mutations.
+			The vertical axis is shared with \subref{subfig:fitness_score_distribution}.
+			For a more detailed representation of the distribution of fitness scores see \autoref{sup:fig:score_distribution_by_dataset}.
+		}}
+\end{figure}
+
+\thisfloatsetup{subfloatrowsep=larger}
+\begin{figure}[p]
+	\ffigbox{%
+		\begin{subfloatrow}
+			\ffigbox[\FBwidth]{\input{tikz/aa2_frequencies.tex}}{\caption{}\label{subfig:aa2_frequencies}}%
+			\ffigbox[\FBwidth]{\input{tikz/datasets_correlations.tex}}{\caption{}\label{subfig:datasets_correlations}}
+		\end{subfloatrow}%
+		\subfigvsep%
+		\begin{subfloatrow}
+			\ffigbox[\FBwidth]{\input{tikz/datasets_composition.tex}}{\caption{}\label{subfig:datasets_composition}}%
+			\ffigbox[\FBwidth]{\input{tikz/median_residue_fitness.tex}}{\caption{}\label{subfig:median_residue_fitness}}%
+		\end{subfloatrow}%
+	}{\caption[Aggregated statistics and correlation among different experiments]{%
+			\textbf{Aggregated statistics and correlation among different experiments.}
+			\subref{subfig:aa2_frequencies}, \subref{subfig:datasets_composition}, \subref{subfig:median_residue_fitness} show aggregated data from the nine datasets used in this work.
+			Before aggregating the data, the fitness scores were scaled independently for each dataset to the range \numrange{0}{1} and centred such that a neutral mutation would have a scaled score of \num{0}.
+			The same data presented individually for each dataset is available in appendix (\autoref{sup:fig:aa2_frequencies_by_dataset.tex}, \autoref{sup:fig:dataset_composition_by_dataset}, and \autoref{sup:fig:median_residue_fitness_by_dataset}).
+			\subref{subfig:aa2_frequencies} Fraction of mutations towards each of the \num{20} standard residues.
+			The orange dashed line marks the expected fraction of mutations in case of uniform frequency.
+			\subref{subfig:datasets_correlations} Correlation among the fitness scores from two different experiments on ubiquitin.
+			Orange crosses are synonymous mutations.
+			Black crosses are missense mutations.
+			The Pearson ($r$), Spearman ($\rho$), and Kendall ($\tau$) correlation coefficients are shown.
+			\subref{subfig:datasets_composition} Aggregated composition of the dataset in terms of wild-type residues for each mutation (in grey) compared to the aggregated residue composition of the wild-type sequences of the mutagenized protein regions (in orange) and the residue composition of the whole UniProt (in blue).
+			The UniProt composition refers to the release \texttt{2020\_01}, sourced from \url{https://www.uniprot.org/statistics/}.
+			\subref{subfig:median_residue_fitness} Median score of mutations from and to each of the \num{20} standard residues.
+			Orange dots represent the median score of mutations from the residue.
+			Black dots represent the median score of mutations towards the residue.
+			The black dashed line marks a fitness score of \num{0}, corresponding to a neutral effect.
+		}\label{fig:dataset_aggregated}}
+\end{figure}
+
+\begin{figure}[p]
+	\ffigbox{%
+		\begin{subfloatrow}
+			\ffigbox[\FBwidth]{\input{tikz/mutation_identity.tex}}{\caption{}\label{subfig:mutation_identity}}%
+			\ffigbox[\FBwidth]{\input{tikz/blosum100.tex}}{\caption{}\label{subfig:blosum100}}
+		\end{subfloatrow}%
+		\subfigvsep%
+		\begin{subfloatrow}
+			\ffigbox[\FBwidth]{\input{tikz/score_dssp_q3.tex}}{\caption{}\label{subfig:dssp_q3}}%
+			\ffigbox[\FBwidth]{\input{tikz/score_dssp_rsa.tex}}{\caption{}\label{subfig:dssp_rsa}}%
+		\end{subfloatrow}%
+	}{%
+		\caption[Fitness scores by secondary structure, mutation type, and solvent accessibility]{%
+			\textbf{Fitness scores by secondary structure, mutation type, and solvent accessibility.}
+			For all the plots, fitness scores were scaled to make them more comparable across datasets.
+			Scaling was done on a per-dataset basis bringing the scores to the range \numrange{0}{1} and subtracting the scaled value for a raw score of \num{0}.
+			\subref{subfig:mutation_identity} Heatmap showing the average scaled fitness score for mutations towards and from any of the 20 standard residue types.
+			\subref{subfig:blosum100} Heatmap showing the BLOSUM100 scoring matrix substitution scores rescaled to the range \numrange{0}{1} and centred by subtracting the average rescaled score for a synonymous substitution.
+			The BLOSUM100 scores were obtained from the Biostrings R package.
+			\subref{subfig:dssp_q3} Violin plot showing the distribution of median scaled fitness scores according to the secondary structure of the mutated position.
+			The median of the scaled fitness scores was taken by protein position and dataset.
+			Only the subset of protein positions with an experimental secondary structure assignment is shown.
+			The assignments were obtained as explained in \autoref{sec:mm_exp_val}.
+			\subref{subfig:dssp_rsa} Scatter plot showing the dependency between the experimental relative solvent accessibility of a mutated position and the median scaled fitness score.
+			The median was obtained per dataset and per position as for \subref{subfig:dssp_q3}.
+			A linear regression line is shown in blue.
+		}\label{fig:mutation_identity}
+	}
+\end{figure}
+
+\section{Features overview}
+This section explores the relationship between the features used by the models presented in this work and the experimental fitness scores from deep mutational scanning.
+Numerical quantification of the strength of the relationship between each of the features and the fitness scores is reported in \autoref{tab:features_score_relationship}.
+For the features that are themselves predicted quantities, the agreement between them and their experimental counterpart is reported in \autoref{tab:netsurf_validation} and \autoref{tab:trrosetta_validation}.
+
+\begin{table}[p]
+	\small%
+	\ttabbox[\textwidth]{%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrr}%
+			\toprule
+			Feature                                                  & Pearson $r$      & Spearman $\rho$  & Kendall $\tau$    \\
+			\midrule
+			PSSM mutation score                                      & \num{-0.2869455} & \num{-0.2809048} & \num{-0.1885174}  \\
+			Netsurf predicted RSA                                    & \num{0.3436087}  & \num{0.3729762}  & \num{0.2515731}   \\
+			Netsurf predicted ASA                                    & \num{0.3190383}  & \num{0.3541994}  & \num{0.2384785}   \\
+			Netsurf predicted disorder                               & \num{0.05817099} & \num{0.1760797}  & \num{0.1183413}   \\
+			EVcouplings epistatic model                              & \num{0.462962}   & \num{0.495414}   & \num{0.3427753}   \\
+			EVcouplings independent model                            & \num{0.4388572}  & \num{0.4364188}  & \num{0.300382}    \\
+			EVcouplings frequency                                    & \num{0.1864407}  & \num{0.3472157}  & \num{0.2400341}   \\
+			EVcouplings conservation                                 & \num{-0.3159081} & \num{-0.3329435} & \num{-0.2264373}  \\
+			Closeness centrality (trRosetta predicted contacts)      & \num{-0.1630601} & \num{-0.1681213} & \num{-0.112927}   \\
+			Betweenness centrality (trRosetta predicted contacts)    & \num{-0.2004047} & \num{-0.2902508} & \num{-0.1949691}  \\
+			Degree centrality (trRosetta predicted contacts)         & \num{-0.1230379} & \num{-0.1346042} & \num{-0.08988814} \\
+			Load centrality (trRosetta predicted contacts)           & \num{-0.1979317} & \num{-0.2877618} & \num{-0.193219}   \\
+			Harmonic centrality (trRosetta predicted contacts)       & \num{-0.1907764} & \num{-0.2000805} & \num{-0.1373126}  \\
+			Clustering coefficient (trRosetta predicted contacts)    & \num{0.2309697}  & \num{0.2533754}  & \num{0.1721249}   \\
+			\midrule
+		\end{tabular*}\\%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lr}%
+			& Linear-circular correlation \\
+			\midrule
+			Netsurf predicted $\phi$ torsion angle  & \num{0.01213396} \\
+			Netsurf predicted $\psi$ torsion angle  & \num{0.01673723} \\
+			\midrule
+		\end{tabular*}\\%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrr}%
+			& Kruskal-Wallis $\chi^2$ & p-value           \\
+			\midrule
+			Wild-type residue                        & \num{1482.4}            & $<$ \num{2.2e-16} \\
+			Mutated residue                          & \num{708.53}            & $<$ \num{2.2e-16} \\
+			Netsurf predicted $Q_3$ secondary structure & \num{215.33}            & $<$ \num{2.2e-16} \\
+			Netsurf predicted $Q_8$ secondary structure & \num{351.97}            & $<$ \num{2.2e-16} \\
+			\bottomrule
+		\end{tabular*}%
+	}%
+	{\caption[Relationship between features and fitness scores]{%
+			\textbf{Relationship between features and fitness scores.}
+			Table showing various metrics that delineate the dependency between the features used in this work and the corresponding experimental fitness scores.
+			Fitness scores were scaled before computing any of the reported statistics to minimize the effect of having a potentially different experimental range for each dataset.
+			Scaling was done on a per-dataset basis bringing the scores to the range \numrange{0}{1} and subtracting the scaled value for a raw score of \num{0}.
+			For numerical features, the Pearson, Spearman and Kendall correlation coefficients between the features and the fitness scores are shown.
+			For torsion angles, the linear-circular correlation \parencite{Mardia1999} is shown.
+			For categorical features, the test statistics and the p-values for the Kruskal-Wallis one-way analysis of variance test \parencite{Hollander2013} are shown.
+		}\label{tab:features_score_relationship}%
+	}%
+\end{table}
+
+\begin{table}[p]
+	\small%
+	\ttabbox[\FBwidth]{%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llr}%
+			\toprule
+			Feature                        & Evaluation metric      & Score                     \\
+			\midrule
+			Relative solvent accessibility & Pearson $r$            & \num{0.7882348}           \\
+			Accessible surface area        & Pearson $r$            & \num{0.7957144}           \\
+			$Q_3$ secondary structure      & $Q_3$ accuracy         & \num{0.8505}              \\
+			$Q_8$ secondary structure      & $Q_8$ accuracy         & \num{0.7183}              \\
+			$\phi$ torsion angle           & Circular correlation   & \num{0.734590829057844}   \\
+			$\psi$ torsion angle           & Circular correlation   & \num{0.8681192893807274}  \\
+			\bottomrule
+		\end{tabular*}%
+	}{\caption[Agreement between the structural features predicted by NetSurfP-2 and their experimental counterparts]{%
+			\textbf{Agreement between the structural features predicted by NetSurfP-2 and their experimental counterparts.}
+			Table showing the agreement between the features predicted by the neural network NetSurfP-2 and their experimental counterparts obtained with DSSP\@.
+			For numerical features, the Pearson correlation coefficient is shown.
+			For categorical features, the multi-class accuracy is shown.
+			For torsion angles, the circular variant of the Pearson product-moment correlation is shown \parencite{Jammalamadaka2001}.
+			Since the experimental values are defined only for a subset of mutations, the reported scores are evaluated on the set of mutations that have both a predicted and an experimental value for the feature in question.
+		}\label{tab:netsurf_validation}}%
+	\tabsep%
+	\ttabbox[\FBwidth]{%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrr}%
+			\toprule
+			& \multicolumn{3}{l}{Medium range ($s \geq 12$)} & \multicolumn{3}{l}{Long range ($s \geq 24$)} \\
+			\cmidrule(l){2-7}
+			Dataset & Top $L/5$ & Top $L/2$ & Top $L$ & Top $L/5$ & Top $L/2$ & Top $L$ \\
+			\midrule
+			\texttt{beta-lactamase} & \num{1.0000000} & \num{0.9152542} & \num{0.8644068} & \num{0.9565217} & \num{0.9322034} & \num{0.7627119} \\
+			\texttt{WW\_domain}     & \num{0.9523810} & \num{0.8962264} & \num{0.8262911} & \num{0.9047619} & \num{0.8679245} & \num{0.7464789} \\
+			\texttt{PSD95pdz3}      & \num{0.9607843} & \num{0.9212598} & \num{0.7960784} & \num{0.9215686} & \num{0.8110236} & \num{0.6980392} \\
+			\texttt{kka2\_1:2}      & \num{1.0000000} & \num{1.0000000} & \num{0.9594595} & \num{1.0000000} & \num{1.0000000} & \num{0.8918919} \\
+			\texttt{hsp90}          & \num{1.0000000} & \num{1.0000000} & \num{0.9594595} & \num{1.0000000} & \num{1.0000000} & \num{0.8918919} \\
+			\texttt{Ubiquitin}      & \num{0.9807692} & \num{0.9160305} & \num{0.8212928} & \num{1.0000000} & \num{0.9007634} & \num{0.7034221} \\
+			\texttt{Pab1}           & \num{0.8000000} & \num{0.7179487} & \num{0.6666667} & \num{0.8666667} & \num{0.7435897} & \num{0.6025641} \\
+			\texttt{E1\_Ubiquitin}  & \num{0.8181818} & \num{0.8571429} & \num{0.7719298} & \num{0.9090909} & \num{0.7500000} & \num{0.5438596} \\
+			\texttt{gb1}            & \num{1.0000000} & \num{0.8500000} & \num{0.4634146} & \num{0.6250000} & \num{0.4000000} & \num{0.2195122} \\
+			\bottomrule
+		\end{tabular*}%
+	}{\caption[Precision of trRosetta in predicting residue contacts]{%
+			\textbf{Precision of trRosetta in predicting residue contacts.}
+			Table showing for each dataset the fraction of the top $L/n$ contacts predicted by trRosetta that are present in the respective experimental PDB structures, subdivided by medium-range and long-range.
+			$L$ is the length of the PDB protein sequence.
+			$s$ is the linear distance among the residues in the primary sequence such that if $i$ is the position of the first residue and $j$ the position of the second residue in a contact along the primary sequence of the protein, then $s = |j-i|$.
+		}\label{tab:trrosetta_validation}}%
+\end{table}
+
+\subsection{Mutation identity}
+\autoref{subfig:mutation_identity} shows the average scaled fitness score for mutations towards and from any possible combination of residue types.
+
+The identity of a mutation is, as expected, informative for the associated fitness score.
+Mutations towards proline are universally more damaging than mutations towards any other residue type.
+Mutations from tryptophan and to a lesser extent cysteine are particularly damaging, confirming the observations made in \autoref{sec:res_dataset}.
+The aliphatic residues valine, leucine, isoleucine, and methionine can quite freely substitute for each other.
+The same is true also for the aromatic residues tyrosine, tryptophan, and phenylalanine.
+Polar and charged residues tend to be easy to substitute, but damaging when inserted in apolar positions.
+No mutation type has an average positive effect.
+Synonymous mutations are, as expected, the least damaging ones.
+
+I reasoned that the striking difference in mean fitness score for mutations from polar and charged residue as compared to mutations from apolar residues could be due to the tendency of the formers to occupy positions at the protein surface.
+However, the same trend is present when the mutations are filtered for positions with relative solvent accessibility of less than \num{0.25} (data not shown).
+
+When the data is partitioned by dataset (\autoref{sup:fig:mutation_identity_by_dataset}), the observed trends still generally hold.
+However, it can be noted that some datasets have more pronounced effects than others.
+This is likely due to the presence of outliers that influence the scaling procedure used for the fitness scores.
+Mutations from tryptophan are exceptionally damaging in the dataset \texttt{gb1}.
+
+The relationship between fitness score and mutation identity closely resembles the scores from a small-distance substitution matrix such as the BLOSUM100 \parencite[\autoref{subfig:blosum100}]{Henikoff1992}.
+For example, a cluster of permissive scores is present in both heatmaps for mutations among aliphatic residues, aromatic residues, and polar residues.
+Of course, being the BLOSUM100 a symmetric matrix, the directional patterns observed in the experimental scores are not mirrored.
+These include the particularly unfavourable mutations towards proline and from cysteine and tryptophan.
+
+\subsection{Position-specific scoring matrices}
+The emission probabilities of the hidden Markov models obtained from the multiple sequence alignments of each of the proteins used in this work were used to extract Position-Specific Scoring Matrices (PSSMs).
+The scores of each mutation from the respective PSSMs have a weak negative correlation to the experimental fitness score (\autoref{tab:features_score_relationship}).
+The directionality of the relationship is negative because the emission probabilities are represented by HMMER with their negative natural logarithm.
+
+\subsection{Solvent accessibility}
+The solvent accessibility used as a feature was not the experimental one, but the predicted quantities obtained with the neural network NetSurfP-2.
+This was done to make the models independent from the availability of protein structures.
+Both the Relative Solvent Accessibility (RSA) and the Accessible Surface Area (ASA) were used as features.
+The Pearson correlation between the predicted and experimental values is \num{0.7882348} and \num{0.7957144} respectively (\autoref{tab:netsurf_validation}), suggesting reliable predictions.
+
+Relative solvent accessibility has a Pearson correlation with the fitness scores of \num{0.34} (\autoref{tab:features_score_relationship}).
+The positive correlation implies that exposed residues tend to have higher (i.e.\ less damaging) fitness scores.
+This is coherent with previous observations \parencite{Savojardo2021}.
+
+\subsection{Secondary structure}
+The secondary structure classification used in the models was not the experimental one, but the predicted one obtained with the neural network NetSurfP-2.
+The actual features used was not the categorical classification, but the raw activation for the output layer of the neural network NetSurfP-2.
+Both the eight-classes and the three-classes classification were used as features.
+
+The distribution of fitness scores is significantly different according to the secondary structure of the mutated position (\autoref{tab:features_score_relationship}).
+\autoref{subfig:dssp_q3} reports the aggregated distribution of the median fitness scores (per dataset and position) by secondary structure.
+\autoref{sup:fig:score_dssp_q3_by_dataset} reports the same but detailed by dataset.
+Mutations that affect residues in a coil conformation tend to be less damaging than mutations affecting strands or helices, coherently with the less stringent chemical requirements for this type of secondary structure.
+Very strong variability in the relationship between secondary structure and fitness score is observed among datasets, but in general, coils tend to be more permissive and strands more stringent in the type of mutations that are permitted.
+
+The predicted secondary structures from NetSurfP-2 are in good agreement with the experimentally determined ones, where the latter are available (\autoref{tab:netsurf_validation}).
+
+\subsection{Torsion angles}
+The relationship between backbone torsion angles and fitness scores is negligible (\autoref{tab:features_score_relationship}).
+Also in this case the predicted quantities from NetSurfP-2 were used and not the experimental torsion angles.
+Nonetheless, the agreement between the two is very strong (\autoref{tab:netsurf_validation}).
+
+\subsection{Disorder}
+NetSurfP-2 includes in its output also a probability of each protein position being disordered.
+This probability was trained by considering disordered residues which did not appear in the respective crystal structures of the proteins in the training set of the NetSurfP-2 neural network.
+
+The Pearson correlation of this predicted disorder probability with the fitness scores is weak, while the Spearman correlation is stronger (\autoref{tab:features_score_relationship}).
+The low Pearson correlation can be due to the sigmoid activation for the neuron responsible for this feature in the output layer of NetSurfP-2, which imposes a strong bi-modality in the resulting distribution.
+
+Fitness score and disorder probability are positively correlated, indicating that, as would be expected, disordered residues tend to be more permissive towards mutations.
+
+\subsection{Evolutionary couplings}
+Among all the features used in this work, the epistatic evolutionary couplings obtained with the unsupervised model EVcouplings have the highest correlation with the experimental fitness scores (\autoref{tab:features_score_relationship}).
+The independent couplings are also strongly correlated with the fitness scores, as well as the frequency of the mutation in the multiple sequence alignment of the mutagenized protein, and the conservation of the position.
+These last two features are also part of the output from the EVcouplings predictor.
+
+As expected, the correlation between the conservation of a position and the corresponding fitness scores is negative, indicating that conserved positions have more dramatic effects when mutated as compared to less conserved positions.
+On the contrary, the correlation between the other EVcouplings features and the fitness scores is positive, since this predictor was developed for predicting mutational effects.
+
+\subsection{Connectivity graphs}
+To make the models independent from the availability of experimental protein structures, instead of relying on experimental residue contacts the neural network trRosetta was used to obtain predicted inter-residue distances.
+From these distances, a connectivity graph was obtained for each protein by imposing a threshold of \SI{8}{\angstrom} distance between $C_\beta$ atoms to assign contacts ($C_\alpha$ for glycine).
+For each residue in the protein then, which was represented by a node in the contact graph, a series of node metrics were calculated and used as features.
+
+All the node centrality metrics used have a negative correlation with the fitness scores, indicating that more central residues tend to have more negative fitness scores.
+This is expected since more central residues tend to be in the core of the protein, where mutations have the most destabilizing effects.
+
+The clustering coefficient on the other hand has a positive correlation with the fitness scores, indicating that residues that are a part of densely connected sub-networks tend to be more permissive towards mutations.
+This is also intuitive since residues with a very low clustering coefficient could be mediators of key and non-redundant contacts that keep the protein folded.
+For instance, residues with a low clustering coefficient could be those that make different protein domains interact.
+However, further research is needed to elucidate the exact reason for this trend.
+
+The predicted contact maps obtained with trRosetta are in excellent agreement with the ones determined from the experimental protein structures.
+The precision of the top $L/2$ long-range predicted contacts, a common metric used in protein structure prediction, is between \num{0.4} and \num{0.94} for the proteins used in this work (\autoref{tab:trrosetta_validation}).
+
+\subsection{Missing features}
+The features obtained from EVcouplings were missing for some mutations.
+This is due to the handling of regions with a poor quality multiple sequence alignment done by the EVcouplings package.
+For the other features, no missing values were present.
+The handling of missing features is described in \autoref{sec:mm_missing}.
+The number of mutations that did not have associated EVcouplings features amounted to \num{1884} on a total of \num{21513} mutations, or \SI{8.75749546786}{\percent}.
+The number of missing features by dataset is described in \autoref{tab:missing}.
+
+\begin{table}[t]
+	\small%
+	\ttabbox[\textwidth]{%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llll}%
+			\toprule
+			Dataset name   & \thead[l]{Number of mutations with\\missing EVcouplings features} & Total number of mutations & Percentage (\si{\percent})\\
+			\midrule
+			\texttt{beta-lactamase} & \num{569} & \num{5397} & \num{10.5428942005} \\
+			\texttt{WW\_domain}     & \num{10}  & \num{373}  & \num{2.68096514745} \\
+			\texttt{PSD95pdz3}      & \num{0}   & \num{1577} & \num{0} \\
+			\texttt{kka2\_1:2}      & \num{625} & \num{5280} & \num{11.8371212121} \\
+			\texttt{hsp90}          & \num{464} & \num{4231} & \num{10.966674545} \\
+			\texttt{Ubiquitin}      & \num{110} & \num{1267} & \num{8.681925809} \\
+			\texttt{Pab1}           & \num{49}  & \num{1220} & \num{4.01639344262} \\
+			\texttt{E1\_Ubiquitin}  & \num{57}  & \num{1142} & \num{4.99124343257} \\
+			\texttt{gb1}            & \num{0}   & \num{1026} & \num{0} \\
+			\bottomrule
+		\end{tabular*}%
+	}%
+	{\caption[Number of mutations with missing features]{%
+			\textbf{Number of mutations with missing features.}
+			Table that shows the number of mutations in each dataset that could not be assigned EVcouplings predictions.
+			EVcouplings predictions were the only feature that presented some missing values.
+		}\label{tab:missing}%
+	}%
+\end{table}
+
+\section{Correlation among features}
+
+\begin{figure}[p]
+	\ffigbox[\FBwidth]{\input{tikz/feature_corr_heatmap.tex}}{%
+		\caption[Heatmap of the correlation among features]{%
+			\textbf{Heatmap of the correlation among features.}
+			Heatmap showing the Spearman correlation coefficient among the features used for training the models presented in this work.
+			The identities of the wild-type and mutant residues are not shown since they are categorical features, and representing the correlation of the respective one-hot components would unnecessarily clutter the plot.
+			The correlations are calculated on all the available pairs of feature values, so the number of points used for each pairwise feature comparison varies.
+			For the NetSurfP-2 secondary structure predictions, the class probabilities (network outputs) are used for evaluating the correlations.
+			The definition of the one-letter code for the secondary structure classes can be found at \textcite{Kabsch1983}.
+			The feature ``PSSM score mutation from'' refers to the PSSM score of the wild-type residue in each position.
+			The feature ``PSSM score mutation towards'' refers to the PSSM score of the mutant residue in each position.
+			The feature ``PSSM score mutation difference'' is the difference of ``PSSM score mutation towards'' and ``PSSM score mutation from''.
+		}\label{fig:feature_corr}%
+	}%
+\end{figure}
+
+The correlation among the features used by the models presented in this work is shown in \autoref{fig:feature_corr}.
+
+The EVcouplings predictions are strongly correlated to each other.
+The correlation is positive among all the EVcouplings features except the position conservation, which is negatively correlated to the other EVcouplings features.
+This makes logical sense since more conserved positions are expected to have more negative real, and hence predicted, fitness scores.
+
+The NetSurfP-2 RSA and ASA are trivially correlated to each other since ASA is calculated from the RSA and not predicted by NetSurfP-2.
+The two solvent accessibility features have a weak positive correlation with the EVcouplings score (except the conservation, which shows a negative correlation), weak correlation with the secondary structures, negative correlation with the PSSM scores for polar and charged residues, and positive correlation with the PSSM scores for apolar residues.
+
+NetSurfP-2 secondary structure probabilities are trivially correlated to each other, being different outputs of the same softmax activation layer.
+Virtually no correlation with the EVcouplings scores is observed, and very low correlation with the other features.
+As it would be expected, three-classes and eight-classes prediction are strongly correlated.
+
+NetSurfP-2 torsion angles and disorder probabilities follow similar correlation patterns as the secondary structures.
+
+The node centrality metrics from the predicted trRosetta contacts are strongly related to each other, except for the harmonic centrality which has a weaker correlation.
+They are negatively correlated to solvent accessibility, as it would be expected, and positively correlated to most of the PSSM scores.
+The clustering coefficient follows inverse correlation patterns as compared to the centrality metrics.
+
+\FloatBarrier%
+\section{Comparison of model testing strategies}
+
+\begin{figure}[p]
+	\ffigbox[\textwidth]{%
+		\begin{subfloatrow}%
+			\ffigbox[\FBwidth]{\input{tikz/single_protein_models_performance_comparison.tex}}{\caption{}\label{subfig:single_protein_models_performance_comparison}}
+		\end{subfloatrow}%
+		\subfigvsep%
+		\begin{subfloatrow}
+			\ffigbox[\FBwidth]{\input{tikz/xgb_models_performance_comparison.tex}}{\caption{}\label{subfig:xgb_models_performance_comparison}}%
+		\end{subfloatrow}
+	}{%
+		\caption[Comparison of model testing strategies]{%
+			\textbf{Comparison of model testing strategies.}
+			Pair of plots showing the correlation among experimental and predicted fitness scores in the testing set for gradient boosted tree models, subdivided by dataset.
+			\subref{subfig:single_protein_models_performance_comparison}
+			Comparison of single protein models trained under the naive paradigm and by segregating protein positions.
+			The Pearson correlation coefficient was used in this comparison.
+			\subref{subfig:xgb_models_performance_comparison}
+			Comparison of the naive single protein models and protein models trained by segregating protein positions against the gradient boosted tree general model (LOPO).
+			Since the general model was trained using a ranking loss function, the Spearman correlation coefficient was preferred in this comparison.
+		}%
+	}%
+\end{figure}
+
+The aim of this section is the evaluation of the influence of the validation and testing strategy used on the perceived model performances.
+To isolate the effect of the validation strategy from that of the model type, only models based on gradient boosted trees are considered in this section.
+Three different approaches to testing and optimization were adopted: in two cases independent models were trained for each dataset (single protein models), while in the remaining case a single model was trained on all the available data.
+
+The single protein models were trained either randomly setting aside half of the mutations in the respective datasets for testing (referred to as ``naive'' models), or by segregating protein positions, such that different mutations that affected the same residue would be grouped (referred to as models ``by position'').
+
+For the general models trained on all the nine datasets used in this work, a Leave-One-Protein-Out (LOPO) approach to validation and testing was used.
+Briefly, one of the eight proteins included in the datasets was left out of the training set and used for validation and testing. Half of the mutations in the left out protein were used for validation and half for testing, splitting the sets by segregating protein positions.
+The process was repeated changing which protein was left out until all proteins had been tested.
+This cross-validation and testing approach was based on grouping mutations by protein, not by dataset.
+This difference is important since two of the nine datasets used concerned the same protein, ubiquitin.
+The performance evaluation however was reported on a per-dataset basis, for compatibility with the single protein models and for assessing dataset-specific performance patterns.
+More details on the methods used for validation and testing are reported in \autoref{sec:mm_validation_and_testing}.
+
+The three model groups were optimized independently with a random search procedure (\autoref{sec:mm_optimization}).
+The implementations of the three models were identical, except that for the single protein models a minimum squared error loss was used, while for the general model a pairwise ranking loss was used.
+This was made necessary by the high diversity in range and distribution of fitness scores among different datasets.
+For the same reason, the Pearson correlation coefficient was preferred when comparing only single protein models, and the Spearman correlation coefficient was preferred when comparing general models.
+
+The single protein models trained by segregating protein positions in different splits for validation and testing performed sensibly worse than the ones trained with the naive approach (\autoref{subfig:single_protein_models_performance_comparison}).
+This was expected since the naive models are likely to overfit the validation and testing sets because of the presence of different mutations affecting the same protein position in both training and testing.
+Likely, knowledge of the mutational pattern towards certain residues at a specific position gives valuable clues about the fitness of different mutations in the same position.
+
+The single protein models trained by segregating protein positions perform on average better than the general gradient boosted tree model, but the difference is smaller than with the naive single protein models (\autoref{subfig:xgb_models_performance_comparison}).
+This is remarkable since it shows that a general model, trained to predict mutation effects from a range of different proteins, can reach similar performances to a model specifically trained for a single protein.
+The main determinant of performances in fitness prediction seems to be the availability in the training set of mutations affecting the same residues used for testing, not merely the presence during training of mutations affecting the same protein, or optimization of the model towards a specific dataset.
+In light of these results, it seems reasonable to caution against the overestimation of performances in models that use a naive approach to testing.
+
+For a more detailed representation of the test results for the three model groups compared here see \autoref{sup:fig:single_protein_models_naive_test_result_correlations}, \autoref{sup:fig:single_protein_models_by_position_test_result_correlations}, and \autoref{sup:fig:single_protein_models_naive_test_result_correlations}.
+
+\section{Comparison of different model architectures with previous predictors}
+This section solely concerns the general models trained in a LOPO fashion, and how they do compare with previously published predictors.
+\autoref{fig:performance_comparison} shows the performance of two state-of-the-art mutation effect predictors compared to that of the general models developed as part of this work.
+
+The models that I tested in a LOPO fashion include gradient boosted trees, a simple linear regression, support vector machines, and neural networks.
+However, support vector machines and neural networks in preliminary testing phases failed to improve on the linear regression performances and thus were excluded from further optimization and this comparison.
+Gradient boosted trees, on the other hand, were included in the comparison even though they did not provide significant improvements on the linear regression.
+This was decided to allow for better comparison with the single protein models, which were also based on gradient boosted trees.
+In addition, gradient boosted trees have the advantage compared to linear regression to allow for the use of a ranking loss and they are insensitive to feature scaling.
+
+In light of the test results, the use of a more complex model such as gradient boosted tree does not seem justified when a much simpler model such as unregularized linear regression can attain similar performances, while at the same time diminishing training times and minimising the risk for overfitting.
+Nonetheless, gradient boosted trees could be preferred to dispense from the need for scaling features and normalizing labels.
+
+The comparison of the models developed in this work to two state-of-the-art predictors, Envision and EVmutation, shows comparable performances.
+Envision is also a gradient boosted tree-based model, but it is based on a different feature set that includes also structural data.
+EVmutation is an unsupervised model whose output is also included as a feature in the models that I developed.
+Other notable variant effect predictors were excluded from the comparison for their focus on binary classification instead of quantitative scores, or the excessive computational requirements.
+
+My models generally improve on the raw EVmutation performances, showing that they are not simply echoing the EVmutation output.
+The improvement is particularly striking for the dataset \texttt{gb1}, where EVmutation predictions are very poor.
+In general, EVmutation seems to depend on the quality of the multiple sequence alignment more than the models that I developed.
+Indeed, the dataset \texttt{gb1} has a poor multiple sequence alignment because of the lack of enough homologous sequences in UniProt.
+
+Compared to the similar model Envision, my models perform better on some of the datasets and worse on others.
+it should be noted, however, that my models do not use any structural feature.
+Also, Envision performance are cross-validation scores measured on the same set used for hyperparameter tuning, while the performances of my models are measured on the test set.
+Thus, it is likely that the perceived performances of Envision are an overestimation.
+
+For a comparison of the validation and test scores of my models, refer to \autoref{sup:fig:test_summary}.
+
+\begin{figure}[t]
+	\ffigbox[\FBwidth]{\input{tikz/general_models_performance_comparison.tex}}{%
+		\caption[Comparison of performances for various quantitative predictors of single amino acid variant effect]{%
+			\textbf{Comparison of performances for various quantitative predictors of single amino acid variant effect.}
+			Plot showing the Spearman correlation coefficients between the predicted effect and the experimental measurements obtained with deep mutational scanning for the nine datasets used in this work.
+			The predictions of two state-of-the-art methods are shown alongside the performances of the methods developed in this work.		}\label{fig:performance_comparison}%
+	}%
+\end{figure}
+
+\section{Gradient boosted tree optimization}
+The random hyperparameter search adopted for the gradient boosted trees-based models showed similar patterns of dependency on the hyperparameters for the single protein models and the models trained in a LOPO fashion.
+
+In general, more iterations corresponded to better results for all the models, but with diminishing returns.
+From the learning curves (\autoref{fig:learning_curves}) it can be seen how small learning rates consistently lead to better performances, but the number of iteration required to reach plateau is greater for small learning rates.
+If the learning rate is not too large ($\leq$ \num{1e-2}) it is always possible to reach optimal performances, but smaller learning rates require more iterations to do so.
+For the single protein models and with a learning rate of \num{1e-3} or \num{1e-4}, a peculiar learning curve is observed where the performances seem to plateau around \num{100} iterations but then increases again.
+The reason for this is not clear.
+This pattern is not observed for the learning curves of the LOPO general model, which appear less regular.
+In the general LOPO models, the performances start to deteriorate after \num{1e4} iterations.
+
+Other hyperparameters besides the learning rate and the number of iterations show a very modest impact on performances.
+The L1 and L2 regularization terms proved to be very damaging if set to large values, as can be expected.
+Subsampling the rows and columns seemed to be effective in reducing overfitting while at the same time making training faster.
+Enforcing a minimum loss reduction, a minimum child weight, and a maximum tree depth had little impact, besides being damaging if set to extremely large values.
+
+For a comparison of testing and validation performances refer to \autoref{sup:fig:lopo_xgb_model_test_result_correlations}.
+For a more detailed report of the influence of the various hyperparameters refer to \autoref{sup:fig:single_protein_models_naive_random_search}, \autoref{sup:fig:single_protein_models_by_position_random_search}, and \autoref{sup:fig:lopo_xgb_model_random_search}.
+
+\begin{figure}[t]
+	\ffigbox[\FBwidth]{\input{tikz/lopo_models_xgb_learning_curve.tex}}{%
+		\caption[Learning curves for the general gradient boosted tree models]{%
+			\textbf{Learning curves for the general gradient boosted tree models.}
+			Pair of plots showing the average Spearman correlation coefficient between true and predicted fitness scores on the validation set for the gradient boosted tree models trained in a LOPO fashion as a function of the number of iterations used in training.
+			Each colour corresponds to a different learning rate.
+			The dotted lines connect performance points obtained with the same learning rate, defining a family of learning curves.
+			The averaging of the correlation coefficient is across the nine datasets used in this work.
+			The other hyperparameters besides the learning rate and the number of iterations were kept constant at the optimal values determined during the random search.
+		}%
+		\label{fig:learning_curves_general_xgb}%
+	}%
+\end{figure}
+
+\begin{figure}[p]
+	\ffigbox[\textwidth]{%
+		\begin{subfloatrow}%
+			\ffigbox[\FBwidth]{\input{tikz/single_protein_models_naive_learning_curve.tex}}{\caption{}\label{subfig:single_protein_models_naive_learning_curve}}
+		\end{subfloatrow}%
+		\subfigvsep%
+		\begin{subfloatrow}
+			\ffigbox[\FBwidth]{\input{tikz/single_protein_models_by_position_learning_curve.tex}}{\caption{}\label{subfig:single_protein_models_by_position_learning_curve}}%
+		\end{subfloatrow}
+	}{%
+		\caption[Learning curves for the single protein models]{%
+			\textbf{Learning curves for the single protein models.}
+			Pair of plots showing the average Pearson correlation coefficient between true and predicted fitness scores on the validation set for the single protein models as a function of the number of iterations used in training.
+			Each colour corresponds to a different learning rate.
+			The averaging of the correlation coefficient is across the nine datasets used in this work.
+			The other hyperparameters besides the learning rate and the number of iterations were kept constant at the optimal values determined during the random search.
+			\subref{subfig:single_protein_models_naive_learning_curve}
+			Learning curves for models trained under the ``naive'' paradigm.
+			\subref{subfig:single_protein_models_by_position_learning_curve}
+			Learning curves for models trained trained by segregating protein positions.
+		}%
+		%
+	}%
+\end{figure}
+
+\section{Feature importance}\label{sec:res:feature_imp}
+The importance of the features used by the models developed in this work was evaluated according to the grouped permutation importance (\autoref{sec:mm_feature_importance}).
+Nine feature groups were defined, according to the collinearity of the features.
+The importance was independently evaluated for each dataset.
+
+In the gradient boosted tree models, the importance profile is similar for models trained with the two single protein strategies (\autoref{sup:fig:feature_importance_single_protein_naive} and \autoref{sup:fig:feature_importance_single_protein_by_position}), and for the models trained in a LOPO fashion (\autoref{fig:feature_importance_general_xgb}).
+The EVcouplings feature group is by far the most important.
+In some datasets (\texttt{E1\_Ubiquitin}, \texttt{Ubiquitin}, \texttt{WW\_domain}, \texttt{Pab1}, \texttt{PSD95pdz3}, \texttt{hsp90}) also the PSSM score are strong contributors to performance, while in other datasets they are less important (\texttt{beta-lactamase}, \texttt{kka2\_1:2}), or even detrimental (\texttt{gb1}).
+It is interesting how the PSSM scores appear to be detrimental for the \texttt{gb1} dataset in the single protein models trained by segregating protein positions and in the LOPO general models, while they are important in the naive single protein models.
+In the LOPO models, the PSSM scores are also more important than in the single protein models for the dataset \texttt{beta-lactamase}.
+The trRosetta-derived features seem very important for the LOPO models on the dataset \texttt{gb1}, and in general, they are relatively important in most datasets.
+They are less important for single protein models, but still, they contribute strongly to performances in the dataset \texttt{gb1}.
+The NetSurfP-2 solvent accessibility is important for the LOPO models on dataset \texttt{PSD95pdz3}, and moderately important for other models and on other datasets.
+The remaining feature groups seem to be less critical.
+
+For the linear regressor (\autoref{fig:feature_importance_general_linear}), the importance of features is more equilibrated, with a less strong dependency on the EVcouplings feature group.
+Besides EVcouplings, the NetSurfP-2 predicted secondary structures and the PSSM scores are the most important groups.
+Follow the trRosetta features and the NetSurfP-2 solvent accessibility.
+The feature dependence of the linear model seems to be less variable across datasets.
+
+\begin{figure}[p]
+	\ffigbox[\FBwidth]{\input{tikz/lopo_models_xgb_feature_importance_by_dataset.tex}}{%
+		\caption[Feature importance for the general gradient boosted trees models]{%
+			\textbf{Feature importance for the general gradient boosted trees models.}
+			Series of bar plots showing the grouped permutation importance of the features used in the general models trained in a LOPO fashion, subdivided by dataset.
+			These plots refer to the importances in the gradient boosted tree models.
+		}%
+		\label{fig:feature_importance_general_xgb}%
+	}%
+\end{figure}
+
+\begin{figure}[p]
+	\ffigbox[\FBwidth]{\input{tikz/lopo_models_linear_feature_importance_by_dataset.tex}}{%
+		\caption[Feature importance for the general linear regression models]{%
+			\textbf{Learning curves for the general linear regression models.}
+			Series of bar plots showing the grouped permutation importance of the features used in the general models trained in a LOPO fashion, subdivided by dataset.
+			These plots refer to the importances in the linear regression models.
+		}%
+		\label{fig:feature_importance_general_linear}%
+	}%
+\end{figure}
