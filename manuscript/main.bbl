@@ -8177,7 +8177,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{6}
       \field{number}{W1}
-      \field{title}{SIFT web server: predicting effects of amino acid substitutions on proteins}
+      \field{title}{{SIFT} web server: predicting effects of amino acid substitutions on proteins}
       \field{volume}{40}
       \field{year}{2012}
       \field{dateera}{ce}
@@ -8310,7 +8310,7 @@
       \field{journaltitle}{Genetics}
       \field{month}{3}
       \field{number}{2}
-      \field{title}{Massively Parallel Functional Analysis of BRCA1 RING Domain Variants}
+      \field{title}{Massively Parallel Functional Analysis of {BRCA1} {RING} Domain Variants}
       \field{volume}{200}
       \field{year}{2015}
       \field{dateera}{ce}
@@ -8379,7 +8379,7 @@
       \field{journaltitle}{BMC Bioinformatics}
       \field{month}{9}
       \field{number}{1}
-      \field{title}{HH-suite3 for fast remote homology detection and deep protein annotation}
+      \field{title}{{HH}-suite3 for fast remote homology detection and deep protein annotation}
       \field{volume}{20}
       \field{year}{2019}
       \field{dateera}{ce}
@@ -8442,7 +8442,7 @@
       \field{journaltitle}{Bioinformatics}
       \field{month}{11}
       \field{number}{6}
-      \field{title}{UniRef clusters: a comprehensive and scalable alternative for improving sequence similarity searches}
+      \field{title}{{UniRef} clusters: a comprehensive and scalable alternative for improving sequence similarity searches}
       \field{volume}{31}
       \field{year}{2014}
       \field{dateera}{ce}
@@ -8471,7 +8471,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Joblib: running Python functions as pipeline jobs}
+      \field{title}{Joblib: running {Python} functions as pipeline jobs}
       \field{year}{2020}
       \field{dateera}{ce}
       \verb{urlraw}
@@ -8556,8 +8556,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{R package version 4.9}
-      \field{title}{Directional: A Collection of R Functions for Directional Data Analysis}
+      \field{title}{Directional: A Collection of {R} Functions for Directional Data Analysis}
       \field{year}{2021}
       \verb{urlraw}
       \verb https://CRAN.R-project.org/package=Directional
@@ -8579,7 +8578,7 @@
         {Hampton, NHRedwood City, Calif}%
       }
       \list{publisher}{1}{%
-        {Python Software FoundationSoHo Books}%
+        {Python Software Foundation Books}%
       }
       \strng{namehash}{e6d936fb9a00e22557a64fe6eb717211}
       \strng{fullhash}{e6d936fb9a00e22557a64fe6eb717211}
@@ -8595,7 +8594,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{1441412697}
-      \field{title}{The Python language reference}
+      \field{title}{The {Python} language reference}
       \field{year}{2010}
       \field{dateera}{ce}
     \endentry
@@ -8951,7 +8950,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{10}
       \field{number}{D1}
-      \field{title}{PDBe-KB: a community-driven resource for structural and functional annotations}
+      \field{title}{{PDBe-KB}: a community-driven resource for structural and functional annotations}
       \field{volume}{48}
       \field{year}{2019}
       \field{dateera}{ce}
@@ -9014,7 +9013,7 @@
       \field{journaltitle}{Nature Protocols}
       \field{month}{12}
       \field{number}{1}
-      \field{title}{SIFT missense predictions for genomes}
+      \field{title}{{SIFT} missense predictions for genomes}
       \field{volume}{11}
       \field{year}{2015}
       \field{dateera}{ce}

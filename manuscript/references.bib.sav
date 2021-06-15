@@ -1533,7 +1533,7 @@
 @Book{Wickham2016,
   author    = {Wickham, Hadley},
   date      = {2016},
-  title     = {ggplot2: Elegant Graphics for Data Analysis},
+  title     = {{ggplot2}: Elegant Graphics for Data Analysis},
   isbn      = {978-3-319-24277-4},
   publisher = {Springer-Verlag New York},
   url       = {https://ggplot2.tidyverse.org},
@@ -1555,8 +1555,7 @@
 @Manual{Wilke2020,
   author = {Wilke, Claus O.},
   date   = {2020},
-  title  = {cowplot: Streamlined Plot Theme and Plot Annotations for 'ggplot2'},
-  note   = {R package version 1.1.1},
+  title  = {{cowplot}: Streamlined Plot Theme and Plot Annotations for 'ggplot2'},
   url    = {https://CRAN.R-project.org/package=cowplot},
   groups = {Methods},
 }
@@ -1564,8 +1563,7 @@
 @Manual{Wickham2020,
   author = {Wickham, Hadley and Seidel, Dana},
   date   = {2020},
-  title  = {scales: Scale Functions for Visualization},
-  note   = {R package version 1.1.1},
+  title  = {{scales}: Scale Functions for Visualization},
   url    = {https://CRAN.R-project.org/package=scales},
 }
 
@@ -2166,7 +2164,7 @@
   author       = {Wensien, Marie and von Pappenheim, Fabian Rabe and Funk, Lisa-Marie and Kloskowski, Patrick and Curth, Ute and Diederichsen, Ulf and Uranga, Jon and Ye, Jin and Fang, Pan and Pan, Kuan-Ting and Urlaub, Henning and Mata, Ricardo A. and Sautner, Viktor and Tittmann, Kai},
   date         = {2021-05},
   journaltitle = {Nature},
-  title        = {A lysine–cysteine redox switch with an NOS bridge regulates enzyme function},
+  title        = {A lysine–cysteine redox switch with an {NOS} bridge regulates enzyme function},
   doi          = {10.1038/s41586-021-03513-3},
   number       = {7859},
   pages        = {460--464},
