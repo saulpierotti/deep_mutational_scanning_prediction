@@ -275,7 +275,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Software available from tensorflow.org}
       \field{title}{TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems}
       \field{year}{2015}
       \field{dateera}{ce}
@@ -569,7 +568,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Bioinformatics}
       \field{month}{8}
-      \field{title}{GraphQA: protein model quality assessment using graph convolutional networks}
+      \field{title}{{GraphQA}: protein model quality assessment using graph convolutional networks}
       \field{year}{2020}
       \field{dateera}{ce}
       \verb{doi}
@@ -1401,7 +1400,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{11}
       \field{number}{D1}
-      \field{title}{UniProt: the universal protein knowledgebase in 2021}
+      \field{title}{{UniProt}: the universal protein knowledgebase in 2021}
       \field{volume}{49}
       \field{year}{2020}
       \field{dateera}{ce}
@@ -1544,7 +1543,7 @@
       \field{journaltitle}{Molecular Cancer Research}
       \field{month}{6}
       \field{number}{10}
-      \field{title}{A Massively Parallel Fluorescence Assay to Characterize the Effects of Synonymous Mutations on TP53 Expression}
+      \field{title}{A Massively Parallel Fluorescence Assay to Characterize the Effects of Synonymous Mutations on {TP53} Expression}
       \field{volume}{15}
       \field{year}{2017}
       \field{dateera}{ce}
@@ -1774,7 +1773,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{11}
       \field{number}{D1}
-      \field{title}{The InterPro protein families and domains database: 20 years on}
+      \field{title}{The {InterPro} protein families and domains database: 20 years on}
       \field{volume}{49}
       \field{year}{2020}
       \field{dateera}{ce}
@@ -1856,7 +1855,7 @@
       \field{journaltitle}{The Journal of Mathematical Sociology}
       \field{month}{6}
       \field{number}{2}
-      \field{title}{A faster algorithm for betweenness centrality∗}
+      \field{title}{A faster algorithm for betweenness centrality}
       \field{volume}{25}
       \field{year}{2001}
       \field{dateera}{ce}
@@ -1890,7 +1889,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Microsoft Research}
       \field{month}{6}
-      \field{title}{From RankNet to LambdaRank to LambdaMART: An Overview}
+      \field{title}{From {RankNet} to {LambdaRank} to {LambdaMART}: An Overview}
       \field{year}{2010}
       \field{dateera}{ce}
       \verb{file}
@@ -2417,7 +2416,7 @@
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{10}
       \field{number}{D1}
-      \field{title}{Protein Data Bank: the single global archive for 3D macromolecular structure data}
+      \field{title}{{Protein Data Bank}: the single global archive for {3D} macromolecular structure data}
       \field{volume}{47}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -2460,7 +2459,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining}
       \field{month}{8}
-      \field{title}{XGBoost}
+      \field{title}{{XGBoost}}
       \field{year}{2016}
       \field{dateera}{ce}
       \verb{doi}
@@ -2655,7 +2654,7 @@
       \field{journaltitle}{Genome Research}
       \field{month}{12}
       \field{number}{12}
-      \field{title}{A DNA Polymorphism Discovery Resource for Research on Human Genetic Variation: Table 1.}
+      \field{title}{A {DNA} Polymorphism Discovery Resource for Research on Human Genetic Variation}
       \field{volume}{8}
       \field{year}{1998}
       \field{dateera}{ce}
