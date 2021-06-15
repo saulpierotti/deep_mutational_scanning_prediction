@@ -3961,8 +3961,8 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the 7th Python in Science Conference}
-      \field{title}{Exploring Network Structure, Dynamics, and Function using NetworkX}
+      \field{booktitle}{Proceedings of the 7th {Python} in Science Conference}
+      \field{title}{Exploring Network Structure, Dynamics, and Function using {NetworkX}}
       \field{year}{2008}
       \field{dateera}{ce}
       \field{pages}{11\bibrangedash 15}
@@ -4153,7 +4153,7 @@
       \field{journaltitle}{Nature}
       \field{month}{9}
       \field{number}{7825}
-      \field{title}{Array programming with NumPy}
+      \field{title}{Array programming with {NumPy}}
       \field{volume}{585}
       \field{year}{2020}
       \field{dateera}{ce}
@@ -4284,8 +4284,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{R package version 0.4.11}
-      \field{title}{rlang: Functions for Base Types and Core R and 'Tidyverse' Features}
+      \field{title}{{rlang}: Functions for Base Types and Core {R} and {Tidyverse} Features}
       \field{year}{2021}
       \verb{urlraw}
       \verb https://CRAN.R-project.org/package=rlang
@@ -4358,26 +4357,35 @@
       \endverb
     \endentry
     \entry{Hollander2013}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=dc20081eb531e01208b32440220a2d20}{%
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8b3c58f2c9072793e99f34029f63157d}{%
            family={Hollander},
            familyi={H\bibinitperiod},
-           given={Wolfe},
-           giveni={W\bibinitperiod},
-           givenun=0,
-           suffix={Chicken},
-           suffixi={C\bibinitperiod},
-           suffixun=0}}%
+           given={Myles},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cedadb2c82fd74d92d5cd77e1629751}{%
+           family={Chicken},
+           familyi={C\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19945508f6e4ed5557e96375dd8a770a}{%
+           family={Wolfe},
+           familyi={W\bibinitperiod},
+           given={Douglas\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
       }
       \list{publisher}{1}{%
         {John Wiley \& Sons}%
       }
-      \strng{namehash}{dc20081eb531e01208b32440220a2d20}
-      \strng{fullhash}{dc20081eb531e01208b32440220a2d20}
-      \strng{bibnamehash}{dc20081eb531e01208b32440220a2d20}
-      \strng{authorbibnamehash}{dc20081eb531e01208b32440220a2d20}
-      \strng{authornamehash}{dc20081eb531e01208b32440220a2d20}
-      \strng{authorfullhash}{dc20081eb531e01208b32440220a2d20}
+      \strng{namehash}{4097929ff4a1b8af5b9318a993c4d253}
+      \strng{fullhash}{122b59b72e26c59647980881574466ae}
+      \strng{bibnamehash}{122b59b72e26c59647980881574466ae}
+      \strng{authorbibnamehash}{122b59b72e26c59647980881574466ae}
+      \strng{authornamehash}{4097929ff4a1b8af5b9318a993c4d253}
+      \strng{authorfullhash}{122b59b72e26c59647980881574466ae}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -4389,15 +4397,9 @@
       \field{isbn}{0470387378}
       \field{month}{11}
       \field{pagetotal}{844}
-      \field{title}{Nonparametric Statistical Meth}
+      \field{title}{Nonparametric Statistical Methods}
       \field{year}{2013}
       \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://www.ebook.de/de/product/20514944/hollander_chicken_wolfe_nonparametric_statistical_meth.html
-      \endverb
-      \verb{url}
-      \verb https://www.ebook.de/de/product/20514944/hollander_chicken_wolfe_nonparametric_statistical_meth.html
-      \endverb
     \endentry
     \entry{Holme2019}{article}{}
       \name{author}{3}{}{%
@@ -4650,7 +4652,7 @@
       \field{journaltitle}{Bioinformatics}
       \field{month}{10}
       \field{number}{9}
-      \field{title}{The EVcouplings Python framework for coevolutionary sequence analysis}
+      \field{title}{The {EVcouplings} {Python} framework for coevolutionary sequence analysis}
       \field{volume}{35}
       \field{year}{2018}
       \field{dateera}{ce}
