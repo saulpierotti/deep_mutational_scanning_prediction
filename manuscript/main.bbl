@@ -4752,7 +4752,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computing in Science \& Engineering}
       \field{number}{3}
-      \field{title}{Matplotlib: A 2D Graphics Environment}
+      \field{title}{Matplotlib: A {2D} Graphics Environment}
       \field{volume}{9}
       \field{year}{2007}
       \field{dateera}{ce}
@@ -4820,7 +4820,7 @@
       \field{journaltitle}{Journal of Biological Chemistry}
       \field{month}{9}
       \field{number}{18}
-      \field{title}{Mutagenesis at a specific position in a DNA sequence.}
+      \field{title}{Mutagenesis at a specific position in a {DNA} sequence.}
       \field{volume}{253}
       \field{year}{1978}
       \field{dateera}{ce}
@@ -4902,7 +4902,7 @@
       \field{month}{3}
       \field{number}{6313}
       \field{shortjournal}{Nature}
-      \field{title}{Novel thioether bond revealed by a 1.7 Å crystal structure of galactose oxidase}
+      \field{title}{Novel thioether bond revealed by a 1.7 {Å} crystal structure of galactose oxidase}
       \field{volume}{350}
       \field{year}{1991}
       \field{dateera}{ce}
@@ -4989,7 +4989,7 @@
       \field{dateera}{ce}
     \endentry
     \entry{Jumper2020}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{30}{}{%
         {{un=0,uniquepart=base,hash=10a7a824028a842a17d901b4ec09993d}{%
            family={Jumper},
            familyi={J\bibinitperiod},
@@ -5002,19 +5002,178 @@
            given={Richard},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bd568ffe8880378b15f7cebe8f0d72cd}{%
+        {{un=0,uniquepart=base,hash=4f63bc4256346c3eb7617ccdfba5d926}{%
            family={Hassabis},
            familyi={H\bibinitperiod},
-           given={Alexander\bibnamedelimb Pritzel\bibnamedelimb Tim\bibnamedelimb Green\bibnamedelimb Michael\bibnamedelimb Figurnov\bibnamedelimb Kathryn\bibnamedelimb Tunyasuvunakool\bibnamedelimb Olaf\bibnamedelimb Ronneberger\bibnamedelimb Russ\bibnamedelimb Bates\bibnamedelimb Augustin\bibnamedelimb Žídek\bibnamedelimb Alex\bibnamedelimb Bridgland\bibnamedelimb Clemens\bibnamedelimb Meyer\bibnamedelimb Simon\bibnamedelimb A.\bibnamedelimi A.\bibnamedelimi Kohl\bibnamedelimb Anna\bibnamedelimb Potapenko\bibnamedelimb Andrew\bibnamedelimb J.\bibnamedelimi Ballard\bibnamedelimb Andrew\bibnamedelimb Cowie\bibnamedelimb Bernardino\bibnamedelimb Romera-paredes\bibnamedelimb Stanislav\bibnamedelimb Nikolov\bibnamedelimb Rishub\bibnamedelimb Jain\bibnamedelimb Jonas\bibnamedelimb Adler\bibnamedelimb Trevor\bibnamedelimb Back\bibnamedelimb Stig\bibnamedelimb Petersen\bibnamedelimb David\bibnamedelimb Reiman\bibnamedelimb Martin\bibnamedelimb Steinegger\bibnamedelimb Michalina\bibnamedelimb Pacholska\bibnamedelimb David\bibnamedelimb Silver\bibnamedelimb Oriol\bibnamedelimb Vinyals\bibnamedelimb Andrew\bibnamedelimb W.\bibnamedelimi Senior\bibnamedelimb Koray\bibnamedelimb Kavukcuoglu\bibnamedelimb Pushmeet\bibnamedelimb Kohli\bibnamedelima Demis},
-           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim Ž\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim R\bibinithyphendelim p\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd067c4bc22bb72e08c7e7e9ac6ae3f5}{%
+           family={Tim},
+           familyi={T\bibinitperiod},
+           given={Pritzel},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa172afc29ce4d588eafa8c5936c47d9}{%
+           family={Michael},
+           familyi={M\bibinitperiod},
+           given={Green},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e39d40dc390dad884385f02b151e7f92}{%
+           family={Kathryn},
+           familyi={K\bibinitperiod},
+           given={Figurnov},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e4abb77435e0f7cdbe573518dde9382}{%
+           family={Olaf},
+           familyi={O\bibinitperiod},
+           given={Tunyasuvunakool},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=342d9d1f765db3416531395665795881}{%
+           family={Russ},
+           familyi={R\bibinitperiod},
+           given={Ronneberger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18a6663d46457309e5f25a3e15b90bdd}{%
+           family={Augustin},
+           familyi={A\bibinitperiod},
+           given={Bates},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64e09270c8123421651e1a966cebb2d7}{%
+           family={Alex},
+           familyi={A\bibinitperiod},
+           given={Žídek},
+           giveni={Ž\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a3c92fea171c05ca42eec3a08f41224}{%
+           family={Clemens},
+           familyi={C\bibinitperiod},
+           given={Bridgland},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7f422793cbcabd1ed5675ff20077d32}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={Meyer},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3d0c4923dd3f05c49e9245757660fb0}{%
+           family={Kohl},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b3acabda3fd87e1abd111ed903b2d51}{%
+           family={Potapenko},
+           familyi={P\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e2b07cf777b4e100518006a0306d430}{%
+           family={Ballard},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7279d03f4787f572da4ce92b215f0b7c}{%
+           family={Bernardino},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima Cowie},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9c5a988f6bad70e512a9fd5e848e15}{%
+           family={Romera-paredes},
+           familyi={R\bibinithyphendelim p\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=948ac64053194ba4926e57c400b43dae}{%
+           family={Nikolov},
+           familyi={N\bibinitperiod},
+           given={Stanislav},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e44ef077603c4c2159908f44186dedfa}{%
+           family={Jain},
+           familyi={J\bibinitperiod},
+           given={Rishub},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30e117447522ea5c589b531025c81621}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=329e447b0059cd0bc92227b1dd08c81e}{%
+           family={Back},
+           familyi={B\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e381e44037009b1cd834d794735c311}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Stig},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d805812e442bf9b99ef9b60be3389113}{%
+           family={Reiman},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c06ac6a6fdcf2ee2092d61fc58c1f21b}{%
+           family={Steinegger},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d33020bce7d227c8dd58677580d8df0f}{%
+           family={Pacholska},
+           familyi={P\bibinitperiod},
+           given={Michalina},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89dbd30410c2085cd059f32c57d4593e}{%
+           family={Silver},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=494b568c5dc85ba8f3f409635f9c5f25}{%
+           family={Vinyals},
+           familyi={V\bibinitperiod},
+           given={Oriol},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=211e54ca76df5d8c1de6957d48792545}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=481308b301166b521c74fde6566e97e6}{%
+           family={Kavukcuoglu},
+           familyi={K\bibinitperiod},
+           given={Koray},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=881648b41d7cf62f96b99ff03095b891}{%
+           family={Demis},
+           familyi={D\bibinitperiod},
+           given={Pushmeet\bibnamedelima Kohli},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
            givenun=0}}%
       }
       \strng{namehash}{385b84ff9ec134408fea9aeba42f4525}
-      \strng{fullhash}{4cbe58d649ce5a2ca434e048dbed9913}
-      \strng{bibnamehash}{4cbe58d649ce5a2ca434e048dbed9913}
-      \strng{authorbibnamehash}{4cbe58d649ce5a2ca434e048dbed9913}
+      \strng{fullhash}{5fc13e2883bce615aee2ab430f0c6d1c}
+      \strng{bibnamehash}{29b929db11ecaedc5757fff5f301a4b8}
+      \strng{authorbibnamehash}{29b929db11ecaedc5757fff5f301a4b8}
       \strng{authornamehash}{385b84ff9ec134408fea9aeba42f4525}
-      \strng{authorfullhash}{4cbe58d649ce5a2ca434e048dbed9913}
+      \strng{authorfullhash}{5fc13e2883bce615aee2ab430f0c6d1c}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
@@ -5152,7 +5311,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Frontiers in Genetics}
       \field{month}{9}
-      \field{title}{Sheep and Goat Genome Engineering: From Random Transgenesis to the CRISPR Era}
+      \field{title}{Sheep and Goat Genome Engineering: From Random Transgenesis to the {CRISPR} Era}
       \field{volume}{10}
       \field{year}{2019}
       \field{dateera}{ce}
