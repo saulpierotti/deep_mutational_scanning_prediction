@@ -13,3 +13,13 @@ In this work, I present a series of supervised regression models for the predict
 My models, despite not requiring structural information, perform similarly to Envision, a predictor that uses structural features.
 I compare gradient boosted trees and linear regression models, and I also explore several validation and testing strategies.
 ***
+![preview](preview/master_thesis_manuscript-0.png)
+![preview](preview/master_thesis_manuscript-1.png)
+![preview](preview/master_thesis_manuscript-2.png)
+![preview](preview/master_thesis_manuscript-3.png)
+![preview](preview/master_thesis_manuscript-4.png)
+![preview](preview/master_thesis_manuscript-5.png)
+![preview](preview/master_thesis_manuscript-6.png)
+![preview](preview/master_thesis_manuscript-7.png)
+![preview](preview/master_thesis_manuscript-8.png)
+![preview](preview/master_thesis_manuscript-9.png)
