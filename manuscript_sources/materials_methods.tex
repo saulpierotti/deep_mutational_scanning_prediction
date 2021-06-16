@@ -119,10 +119,7 @@ See \autoref{tab:excluded} for a summary of the number of retained data points f
 		\caption[Summary of the deep mutational scanning datasets used in this work]{\textbf{Summary of the deep mutational scanning datasets used in this work.} The column ``Dataset name'' reports the name used throughout this work to refer to each dataset and is identical to the names used in~\cite{Gray2018}.
 		}\label{tab:datasets}%
 	}%
-\end{table}
-
-\begin{table}[h]
-	\small%
+	\tabsep%
 	\ttabbox[\textwidth]{%
 		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lll}%
 			\toprule
@@ -137,14 +134,35 @@ See \autoref{tab:excluded} for a summary of the number of retained data points f
 			\texttt{Pab1}           & \num{1276}                & \num{1220}                   \\
 			\texttt{E1\_Ubiquitin}  & \num{1198}                & \num{1142}                   \\
 			\texttt{gb1}            & \num{1045}                & \num{1026}                   \\
-			\addlinespace
-			& \num{22009}               & \num{21513}\\
 			\bottomrule
 		\end{tabular*}%
 	}%
 	{\caption[Number of mutations in each dataset before and after filtering]{%
 			\textbf{Number of mutations in each dataset before and after filtering.} Table that summarises the number of mutation originally present in each deep mutational scanning dataset, and the number of mutations that were retained after filtering.
 		}\label{tab:excluded}%
+	}%
+	\tabsep%
+	\ttabbox[\textwidth]{%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llll}%
+			\toprule
+			Dataset name            & Mutagenized range   & MSA query trimming  & Trimming strategy                       \\
+			\midrule
+			\texttt{beta-lactamase} & \numrange{1}{286}   & full protein        & not trimmed                             \\
+			\texttt{WW\_domain}     & \numrange{170}{203} & \numrange{167}{207} & InterPro superfamily \texttt{IPR036020} \\
+			\texttt{PSD95pdz3}      & \numrange{311}{393} & \numrange{303}{426} & InterPro superfamily \texttt{IPR036034} \\
+			\texttt{kka2\_1:2}      & \numrange{1}{264}   & full protein        & not trimmed                             \\
+			\texttt{hsp90}          & \numrange{2}{231}   & \numrange{2}{231}   & InterPro superfamily \texttt{IPR036890} \\
+			\texttt{Ubiquitin}      & \numrange{2}{76}    & \numrange{1}{76}    & InterPro domain \texttt{IPR000626}      \\
+			\texttt{Pab1}           & \numrange{126}{200} & \numrange{126}{203} & InterPro domain \texttt{IPR000504}      \\
+			\texttt{E1\_Ubiquitin}  & \numrange{2}{70}    & \numrange{1}{76}    & InterPro domain \texttt{IPR000626}      \\
+			\texttt{gb1}            & \numrange{229}{282} & \numrange{226}{283} & InterPro domain \texttt{IPR000724}      \\
+			\bottomrule
+		\end{tabular*}%
+	}%
+	{\caption[Trimming strategy for the multiple sequence alignments queries]{%
+			\textbf{Trimming strategy for the multiple sequence alignments (MSA) queries.} Table that details the range of positions in each mutagenized protein for which mutations were present in the respective dataset, how the query sequences were trimmed before being used in database searches for building multiple sequence alignments, and the rationale behind the choice of those positions.
+			All the positions are indicated according to the UniProt numbering of the respective sequences.
+		}\label{tab:mut_range}%
 	}%
 \end{table}
 
@@ -194,7 +212,8 @@ In most cases the multiple sequence alignments used in input for the extraction 
 	      Thus, trRosetta was always given in input the multiple sequence alignments trimmed to the mutagenised domains.
 \end{enumerate}
 
-The protein positions considered in each case are reported in \autoref{tab:datasets}.
+The protein positions considered in each case are reported in \autoref{tab:mut_range}.
+The trimming step was always done at the level of the query sequence before the generation of the multiple sequence alignments.
 In all cases, the alignments were further processed by trimming out all the columns which corresponded to gaps in the query sequence.
 
 \subsection{Position-specific scoring matrices}
