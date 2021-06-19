@@ -193,96 +193,6 @@ random_search_results_lopo_svm_tb <-
 
 # LOPO models comparisons
 ###############################################################################
-envision_tb <-
-  read_csv(
-    "../../dataset/gray2018/envision_performances.csv",
-    col_types = cols(dms_id = readr::col_factor(levels = datasets))
-  ) %>%
-  mutate(model = "envision") %>%
-  pivot_longer(
-    cols = c(pearson, spearman),
-    names_to = "method",
-    values_to = "correlation"
-  )
-
-evcouplings_tb <- read_csv(
-  "../../dataset/dms_training.csv",
-  col_types = cols_only(
-    dms_id = readr::col_factor(levels = datasets),
-    ev_independent = "d",
-    ev_epistatic = "d",
-    reported_fitness = "d"
-  )
-) %>%
-  drop_na() %>%
-  group_by(dms_id) %>%
-  summarise(
-    ev_epistatic__pearson = cor(reported_fitness, ev_epistatic,
-      method = "pearson"
-    ),
-    ev_epistatic__spearman = cor(reported_fitness, ev_epistatic,
-      method =
-        "spearman"
-    ),
-    ev_epistatic__kendall = cor(reported_fitness, ev_epistatic,
-      method =
-        "kendall"
-    ),
-    ev_independent__pearson = cor(reported_fitness, ev_independent,
-      method =
-        "pearson"
-    ),
-    ev_independent__spearman = cor(reported_fitness, ev_independent,
-      method =
-        "spearman"
-    ),
-    ev_independent__kendall = cor(reported_fitness, ev_independent,
-      method =
-        "kendall"
-    )
-  ) %>%
-  ungroup() %>%
-  pivot_longer(
-    cols = -c(dms_id),
-    names_to = "model__method",
-    values_to = "correlation"
-  ) %>%
-  separate(
-    col = model__method,
-    into = c("model", "method"),
-    sep = "__"
-  )
-
-lopo_models_linear_correlation_tb <-
-  test_result_lopo_xgb_tb %>%
-  get_test_correlations() %>%
-  filter(kind == "test") %>%
-  summarise(dms_id,
-    model = "lopo_models_linear",
-    method = name,
-    correlation = value
-  )
-
-lopo_models_xgb_correlation_tb <-
-  test_result_lopo_linear_tb %>%
-  get_test_correlations() %>%
-  filter(kind == "test") %>%
-  summarise(dms_id,
-    model = "lopo_models_xgb",
-    method = name,
-    correlation = value
-  )
-
-general_comparison_tb <- envision_tb %>%
-  bind_rows(evcouplings_tb) %>%
-  bind_rows(lopo_models_linear_correlation_tb) %>%
-  bind_rows(lopo_models_xgb_correlation_tb) %>%
-  summarise(
-    correlation,
-    dms_id,
-    method = factor(method, levels = c("pearson", "spearman", "kendall")),
-    model = factor(model)
-  )
 
 naive_correlation_tb <-
   test_result_naive_tb %>%
@@ -303,8 +213,89 @@ by_position_correlation_tb <-
     method = name,
     correlation = value
   )
+
 single_protein_comparison_tb <- naive_correlation_tb %>%
   bind_rows(by_position_correlation_tb)
 
 xgb_models_comparison_tb <- single_protein_comparison_tb %>%
   bind_rows(lopo_models_xgb_correlation_tb)
+
+linear_tb_ranks <- test_result_lopo_linear_tb %>%
+  group_by(dms_id) %>%
+  summarise(
+    dms_id,
+    position,
+    aa1,
+    aa2,
+    kind,
+    rank_pred_linear = rank(y_pred),
+    rank_true = rank(y_true)
+  )
+
+xgb_tb_ranks <- test_result_lopo_xgb_tb %>%
+  group_by(dms_id) %>%
+  summarise(
+    dms_id,
+    position,
+    aa1,
+    aa2,
+    kind,
+    rank_pred_xgb = rank(y_pred),
+    rank_true = rank(y_true)
+  )
+
+evcouplings_tb_ranks <- evcouplings_tb %>%
+  drop_na() %>%
+  summarise(
+    dms_id,
+    position,
+    aa1,
+    aa2,
+    rank_pred_evcouplings = rank(ev_epistatic)
+  )
+
+general_models_rank_tb <- linear_tb_ranks %>%
+  inner_join(xgb_tb_ranks,
+    by = c("dms_id", "position", "aa1", "aa2", "rank_true", "kind")
+  ) %>%
+  filter(kind == "test") %>%
+  select(-kind) %>%
+  inner_join(evcouplings_tb_ranks,
+    by = c("dms_id", "position", "aa1", "aa2")
+  )
+
+envision_tb <-
+  read_csv(
+    "../../dataset/gray2018/envision_performances.csv",
+    col_types = cols(dms_id = readr::col_factor(levels = datasets))
+  ) %>%
+  summarise(
+    dms_id,
+    model = "envision", correlation = spearman, method = "spearman"
+  )
+
+general_models_corr_tb <- general_models_rank_tb %>%
+  group_by(dms_id) %>%
+  summarise(
+    dms_id,
+    ev_epistatic = cor(rank_true,
+      rank_pred_evcouplings,
+      method = "spearman"
+    ),
+    lopo_models_linear = cor(rank_true,
+      rank_pred_linear,
+      method = "spearman"
+    ),
+    lopo_models_xgb = cor(rank_true,
+      rank_pred_xgb,
+      method = "spearman"
+    )
+  ) %>%
+  distinct() %>%
+  pivot_longer(
+    cols = c(lopo_models_linear, lopo_models_xgb, ev_epistatic),
+    names_to = "model",
+    values_to = "correlation"
+  ) %>%
+  mutate(method = "spearman") %>%
+  bind_rows(envision_tb)

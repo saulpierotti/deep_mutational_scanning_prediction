@@ -688,3 +688,86 @@ get_performance_comparison_plot <- function(comparison_tb) {
     scale_color_manual(values = c("black", okabe), name = "Model", labels = models_labels)
   return(plot)
 }
+
+get_corr_permutation_significance <-
+  function(vec1, vec2, vec_true, corr_method, n_reps = 1000, seed = 1) {
+    set.seed(seed)
+    cor1 <- cor(vec1, vec_true, method = corr_method)
+    cor2 <- cor(vec2, vec_true, method = corr_method)
+    original_diff <- cor1 - cor2
+    get_permutation <- function(vec1, vec2, vec_true, corr_method) {
+      stopifnot(length(vec_true) == length(vec1))
+      stopifnot(length(vec_true) == length(vec2))
+      swap_bool <- rbinom(n = length(vec_true), size = 1, prob = 0.5)
+      cor1 <-
+        cor(vec_true,
+          ifelse(swap_bool,
+            vec1,
+            vec2
+          ),
+          method = corr_method
+        )
+      cor2 <-
+        cor(vec_true,
+          ifelse(swap_bool,
+            vec2,
+            vec1
+          ),
+          method = corr_method
+        )
+      return(cor1 - cor2)
+    }
+    permutated_diff_vec <- replicate(
+      n_reps - 1,
+      get_permutation(
+        vec1 = general_models_rank_tb$rank_pred_linear,
+        vec2 = general_models_rank_tb$rank_pred_xgb,
+        vec_true = general_models_rank_tb$rank_true,
+        corr_method = "spearman"
+      )
+    )
+    permutated_diff_vec <- c(original_diff, permutated_diff_vec)
+
+    p_val <- mean(abs(permutated_diff_vec) >= abs(original_diff))
+    return(p_val)
+  }
+
+get_general_models_corr_significance <- function(general_models_rank_tb, n_reps = 1000, seed = 1) {
+  for (curr_dms_id in unique(general_models_rank_tb$dms_id)) {
+    tb <- general_models_rank_tb %>% filter(dms_id == curr_dms_id)
+    print(curr_dms_id)
+    print("Linear-xgb spearman p-value:")
+    print(
+      get_corr_permutation_significance(
+        vec1 = tb$rank_pred_linear,
+        vec2 = tb$rank_pred_xgb,
+        vec_true = tb$rank_true,
+        corr_method = "spearman",
+        n_reps = n_reps,
+        seed = seed
+      )
+    )
+    print("Linear-ev_couplings spearman p-value:")
+    print(
+      get_corr_permutation_significance(
+        vec1 = tb$rank_pred_linear,
+        vec2 = tb$rank_pred_evcouplings,
+        vec_true = tb$rank_true,
+        corr_method = "spearman",
+        n_reps = n_reps,
+        seed = seed
+      )
+    )
+    print("EVcouplings-xgb spearman p-value:")
+    print(
+      get_corr_permutation_significance(
+        vec1 = tb$rank_pred_evcouplings,
+        vec2 = tb$rank_pred_xgb,
+        vec_true = tb$rank_true,
+        corr_method = "spearman",
+        n_reps = n_reps,
+        seed = seed
+      )
+    )
+  }
+}

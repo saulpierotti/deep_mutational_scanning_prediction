@@ -22,10 +22,10 @@ plot <-
 
 print(plot)
 
-create_tikz(plot,
-            "single_protein_models_performance_comparison.tex",
-            3,
-            latex_textwidth)
+# create_tikz(plot,
+#             "single_protein_models_performance_comparison.tex",
+#             3,
+#             latex_textwidth)
 ```
 
 ```{r single protein models performance comparison plot, dev="tikz", results="hide"}
@@ -39,18 +39,17 @@ plot <-
 
 print(plot)
 
-create_tikz(plot,
-            "xgb_models_performance_comparison.tex",
-            3,
-            latex_textwidth)
+# create_tikz(plot,
+#             "xgb_models_performance_comparison.tex",
+#             3,
+#             latex_textwidth)
 ```
 
 ```{r general models performance comparison plot, dev="tikz", results="hide"}
 plot <-
   get_performance_comparison_plot(
-    general_comparison_tb %>%
-      filter(method == "spearman") %>%
-      filter(model != "ev_independent")
+    general_models_corr_tb %>%
+    filter(method=="spearman")
     ) +
   ylab("Spearman correlation coefficient")
 
@@ -61,10 +60,10 @@ print(plot)
 
 print(plot_presentation)
 
-create_tikz(plot,
-            "general_models_performance_comparison.tex",
-            latex_textheight * 0.5,
-            latex_textwidth)
+# create_tikz(plot,
+#             "general_models_performance_comparison.tex",
+#             latex_textheight * 0.5,
+#             latex_textwidth)
 
 # create_tikz(plot_presentation,
 #             "presentation_general_models_performance_comparison.tex",
@@ -73,3 +72,6 @@ create_tikz(plot,
 ```
 
 
+```{r general model differences significance, dev="tikz", results="hide"}
+get_general_models_corr_significance(general_models_rank_tb, n_reps=10000)
+```
