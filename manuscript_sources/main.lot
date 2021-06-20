@@ -15,12 +15,14 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Relationship between features and fitness scores}}{32}{table.caption.7}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Relationship between features and fitness scores}}{33}{table.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Agreement between the structural features predicted by NetSurfP-2 and their experimental counterparts}}{33}{table.caption.8}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Agreement between the structural features predicted by NetSurfP-2 and their experimental counterparts}}{34}{table.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Precision of trRosetta in predicting residue contacts}}{33}{table.caption.8}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Precision of trRosetta in predicting residue contacts}}{34}{table.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Number of mutations with missing features}}{39}{table.caption.9}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Number of mutations with missing features}}{40}{table.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Significance of the performance differences for various quantitative predictors of single amino acid variant effect}}{52}{table.caption.13}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

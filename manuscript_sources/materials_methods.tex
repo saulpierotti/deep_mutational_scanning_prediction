@@ -448,6 +448,8 @@ Independent and epistatic EVcouplings predictions were already used as features,
 The respective predictions were directly compared to the experimental, unscaled fitness scores.
 
 For my predictors, the performances are the ones measured on the respective testing sets.
+To allow for a more meaningful comparison of the scores, the performances for my model were evaluated only on the mutations for which a prediction could be obtaned with EVcouplings.
+This criterion was not applicable for Envision since I did not have access to the actual predictions, but only to the declare performances.
 
 \section{Evaluation of feature importance}\label{sec:mm_feature_importance}
 To assess which features contributed more to the performance of the models developed in this work, their permutation importance was evaluated.
@@ -483,26 +485,26 @@ An importance score equal to the performance of the original model indicates tha
 A negative importance score indicates that the model performs better than the baseline when the feature group is randomized.
 The feature importance was evaluated independently for each of the nine datasets used in this work.
 
-\subsection{Determination of statistical significance of the results}
+\subsection{Determination of statistical significance of results}\label{mm:significance}
 For evaluation of the statistical significance of the performance differences among the general models and EVcouplings, a permutation test was performed.
 The significance of the performance differences with Envision was not evaluated since for this predictor I did not have access to the predictions themselves, but only to the correlation scores reported by the Envision authors.
-The linear models, gradient boosted tree models, and EVcouplings were comparied in a pairwise fashion for each of the nine datasets, for a total of \num{27} comparisons.
+The linear models, gradient boosted tree models, and EVcouplings were compared in a pairwise fashion for each of the nine datasets, for a total of \num{27} comparisons.
 
-The permutation test was devised so to test the null hypotesys that there is no difference in correlation among each pair of models.
-Since the performances were evaluated in terms of Spearman correlation coefficient and since the models used different normalizations of the exzperimental fitness, first the predicted fitness and the experimental fitness were transformed in ranks the respective dataset- and model-specific ranks.
+The permutation test was devised so to test the null hypothesis that there is no difference in correlation among each pair of models.
+Since the performances were evaluated in terms of the Spearman correlation coefficient and since the models used different normalizations of the experimental fitness, first the predicted fitness and the experimental fitness were transformed in ranks the respective dataset- and model-specific ranks.
 \num{10000} permutations of the predicted ranks were obtained for each pair of models.
-A permutation consisted in exchanging a variable number of predicted ranks among the two models.
-Each individual pair of predictions had a probability of 0.5 of being swapped.
+A permutation consisted of exchanging a variable number of predicted ranks among the two models.
+Each pair of predictions had a probability of 0.5 of being swapped.
 The original predictions were included in the \num{10000} permutations, so \num{9999} permutated predictions were obtained.
 For each set of permutated predictions, the difference in their Spearman correlation with the experimental ranks was calculated.
-In order to obtain two-tailed p-values, the fraction of Spearman correlation differences among permutated predictions that had an absolute value greater or equal to that of the actual predictions was determined.
+To obtain two-tailed p-values, the fraction of Spearman correlation differences among permutated predictions that had an absolute value greater or equal to that of the actual predictions were determined.
 
 The significance of the performance differences was tested at a p-value threshold of \num{0.05}.
 Since multiple significance tests were performed, a Bonferroni correction of the threshold was used.
 The corrected significance threshold is $\alpha = \frac{0.05}{27} = 0.00185185$.
 
-A permutation test similar to the one described above was not possible for comparison of validation and testing strategies.
+A permutation test similar to the one described above was not possible for the comparison of validation and testing strategies.
 Since the testing strategies were different the testing sets were not identical for the models, and so a permutation of the predictions would have been meaningless.
 Instead, I opted for providing a confidence interval for the measured performances by bootstrapping them.
-For each dataset and each model, the test set prediction were resampled with replacement \num{10000} times to the same lenght of the original predictions (which varied for the different models and datasets).
+For each dataset and each model, the test set prediction were resampled with replacement \num{10000} times to the same length of the original predictions (which varied for the different models and datasets).
 Performances were calculated on the bootstrapped data, defining a \SI{95}{\percent} confidence interval.

@@ -220,7 +220,7 @@ single_protein_comparison_tb <- naive_correlation_tb %>%
 xgb_models_comparison_tb <- single_protein_comparison_tb %>%
   bind_rows(lopo_models_xgb_correlation_tb)
 
-linear_tb_ranks <- test_result_lopo_linear_tb %>%
+linear_tb_pred <- test_result_lopo_linear_tb %>%
   group_by(dms_id) %>%
   summarise(
     dms_id,
@@ -228,11 +228,10 @@ linear_tb_ranks <- test_result_lopo_linear_tb %>%
     aa1,
     aa2,
     kind,
-    rank_pred_linear = rank(y_pred),
+    y_pred_linear = y_pred,
     rank_true = rank(y_true)
   )
-
-xgb_tb_ranks <- test_result_lopo_xgb_tb %>%
+xgb_tb_pred <- test_result_lopo_xgb_tb %>%
   group_by(dms_id) %>%
   summarise(
     dms_id,
@@ -240,28 +239,35 @@ xgb_tb_ranks <- test_result_lopo_xgb_tb %>%
     aa1,
     aa2,
     kind,
-    rank_pred_xgb = rank(y_pred),
+    y_pred_xgb = y_pred,
     rank_true = rank(y_true)
   )
 
-evcouplings_tb_ranks <- evcouplings_tb %>%
+evcouplings_tb_pred <- evcouplings_tb %>%
   drop_na() %>%
   summarise(
     dms_id,
     position,
     aa1,
     aa2,
-    rank_pred_evcouplings = rank(ev_epistatic)
+    y_pred_evcouplings = ev_epistatic
   )
 
-general_models_rank_tb <- linear_tb_ranks %>%
-  inner_join(xgb_tb_ranks,
-    by = c("dms_id", "position", "aa1", "aa2", "rank_true", "kind")
+general_models_rank_tb <- linear_tb_pred %>%
+  inner_join(xgb_tb_pred,
+    by = c("dms_id", "position", "aa1", "aa2", "kind", "rank_true")
   ) %>%
   filter(kind == "test") %>%
   select(-kind) %>%
-  inner_join(evcouplings_tb_ranks,
+  inner_join(evcouplings_tb_pred,
     by = c("dms_id", "position", "aa1", "aa2")
+  ) %>%
+  summarise(dms_id,
+    # rebuild the ranks according to the left-out entries
+    rank_true = rank(rank_true),
+    rank_pred_linear = rank(y_pred_linear),
+    rank_pred_xgb = rank(y_pred_xgb),
+    rank_pred_evcouplings = rank(y_pred_evcouplings)
   )
 
 envision_tb <-

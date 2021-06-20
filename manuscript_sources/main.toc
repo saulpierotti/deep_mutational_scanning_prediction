@@ -81,46 +81,48 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.11}Evaluation of feature importance}{28}{section.2.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Results}{30}{chapter.3}%
+\contentsline {subsection}{\numberline {2.11.1}Determination of statistical significance of results}{29}{subsection.2.11.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Dataset overview}{30}{section.3.1}%
+\contentsline {chapter}{\numberline {3}Results}{31}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Features overview}{31}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Dataset overview}{31}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Mutation identity}{31}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.2}Features overview}{32}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Position-specific scoring matrices}{37}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.1}Mutation identity}{32}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Solvent accessibility}{37}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.2}Position-specific scoring matrices}{38}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Secondary structure}{37}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.3}Solvent accessibility}{38}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Torsion angles}{38}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.4}Secondary structure}{38}{subsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}Disorder}{38}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.5}Torsion angles}{39}{subsection.3.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.7}Evolutionary couplings}{38}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.6}Disorder}{39}{subsection.3.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.8}Connectivity graphs}{38}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.7}Evolutionary couplings}{39}{subsection.3.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.9}Missing features}{39}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.8}Connectivity graphs}{39}{subsection.3.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Correlation among features}{40}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.9}Missing features}{40}{subsection.3.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Comparison of model testing strategies}{42}{section.3.4}%
+\contentsline {section}{\numberline {3.3}Correlation among features}{41}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Comparison of different model architectures with previous predictors}{44}{section.3.5}%
+\contentsline {section}{\numberline {3.4}Comparison of model testing strategies}{43}{section.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Gradient boosted tree optimization}{45}{section.3.6}%
+\contentsline {section}{\numberline {3.5}Comparison of different model architectures with previous predictors}{45}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Feature importance}{46}{section.3.7}%
+\contentsline {section}{\numberline {3.6}Gradient boosted tree optimization}{47}{section.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Discussion}{51}{chapter.4}%
+\contentsline {section}{\numberline {3.7}Feature importance}{47}{section.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{54}{section*.17}%
+\contentsline {chapter}{\numberline {4}Discussion}{53}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Supplementary Material}{64}{appendix*.19}%
+\contentsline {chapter}{Bibliography}{56}{section*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{82}{appendix*.37}%
+\contentsline {chapter}{Supplementary Material}{66}{appendix*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{83}{appendix*.38}%
+\contentsline {chapter}{List of Figures}{84}{appendix*.38}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{85}{appendix*.39}%

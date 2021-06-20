@@ -452,6 +452,7 @@ For a more detailed representation of the test results for the three model group
 \section{Comparison of different model architectures with previous predictors}
 This section solely concerns the general models trained in a LOPO fashion, and how they do compare with previously published predictors.
 \autoref{fig:performance_comparison} shows the performance of two state-of-the-art mutation effect predictors compared to that of the general models developed as part of this work.
+The statistical significance of the performance differences among the predictors was calculated according to \autoref{mm:significance} and is reported in \autoref{tab:performance_permutation_significance}.
 
 The models that I tested in a LOPO fashion include gradient boosted trees, a simple linear regression, support vector machines, and neural networks.
 However, support vector machines and neural networks in preliminary testing phases failed to improve on the linear regression performances and thus were excluded from further optimization and this comparison.
@@ -487,6 +488,53 @@ For a comparison of the validation and test scores of my models, refer to \autor
 			The predictions of two state-of-the-art methods are shown alongside the performances of the methods developed in this work.		}\label{fig:performance_comparison}%
 	}%
 \end{figure}
+
+\begin{table}[t]
+	\small%
+	\ttabbox[\textwidth]{%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
+			\toprule
+			Dataset name            & Model 1           & Model 2                & P-value      \\
+			\midrule
+			\texttt{beta-lactamase} & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{beta-lactamase} & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{beta-lactamase} & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{WW\_domain}     & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{WW\_domain}     & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{WW\_domain}     & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{PSD95pdz3}      & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{PSD95pdz3}      & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{PSD95pdz3}      & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{0.514}  \\
+			\texttt{kka2\_1:2}      & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{0.0043} \\
+			\texttt{kka2\_1:2}      & Linear regression & EVmutation             & \num[scientific-notation = true]{0.0053} \\
+			\texttt{kka2\_1:2}      & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{hsp90}          & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{hsp90}          & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{hsp90}          & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{0.2358} \\
+			\texttt{Ubiquitin}      & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{Ubiquitin}      & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{Ubiquitin}      & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{Pab1}           & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{Pab1}           & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{Pab1}           & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{E1\_Ubiquitin}  & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{E1\_Ubiquitin}  & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{E1\_Ubiquitin}  & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{gb1}            & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{gb1}            & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{gb1}            & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\bottomrule
+		\end{tabular*}%
+	}%
+	{\caption[Significance of the performance differences for various quantitative predictors of single amino acid variant effect]{%
+			\textbf{Significance of the performance differences for various quantitative predictors of single amino acid variant effect.}
+			Table that shows the significance of the test-set performance differences observed among the models trained in LOPO fashion and EVmutation.
+			Most performance differences are significant (Bonferroni-corrected $\alpha = \frac{0.05}{27} = 0.00185185$).
+			The null hypothesis is that the performance difference among each pair of models is equal to \num{0}.
+			Envision was excluded from this table since I did not have access to the model predictions but only to the performances declared by the authors of the method.
+		}\label{tab:missing}%
+	}%
+\end{table}
 
 \section{Gradient boosted tree optimization}
 The random hyperparameter search adopted for the gradient boosted trees-based models showed similar patterns of dependency on the hyperparameters for the single protein models and the models trained in a LOPO fashion.
