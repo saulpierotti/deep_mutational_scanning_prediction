@@ -28,6 +28,11 @@ print(plot)
 #             latex_textwidth)
 ```
 
+```{r single protein naive performance confidence intervals}
+get_corr_bootstrap(test_result_naive_tb, method = "pearson", n_reps = 10000)
+```
+
+
 ```{r single protein models performance comparison plot, dev="tikz", results="hide"}
 plot <-
   get_performance_comparison_plot(

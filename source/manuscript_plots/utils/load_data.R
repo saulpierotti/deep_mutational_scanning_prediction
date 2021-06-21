@@ -214,6 +214,16 @@ by_position_correlation_tb <-
     correlation = value
   )
 
+lopo_models_xgb_correlation_tb <-
+  test_result_lopo_xgb_tb %>%
+  get_test_correlations() %>%
+  filter(kind == "test") %>%
+  summarise(dms_id,
+    model = "lopo_models_xgb",
+    method = name,
+    correlation = value
+  )
+
 single_protein_comparison_tb <- naive_correlation_tb %>%
   bind_rows(by_position_correlation_tb)
 
@@ -242,6 +252,19 @@ xgb_tb_pred <- test_result_lopo_xgb_tb %>%
     y_pred_xgb = y_pred,
     rank_true = rank(y_true)
   )
+
+evcouplings_tb <- read_csv(
+  "../../dataset/dms_training.csv",
+  col_types = cols_only(
+    dms_id = readr::col_factor(levels = datasets),
+    ev_independent = "d",
+    ev_epistatic = "d",
+    reported_fitness = "d",
+    position = "d",
+    aa1 = "f",
+    aa2 = "f"
+  )
+)
 
 evcouplings_tb_pred <- evcouplings_tb %>%
   drop_na() %>%

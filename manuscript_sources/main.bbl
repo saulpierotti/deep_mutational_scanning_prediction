@@ -2426,6 +2426,38 @@
       \verb 10.1093/nar/gky949
       \endverb
     \endentry
+    \entry{Canty2021}{manual}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d08ae34a098a6e23f6980202b02e9c27}{%
+           family={Canty},
+           familyi={C\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=954c3d15a7ac59d107805a2aee7be29f}{%
+           family={Ripley},
+           familyi={R\bibinitperiod},
+           given={B.\bibnamedelimi D.},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9bd475783af77df6fa6732cbd2794a79}
+      \strng{fullhash}{526537e57d6df2b5aac6e9ac3312d223}
+      \strng{bibnamehash}{526537e57d6df2b5aac6e9ac3312d223}
+      \strng{authorbibnamehash}{526537e57d6df2b5aac6e9ac3312d223}
+      \strng{authornamehash}{9bd475783af77df6fa6732cbd2794a79}
+      \strng{authorfullhash}{526537e57d6df2b5aac6e9ac3312d223}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{boot: Bootstrap R (S-Plus) Functions}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
     \entry{Chen2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=48461ccdf50ba5a54e29a354aa734c0b}{%
@@ -2897,6 +2929,39 @@
       \verb 10.1016/0167-7799(88)90005-4
       \endverb
     \endentry
+    \entry{Davison1999}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b218552bc9538d0bc933d3ae9c4575ac}{%
+           family={Davison},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{b218552bc9538d0bc933d3ae9c4575ac}
+      \strng{fullhash}{b218552bc9538d0bc933d3ae9c4575ac}
+      \strng{bibnamehash}{b218552bc9538d0bc933d3ae9c4575ac}
+      \strng{authorbibnamehash}{b218552bc9538d0bc933d3ae9c4575ac}
+      \strng{authornamehash}{b218552bc9538d0bc933d3ae9c4575ac}
+      \strng{authorfullhash}{b218552bc9538d0bc933d3ae9c4575ac}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0521573912}
+      \field{title}{Bootstrap methods and their application}
+      \field{year}{1999}
+      \field{dateera}{ce}
+    \endentry
     \entry{DePristo2005}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a7ce1d2bf17f8517d6f394471447a37a}{%
@@ -2946,6 +3011,39 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1038/nrg1672
+      \endverb
+    \endentry
+    \entry{Dunn1961}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0b0af97d4f9c67ace0f8c55bd08f9072}{%
+           family={Dunn},
+           familyi={D\bibinitperiod},
+           given={Olive\bibnamedelima Jean},
+           giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{fullhash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{bibnamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authorbibnamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authornamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \strng{authorfullhash}{0b0af97d4f9c67ace0f8c55bd08f9072}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0162-1459}
+      \field{title}{Multiple Comparisons among Means}
+      \field{volume}{56}
+      \field{year}{1961}
+      \field{dateera}{ce}
+      \field{pages}{52\bibrangedash 64}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/01621459.1961.10482090
       \endverb
     \endentry
     \entry{Eddy2011}{article}{}

@@ -18,6 +18,7 @@ library("caret")
 library("circular")
 library("Directional")
 library("reshape2")
+library("boot")
 
 source("./utils/constants.R")
 
@@ -769,5 +770,32 @@ get_general_models_corr_significance <- function(general_models_rank_tb, n_reps 
         seed = seed
       )
     )
+  }
+}
+
+get_corr_bootstrap <- function(test_tb,
+                               method = "pearson",
+                               n_reps = 100,
+                               seed = 1) {
+  set.seed(seed)
+  boot_fn <- function(tb, i) {
+    tb_tmp <- tb[i, ]
+    return(cor(
+      x = tb_tmp$y_true,
+      y = tb_tmp$y_pred,
+      method = method
+    ))
+  }
+  for (curr_dms_id in unique(test_tb$dms_id)) {
+    bootstrap <-
+      boot(
+        data = test_result_naive_tb %>% filter(dms_id == curr_dms_id),
+        statistic = boot_fn,
+        R = n_reps,
+        ncpus = -1
+      )
+    curr_ci <- boot.ci(boot.out = bootstrap, type = "basic")
+    print(curr_dms_id)
+    print(curr_ci)
   }
 }

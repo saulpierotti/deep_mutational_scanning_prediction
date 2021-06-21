@@ -34,6 +34,7 @@ The machine learning package caret \parencite[version 6.0--88]{Kuhn2021} was use
 Directional \parencite[version 4.9]{Tsagris2021} and circular \parencite[version 0.4--93]{Agostinelli2017} were used for obtaining respectively correlation statistics among circular quantities and between circular and linear quantities.
 The only circular quantities used in this work are the backbone torsion angles.
 Reshape2 \parencite[version 1.4.4]{Wickham2007} was used for data reshaping.
+Boot \parencite[version 1.3--28]{Canty2021} was used for obtaining bootstrapped confidence intervals for the model performances.
 The package rlang \parencite[version 0.4.11]{Henry2021} was used for functionalising some of the R code.
 The RStudio development environment was also used heavily \parencite[version 1.4.1103 ``Wax Begonia'']{RStudioTeam2021}.
 
@@ -500,11 +501,11 @@ For each set of permutated predictions, the difference in their Spearman correla
 To obtain two-tailed p-values, the fraction of Spearman correlation differences among permutated predictions that had an absolute value greater or equal to that of the actual predictions were determined.
 
 The significance of the performance differences was tested at a p-value threshold of \num{0.05}.
-Since multiple significance tests were performed, a Bonferroni correction of the threshold was used.
+Since multiple significance tests were performed, a Bonferroni correction \parencite{Dunn1961} was applied to the threshold.
 The corrected significance threshold is $\alpha = \frac{0.05}{27} = 0.00185185$.
 
 A permutation test similar to the one described above was not possible for the comparison of validation and testing strategies.
 Since the testing strategies were different the testing sets were not identical for the models, and so a permutation of the predictions would have been meaningless.
-Instead, I opted for providing a confidence interval for the measured performances by bootstrapping them.
-For each dataset and each model, the test set prediction were resampled with replacement \num{10000} times to the same length of the original predictions (which varied for the different models and datasets).
+Instead, I opted for providing a confidence interval for the measured performances by bootstrapping the predictions \parencite{Davison1999}.
+For each dataset and each model, the test set prediction were resampled with replacement \num{10000} times.
 Performances were calculated on the bootstrapped data, defining a \SI{95}{\percent} confidence interval.

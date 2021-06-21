@@ -419,6 +419,51 @@ The clustering coefficient follows inverse correlation patterns as compared to t
 	}%
 \end{figure}
 
+\begin{table}[p]
+	\small%
+	\ttabbox[\textwidth]{%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
+			\toprule
+			Dataset name            & Model       & \SI{95}{\percent} C.I. (Pearson) & \SI{95}{\percent} C.I. (Spearman) \\
+			\midrule
+			\texttt{beta-lactamase} & Naive       & \numrange{0.8887}{0.9035}        & \numrange{0.8568}{0.8732}         \\
+			\texttt{WW\_domain}     & Naive       & \numrange{0.6895}{0.7866}        & \numrange{0.6930}{0.7927}         \\
+			\texttt{PSD95pdz3}      & Naive       & \numrange{0.7548}{0.8104}        & \numrange{0.7304}{0.7558}         \\
+			\texttt{kka2\_1:2}      & Naive       & \numrange{0.7459}{0.7741}        & \numrange{0.7358}{0.7871}         \\
+			\texttt{hsp90}          & Naive       & \numrange{0.8302}{0.8630}        & \numrange{0.6622}{0.7015}         \\
+			\texttt{Ubiquitin}      & Naive       & \numrange{0.7578}{0.8125}        & \numrange{0.7828}{0.8236}         \\
+			\texttt{Pab1}           & Naive       & \numrange{0.8161}{0.8630}        & \numrange{0.7728}{0.8214}         \\
+			\texttt{E1\_Ubiquitin}  & Naive       & \numrange{0.7773}{0.8407}        & \numrange{0.6665}{0.7374}         \\
+			\texttt{gb1}            & Naive       & \numrange{0.8639}{0.9037}        & \numrange{0.8502}{0.8888}         \\
+			\texttt{beta-lactamase} & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{WW\_domain}     & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{PSD95pdz3}      & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{kka2\_1:2}      & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{hsp90}          & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{Ubiquitin}      & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{Pab1}           & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{E1\_Ubiquitin}  & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{gb1}            & By position & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{beta-lactamase} & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{WW\_domain}     & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{PSD95pdz3}      & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{kka2\_1:2}      & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{hsp90}          & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{Ubiquitin}      & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{Pab1}           & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{E1\_Ubiquitin}  & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\texttt{gb1}            & LOPO        & \numrange{}{}                    & \numrange{}{}                     \\
+			\bottomrule
+		\end{tabular*}%
+	}%
+	{\caption[Confidence intervals for the performances of the gradient boosted tree models]{%
+			\textbf{Confidence intervals for the performances of the gradient boosted tree models.}
+			Table that shows the \SI{95}{\percent} confidence intervals (C.I.) determined by bootstrapping for the performances of the models based on gradient boosted trees developped in this work.
+			The performances were measured in terms of the Pearson and Spearman correlation coefficients among experimental fitness scores and predicted fitness scores.
+		}\label{tab:missing}%
+	}%
+\end{table}
+
 The aim of this section is the evaluation of the influence of the validation and testing strategy used on the perceived model performances.
 To isolate the effect of the validation strategy from that of the model type, only models based on gradient boosted trees are considered in this section.
 Three different approaches to testing and optimization were adopted: in two cases independent models were trained for each dataset (single protein models), while in the remaining case a single model was trained on all the available data.
@@ -489,40 +534,40 @@ For a comparison of the validation and test scores of my models, refer to \autor
 	}%
 \end{figure}
 
-\begin{table}[t]
+\begin{table}[p]
 	\small%
 	\ttabbox[\textwidth]{%
 		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
 			\toprule
 			Dataset name            & Model 1           & Model 2                & P-value      \\
 			\midrule
-			\texttt{beta-lactamase} & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{beta-lactamase} & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{beta-lactamase} & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{WW\_domain}     & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{WW\_domain}     & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{WW\_domain}     & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{PSD95pdz3}      & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{PSD95pdz3}      & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{PSD95pdz3}      & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{0.514}  \\
-			\texttt{kka2\_1:2}      & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{0.0043} \\
-			\texttt{kka2\_1:2}      & Linear regression & EVmutation             & \num[scientific-notation = true]{0.0053} \\
-			\texttt{kka2\_1:2}      & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{hsp90}          & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{hsp90}          & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{hsp90}          & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{0.2358} \\
-			\texttt{Ubiquitin}      & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{Ubiquitin}      & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{Ubiquitin}      & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{Pab1}           & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{Pab1}           & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{Pab1}           & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{E1\_Ubiquitin}  & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{E1\_Ubiquitin}  & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{E1\_Ubiquitin}  & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{gb1}            & Linear regression & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{gb1}            & Linear regression & EVmutation             & \num[scientific-notation = true]{1e-4}   \\
-			\texttt{gb1}            & EVmutation        & Gradient boosted trees & \num[scientific-notation = true]{1e-4}   \\
+			\texttt{beta-lactamase} & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{beta-lactamase} & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{beta-lactamase} & EVmutation        & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{WW\_domain}     & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{WW\_domain}     & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{WW\_domain}     & EVmutation        & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{PSD95pdz3}      & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{PSD95pdz3}      & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{PSD95pdz3}      & EVmutation        & Gradient boosted trees & \num{0.514}  \\
+			\texttt{kka2\_1:2}      & Linear regression & Gradient boosted trees & \num{0.0043} \\
+			\texttt{kka2\_1:2}      & Linear regression & EVmutation             & \num{0.0053} \\
+			\texttt{kka2\_1:2}      & EVmutation        & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{hsp90}          & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{hsp90}          & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{hsp90}          & EVmutation        & Gradient boosted trees & \num{0.2358} \\
+			\texttt{Ubiquitin}      & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{Ubiquitin}      & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{Ubiquitin}      & EVmutation        & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{Pab1}           & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{Pab1}           & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{Pab1}           & EVmutation        & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{E1\_Ubiquitin}  & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{E1\_Ubiquitin}  & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{E1\_Ubiquitin}  & EVmutation        & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{gb1}            & Linear regression & Gradient boosted trees & \num{1e-4}   \\
+			\texttt{gb1}            & Linear regression & EVmutation             & \num{1e-4}   \\
+			\texttt{gb1}            & EVmutation        & Gradient boosted trees & \num{1e-4}   \\
 			\bottomrule
 		\end{tabular*}%
 	}%

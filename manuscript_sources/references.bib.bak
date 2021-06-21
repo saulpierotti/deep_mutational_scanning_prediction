@@ -2323,7 +2323,7 @@
   date      = {2009-06},
   title     = {Linear Regression Analysis},
   doi       = {10.1142/6986},
-  publisher = {WORLD SCIENTIFIC},
+  publisher = {World Scientific},
   groups    = {Introduction},
 }
 
@@ -2424,6 +2424,31 @@
   pages        = {1100--1112},
   volume       = {87},
   publisher    = {Wiley},
+}
+
+@Manual{Canty2021,
+  author = {Canty, Angelo and Ripley, B. D.},
+  date   = {2021},
+  title  = {boot: Bootstrap R (S-Plus) Functions},
+}
+
+@Book{Davison1999,
+  author    = {Davison, A. C.},
+  date      = {1999},
+  title     = {Bootstrap methods and their application},
+  isbn      = {0521573912},
+  location  = {Cambridge New York},
+  publisher = {Cambridge University Press},
+}
+
+@Article{Dunn1961,
+  author = {Dunn, Olive Jean},
+  date   = {1961},
+  title  = {Multiple Comparisons among Means},
+  doi    = {10.1080/01621459.1961.10482090},
+  issn   = {0162-1459},
+  pages  = {52--64},
+  volume = {56},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
