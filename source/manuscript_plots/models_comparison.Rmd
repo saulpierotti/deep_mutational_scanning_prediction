@@ -29,6 +29,7 @@ print(plot)
 ```
 
 ```{r single protein naive performance pearson confidence intervals}
+print("Naive, Pearson")
 get_corr_bootstrap(
   test_result_naive_tb  %>% filter(kind == "test"),
   method = "pearson",
@@ -37,18 +38,30 @@ get_corr_bootstrap(
 ```
 
 ```{r single protein naive performance spearman confidence intervals}
-get_corr_bootstrap(test_result_by_position_tb  %>% filter(kind == "test"),
-                   method = "pearson",
+print("Naive, Spearman")
+get_corr_bootstrap(test_result_naive_tb  %>% filter(kind == "test"),
+                   method = "spearman",
                    n_reps = 10000)
 ```
 
-```{r single protein naive performance spearman confidence intervals}
+```{r single protein by position performance pearson confidence intervals}
+print("By position, Pearson")
+get_corr_bootstrap(
+  test_result_by_position_tb %>% filter(kind == "test"),
+  method = "pearson",
+  n_reps = 10000
+)
+```
+
+```{r single protein by position performance spearman confidence intervals}
+print("By position, Spearman")
 get_corr_bootstrap(test_result_by_position_tb  %>% filter(kind == "test"),
                    method = "spearman",
                    n_reps = 10000)
 ```
 
-```{r single protein naive performance spearman confidence intervals}
+```{r general xgb performance spearman confidence intervals}
+print("LOPO, Spearman")
 get_corr_bootstrap(test_result_lopo_xgb_tb %>% filter(kind == "test"),
                    method = "spearman",
                    n_reps = 10000)
