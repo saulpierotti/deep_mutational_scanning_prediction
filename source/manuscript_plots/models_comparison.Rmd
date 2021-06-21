@@ -28,10 +28,31 @@ print(plot)
 #             latex_textwidth)
 ```
 
-```{r single protein naive performance confidence intervals}
-get_corr_bootstrap(test_result_naive_tb, method = "pearson", n_reps = 10000)
+```{r single protein naive performance pearson confidence intervals}
+get_corr_bootstrap(
+  test_result_naive_tb  %>% filter(kind == "test"),
+  method = "pearson",
+  n_reps = 10000
+)
 ```
 
+```{r single protein naive performance spearman confidence intervals}
+get_corr_bootstrap(test_result_by_position_tb  %>% filter(kind == "test"),
+                   method = "pearson",
+                   n_reps = 10000)
+```
+
+```{r single protein naive performance spearman confidence intervals}
+get_corr_bootstrap(test_result_by_position_tb  %>% filter(kind == "test"),
+                   method = "spearman",
+                   n_reps = 10000)
+```
+
+```{r single protein naive performance spearman confidence intervals}
+get_corr_bootstrap(test_result_lopo_xgb_tb %>% filter(kind == "test"),
+                   method = "spearman",
+                   n_reps = 10000)
+```
 
 ```{r single protein models performance comparison plot, dev="tikz", results="hide"}
 plot <-

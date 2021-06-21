@@ -789,7 +789,7 @@ get_corr_bootstrap <- function(test_tb,
   for (curr_dms_id in unique(test_tb$dms_id)) {
     bootstrap <-
       boot(
-        data = test_result_naive_tb %>% filter(dms_id == curr_dms_id),
+        data = test_tb %>% filter(dms_id == curr_dms_id),
         statistic = boot_fn,
         R = n_reps,
         ncpus = -1
