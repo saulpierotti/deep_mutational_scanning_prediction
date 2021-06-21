@@ -5,26 +5,26 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of the deep mutational scanning datasets used in this work}}{18}{table.caption.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Summary of the deep mutational scanning datasets used in this work}}{19}{table.caption.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Number of mutations in each dataset before and after filtering}}{18}{table.caption.2}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Number of mutations in each dataset before and after filtering}}{19}{table.caption.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.3}{\ignorespaces Trimming strategy for the multiple sequence alignments queries}}{18}{table.caption.2}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Trimming strategy for the multiple sequence alignments queries}}{19}{table.caption.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.4}{\ignorespaces PDB structures and chain identifiers used for the validation of predicted features}}{23}{table.caption.3}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces PDB structures and chain identifiers used for the validation of predicted features}}{24}{table.caption.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Relationship between features and fitness scores}}{33}{table.caption.7}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Relationship between features and fitness scores}}{34}{table.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Agreement between the structural features predicted by NetSurfP-2 and their experimental counterparts}}{34}{table.caption.8}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Agreement between the structural features predicted by NetSurfP-2 and their experimental counterparts}}{35}{table.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces Precision of trRosetta in predicting residue contacts}}{34}{table.caption.8}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Precision of trRosetta in predicting residue contacts}}{35}{table.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Number of mutations with missing features}}{40}{table.caption.9}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Number of mutations with missing features}}{41}{table.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Confidence intervals for the performances of the gradient boosted tree models}}{45}{table.caption.12}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Confidence intervals for the performances of the gradient boosted tree models}}{46}{table.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.6}{\ignorespaces Significance of the performance differences for various quantitative predictors of single amino acid variant effect}}{48}{table.caption.14}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Significance of the performance differences for various quantitative predictors of single amino acid variant effect}}{49}{table.caption.14}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
