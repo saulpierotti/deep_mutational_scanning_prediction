@@ -159,13 +159,12 @@ See \cref{tab:excluded} for a summary of the number of retained data points for 
 			\bottomrule
 		\end{tabular*}%
 	}%
-	{}
-	%{\caption[Trimming strategy for the multiple sequence alignments queries]{%
-	%		\textbf{Trimming strategy for the multiple sequence alignments (MSA) queries.}
-	%		Table that details the range of positions in each mutagenized protein for which mutations were present in the respective dataset, how the query sequences were trimmed before being used in database searches for building multiple sequence alignments, and the rationale behind the choice of those positions.
-	%		All the positions are indicated according to the UniProt numbering of the respective sequences.
-	%	}\label{tab:mut_range}%
-	%}%
+	{\caption[Trimming strategy for the multiple sequence alignments queries]{%
+			\textbf{Trimming strategy for the multiple sequence alignments (MSA) queries.}
+			Table that details the range of positions in each mutagenized protein for which mutations were present in the respective dataset and how the query sequences were trimmed before being used in database searches for building multiple sequence alignments.
+			All the positions are indicated according to the UniProt numbering of the respective sequences.
+		}\label{tab:mut_range}%
+	}%
 \end{table}
 
 \subsection{Normalization of fitness scores}\label{sec:mm_quantile_norm}

@@ -62,7 +62,7 @@ The dataset \texttt{WW\_domain} has a lower mutational landscape coverage compar
 
 \thisfloatsetup{subfloatrowsep=larger}
 \begin{figure}[p]
-	\ffigbox{%
+	\ffigbox[\textwidth]{%
 		\begin{subfloatrow}
 			\ffigbox[\FBwidth]{\input{tikz/aa2_frequencies.tex}}{\caption{}\label{subfig:aa2_frequencies}}%
 			\ffigbox[\FBwidth]{\input{tikz/datasets_correlations.tex}}{\caption{}\label{subfig:datasets_correlations}}
@@ -110,14 +110,10 @@ The dataset \texttt{WW\_domain} has a lower mutational landscape coverage compar
 			Scaling was done on a per-dataset basis bringing the scores to the range \numrange{0}{1} and subtracting the scaled value for a raw score of \num{0}.
 			\subref{subfig:mutation_identity} Heatmap showing the average scaled fitness score for mutations towards and from any of the 20 standard residue types.
 			\subref{subfig:blosum100} Heatmap showing the BLOSUM100 scoring matrix substitution scores rescaled to the range \numrange{0}{1} and centred by subtracting the average rescaled score for a synonymous substitution.
-			The BLOSUM100 scores were obtained from the Biostrings R package.
 			\subref{subfig:dssp_q3} Violin plot showing the distribution of median scaled fitness scores according to the secondary structure of the mutated position.
-			The median of the scaled fitness scores was taken by protein position and dataset.
 			Only the subset of protein positions with an experimental secondary structure assignment is shown.
 			The assignments were obtained as explained in \cref{sec:mm_exp_val}.
 			\subref{subfig:dssp_rsa} Scatter plot showing the dependency between the experimental relative solvent accessibility of a mutated position and the median scaled fitness score.
-			The median was obtained per dataset and per position as for \subref{subfig:dssp_q3}.
-			A linear regression line is shown in blue.
 		}\label{fig:mutation_identity}
 	}
 \end{figure}
@@ -362,8 +358,6 @@ The number of missing features by dataset is described in \cref{tab:missing}.
 		\caption[Heatmap of the correlation among features]{%
 			\textbf{Heatmap of the correlation among features.}
 			Heatmap showing the Spearman correlation coefficient among the features used for training the models presented in this work.
-			The identities of the wild-type and mutant residues are not shown since they are categorical features, and representing the correlation of the respective one-hot components would unnecessarily clutter the plot.
-			The correlations are calculated on all the available pairs of feature values, so the number of points used for each pairwise feature comparison varies.
 			For the NetSurfP-2 secondary structure predictions, the class probabilities (network outputs) are used for evaluating the correlations.
 			The definition of the one-letter code for the secondary structure classes can be found at \textcite{Kabsch1983}.
 			The feature ``PSSM score mutation from'' refers to the PSSM score of the wild-type residue in each position.
