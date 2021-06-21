@@ -2,7 +2,7 @@
 \chapter{Discussion}
 
 As evidenced by the comparison of my models to Envision \parencite{Gray2018}, it is possible to obtain relatively good performances on quantitative variant effect prediction also by replacing experimental structural features with sequence-based predictions.
-The use of structure-derived features, particularly solvent accessibility \parencite{Savojardo2021} but also, as shown in \autoref{sec:res:feature_imp}, residue contacts, is of paramount importance in the prediction of the effect of mutations.
+The use of structure-derived features, particularly solvent accessibility \parencite{Savojardo2021} but also, as shown in \cref{sec:res:feature_imp}, residue contacts, is of paramount importance in the prediction of the effect of mutations.
 The observation that it is possible to obtain good results using predicted structural features is interesting since for many protein families an experimental structure is not yet available.
 My method builds upon the substantial improvements in the protein structure prediction field that happened in the last few years.
 Notable protein structure predictors that obtained impressive results in the last two edition of the Critical Assessment of Structure Prediction \parencite{Abriata2019} are trRosetta \parencite[][CASP13]{Yang2020}, AlphaFold \parencite[][CASP13]{Senior2020}, and AlphaFold2 \parencite[][CASP14]{Jumper2020}.
@@ -10,7 +10,7 @@ Notable protein structure predictors that obtained impressive results in the las
 A surprising observation from my results is the relatively small importance of the identity of the mutant residue in predicting the effect of a mutation.
 This indicates that the position along the protein of a given mutation and its local context, more than which residue is introduced, are strong determinants of the effect of mutations.
 Nonetheless, the limited importance of the mutated residue could be explained by collinearity with other features.
-As described in \autoref{sec:mm_feature_importance} collinearity can lead to underestimation of feature importance.
+As described in \cref{sec:mm_feature_importance} collinearity can lead to underestimation of feature importance.
 The same reasoning applies also to the identity of the wild-type residue, which appeared to be non-critical for predictions.
 In general, structural properties and information on mutational patterns obtained from multiple sequence alignments seem to be superior features for predicting the effect of mutations than the identity of the mutation itself.
 

@@ -28,8 +28,8 @@ Plots in the prototyping phase were produced using Matplotlib \parencite[version
 
 All the visualizations shown in this manuscript were produced with the R programming language \parencite[version 4.0.5]{RCT2021} using chiefly the package ggplot2 \parencite[version 3.3.3]{Wickham2016} and the tidyverse ecosystem \parencite[version 1.3.1]{Wickham2019}.
 The packages cowplot \parencite[version 1.1.1]{Wilke2020} and scales \parencite[version 1.1.1]{Wickham2020} were used for tweaking the appearance of the visualizations.
-Biostrings \parencite[version 2.56.0]{Pages2020} was used to obtain the values for the BLOSUM100 scoring matrix \parencite{Henikoff1992} shown in \autoref{subfig:blosum100}.
-The machine learning package caret \parencite[version 6.0--88]{Kuhn2021} was used for obtaining the classification evaluation metrics shown in \autoref{tab:netsurf_validation}.
+Biostrings \parencite[version 2.56.0]{Pages2020} was used to obtain the values for the BLOSUM100 scoring matrix \parencite{Henikoff1992} shown in \cref{subfig:blosum100}.
+The machine learning package caret \parencite[version 6.0--88]{Kuhn2021} was used for obtaining the classification evaluation metrics shown in \cref{tab:netsurf_validation}.
 Directional \parencite[version 4.9]{Tsagris2021} and circular \parencite[version 0.4--93]{Agostinelli2017} were used for obtaining respectively correlation statistics among circular quantities and between circular and linear quantities.
 The only circular quantities used in this work are the backbone torsion angles.
 Reshape2 \parencite[version 1.4.4]{Wickham2007} was used for data reshaping.
@@ -63,15 +63,15 @@ The retained data consisted of nine independent experiments on eight different p
 They employed vastly different methodologies for the evaluation of variant fitness and included proteins of bacterial, yeast, rat, and human origins.
 Each dataset consisted of a set of single amino acid variants associated with a fitness score.
 A score of \num{0} was assigned to the wild type, with positive values indicating variants more abundant than the wild type after selection, and negative values variants less abundant than the wild type.
-A summary of the datasets is reported in \autoref{tab:datasets}.
-The fitness scores were obtained from the sequencing counts for each mutation according to \autoref{eq:fitness}, where $m_a$ and $m_b$ are the read counts for the mutant sequence after and before selection, and  $wt_a$ and $wt_b$ are the read counts for the wild-type sequence, after and before selection.
+A summary of the datasets is reported in \cref{tab:datasets}.
+The fitness scores were obtained from the sequencing counts for each mutation according to \cref{eq:fitness}, where $m_a$ and $m_b$ are the read counts for the mutant sequence after and before selection, and  $wt_a$ and $wt_b$ are the read counts for the wild-type sequence, after and before selection.
 
 \begin{equation}\label{eq:fitness}
 	Fitness = \log{\frac{m_a/m_b}{wt_a/wt_b}}
 \end{equation}
 
 \subsection{Correction for dataset \texttt{kka2\_1:2}}
-It was observed in preliminary analyses that the dataset \texttt{kka2\_1:2} (\autoref{tab:datasets}) contained duplicated mutations with different fitness scores in the aggregated version of the dataset from \textcite{Gray2018}.
+It was observed in preliminary analyses that the dataset \texttt{kka2\_1:2} (\cref{tab:datasets}) contained duplicated mutations with different fitness scores in the aggregated version of the dataset from \textcite{Gray2018}.
 Curiously, these duplicated entries involved only and all of the mutations towards isoleucine, tyrosine, serine, asparagine, and glutamate.
 It was not possible to determine the cause of the duplicated entries, which are absent from the original dataset from \textcite{Melnikov2014}.
 In a private communication, the corresponding author of \textcite{Gray2018} informed me that the inclusion of these duplicated entries is most probably accidental.
@@ -93,7 +93,7 @@ This was also done to maintain the dataset as similar as possible to the one use
 The datasets were purged of the mutations to or from non-standard or unknown residues.
 The declared original residue for each mutation was confronted with the residue in that position on the UniProt sequence.
 Mismatching entries were excluded from further processing.
-See \autoref{tab:excluded} for a summary of the number of retained data points for each dataset.
+See \cref{tab:excluded} for a summary of the number of retained data points for each dataset.
 
 \begin{table}[p]
 	\small%
@@ -145,30 +145,32 @@ See \autoref{tab:excluded} for a summary of the number of retained data points f
 	\ttabbox[\textwidth]{%
 		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llll}%
 			\toprule
-			Dataset name            & Mutagenized range   & MSA query trimming  & Trimming strategy                       \\
+			Dataset name            & Mutagenized range   & MSA query trimming  & Trimming strategy           \\
 			\midrule
-			\texttt{beta-lactamase} & \numrange{1}{286}   & full protein        & not trimmed                             \\
-			\texttt{WW\_domain}     & \numrange{170}{203} & \numrange{167}{207} & InterPro superfamily \texttt{IPR036020} \\
-			\texttt{PSD95pdz3}      & \numrange{311}{393} & \numrange{303}{426} & InterPro superfamily \texttt{IPR036034} \\
-			\texttt{kka2\_1:2}      & \numrange{1}{264}   & full protein        & not trimmed                             \\
-			\texttt{hsp90}          & \numrange{2}{231}   & \numrange{2}{231}   & InterPro superfamily \texttt{IPR036890} \\
-			\texttt{Ubiquitin}      & \numrange{2}{76}    & \numrange{1}{76}    & InterPro domain \texttt{IPR000626}      \\
-			\texttt{Pab1}           & \numrange{126}{200} & \numrange{126}{203} & InterPro domain \texttt{IPR000504}      \\
-			\texttt{E1\_Ubiquitin}  & \numrange{2}{70}    & \numrange{1}{76}    & InterPro domain \texttt{IPR000626}      \\
-			\texttt{gb1}            & \numrange{229}{282} & \numrange{226}{283} & InterPro domain \texttt{IPR000724}      \\
+			\texttt{beta-lactamase} & \numrange{1}{286}   & full protein        & not trimmed                 \\
+			\texttt{WW\_domain}     & \numrange{170}{203} & \numrange{167}{207} & InterPro \texttt{IPR036020} \\
+			\texttt{PSD95pdz3}      & \numrange{311}{393} & \numrange{303}{426} & InterPro \texttt{IPR036034} \\
+			\texttt{kka2\_1:2}      & \numrange{1}{264}   & full protein        & not trimmed                 \\
+			\texttt{hsp90}          & \numrange{2}{231}   & \numrange{2}{231}   & InterPro \texttt{IPR036890} \\
+			\texttt{Ubiquitin}      & \numrange{2}{76}    & \numrange{1}{76}    & InterPro \texttt{IPR000626} \\
+			\texttt{Pab1}           & \numrange{126}{200} & \numrange{126}{203} & InterPro \texttt{IPR000504} \\
+			\texttt{E1\_Ubiquitin}  & \numrange{2}{70}    & \numrange{1}{76}    & InterPro \texttt{IPR000626} \\
+			\texttt{gb1}            & \numrange{229}{282} & \numrange{226}{283} & InterPro \texttt{IPR000724} \\
 			\bottomrule
 		\end{tabular*}%
 	}%
-	{\caption[Trimming strategy for the multiple sequence alignments queries]{%
-			\textbf{Trimming strategy for the multiple sequence alignments (MSA) queries.} Table that details the range of positions in each mutagenized protein for which mutations were present in the respective dataset, how the query sequences were trimmed before being used in database searches for building multiple sequence alignments, and the rationale behind the choice of those positions.
-			All the positions are indicated according to the UniProt numbering of the respective sequences.
-		}\label{tab:mut_range}%
-	}%
+	{}
+	%{\caption[Trimming strategy for the multiple sequence alignments queries]{%
+	%		\textbf{Trimming strategy for the multiple sequence alignments (MSA) queries.}
+	%		Table that details the range of positions in each mutagenized protein for which mutations were present in the respective dataset, how the query sequences were trimmed before being used in database searches for building multiple sequence alignments, and the rationale behind the choice of those positions.
+	%		All the positions are indicated according to the UniProt numbering of the respective sequences.
+	%	}\label{tab:mut_range}%
+	%}%
 \end{table}
 
 \subsection{Normalization of fitness scores}\label{sec:mm_quantile_norm}
-For the single protein models (\autoref{sec:mm_single_protein_models}), the fitness scores were used in their original, non-normalized format.
-For the general models (\autoref{sec:mm_general_models}), the fitness scores were used in their original format for models that could be easily adapted in using a ranking loss function, while they were normalized for models that relied on a regression loss function as the minimum squared error.
+For the single protein models (\cref{sec:mm_single_protein_models}), the fitness scores were used in their original, non-normalized format.
+For the general models (\cref{sec:mm_general_models}), the fitness scores were used in their original format for models that could be easily adapted in using a ranking loss function, while they were normalized for models that relied on a regression loss function as the minimum squared error.
 
 The normalization strategy used aimed at making the scores more easily comparable across datasets, and at reducing the excessive influence that datasets with a large score range would otherwise have on the loss function.
 The scores were first grouped by dataset and quantile normalized to the range \numrange{0}{1} using \num{100} quantiles.
@@ -193,7 +195,7 @@ The dimensionality of the residue embedding was treated as a hyperparameter.
 Multiple sequence alignments are central to this predictor since they constitute the input for the computation of many of the features used.
 In general, alignment methods based on Hidden Markov Models were adopted because of their superior speed in large database searches and their increased sensitivity in the identification of remote homologies as compared to more traditional methods such as PSI-BLAST \parencite[see the introduction of][and references therein]{Steinegger2019}.
 The tool hhblits from the HH suite was used for most of the alignments.
-An exception was the alignments used for the inference of evolutionary couplings, for which the pipeline included in the EVcouplings package was used (see \autoref{sec:ev_mutation}).
+An exception was the alignments used for the inference of evolutionary couplings, for which the pipeline included in the EVcouplings package was used (see \cref{sec:ev_mutation}).
 The hhblits tool was used with default parameters (which correspond to two iterations) and enforcing a minimum query coverage of 70\% against the Uniclust30 database.
 
 The query sequences used correspond to the respective UniProt canonical sequences for each of the mutagenised proteins.
@@ -212,12 +214,12 @@ In most cases the multiple sequence alignments used in input for the extraction 
 	      Thus, trRosetta was always given in input the multiple sequence alignments trimmed to the mutagenised domains.
 \end{enumerate}
 
-The protein positions considered in each case are reported in \autoref{tab:mut_range}.
+The protein positions considered in each case are reported in \cref{tab:mut_range}.
 The trimming step was always done at the level of the query sequence before the generation of the multiple sequence alignments.
 In all cases, the alignments were further processed by trimming out all the columns which corresponded to gaps in the query sequence.
 
 \subsection{Position-specific scoring matrices}
-The position-specific scoring matrices (PSSMs) were obtained from the emission probabilities of the Hidden Markov models trained from the hhblits multiple sequence alignments produced as described in \autoref{sec:msa}.
+The position-specific scoring matrices (PSSMs) were obtained from the emission probabilities of the Hidden Markov models trained from the hhblits multiple sequence alignments produced as described in \cref{sec:msa}.
 The Hidden Markov models were trained with the tool ``\texttt{hmmbuild}'' from the HMMER suite.
 This tool was preferred to the corresponding tool ``\texttt{hhmake}'' from the HH suite (which was used for obtaining the multiple sequence alignments in the first place) since the latter does not include pseudo counts in the model file and thus needed further processing for producing usable PSSMs.
 
@@ -242,7 +244,7 @@ For the jackhmmer search, the parameters used included five iterations, a relati
 \subsection{Predicted solvent accessibility, secondary structure, torsion angles, and disorder status}
 The neural network NetSurfP-2.0 is a state-of-the-art predictor for protein secondary structure, residue solvent accessibility, torsion angles, and disordered residues.
 The hhblits-based variant of the network was used, which uses hhblits-derived multiple sequence alignments.
-The multiple sequence alignments given in input were obtained with hhblits as described in \autoref{sec:msa}.
+The multiple sequence alignments given in input were obtained with hhblits as described in \cref{sec:msa}.
 All the output values of the network were used as features.
 These include the relative and absolute solvent accessibilities, the three- and eight-class secondary structure class probabilities, torsion angles, and disorder probability.
 
@@ -251,7 +253,7 @@ Protein contacts were predicted with trRosetta.
 The contacts were then used for defining connectivity graphs of the proteins, from which various features were extracted.
 
 The inputs given to trRosetta were the multiple sequence alignments obtained with hhblits from the sequence of the mutagenised proteins.
-As explained in \autoref{sec:msa}, the query sequences were trimmed to the respective mutated domains before running hhblits.\
+As explained in \cref{sec:msa}, the query sequences were trimmed to the respective mutated domains before running hhblits.\
 trRosetta produces in output predicted interresidue angles and predicted interresidue distances for each pair of positions in the input sequence.
 The predicted interresidue angles were not used in this work.
 The predicted distances are represented by trRosetta binned in 36 bins, each collecting distances from \SIrange{2}{20}{\angstrom} in bins of \SI{0.5}{\angstrom}, with an additional bin for no contact.
@@ -314,7 +316,7 @@ The features that were validated in this way consisted of the NetSurfP-2 predict
 \end{table}
 
 Firstly, experimental protein structures were sourced from the PDB.\@
-The PDB structure and chain identifiers used for each dataset are reported in \autoref{tab:pdb_struct}.
+The PDB structure and chain identifiers used for each dataset are reported in \cref{tab:pdb_struct}.
 For the datasets \texttt{Ubiquitin} and \texttt{E1\_Ubiquitin}, the mutagenised domain correspond to the first ubiquitin domain of the yeast UBI4 gene (UniProt ID:~\texttt{P0CG63}).
 A structure is not available for this portion of the protein, but it is available for the third ubiquitin domain of the same protein.
 For this reason, the residues in the PDB structure were first mapped following the SIFTS mappings and then shifted backwards of \num{304} residues, to overlap with the mutagenised domain.
@@ -374,7 +376,7 @@ The separation of validation and testing data on the holdout proteins was done i
 Hyperparameter tuning and test performance evaluation were conducted in an aggregated manner for all the proteins, not in a protein-specific way.
 
 \section{Model architectures and optimization}\label{sec:mm_optimization}
-Different models were tested for the general configuration described in \autoref{sec:mm_general_models}, while for the single protein models only gradient boosted trees were used.
+Different models were tested for the general configuration described in \cref{sec:mm_general_models}, while for the single protein models only gradient boosted trees were used.
 This section describes the optimization strategy used for each model type, and other custom configurations used.
 
 The optimization of hyperparameters was done by cross-validation and random search.
@@ -384,14 +386,14 @@ Many rounds of random search were usually performed testing different hyperparam
 \subsection{Linear regression}
 A simple linear regressor without any free hyperparameter and regularization was deployed using the implementation available in the Scikit-learn Python library (the class \texttt{sklearn.linear\_model.LinearRegression} was used).
 Linear regression was used only for the general model.
-To make the results from different datasets more comparable, the fitness scores were quantile-normalized before being fed to the predictor as explained in \autoref{sec:mm_quantile_norm}.
+To make the results from different datasets more comparable, the fitness scores were quantile-normalized before being fed to the predictor as explained in \cref{sec:mm_quantile_norm}.
 
 \subsection{Gradient boosted trees}
 Gradient boosted trees were implemented with the XGBoost Python library.
 For more details on the implementation and available parameters, the reader can refer to the library documentation at \url{https://xgboost.readthedocs.io}.
 
 To speed up training, the histogram version of the implementation was used (\texttt{tree\_method} set to \texttt{hist}).
-For single protein models (\autoref{sec:mm_single_protein_models}), the loss function used was the minimum squared error (\texttt{objective} set to \texttt{reg:squarederror}).
+For single protein models (\cref{sec:mm_single_protein_models}), the loss function used was the minimum squared error (\texttt{objective} set to \texttt{reg:squarederror}).
 For the general model, a pairwise ranking loss was used (\texttt{objective} set to \texttt{rank:pairwise}).
 
 The hyperparameters that were optimized in gradient boosted trees where the following (in parenthesis the name of the parameter in the XGBoost implementation): maximum depth (\texttt{max\_depth}), minimum child weight (\texttt{min\_child\_weight}), fraction of subsampled datapoints (\texttt{subsample}), fraction of subsampled columns (\texttt{colsample\_bytree}), learning rate (\texttt{eta}), minimum loss reduction required to make a further partition on a leaf node of the tree (\texttt{gamma}), L2 regularization term on weights (\texttt{lambda}), L1 regularization term on weights (\texttt{alpha}), number of iterations (\texttt{num\_rounds}).
@@ -444,7 +446,7 @@ For this reason, the cross-validation performances of Envision reported in \text
 Since the original work does not report the Kendall correlation coefficients, only the Pearson and Spearman correlations are reported.
 The performances obtained by Envision with rescaled fitness scores were chosen.
 
-Independent and epistatic EVcouplings predictions were already used as features, and the procedure followed for their acquisition is detailed in \autoref{sec:ev_mutation}.
+Independent and epistatic EVcouplings predictions were already used as features, and the procedure followed for their acquisition is detailed in \cref{sec:ev_mutation}.
 The respective predictions were directly compared to the experimental, unscaled fitness scores.
 
 For my predictors, the performances are the ones measured on the respective testing sets.
@@ -473,7 +475,7 @@ Then, one feature group at a time, the columns corresponding to that group of fe
 The same model was used again to predict the fitness scores using this corrupted feature set, measuring a group-specific performance $p_{jk}$ for feature group $j$.
 The process was repeated $K=5$ times for each feature group using different random permutations of the columns.
 Each repetition is referred to with the subscript $k$ in this notation.
-The importance $i_j$ for feature group $j$ was then evaluated according to equation \autoref{eq:permutation_importance}.
+The importance $i_j$ for feature group $j$ was then evaluated according to equation \cref{eq:permutation_importance}.
 
 \begin{equation}\label{eq:permutation_importance}
 	i_j = \hat{p} - \frac{1}{K} \sum_{k=1}^K p_{jk}

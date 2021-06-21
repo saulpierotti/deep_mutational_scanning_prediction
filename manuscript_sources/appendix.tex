@@ -66,7 +66,7 @@
 				The dataset \texttt{hsp90} is missing all the mutations at position \numrange{212}{222} (UniProt numbering).
 				Synonymous mutations are available only for a limited region in \texttt{Pab1} and are absent from some of the datasets.
 				\texttt{WW\_domain} has a lower coverage compared to other datasets, not sampling the full mutational landscape of the protein.
-				See \autoref{sec:minor_inconsistencies} for a discussion about the missing positions.
+				See \cref{sec:minor_inconsistencies} for a discussion about the missing positions.
 			}\label{sup:fig:coverage_by_position_by_dataset}%
 		}%
 	\end{figure}
@@ -94,7 +94,7 @@
 				Scaling was done on a per-dataset basis bringing the scores to the range \numrange{0}{1} and subtracting the scaled value for a raw score of \num{0}.
 				The median of the scaled fitness scores was taken by protein position and dataset.
 				Only the subset of protein positions with an experimental secondary structure assignment is shown.
-				The assignments were obtained as explained in \autoref{sec:mm_exp_struct}.
+				The assignments were obtained as explained in \cref{sec:mm_exp_val}.
 
 			}\label{sup:fig:score_dssp_q3_by_dataset}%
 		}%
@@ -145,7 +145,7 @@
 				\textbf{Prediction correlations for naive single protein models.}
 				Series of scatter plots showing the correlations on the test set between the experimental fitness score and the predicted fitness score for the nine datasets used in this work.
 				The predictions were obtained with independent gradient boosted tree models for each dataset.
-				The validation and testing procedure followed the naive approach described in \autoref{sec:mm_single_protein_models}.
+				The validation and testing procedure followed the naive approach described in \cref{sec:mm_single_protein_models}.
 				Orange crosses are synonymous mutations.
 				Black crosses are missense mutations.
 			}\label{sup:fig:single_protein_models_naive_test_result_correlations}%
@@ -158,7 +158,7 @@
 				\textbf{Prediction correlations for single protein models trained by segregating protein positions.}
 				Series of scatter plots showing the correlations on the test set between the experimental fitness score and the predicted fitness score for the nine datasets used in this work.
 				The predictions were obtained with independent gradient boosted tree models for each dataset.
-				The validation and testing procedure followed the naive approach described in \autoref{sec:mm_single_protein_models}.
+				The validation and testing procedure followed the naive approach described in \cref{sec:mm_single_protein_models}.
 				Orange crosses are synonymous mutations.
 				Black crosses are missense mutations.
 			}\label{sup:fig:single_protein_models_by_position_test_result_correlations}%
@@ -170,7 +170,7 @@
 			\caption[Prediction correlations for single protein models trained by segregating protein positions]{%
 				\textbf{Prediction correlations for the gradient boosted tree general models.}
 				Series of scatter plots showing the correlations on the test set between the experimental fitness score and the predicted fitness score for the nine datasets used in this work.
-				The validation and testing procedure followed the naive approach described in \autoref{sec:mm_general_models}.
+				The validation and testing procedure followed the naive approach described in \cref{sec:mm_general_models}.
 				Orange crosses are synonymous mutations.
 				Black crosses are missense mutations.
 			}\label{sup:fig:lopo_xgb_model_test_result_correlations}%
