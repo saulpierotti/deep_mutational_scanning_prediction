@@ -422,7 +422,7 @@ The clustering coefficient follows inverse correlation patterns as compared to t
 \begin{table}[p]
 	\small%
 	\ttabbox[\textwidth]{%
-		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
+		\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llll}%
 			\toprule
 			Dataset name            & Model       & \SI{95}{\percent} C.I. (Pearson) & \SI{95}{\percent} C.I. (Spearman) \\
 			\midrule
@@ -458,9 +458,9 @@ The clustering coefficient follows inverse correlation patterns as compared to t
 	}%
 	{\caption[Confidence intervals for the performances of the gradient boosted tree models]{%
 			\textbf{Confidence intervals for the performances of the gradient boosted tree models.}
-			Table that shows the \SI{95}{\percent} confidence intervals (C.I.) determined by bootstrapping for the performances of the models based on gradient boosted trees developped in this work.
+			Table that shows the \SI{95}{\percent} confidence intervals (C.I.) determined by bootstrapping for the performances of the models based on gradient boosted trees developed in this work.
 			The performances were measured in terms of the Pearson and Spearman correlation coefficients among experimental fitness scores and predicted fitness scores.
-		}\label{tab:missing}%
+		}\label{tab:confidence_intervals}%
 	}%
 \end{table}
 
@@ -493,6 +493,7 @@ The main determinant of performances in fitness prediction seems to be the avail
 In light of these results, it seems reasonable to caution against the overestimation of performances in models that use a naive approach to testing.
 
 For a more detailed representation of the test results for the three model groups compared here see \autoref{sup:fig:single_protein_models_naive_test_result_correlations}, \autoref{sup:fig:single_protein_models_by_position_test_result_correlations}, and \autoref{sup:fig:single_protein_models_naive_test_result_correlations}.
+Confidence intervals for the performance estimations are reported in \autoref{tab:confidence_intervals}.
 
 \section{Comparison of different model architectures with previous predictors}
 This section solely concerns the general models trained in a LOPO fashion, and how they do compare with previously published predictors.
@@ -577,7 +578,7 @@ For a comparison of the validation and test scores of my models, refer to \autor
 			Most performance differences are significant (Bonferroni-corrected $\alpha = \frac{0.05}{27} = 0.00185185$).
 			The null hypothesis is that the performance difference among each pair of models is equal to \num{0}.
 			Envision was excluded from this table since I did not have access to the model predictions but only to the performances declared by the authors of the method.
-		}\label{tab:missing}%
+		}\label{tab:performance_permutation_significance}%
 	}%
 \end{table}
 
