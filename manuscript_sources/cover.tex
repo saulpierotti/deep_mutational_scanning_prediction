@@ -1,9 +1,8 @@
+\currentpdfbookmark{Cover}{Cover}
+\newgeometry{right=2.5 cm, left=2.5 cm, bottom=3 cm, top=3 cm}
 \begin{titlepage}
 	\centering
 
-	\pdfbookmark[1]{Cover}{title} % add reference to the title in PDF index
-
-	\newgeometry{right=2.5 cm, left=2.5 cm, bottom=3 cm, top=3 cm}
 
 	\normalsize
 	\Large
@@ -65,7 +64,6 @@
 	\large
 	\textbf{Thesis submitted \today}
 
-	\thispagestyle{empty}
-	\restoregeometry%
-
 \end{titlepage}
+\restoregeometry%
+\stepcounter{page}%

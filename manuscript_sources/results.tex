@@ -1,4 +1,3 @@
-\thispagestyle{empty}
 \cleardoublepage%
 \chapter{Results}
 
@@ -586,7 +585,7 @@ For a comparison of the validation and test scores of my models, refer to \autor
 The random hyperparameter search adopted for the gradient boosted trees-based models showed similar patterns of dependency on the hyperparameters for the single protein models and the models trained in a LOPO fashion.
 
 In general, more iterations corresponded to better results for all the models, but with diminishing returns.
-From the learning curves (\autoref{fig:learning_curves}) it can be seen how small learning rates consistently lead to better performances, but the number of iteration required to reach plateau is greater for small learning rates.
+From the learning curves (\cref{fig:learning_curves_general_xgb,fig:learning_curves_single_proteins}) it can be seen how small learning rates consistently lead to better performances, but the number of iteration required to reach plateau is greater for small learning rates.
 If the learning rate is not too large ($\leq$ \num{1e-2}) it is always possible to reach optimal performances, but smaller learning rates require more iterations to do so.
 For the single protein models and with a learning rate of \num{1e-3} or \num{1e-4}, a peculiar learning curve is observed where the performances seem to plateau around \num{100} iterations but then increases again.
 The reason for this is not clear.
@@ -636,7 +635,7 @@ For a more detailed report of the influence of the various hyperparameters refer
 			\subref{subfig:single_protein_models_by_position_learning_curve}
 			Learning curves for models trained trained by segregating protein positions.
 		}%
-		%
+		\label{fig:learning_curves_single_proteins}%
 	}%
 \end{figure}
 

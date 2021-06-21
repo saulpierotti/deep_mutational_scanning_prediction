@@ -1,4 +1,3 @@
-\thispagestyle{empty}
 \cleardoublepage%
 \chapter{Materials and Methods}
 
@@ -486,7 +485,7 @@ An importance score equal to the performance of the original model indicates tha
 A negative importance score indicates that the model performs better than the baseline when the feature group is randomized.
 The feature importance was evaluated independently for each of the nine datasets used in this work.
 
-\subsection{Determination of statistical significance of results}\label{mm:significance}
+\section{Determination of statistical significance of results}\label{mm:significance}
 For evaluation of the statistical significance of the performance differences among the general models and EVcouplings, a permutation test was performed.
 The significance of the performance differences with Envision was not evaluated since for this predictor I did not have access to the predictions themselves, but only to the correlation scores reported by the Envision authors.
 The linear models, gradient boosted tree models, and EVcouplings were compared in a pairwise fashion for each of the nine datasets, for a total of \num{27} comparisons.

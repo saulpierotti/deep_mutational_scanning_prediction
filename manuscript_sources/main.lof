@@ -7,58 +7,58 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Dataset distributions and number of mutations}}{36}{figure.caption.4}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Dataset distributions and number of mutations}}{34}{figure.caption.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Aggregated statistics and correlation among different experiments}}{37}{figure.caption.5}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Aggregated statistics and correlation among different experiments}}{35}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Fitness scores by secondary structure, mutation type, and solvent accessibility}}{38}{figure.caption.6}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Fitness scores by secondary structure, mutation type, and solvent accessibility}}{36}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Heatmap of the correlation among features}}{43}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Heatmap of the correlation among features}}{41}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of model testing strategies}}{45}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Comparison of model testing strategies}}{43}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparison of performances for various quantitative predictors of single amino acid variant effect}}{50}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Comparison of performances for various quantitative predictors of single amino acid variant effect}}{48}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Learning curves for the general gradient boosted tree models}}{51}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Learning curves for the general gradient boosted tree models}}{49}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Learning curves for the single protein models}}{52}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Learning curves for the single protein models}}{50}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Feature importance for the general gradient boosted trees models}}{53}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Feature importance for the general gradient boosted trees models}}{51}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Feature importance for the general linear regression models}}{54}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Feature importance for the general linear regression models}}{52}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.1}{\ignorespaces Fraction of mutations towards a given residue, by dataset}}{69}{figure.caption.22}%
+\contentsline {figure}{\numberline {S.1}{\ignorespaces Fraction of mutations towards a given residue, by dataset}}{67}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.2}{\ignorespaces Distribution of fitness scores, by dataset}}{70}{figure.caption.23}%
+\contentsline {figure}{\numberline {S.2}{\ignorespaces Distribution of fitness scores, by dataset}}{68}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.3}{\ignorespaces Wild-type residue composition of each dataset compared to the wild-type protein sequence and the residue composition of UniProt}}{71}{figure.caption.24}%
+\contentsline {figure}{\numberline {S.3}{\ignorespaces Wild-type residue composition of each dataset compared to the wild-type protein sequence and the residue composition of UniProt}}{69}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.4}{\ignorespaces Median score of mutations to and from each residue type, grouped by dataset}}{72}{figure.caption.25}%
+\contentsline {figure}{\numberline {S.4}{\ignorespaces Median score of mutations to and from each residue type, grouped by dataset}}{70}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.5}{\ignorespaces Mutagenesis coverage along the primary protein sequence for each experiment}}{73}{figure.caption.26}%
+\contentsline {figure}{\numberline {S.5}{\ignorespaces Mutagenesis coverage along the primary protein sequence for each experiment}}{71}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.6}{\ignorespaces Average fitness score for each possible mutation, by dataset}}{74}{figure.caption.27}%
+\contentsline {figure}{\numberline {S.6}{\ignorespaces Average fitness score for each possible mutation, by dataset}}{72}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.7}{\ignorespaces Fitness score distribution by secondary structure, by dataset}}{75}{figure.caption.28}%
+\contentsline {figure}{\numberline {S.7}{\ignorespaces Fitness score distribution by secondary structure, by dataset}}{73}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.8}{\ignorespaces Fitness score distribution by relative solvent accessibility, by dataset}}{76}{figure.caption.29}%
+\contentsline {figure}{\numberline {S.8}{\ignorespaces Fitness score distribution by relative solvent accessibility, by dataset}}{74}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.9}{\ignorespaces Validation and testing performances}}{77}{figure.caption.30}%
+\contentsline {figure}{\numberline {S.9}{\ignorespaces Validation and testing performances}}{75}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.10}{\ignorespaces Prediction correlations for naive single protein models}}{78}{figure.caption.31}%
+\contentsline {figure}{\numberline {S.10}{\ignorespaces Prediction correlations for naive single protein models}}{76}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.11}{\ignorespaces Prediction correlations for single protein models trained by segregating protein positions}}{79}{figure.caption.32}%
+\contentsline {figure}{\numberline {S.11}{\ignorespaces Prediction correlations for single protein models trained by segregating protein positions}}{77}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.12}{\ignorespaces Prediction correlations for single protein models trained by segregating protein positions}}{80}{figure.caption.33}%
+\contentsline {figure}{\numberline {S.12}{\ignorespaces Prediction correlations for single protein models trained by segregating protein positions}}{78}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.13}{\ignorespaces Random hyperparameter search results for naive single protein models}}{81}{figure.caption.34}%
+\contentsline {figure}{\numberline {S.13}{\ignorespaces Random hyperparameter search results for naive single protein models}}{79}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.14}{\ignorespaces Random hyperparameter search results for the single protein models trained by segregating protein positions}}{82}{figure.caption.35}%
+\contentsline {figure}{\numberline {S.14}{\ignorespaces Random hyperparameter search results for the single protein models trained by segregating protein positions}}{80}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.15}{\ignorespaces Random hyperparameter search results for the gradient boosted trees general models}}{83}{figure.caption.36}%
+\contentsline {figure}{\numberline {S.15}{\ignorespaces Random hyperparameter search results for the gradient boosted trees general models}}{81}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.16}{\ignorespaces Feature importance for the naive single protein models}}{84}{figure.caption.37}%
+\contentsline {figure}{\numberline {S.16}{\ignorespaces Feature importance for the naive single protein models}}{82}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {S.17}{\ignorespaces Feature importance for the single protein models trained by segregating protein positions}}{85}{figure.caption.38}%
+\contentsline {figure}{\numberline {S.17}{\ignorespaces Feature importance for the single protein models trained by segregating protein positions}}{83}{figure.caption.38}%

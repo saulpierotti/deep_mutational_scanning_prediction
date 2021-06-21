@@ -2454,7 +2454,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{boot: Bootstrap R (S-Plus) Functions}
+      \field{title}{{boot}: Bootstrap {R} ({S-Plus}) Functions}
       \field{year}{2021}
       \field{dateera}{ce}
     \endentry
@@ -3022,6 +3022,9 @@
            giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {Informa UK Limited}%
+      }
       \strng{namehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
       \strng{fullhash}{0b0af97d4f9c67ace0f8c55bd08f9072}
       \strng{bibnamehash}{0b0af97d4f9c67ace0f8c55bd08f9072}
@@ -3036,6 +3039,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0162-1459}
+      \field{issue}{25325}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{month}{3}
+      \field{number}{293}
       \field{title}{Multiple Comparisons among Means}
       \field{volume}{56}
       \field{year}{1961}

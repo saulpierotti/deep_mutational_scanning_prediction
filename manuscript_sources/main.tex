@@ -1,21 +1,24 @@
 \documentclass[%
 	11pt,
-	%twoside, %makes the text goood for two sides printing, disable for digital versiion
+	oneside,
+	a4paper,
+	notitlepage,
+	english
 ]{report}
 
 \author{Saul Pierotti}
 \title{Prediction of the effect of single amino acid protein variants using deep mutational scanning data}
 
+\usepackage{babel}
 \usepackage{microtype}
 \usepackage{parskip}
-\usepackage[a4paper]{geometry}
+\usepackage{geometry}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{placeins}
 \usepackage{makecell}
 \usepackage[sf]{titlesec} % sans serif titles
 \usepackage[style=apa]{biblatex}
-\usepackage{abstract}
 \usepackage[
 	colorlinks=true,
 	bookmarksnumbered=true,
@@ -25,7 +28,7 @@
 ]{hyperref}
 \usepackage{graphicx}
 \usepackage{hyperref}
-\usepackage[english]{babel}
+\usepackage{cleveref}
 \usepackage{csquotes}
 \usepackage{url}
 \usepackage{siunitx}
@@ -35,7 +38,6 @@
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage[labelformat=parens]{subcaption}
 \usepackage{floatrow}
-\usepackage{blindtext}
 \usepackage{appendix}
 
 % caption
@@ -112,8 +114,10 @@
 }
 
 \begin{document}
+\pagenumbering{roman}%
 \include{cover}
 \include{preamble}
+\pagenumbering{arabic}%
 \include{introduction}
 \include{materials_methods}
 \include{results}
