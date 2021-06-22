@@ -576,7 +576,6 @@ For a comparison of the validation and test scores of my models, refer to \cref{
 
 \section{Gradient boosted tree optimization}
 The random hyperparameter search adopted for the gradient boosted trees-based models showed similar patterns of dependency on the hyperparameters for the single protein models and the models trained in a LOPO fashion.
-
 In general, more iterations corresponded to better results for all the models, but with diminishing returns.
 From the learning curves (\cref{fig:learning_curves_general_xgb,fig:learning_curves_single_proteins}) it can be seen how small learning rates consistently lead to better performances, but the number of iteration required to reach plateau is greater for small learning rates.
 If the learning rate is not too large ($\leq$ \num{1e-2}) it is always possible to reach optimal performances, but smaller learning rates require more iterations to do so.
