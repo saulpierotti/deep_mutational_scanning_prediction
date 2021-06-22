@@ -451,7 +451,7 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{R} package \texttt{circular}: Circular Statistics (version 0.4-93)}
+      \field{title}{{R} package circular: Circular Statistics}
       \field{year}{2017}
       \verb{urlraw}
       \verb https://r-forge.r-project.org/projects/circular/
@@ -6946,7 +6946,7 @@
       \endverb
     \endentry
     \entry{Pedregosa2011}{article}{}
-      \name{author}{16}{}{%
+      \name{author}{15}{}{%
         {{un=0,uniquepart=base,hash=6e96fec0d63277626bb324bd28cdecb7}{%
            family={Pedregosa},
            familyi={P\bibinitperiod},
@@ -7019,12 +7019,6 @@
            given={A.},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dc075b18fb4710a1a37b258804c57efe}{%
-           family={Cournapeau},
-           familyi={C\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
         {{un=0,uniquepart=base,hash=67ec0e8add781665a43010c9559111e9}{%
            family={Brucher},
            familyi={B\bibinitperiod},
@@ -7045,11 +7039,11 @@
            givenun=0}}%
       }
       \strng{namehash}{3a097aa3ebf2b8c2acf988341dde9710}
-      \strng{fullhash}{7a67607c66e4af944b5f16461d6d0a87}
-      \strng{bibnamehash}{7a67607c66e4af944b5f16461d6d0a87}
-      \strng{authorbibnamehash}{7a67607c66e4af944b5f16461d6d0a87}
+      \strng{fullhash}{9267509cb220a394f7d00bce5ac94c3b}
+      \strng{bibnamehash}{9267509cb220a394f7d00bce5ac94c3b}
+      \strng{authorbibnamehash}{9267509cb220a394f7d00bce5ac94c3b}
       \strng{authornamehash}{3a097aa3ebf2b8c2acf988341dde9710}
-      \strng{authorfullhash}{7a67607c66e4af944b5f16461d6d0a87}
+      \strng{authorfullhash}{9267509cb220a394f7d00bce5ac94c3b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}

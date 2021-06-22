@@ -1,14 +1,11 @@
-% To compile:
-% 	lualatex main.tex
-% 	biber main
-% 	lualatex main.tex
+% !TEX TS-program = lualatex
 
 \documentclass[%
 	11pt,
 	oneside,
 	a4paper,
 	notitlepage,
-	english
+	british
 ]{report}
 
 \author{Saul Pierotti}
@@ -16,25 +13,14 @@
 
 \usepackage{babel}
 \usepackage{microtype}
-\usepackage{parskip}
-\usepackage[showframe]{geometry}
+\usepackage{parskip} % must be before hyperref
+\usepackage{geometry}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{placeins}
 \usepackage{makecell}
 \usepackage[sf]{titlesec} % sans serif titles
 \usepackage[style=apa]{biblatex}
-\usepackage{varioref}
-\usepackage[
-	colorlinks=true,
-	bookmarksnumbered=true,
-	urlcolor=blue,
-	citecolor=blue,
-	linkcolor=blue
-]{hyperref}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{cleveref}
 \usepackage{csquotes}
 \usepackage{url}
 \usepackage{siunitx}
@@ -45,6 +31,14 @@
 \usepackage[labelformat=parens]{subcaption}
 \usepackage{floatrow}
 \usepackage{appendix}
+\usepackage[%
+	colorlinks=true,
+	bookmarksnumbered=true,
+	urlcolor=blue,
+	citecolor=blue,
+	linkcolor=blue
+]{hyperref}
+\usepackage[nameinlink,capitalise,noabbrev]{cleveref} % must be last and absolutely AFTER hyperref
 
 % caption
 \DeclareCaptionLabelFormat{boldparens}{\textbf{(#2)}}
@@ -73,9 +67,6 @@
 \floatsetup[subfigure]{capposition=top, captionskip=1ex}
 \newcommand\subfigvsep{\vspace{2em}\\}
 \newcommand\tabsep{\vspace{1em}}
-
-% show a black line if overful
-\overfullrule=1mm
 
 % hyperlink on the whole authoryear citation, not only the year
 \ExecuteBibliographyOptions{maxcitenames=1}
@@ -109,15 +100,8 @@
 		\restorebibmacro{textcite}%
 		\usebibmacro{textcite}}}
 
-% make urls monospaced
+% make urls monospaced (part of url package)
 \urlstyle{tt}%
-
-% autoref custom names
-\addto\extrasenglish{%
-	\renewcommand{\sectionautorefname}{Section}%
-	\renewcommand{\subsectionautorefname}{Section}%
-	\renewcommand{\subsubsectionautorefname}{Section}%
-}
 
 \begin{document}
 \pagenumbering{roman}%

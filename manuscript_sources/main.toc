@@ -1,5 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
+\babel@toc {british}{}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -113,7 +113,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Comparison of different model architectures with previous predictors}{45}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Gradient boosted tree optimization}{48}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Gradient boosted tree optimization}{46}{section.3.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Feature importance}{48}{section.3.7}%
 \defcounter {refsection}{0}\relax 

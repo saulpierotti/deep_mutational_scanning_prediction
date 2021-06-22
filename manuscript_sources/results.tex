@@ -4,7 +4,7 @@
 \section{Dataset overview}\label{sec:res_dataset}
 The aggregated data used in this study, after preprocessing and filtration (\cref{sec:mm_dataset}), consisted of \num{21842} mutations.
 Nine independent experimental datasets were included, covering eight different proteins from bacteria, yeast, rat, and humans.
-\cref{tab:datasets} reports a summary of each dataset, while \cref{tab:excluded} reports the number of mutations in each of them before and after filtering.
+\Cref{tab:datasets} reports a summary of each dataset, while \cref{tab:excluded} reports the number of mutations in each of them before and after filtering.
 Each dataset consists of a set of single amino acid variants associated with a fitness score.
 
 The fitness scores have a distribution which is extremely dataset-specific (\cref{subfig:fitness_score_distribution}) and the number of mutations in each dataset is quite variable (\cref{subfig:datasets_abundancies}).
@@ -271,15 +271,15 @@ The actual features used was not the categorical classification, but the raw act
 Both the eight-classes and the three-classes classification were used as features.
 
 The distribution of fitness scores is significantly different according to the secondary structure of the mutated position (\cref{tab:features_score_relationship}).
-\cref{subfig:dssp_q3} reports the aggregated distribution of the median fitness scores (per dataset and position) by secondary structure.
-\cref{sup:fig:score_dssp_q3_by_dataset} reports the same but detailed by dataset.
+\Cref{subfig:dssp_q3} reports the aggregated distribution of the median fitness scores (per dataset and position) by secondary structure.
+\Cref{sup:fig:score_dssp_q3_by_dataset} reports the same but detailed by dataset.
 Mutations that affect residues in a coil conformation tend to be less damaging than mutations affecting strands or helices, coherently with the less stringent chemical requirements for this type of secondary structure.
 Very strong variability in the relationship between secondary structure and fitness score is observed among datasets, but in general, coils tend to be more permissive and strands more stringent in the type of mutations that are permitted.
 
 The predicted secondary structures from NetSurfP-2 are in good agreement with the experimentally determined ones, where the latter are available (\cref{tab:netsurf_validation}).
 
 \subsection{Torsion angles}
-The relationship between backbone torsion angles and fitness scores is negligible (\cref{tab:features_score_relationship}).
+The relationship between torsion angles of the backbone and fitness scores is negligible (\cref{tab:features_score_relationship}).
 Also in this case the predicted quantities from NetSurfP-2 were used and not the experimental torsion angles.
 Nonetheless, the agreement between the two is very strong (\cref{tab:netsurf_validation}).
 
@@ -489,7 +489,7 @@ Confidence intervals for the performance estimations are reported in \cref{tab:c
 
 \section{Comparison of different model architectures with previous predictors}
 This section solely concerns the general models trained in a LOPO fashion, and how they do compare with previously published predictors.
-\cref{fig:performance_comparison} shows the performance of two state-of-the-art mutation effect predictors compared to that of the general models developed as part of this work.
+\Cref{fig:performance_comparison} shows the performance of two state-of-the-art mutation effect predictors compared to that of the general models developed as part of this work.
 The statistical significance of the performance differences among the predictors was calculated according to \cref{mm:significance} and is reported in \cref{tab:performance_permutation_significance}.
 
 The models that I tested in a LOPO fashion include gradient boosted trees, a simple linear regression, support vector machines, and neural networks.
@@ -512,7 +512,7 @@ In general, EVmutation seems to depend on the quality of the multiple sequence a
 Indeed, the dataset \texttt{gb1} has a poor multiple sequence alignment because of the lack of enough homologous sequences in UniProt.
 
 Compared to the similar model Envision, my models perform better on some of the datasets and worse on others.
-it should be noted, however, that my models do not use any structural feature.
+It should be noted, however, that my models do not use any structural feature.
 Also, Envision performance are cross-validation scores measured on the same set used for hyperparameter tuning, while the performances of my models are measured on the test set.
 Thus, it is likely that the perceived performances of Envision are an overestimation.
 

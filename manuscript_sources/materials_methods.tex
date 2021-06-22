@@ -474,7 +474,7 @@ Then, one feature group at a time, the columns corresponding to that group of fe
 The same model was used again to predict the fitness scores using this corrupted feature set, measuring a group-specific performance $p_{jk}$ for feature group $j$.
 The process was repeated $K=5$ times for each feature group using different random permutations of the columns.
 Each repetition is referred to with the subscript $k$ in this notation.
-The importance $i_j$ for feature group $j$ was then evaluated according to equation \cref{eq:permutation_importance}.
+The importance $i_j$ for feature group $j$ was then evaluated according to \cref{eq:permutation_importance}.
 
 \begin{equation}\label{eq:permutation_importance}
 	i_j = \hat{p} - \frac{1}{K} \sum_{k=1}^K p_{jk}
