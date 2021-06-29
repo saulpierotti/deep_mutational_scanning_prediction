@@ -1,0 +1,69 @@
+% Saul Pierotti's customized theme for the Univeristy of Bologna
+% 29/06/2021
+
+\mode<presentation>
+
+\usecolortheme{whale}
+\useoutertheme{infolines}
+
+
+\colorlet{undertone}{black!80}
+\colorlet{undertone_darker}{black!90}
+\definecolor{bologna_red}{rgb}{0.73333333333, 0.18039215686, 0.16078431372}
+\definecolor{accent}{rgb}{0.65098039215, 0.78823529411, 0.27843137254}
+\definecolor{dark_red}{rgb}{0.545, 0, 0}
+\definecolor{background}{rgb}{1, 1, 1}
+
+\def\advisor{\@dblarg\beamer@advisor} % copied from the definition of date in beamer
+\long\def\beamer@advisor[#1]#2{%
+	\def\insertadvisor{#2}%
+	\def\beamer@shortadvisor{#1}%
+}
+\date{\today}
+
+\setbeamercolor{author in head/foot}{bg=bologna_red,fg=white}
+\setbeamercolor{title in head/foot}{bg=bologna_red!80, fg=white}
+\setbeamercolor{date in head/foot}{bg=bologna_red!60, fg=white}
+\setbeamercolor{frametitle}{bg=background,fg=black!70}
+
+\RequirePackage{appendixnumberbeamer}
+\RequirePackage{tikz}
+
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+\usetikzlibrary{tikzmark}
+\usetikzlibrary{mindmap}
+\usetikzlibrary{decorations.pathreplacing}
+
+\tikzset{%
+>={Latex[width=2mm,length=2mm]},
+base/.style = {text centered, align=center, inner sep=0.2cm, outer sep=0.1cm, line width=0.5},
+object/.style = {base, fill=bologna_red!30, text=bologna_red, rounded corners},
+codon/.style = {object, outer sep = 0pt},
+aa/.style = {object, rounded corners=3mm, outer sep = 0pt},
+}
+
+\beamertemplatenavigationsymbolsempty%
+
+\setbeamertemplate{itemize item}{\color{undertone}$\blacktriangleright$}
+\setbeamertemplate{itemize subitem}{\color{undertone}$-$}
+\setbeamertemplate{headline}[default] % remove header bars
+
+\setbeamertemplate{title page}{%
+	\begin{tikzpicture}
+		\useasboundingbox (0,0) rectangle (\paperwidth,\paperheight);
+		\fill [color=bologna_red, xshift=-10pt, yshift=1pt] (0, 0.5\paperheight) rectangle (\paperwidth,\paperheight);
+		\node (titlebox) [text width=\textwidth, align=left, anchor=south, text=white] at (.5\paperwidth-10pt,.5\paperheight+1em) {%
+			\Large\inserttitle\par%
+			\vspace{1em}
+			\small\insertsubtitle\par%
+		};
+		\node (authordatebox) [text width=\textwidth, align=left, anchor=north] at (.5\paperwidth-10pt,.5\paperheight-1em) {%
+			\large\insertauthor\par\vspace{1em}%
+			\footnotesize\insertadvisor\par\vspace{6em}%
+			\normalsize\flushright\insertdate\par%
+		};
+	\end{tikzpicture}
+}%
