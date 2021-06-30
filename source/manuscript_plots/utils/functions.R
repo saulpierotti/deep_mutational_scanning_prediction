@@ -317,25 +317,39 @@ get_top_L_stats <- function(in_tb) {
 # Plots
 ###############################################################################
 
-get_corr_plot <- function(tb, column1, column2, color = NULL) {
+get_linear_regression_line <- function(regr_color = okabe[5]) {
+  line <- geom_smooth(
+    method = "lm",
+    formula = y ~ x,
+    color = regr_color,
+    se = FALSE
+  )
+  return(line)
+}
+
+get_corr_plot <- function(tb,
+                          column1,
+                          column2,
+                          color_by = NULL,
+                          regr_color = okabe[5]) {
   column1 <- enquo(column1)
   column2 <- enquo(column2)
-  color <- enquo(color)
+  color_by <- enquo(color_by)
   plot <-
     ggplot(
       data = tb,
       mapping = aes(x = !!column1, y = !!column2)
     )
-  if (!quo_is_null(color)) {
+  if (!quo_is_null(color_by)) {
     plot <- plot +
       geom_point(
-        data = tb %>% filter(!(!!color)),
+        data = tb %>% filter(!(!!color_by)),
         color = "black",
         shape = 4,
         alpha = 0.5
       ) +
       geom_point(
-        data = tb %>% filter(!!color),
+        data = tb %>% filter(!!color_by),
         color = okabe[1],
         shape = 4
       )
@@ -349,7 +363,7 @@ get_corr_plot <- function(tb, column1, column2, color = NULL) {
       )
   }
   plot <- plot +
-    linear_regression_line +
+    get_linear_regression_line(regr_color = regr_color) +
     theme_cowplot(text_size) +
     x_axis_theme +
     y_axis_theme

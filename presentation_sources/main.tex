@@ -126,49 +126,31 @@
 	\centering%
 	\input{tikz/tikzdevice/presentation_mutation_identity.tex}
 \end{frame}
-%
-%\begin{frame}
-%	\frametitle{Solvent-accessible positions are more tolerant towards mutations}
-%	\vfill%
-%	\centering%
-%	\input{tikz/presentation_score_dssp_rsa.tex}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{Mutation effect is not well discriminated by secondary structure}
-%	\vfill%
-%	\centering%
-%	\input{tikz/presentation_score_dssp_q3.tex}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{Features}
-%	I used only features that could be obtained from the sequence of the mutated proteins or from multiple sequence alignments.
-%	No structural features were used.
-%	\vfill%
-%	\centering%
-%	\begin{figure}
-%		\begin{tikzpicture}
-%			\tikzstyle{every node}=[object, font=\footnotesize]
-%			\node [object, text width=7em] (mut_id) {Mutation identity};
-%			\node [object, below=-.3em of mut_id, font=\tiny, text width=7em] (wt) {Wild-type residue};
-%			\node [object, below=-.3em of wt, font=\tiny, text width=7em] (mut) {Mutated residue};
-%			\node [object, right=2em of mut_id, text width=9em, yshift=3em] (ev_mut) {EVmutation predictions \parencite{Hopf2017}};
-%			\node [object, below=-.3em of ev_mut, font=\tiny, text width=9em] (epi) {Epistatic model};
-%			\node [object, below=-.3em of epi, font=\tiny, text width=9em] (ind) {Independent model};
-%			\node [object, below=-.3em of ind, font=\tiny, text width=9em] (cons) {Conservation};
-%			\node [object, below=-.3em of cons, font=\tiny, text width=9em] (freq) {Mutation frequency};
-%			\node [object, right=2em of ev_mut, text width=9em, yshift=-3em] (netsurf) {NetsurfP-2 predictions \parencite{Klausen2019}};
-%			\node [object, below=-.3em of netsurf, font=\tiny, text width=9em] (sec) {Secondary structure};
-%			\node [object, below=-.3em of sec, font=\tiny, text width=9em] (rsa) {Solvent accessibility};
-%			\node [object, below=-.3em of rsa, font=\tiny, text width=9em] (dis) {Disorder};
-%			\node [object, below=-.3em of dis, font=\tiny, text width=9em] (tors) {Torsion angles};
-%			\node [object, below=2em of mut.south east, text width=9em, xshift=-2em] (hmmer) {HMMER \parencite{Eddy2011} emission probabilities};
-%			\node [object, right=4em of hmmer, text width=8em, xshift=-3em, yshift=-1em, align=center] (trrosetta) {trRosetta predicted\\contacts\\\parencite{Yang2020}};
-%			\node [object, below=-.3em of trrosetta, font=\tiny, text width=8em] (met) {Centrality metrics};
-%		\end{tikzpicture}
-%	\end{figure}
-%\end{frame}
+
+\begin{frame}
+	\frametitle{Solvent-accessible positions are more tolerant towards mutations}
+	\vfill%
+	\centering%
+	\input{tikz/tikzdevice/presentation_score_dssp_rsa.tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Mutation effect is not well discriminated by secondary structure}
+	\vfill%
+	\centering%
+	\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Features}
+	I used only features that could be obtained from the sequence of the mutated proteins or from multiple sequence alignments.
+	No structural features were used.
+	\vfill%
+	\centering%
+	\begin{figure}
+		\input{tikz/features.tex}
+	\end{figure}
+\end{frame}
 %
 %\begin{frame}
 %	\frametitle{Single protein models}

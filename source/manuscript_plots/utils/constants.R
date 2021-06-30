@@ -243,10 +243,3 @@ latex_y_safe <- scale_y_discrete(
   labels = rev(dms_dataset_labels),
   limits = rev
 )
-
-linear_regression_line <- geom_smooth(
-  method = "lm",
-  formula = y ~ x,
-  color = okabe[5],
-  se = FALSE
-)

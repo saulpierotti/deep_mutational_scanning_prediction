@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  30 JUN 2021 17:43
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  30 JUN 2021 21:08
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1731,7 +1731,16 @@ Missing character: There is no ; (U+003B) in font nullfont!
 ]
 (./tikz/tikzdevice/presentation_mutation_identity.tex) [9
 
-<./presentation_mutation_identity_ras1.png>]
+<./presentation_mutation_identity_ras1.png>] (./tikz/tikzdevice/presentation_sc
+ore_dssp_rsa.tex)
+[10
+
+] (./tikz/tikzdevice/presentation_score_dssp_q3.tex) [11
+
+]
+(./tikz/features.tex) [12
+
+]
 \tf@nav=\write7
 
 \openout7 = main.nav
@@ -1750,17 +1759,24 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41675 strings out of 478531
- 5555389,5906145 words of node,token memory allocated
- 2720095 words of node memory still in use:
-   374 hlist, 9 vlist, 6 rule, 33 disc, 4 local_par, 1 dir, 44142 glue, 27 kern,
- 14 penalty, 2 margin_kern, 404 glyph, 563492 attribute, 76 glue_spec, 281748 at
-tribute_list, 4 write, 237603 pdf_literal, 112 pdf_colorstack nodes
-   avail lists: 1:16,2:75739,3:475263,4:362,5:111,6:107,7:89415,8:25,9:919,10:14
-,11:117
- 59728 multiletter control sequences out of 65536+600000
+ 41836 strings out of 478531
+ 5555385,5906145 words of node,token memory allocated
+ 16415 words of node memory still in use:
+   197 hlist, 25 vlist, 5 rule, 48 disc, 22 local_par, 1 dir, 371 glue, 29 kern,
+ 42 penalty, 14 margin_kern, 537 glyph, 1622 attribute, 76 glue_spec, 813 attrib
+ute_list, 8 write, 472 pdf_literal, 4 pdf_start_link, 4 pdf_end_link, 4 pdf_acti
+on, 50 pdf_colorstack nodes
+   avail lists: 1:13,2:923756,3:712361,4:413,5:109,6:86,7:133059,8:21,9:1081,10:
+15,11:105
+ 59853 multiletter control sequences out of 65536+600000
  76 fonts using 9031559 bytes
  131i,15n,125p,736b,2893s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@Yang2020'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@Eddy2011'
+
+warning  (pdf backend): unreferenced destination with name 'cite.0@Klausen2019'
 
 warning  (pdf backend): unreferenced destination with name 'cite.0@Sim2012'
 
@@ -1792,10 +1808,10 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist
 lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on main.pdf (9 pages, 213555 bytes).
+Output written on main.pdf (12 pages, 274429 bytes).
 
-PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 131072)
+PDF statistics: 203 PDF objects out of 1000 (max. 8388607)
+ 153 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

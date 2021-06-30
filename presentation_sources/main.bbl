@@ -152,6 +152,53 @@
       \verb 10.1038/nrg1672
       \endverb
     \endentry
+    \entry{Eddy2011}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5947569a3edff4e41b4b23548dc4b505}{%
+           family={Eddy},
+           familyi={E\bibinitperiod},
+           given={Sean\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=809e5833cf9c50b5076469c6bf9a828b}{%
+           family={Pearson},
+           familyi={P\bibinitperiod},
+           given={William\bibnamedelima R.},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science (PLoS)}%
+      }
+      \strng{namehash}{5947569a3edff4e41b4b23548dc4b505}
+      \strng{fullhash}{5947569a3edff4e41b4b23548dc4b505}
+      \strng{bibnamehash}{5947569a3edff4e41b4b23548dc4b505}
+      \strng{authorbibnamehash}{5947569a3edff4e41b4b23548dc4b505}
+      \strng{authornamehash}{5947569a3edff4e41b4b23548dc4b505}
+      \strng{authorfullhash}{5947569a3edff4e41b4b23548dc4b505}
+      \strng{editorbibnamehash}{809e5833cf9c50b5076469c6bf9a828b}
+      \strng{editornamehash}{809e5833cf9c50b5076469c6bf9a828b}
+      \strng{editorfullhash}{809e5833cf9c50b5076469c6bf9a828b}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Accelerated Profile {HMM} Searches}
+      \field{volume}{7}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{pages}{e1002195}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1002195
+      \endverb
+    \endentry
     \entry{Gray2018}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=eee7ad1c7831954ffc13c3ba0e38d91e}{%
@@ -341,6 +388,106 @@
       \verb :Hopf2017 - Mutation Effects Predicted from Sequence Co Variation.pdf:PDF
       \endverb
     \endentry
+    \entry{Klausen2019}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=022ceae25e0c887e89ab695d7d65a92f}{%
+           family={Klausen},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima Schantz},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd0c15772c242fbc007a50f97026db11}{%
+           family={Jespersen},
+           familyi={J\bibinitperiod},
+           given={Martin\bibnamedelima Closter},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6588e029b024b66dac73bfe93e7fd35}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5276341aebe20abe684981247b0fc578}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Kamilla\bibnamedelima Kjærgaard},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=284df64a9645bf632e40614c7fbfdb29}{%
+           family={Jurtz},
+           familyi={J\bibinitperiod},
+           given={Vanessa\bibnamedelima Isabell},
+           giveni={V\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e7df87be71d102c3f4aebc5c0c69617}{%
+           family={Sønderby},
+           familyi={S\bibinitperiod},
+           given={Casper\bibnamedelima Kaae},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0302e32535bd324eb81532688f34bdfc}{%
+           family={Sommer},
+           familyi={S\bibinitperiod},
+           given={Morten\bibnamedelimb Otto\bibnamedelima Alexander},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7862b9aae6d622aee37d7b62ba9450e7}{%
+           family={Winther},
+           familyi={W\bibinitperiod},
+           given={Ole},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=adf6cfe18e95cd8474753c810413ea34}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Morten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=557a963b8ff809b2e7827292e2b781c1}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Bent},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5219e58579aeba3ad4f83712e16cba61}{%
+           family={Marcatili},
+           familyi={M\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{b8d28433c6798994e559bd85a5406591}
+      \strng{fullhash}{0b72d04495336f164efb83424747d8c1}
+      \strng{bibnamehash}{b8d28433c6798994e559bd85a5406591}
+      \strng{authorbibnamehash}{b8d28433c6798994e559bd85a5406591}
+      \strng{authornamehash}{b8d28433c6798994e559bd85a5406591}
+      \strng{authorfullhash}{0b72d04495336f164efb83424747d8c1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proteins: Structure, Function, and Bioinformatics}
+      \field{month}{3}
+      \field{number}{6}
+      \field{title}{{NetSurfP}-2.0: Improved prediction of protein structural features by integrated deep learning}
+      \field{volume}{87}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{520\bibrangedash 527}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/prot.25674
+      \endverb
+      \verb{file}
+      \verb :/home/saul/Downloads/Klausen2019 - NetSurfP 2.0_ Improved Prediction of Protein Structural Features by Integrated Deep Learning.pdf:PDF
+      \endverb
+    \endentry
     \entry{Riesselman2018}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=8bb2f5dc75a17ab675630e930374a9de}{%
@@ -517,6 +664,76 @@
       \endverb
       \verb{file}
       \verb :Sim2012 - SIFT Web Server_ Predicting Effects of Amino Acid Substitutions on Proteins.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Yang2020}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=382479cb8879c413d413cc0d65c513e6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jianyi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e40e89ef82f2c487a545745f6793dae}{%
+           family={Anishchenko},
+           familyi={A\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21a77b992a26375ceca5b371bb6c98b8}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hahnbeom},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f3bdc7df88b7e821e1f398128ca0796}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Zhenling},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0a238b32f9d6e3c272b8b83f8778a97}{%
+           family={Ovchinnikov},
+           familyi={O\bibinitperiod},
+           given={Sergey},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db711af07f28528a9ee5cf2922c529a3}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Proceedings of the National Academy of Sciences}%
+      }
+      \strng{namehash}{2a370f297e2c905c67d9f3acea8245a9}
+      \strng{fullhash}{75492bb00badc6d21b4337fdf545da16}
+      \strng{bibnamehash}{2a370f297e2c905c67d9f3acea8245a9}
+      \strng{authorbibnamehash}{2a370f297e2c905c67d9f3acea8245a9}
+      \strng{authornamehash}{2a370f297e2c905c67d9f3acea8245a9}
+      \strng{authorfullhash}{75492bb00badc6d21b4337fdf545da16}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{Improved protein structure prediction using predicted interresidue orientations}
+      \field{volume}{117}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{1496\bibrangedash 1503}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1073/pnas.1914677117
+      \endverb
+      \verb{file}
+      \verb :Yang2020 - Improved Protein Structure Prediction Using Predicted Interresidue Orientations.pdf:PDF
       \endverb
     \endentry
   \enddatalist

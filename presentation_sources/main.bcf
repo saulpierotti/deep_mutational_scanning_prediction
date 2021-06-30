@@ -2355,6 +2355,10 @@
     <bcf:citekey order="8">Hopf2017</bcf:citekey>
     <bcf:citekey order="9">Sim2012</bcf:citekey>
     <bcf:citekey order="10">Gray2018</bcf:citekey>
+    <bcf:citekey order="11">Hopf2017</bcf:citekey>
+    <bcf:citekey order="12">Klausen2019</bcf:citekey>
+    <bcf:citekey order="13">Eddy2011</bcf:citekey>
+    <bcf:citekey order="14">Yang2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
