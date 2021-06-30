@@ -159,6 +159,7 @@ okabe <-
     "#D55E00",
     "#CC79A7"
   )
+bologna_red <- "#bb2e29"
 boxplot_gray <- "gray15"
 barplot_gray <- "gray30"
 text_size <- 7 # for plots

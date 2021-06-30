@@ -88,51 +88,27 @@
 %		\item Machine learning or simple statistical models
 %	\end{itemize}
 %\end{frame}
-%
-%\begin{frame}
-%	\frametitle{Variant effect predictors}
-%	\begin{figure}
-%		\begin{tikzpicture}
-%			\tikzstyle{every node}=[object, font=\footnotesize]
-%			\tikzstyle{edge from parent}=[draw, color=bologna_red]
-%			\node {Variant effect predictors}[sibling distance=16em, level distance=3em]
-%			child {node{Supervised}[sibling distance=8em, level distance=3em]
-%					child {node {Statistical model}
-%							child {node [align=left, yshift=-4.5em]{Poly-Phen2\\\parencite{Adzhubei2010}}}}
-%					child {node {Machine learning}
-%							child {node[align=left, yshift=-1em] {%
-%											SNAP2 \parencite{Hecht2015}\\
-%											Envision \parencite{Gray2018}
-%										}}}
-%				}
-%			child {node {Unsupervised}[sibling distance=8em, level distance=3em]
-%					child {node {Machine learning}
-%							child {node [align=left, yshift=-4.5em]{DeepSequence\\\parencite{Riesselman2018}}}
-%						}
-%					child {node {Statistical model}
-%							child {node[align=left,yshift=-1em] {%
-%											EVmutation \parencite{Hopf2017}\\
-%											SIFT \parencite{Sim2012}
-%										}}
-%						}
-%				};
-%		\end{tikzpicture}
-%	\end{figure}
-%	\vfill%
-%	Envision, EVmutation, and DeepSequence provided quantitative predictions.
-%	Envision was trained on deep mutational scanning data while the others are either unsupervised or trained on SNP annotations.
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{Training data}
-%	I used the training dataset of Envision \parencite{Gray2018}, composed of nine independent experiments on eight different proteins.
-%	The distribution of fitness scores is bimodal and very variable across datasets.
-%
-%	\vfill%
-%	\centering%
-%	\input{tikz/presentation_fitness_score_distribution.tex}
-%	\input{tikz/presentation_datasets_abundancies.tex}
-%\end{frame}
+
+\begin{frame}
+	\frametitle{Variant effect predictors}
+	\begin{figure}
+		\input{tikz/variant_effect_predictors.tex}
+	\end{figure}
+	\vfill%
+	Envision, EVmutation, and DeepSequence provided quantitative predictions.
+	Envision was trained on deep mutational scanning data while the others are either unsupervised or trained on SNP annotations.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Training data}
+	I used the training dataset of Envision \parencite{Gray2018}, composed of nine independent experiments on eight different proteins.
+	The distribution of fitness scores is bimodal and very variable across datasets.
+	\vfill%
+	\centering%
+	% for some reason figure fails
+	\input{tikz/tikzdevice/presentation_fitness_score_distribution.tex}
+	\input{tikz/tikzdevice/presentation_datasets_abundancies.tex}
+\end{frame}
 %
 %\begin{frame}
 %	\frametitle{Poor correlation among experimental results}

@@ -30,17 +30,26 @@ curr_tb <- training_tb %>%
            (is_dms_id_outlier_lower | is_dms_id_outlier_upper)) %>%
   subset(select = c(score, dms_id, is_dms_id_outlier, aa1, aa2))
 
-plot <- ggplot(data = curr_tb,
-               mapping = aes(x = score, y = dms_id)) +
+base_plot <- ggplot(data = curr_tb,
+                    mapping = aes(x = score, y = dms_id)) +
   geom_boxplot(outlier.shape = NA) +
   geom_jitter(
     data = curr_tb %>% filter(is_dms_id_outlier),
-    color = boxplot_gray,
+    mapping =  aes(color=boxplot_gray),
     alpha = 0.2,
     shape = 4,
     height = 0.1,
     width = 0
   ) +
+  theme_minimal_vgrid(text_size) +
+  x_axis_theme +
+  ylab(NULL) +
+  xlab("Scaled fitness score") +
+  latex_y_safe +
+  panel_border() +
+  xlim(c(-1.1, 0.31))
+
+plot <-   base_plot +
   geom_jitter(
     data = curr_tb %>% filter(aa1 == aa2),
     mapping = aes(color = okabe[1]),
@@ -52,60 +61,84 @@ plot <- ggplot(data = curr_tb,
   scale_color_manual(
     name = NULL,
     labels = NULL,
-    values = okabe[1],
+    values = c(okabe[1], "black"),
     guide = NULL
   ) +
-  theme_minimal_vgrid(text_size) +
-  theme(legend.position = "none") +
-  x_axis_theme +
-  ylab(NULL) +
-  xlab("Scaled fitness score") +
-  latex_y_safe +
-  panel_border() +
-  xlim(c(-1.1, 0.31))
+  theme(legend.position = "none")
 
-print(plot)
+presentation_plot <- base_plot +
+  geom_jitter(
+    data = curr_tb %>% filter(aa1 == aa2),
+    mapping = aes(color = bologna_red),
+    shape = 4,
+    alpha = 0.2,
+    height = 0.1,
+    width = 0
+  ) +
+  scale_color_manual(
+    name = "Mutation Type",
+    labels = c("Synonimous", "Missense"),
+    values = c(bologna_red, "black")
+    ) +
+  guides(colour = guide_legend(override.aes = list(alpha = 1))) +
+  theme(legend.position = "top")
+
+#print(plot)
+print(presentation_plot)
+
 # create_tikz(plot,
 #             "fitness_score_distribution.tex",
 #             2,
 #             latex_textwidth * 0.7)
 
-# create_tikz(plot,
-#             "presentation_fitness_score_distribution.tex",
-#             latex_beamer_height*0.5,
-#             latex_beamer_width*0.65)
+create_tikz(
+  presentation_plot,
+  "presentation_fitness_score_distribution.tex",
+  latex_beamer_height * 0.6,
+  latex_beamer_width * 0.65
+)
 ```
 
 ## Dataset abundancies
 
 ```{r datasets abundancies, dev="tikz", results="hide"}
-plot <-
+base_plot <-
   ggplot(data = training_tb, mapping = aes(y = dms_id, fill = (aa1 == aa2))) +
   geom_bar() +
   xlab("Number of mutations (K)") +
   ylab(NULL) +
-  scale_fill_manual(
-    values = c(barplot_gray, okabe),
-    name = "Mutation type",
-    labels = c("Missense", "Synonymous")
-  ) +
   scale_x_continuous(expand = c(0, 0),
                      labels = label_number(scale = 1 / 1000, accuracy = 1)) +
   theme_minimal_vgrid(text_size) +
   x_axis_theme +
   latex_y_safe + # this is needed to reverse the axis like the one of the previous plot
-  theme(legend.position = "none") +
   theme(axis.text.y = element_blank(), axis.ticks.y = element_blank()) +
   panel_border()
 
-print(plot)
+plot <- base_plot +
+  scale_fill_manual(
+    values = c(barplot_gray, okabe),
+    name = "Mutation type",
+    labels = c("Missense", "Synonymous")
+  ) +
+  theme(legend.position = "none")
+
+presentation_plot <- base_plot +
+    scale_fill_manual(
+    values = c(bologna_red, barplot_gray),
+    name = NULL,
+    labels = c("Synonymous", "Missense")
+  ) +
+  theme(legend.position = "top")
+
+print(presentation_plot)
 
 #create_tikz(plot, "datasets_abundancies.tex", 2, latex_textwidth * 0.3)
 
-# create_tikz(plot,
-#             "presentation_datasets_abundancies.tex",
-#             latex_beamer_height*0.5,
-#             latex_beamer_width*0.3)
+create_tikz(presentation_plot,
+            "presentation_datasets_abundancies.tex",
+            latex_beamer_height*0.6,
+            latex_beamer_width*0.3)
 ```
 
 ## Datasets correlations

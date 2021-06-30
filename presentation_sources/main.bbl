@@ -19,6 +19,89 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Adzhubei2010}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=05b64ededc26c802346583616088bf6b}{%
+           family={Adzhubei},
+           familyi={A\bibinitperiod},
+           given={Ivan\bibnamedelima A.},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bbe36ce592f6fdfe1da86e88347c3d0}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=008d7d08a0b64fa01ce162b328d814d5}{%
+           family={Peshkin},
+           familyi={P\bibinitperiod},
+           given={Leonid},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28d42ac331e5367d4ec81fadb4655325}{%
+           family={Ramensky},
+           familyi={R\bibinitperiod},
+           given={Vasily\bibnamedelima E.},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddb33c34451cdb9fe410595d5d3f182c}{%
+           family={Gerasimova},
+           familyi={G\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e661978528e2df38a8c66036d9e7c3a2}{%
+           family={Bork},
+           familyi={B\bibinitperiod},
+           given={Peer},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99da5555a8bec8e9dbed85b9d6208f44}{%
+           family={Kondrashov},
+           familyi={K\bibinitperiod},
+           given={Alexey\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5907ea76de19000217001345c497376}{%
+           family={Sunyaev},
+           familyi={S\bibinitperiod},
+           given={Shamil\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{03f8d632763cbf8d60877c67c0e71b72}
+      \strng{fullhash}{c7a15ed36dbea3ef663922a55dc359dc}
+      \strng{bibnamehash}{03f8d632763cbf8d60877c67c0e71b72}
+      \strng{authorbibnamehash}{03f8d632763cbf8d60877c67c0e71b72}
+      \strng{authornamehash}{03f8d632763cbf8d60877c67c0e71b72}
+      \strng{authorfullhash}{c7a15ed36dbea3ef663922a55dc359dc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{A method and server for predicting damaging missense mutations}
+      \field{volume}{7}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{pages}{248\bibrangedash 249}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1038/nmeth0410-248
+      \endverb
+      \verb{file}
+      \verb :/home/saul/Downloads/Adzhubei2010 - A Method and Server for Predicting Damaging Missense Mutations.pdf:PDF;:nmeth0410-248-s1.pdf:PDF
+      \endverb
+    \endentry
     \entry{DePristo2005}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a7ce1d2bf17f8517d6f394471447a37a}{%
@@ -67,6 +150,248 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1038/nrg1672
+      \endverb
+    \endentry
+    \entry{Gray2018}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=eee7ad1c7831954ffc13c3ba0e38d91e}{%
+           family={Gray},
+           familyi={G\bibinitperiod},
+           given={Vanessa\bibnamedelima E.},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3b472e8be43bdf40be4d0d5f6a285a5}{%
+           family={Hause},
+           familyi={H\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=270f9f979cef77596f0dff738f0e877c}{%
+           family={Luebeck},
+           familyi={L\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a50df52643f6bba00616c104eda3653}{%
+           family={Shendure},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=418753c26312ff218a1ebcd3c6f6e351}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Douglas\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{8143675e3080cf307fb5740c755220c4}
+      \strng{fullhash}{5289392f916616ed817b92003dc013c7}
+      \strng{bibnamehash}{8143675e3080cf307fb5740c755220c4}
+      \strng{authorbibnamehash}{8143675e3080cf307fb5740c755220c4}
+      \strng{authornamehash}{8143675e3080cf307fb5740c755220c4}
+      \strng{authorfullhash}{5289392f916616ed817b92003dc013c7}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell Systems}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Quantitative Missense Variant Effect Prediction Using Large-Scale Mutagenesis Data}
+      \field{volume}{6}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{116\bibrangedash 124.e3}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cels.2017.11.003
+      \endverb
+      \verb{file}
+      \verb :Gray2018 - Quantitative Missense Variant Effect Prediction Using Large Scale Mutagenesis Data.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Hecht2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9fb06c57efda051c5cd6828ac09fe612}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c50829b1808f5ed930dab6988d728034}{%
+           family={Bromberg},
+           familyi={B\bibinitperiod},
+           given={Yana},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66106370d9aa16054179da646f7df55c}{%
+           family={Rost},
+           familyi={R\bibinitperiod},
+           given={Burkhard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{967f3775171e110f1618fb29407286cd}
+      \strng{fullhash}{3b5accdad4e41dbefce2b933df6c8862}
+      \strng{bibnamehash}{3b5accdad4e41dbefce2b933df6c8862}
+      \strng{authorbibnamehash}{3b5accdad4e41dbefce2b933df6c8862}
+      \strng{authornamehash}{967f3775171e110f1618fb29407286cd}
+      \strng{authorfullhash}{3b5accdad4e41dbefce2b933df6c8862}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Genomics}
+      \field{month}{6}
+      \field{number}{S8}
+      \field{title}{Better prediction of functional effects for sequence variants}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1186/1471-2164-16-s8-s1
+      \endverb
+    \endentry
+    \entry{Hopf2017}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=fda8558fce763504066407061e7eb075}{%
+           family={Hopf},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25c24dfc6fa6c97eeba09ecd4bda907d}{%
+           family={Ingraham},
+           familyi={I\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=912075a11d2e4b177eda38f4bf69bcb8}{%
+           family={Poelwijk},
+           familyi={P\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9977baa86e5fe5785164162335486deb}{%
+           family={Schärfe},
+           familyi={S\bibinitperiod},
+           given={Charlotta},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=815a4615f6bacf492d2e7fbc25c32673}{%
+           family={Springer},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f99a580afe584be129acd1f9193dc0cd}{%
+           family={Sander},
+           familyi={S\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff01797c990c10bb461fb68fd6c42bb4}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Debora},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{e19e4112a868121801933ed8baa1cd56}
+      \strng{fullhash}{b3ac39c291d37ea25feebbb958abf514}
+      \strng{bibnamehash}{e19e4112a868121801933ed8baa1cd56}
+      \strng{authorbibnamehash}{e19e4112a868121801933ed8baa1cd56}
+      \strng{authornamehash}{e19e4112a868121801933ed8baa1cd56}
+      \strng{authorfullhash}{b3ac39c291d37ea25feebbb958abf514}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Mutation effects predicted from sequence co-variation}
+      \field{volume}{35}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{128\bibrangedash 135}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/nbt.3769
+      \endverb
+      \verb{file}
+      \verb :Hopf2017 - Mutation Effects Predicted from Sequence Co Variation.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Riesselman2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8bb2f5dc75a17ab675630e930374a9de}{%
+           family={Riesselman},
+           familyi={R\bibinitperiod},
+           given={Adam\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8395a8d7cc1942ac54febd172e09b008}{%
+           family={Ingraham},
+           familyi={I\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddc4fd4e6fe0ba356b30484c4db1caa2}{%
+           family={Marks},
+           familyi={M\bibinitperiod},
+           given={Debora\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{bfdc5c96efe92038cbdf561ffcd1bdaf}
+      \strng{fullhash}{d69ba4bbae92f428c21ec3a98ca03696}
+      \strng{bibnamehash}{d69ba4bbae92f428c21ec3a98ca03696}
+      \strng{authorbibnamehash}{d69ba4bbae92f428c21ec3a98ca03696}
+      \strng{authornamehash}{bfdc5c96efe92038cbdf561ffcd1bdaf}
+      \strng{authorfullhash}{d69ba4bbae92f428c21ec3a98ca03696}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{9}
+      \field{number}{10}
+      \field{title}{Deep generative models of genetic variation capture the effects of mutations}
+      \field{volume}{15}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{816\bibrangedash 822}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1038/s41592-018-0138-4
+      \endverb
+      \verb{file}
+      \verb :Riesselman2018 - Deep Generative Models of Genetic Variation Capture the Effects of Mutations.pdf:PDF
       \endverb
     \endentry
     \entry{Savojardo2021}{article}{}
@@ -122,6 +447,76 @@
       \endverb
       \verb{file}
       \verb :Savojardo2021 - Solvent Accessibility of Residues Undergoing Pathogenic Variations in Humans_ from Protein Structures to Protein Sequences.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Sim2012}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f938f3d6e01367fd7b8fc5861bd573f1}{%
+           family={Sim},
+           familyi={S\bibinitperiod},
+           given={Ngak-leng},
+           giveni={N\bibinithyphendelim l\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af57f8887956a80497e91bfc302db6a3}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Prateek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b14b65883cab79a18b6071512db4b88}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=655a0d95ff8b3f41ffc65b3426fef81a}{%
+           family={Henikoff},
+           familyi={H\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=763508d9906871518448a1ccd8be3279}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3bcd334a1f9350e00f784af7482683}{%
+           family={Ng},
+           familyi={N\bibinitperiod},
+           given={Pauline\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press (OUP)}%
+      }
+      \strng{namehash}{a9c9f900fe44f1e4e2112555d345b832}
+      \strng{fullhash}{db614603350b098736df1c78bfced0b1}
+      \strng{bibnamehash}{a9c9f900fe44f1e4e2112555d345b832}
+      \strng{authorbibnamehash}{a9c9f900fe44f1e4e2112555d345b832}
+      \strng{authornamehash}{a9c9f900fe44f1e4e2112555d345b832}
+      \strng{authorfullhash}{db614603350b098736df1c78bfced0b1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{6}
+      \field{number}{W1}
+      \field{title}{{SIFT} web server: predicting effects of amino acid substitutions on proteins}
+      \field{volume}{40}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{pages}{W452\bibrangedash W457}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gks539
+      \endverb
+      \verb{file}
+      \verb :Sim2012 - SIFT Web Server_ Predicting Effects of Amino Acid Substitutions on Proteins.pdf:PDF
       \endverb
     \endentry
   \enddatalist

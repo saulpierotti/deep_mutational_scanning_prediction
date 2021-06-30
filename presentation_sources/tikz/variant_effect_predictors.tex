@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+	\tikzstyle{every node}=[object, text width=6em]
+	\tikzstyle{edge from parent}=[draw, color=primary_inverse_fg]
+	\node {Variant effect predictors}[sibling distance=16em, level distance=3em]
+	child {node{Supervised}[sibling distance=8em, level distance=3em]
+			child {node {Statistical model}
+					child {node [align=left, yshift=-5em, anchor=south]{Poly-Phen2\\\parencite{Adzhubei2010}}}}
+			child {node {Machine learning}
+					child {node[align=left, yshift=-5em, anchor=south] {%
+									SNAP2 \parencite{Hecht2015}\\
+									Envision \parencite{Gray2018}
+								}}}
+		}
+	child {node {Unsupervised}[sibling distance=8em, level distance=3em]
+			child {node {Machine learning}
+					child {node [align=left, yshift=-5em, anchor=south]{DeepSequence\\\parencite{Riesselman2018}}}
+				}
+			child {node {Statistical model}
+					child {node[align=left,yshift=-5em, anchor=south] {%
+									EVmutation \parencite{Hopf2017}\\
+									SIFT \parencite{Sim2012}
+								}}
+				}
+		};
+\end{tikzpicture}%

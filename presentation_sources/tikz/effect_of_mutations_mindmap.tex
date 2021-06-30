@@ -1,11 +1,12 @@
 \begin{tikzpicture}
 	\begin{scope}[mindmap,
-			concept color=primary_inverse_dark_bg,
+			concept color=primary_inverse_fg,
 			text=primary_inverse_fg,
 			root concept/.append style={concept, font=\small, text width=5em},
 			level 1/.append style={sibling angle=70, level distance=13em, clockwise from=10, font=\footnotesize},
 			level 2/.append style={sibling angle=50, level distance=10em, font=\footnotesize},
 		]
+		\tikzset{concept/.append style={fill=primary_inverse_bg}};
 		\node [root concept] {Single aminoacid mutations}[clockwise from=-5]
 		child {node [concept] {Mostly affect stability \parencite{DePristo2005}}
 				child {node [concept, text width=6em] {$\Delta \Delta G$ of similar magnitude to folding $\Delta G$ \parencite{DePristo2005}}}
