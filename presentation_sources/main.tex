@@ -46,59 +46,28 @@
 	\frametitle{Single aminoacid variants}
 	In this work I focused exclusively on point missense mutations.
 	Nonsense mutations, indels, and mutations in non-coding regions were not considered.
-
-	\vfill
+	\vfill%
 	\begin{figure}
 		\input{tikz/mutation_illustration.tex}
 	\end{figure}
 \end{frame}
-%
-%\begin{frame}
-%	\frametitle{Effect of single aminoacid mutations in proteins}
-%	\begin{figure}
-%		\begin{tikzpicture}
-%			\begin{scope}[mindmap, concept color=bologna_red!30, text=bologna_red,
-%					root concept/.append style={concept, font=\small, text width=5em},
-%					level 1/.append style={sibling angle=70, level distance=13em, clockwise from=10, font=\footnotesize},
-%					level 2/.append style={sibling angle=50, level distance=10em, font=\footnotesize},
-%				]
-%				\node [root concept] {Single aminoacid mutations}[clockwise from=-5]
-%				child {node [concept] {Mostly affect stability \parencite{DePristo2005}}
-%						child {node [concept, text width=6em] {$\Delta \Delta G$ of similar magnitude to folding $\Delta G$ \parencite{DePristo2005}}}
-%						child {node [concept] (core) {More destabilizing in the protein core \parencite{Savojardo2021}}}
-%					}
-%				child {node [concept] (func) {Affect function if on catalytic residues}};
-%			\end{scope}
-%
-%			\node [below= 3em of core, font=\footnotesize, text=black, text width=7em, align=center] (rsa) {Solvent accessibility is a good predictor of mutation effect};
-%			\draw [->, shorten <= 1ex] (core) -- (rsa);
-%
-%		\end{tikzpicture}
-%	\end{figure}
-%\end{frame}
-%
-%\begin{frame}
-%	\frametitle{Deep mutational scanning}
-%	High-throughput technique for obtaining fitness information on a large number of mutations.
-%	\vfill%
-%	\begin{tikzpicture}
-%		\tikzstyle{every node}=[object, font=\footnotesize]
-%		\node[object, text width=7em] (a) {Mutant library generation};
-%		\node[object, below right=3em and -.5em of a, text width=12em] (b) {Fitness selection};
-%		\node[object, below=-.3em of b, text width=12em] (c) {Sequencing of selected library};
-%		\node[object, left=8em of c] (d) {Sequencing of unselected library};
-%		\node[object, below=10em of a, align=center] (e) {%
-%			Calculation of fitness scores\\
-%			\vspace{0em}\\
-%			$\log{\frac{mut_a/mut_b}{wt_a/wt_b}}$
-%		};
-%		\draw [->, color=bologna_red] (a) -| (b);
-%		\draw [->, color=bologna_red] (a) -| (d);
-%		\draw [->, color=bologna_red] (c) -| (e);
-%		\draw [->, color=bologna_red] (d) -| (e);
-%	\end{tikzpicture}
-%\end{frame}
-%
+
+\begin{frame}
+	\frametitle{Effect of single aminoacid mutations in proteins}
+	\begin{figure}
+		\input{tikz/effect_of_mutations_mindmap.tex}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Deep mutational scanning}
+	High-throughput technique for obtaining fitness information on a large number of mutations.
+	\vfill%
+	\begin{figure}
+		\input{tikz/dms_workflow.tex}
+	\end{figure}
+\end{frame}
+
 %\begin{frame}
 %	\frametitle{Variant effect prediction}
 %	Complete experimental coverage of the human proteome mutational landscape is not currently in reach, and it is a distant goal for model organisms.
