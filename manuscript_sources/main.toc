@@ -103,17 +103,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.7}Evolutionary couplings}{38}{subsection.3.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.8}Connectivity graphs}{38}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.8}Connectivity graphs}{39}{subsection.3.2.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.9}Missing features}{39}{subsection.3.2.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Correlation among features}{40}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Correlation among features}{39}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Comparison of model testing strategies}{42}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Comparison of model testing strategies}{41}{section.3.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Comparison of different model architectures with previous predictors}{45}{section.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Gradient boosted tree optimization}{46}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Gradient boosted tree optimization}{48}{section.3.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Feature importance}{48}{section.3.7}%
 \defcounter {refsection}{0}\relax 

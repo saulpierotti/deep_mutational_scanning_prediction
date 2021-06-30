@@ -799,3 +799,27 @@ get_corr_bootstrap <- function(test_tb,
     print(curr_ci)
   }
 }
+
+get_mutation_identity_plot <- function(training_tb) {
+  mutation_identity_tb <- training_tb %>%
+    group_by(aa1, aa2, .drop = FALSE) %>%
+    summarise(score = mean(score), dssp_rsa) %>%
+    ungroup()
+  max_abs_score <- max(abs(mutation_identity_tb$score))
+  color_range <- c(-max_abs_score, max_abs_score)
+  plot <- ggplot(data = mutation_identity_tb) +
+    geom_tile(aes(x = aa1, y = aa2, fill = score)) +
+    theme_minimal(text_size) +
+    scale_fill_distiller(
+      palette = "Spectral",
+      limits = color_range,
+      name = "Average scaled fitness score"
+    ) +
+    xlab("Mutation from") +
+    ylab("Mutation towards") +
+    labs(fill = NULL) +
+    x_axis_theme +
+    y_axis_theme +
+    theme(legend.position = "bottom")
+  return(plot)
+}

@@ -14,9 +14,6 @@ As described in \cref{sec:mm_feature_importance} collinearity can lead to undere
 The same reasoning applies also to the identity of the wild-type residue, which appeared to be non-critical for predictions.
 In general, structural properties and information on mutational patterns obtained from multiple sequence alignments seem to be superior features for predicting the effect of mutations than the identity of the mutation itself.
 
-In the exploratory phase of the project, it was observed how mutations from polar residues tend to be less damaging than mutations from apolar residues, in a manner that is independent of the solvent accessibility of the mutated residue.
-It would be interesting to validate this trend further, for example using mutation data from other deep mutational scanning studies and other experimental sources.
-
 The results of my work suggest also that simple models, such as linear regression, can reach comparable performances to those obtained by more complex architectures such as gradient boosted trees.
 What is more, unsupervised models perform comparatively very well, rivalling and in some instances even exceeding the results of supervised models.
 However, it is important to notice that some of those unsupervised models such as DeepSequence \parencite{Riesselman2018} do so at the cost of training protein-specific deep neural network models.

@@ -81,7 +81,8 @@ presentation_plot <- base_plot +
     values = c(bologna_red, "black")
     ) +
   guides(colour = guide_legend(override.aes = list(alpha = 1))) +
-  theme(legend.position = "top")
+  theme(legend.position = "top") +
+  guides(color = guide_legend(reverse = TRUE))
 
 #print(plot)
 print(presentation_plot)
@@ -125,9 +126,9 @@ plot <- base_plot +
 
 presentation_plot <- base_plot +
     scale_fill_manual(
-    values = c(bologna_red, barplot_gray),
+    values = c(barplot_gray, bologna_red),
     name = NULL,
-    labels = c("Synonymous", "Missense")
+    labels = c("Missense", "Synonymous")
   ) +
   theme(legend.position = "top")
 
@@ -150,16 +151,11 @@ curr_tb <- training_tb %>%
   select(Ubiquitin, E1_Ubiquitin, aa1, aa2) %>%
   drop_na()
 
-plot <- ggplot(mapping = aes(x = Ubiquitin, y = E1_Ubiquitin)) +
+base_plot <- ggplot(mapping = aes(x = Ubiquitin, y = E1_Ubiquitin)) +
   geom_point(
     data = filter(curr_tb, aa1 != aa2),
     mapping = aes(color = "gray15"),
     alpha = 0.5,
-    shape = 4
-  ) +
-  geom_point(
-    data = filter(curr_tb, aa1 == aa2),
-    mapping = aes(color = okabe[1]),
     shape = 4
   ) +
   ylab("E1\\_Ubiquitin score") +
@@ -192,19 +188,33 @@ plot <- ggplot(mapping = aes(x = Ubiquitin, y = E1_Ubiquitin)) +
   theme_cowplot(text_size) +
   guides(colour = guide_legend(override.aes = list(alpha = 1, stroke = 1))) +
   x_axis_theme +
-  y_axis_theme +
+  y_axis_theme
+
+plot <- base_plot +
+  geom_point(
+    data = filter(curr_tb, aa1 == aa2),
+    mapping = aes(color = okabe[1]),
+    shape = 4
+  ) +
   theme(legend.position = "none")
 
-print(plot)
+presentation_plot <- base_plot +
+  geom_point(
+    data = filter(curr_tb, aa1 == aa2),
+    mapping = aes(color = bologna_red),
+    shape = 4
+  )
+  
+print(presentation_plot)
 
 #create_tikz(plot, "datasets_correlations.tex", 2, latex_textwidth * 0.45)
 
-# create_tikz(
-#   plot,
-#   "presentation_datasets_correlations.tex",
-#   latex_beamer_height * 0.7,
-#   latex_beamer_width*0.9
-# )
+create_tikz(
+  presentation_plot,
+  "presentation_datasets_correlations.tex",
+  latex_beamer_height * 0.7,
+  latex_beamer_width*0.9
+)
 ```
 
 ## aa1 proportions

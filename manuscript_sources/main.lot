@@ -21,9 +21,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.3}{\ignorespaces Precision of trRosetta in predicting residue contacts}}{33}{table.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Number of mutations with missing features}}{39}{table.caption.9}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Number of mutations with missing features}}{41}{table.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Confidence intervals for the performances of the gradient boosted tree models}}{44}{table.caption.12}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Confidence intervals for the performances of the gradient boosted tree models}}{43}{table.caption.12}%
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.6}{\ignorespaces Significance of the performance differences for various quantitative predictors of single amino acid variant effect}}{47}{table.caption.14}%
 \defcounter {refsection}{0}\relax 

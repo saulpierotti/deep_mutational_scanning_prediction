@@ -19,25 +19,7 @@ This notebook is used to produce all the graphs and statistics shown in the feat
 ## Mutation identity
 
 ```{r mutation_identity, dev="tikz", results="hide"}
-curr_tb <- training_tb %>%
-  group_by(aa1, aa2, .drop = FALSE) %>%
-  summarise(score = mean(score), dssp_rsa) %>%
-  ungroup()
-
-max_abs_score <- max(abs(curr_tb$score))
-color_range <- c(-max_abs_score, max_abs_score)
-
-plot <- ggplot(data = curr_tb) +
-  geom_tile(aes(x=aa1, y=aa2, fill=score)) +
-  theme_minimal(text_size) +
-  scale_fill_distiller(palette = "Spectral", limits = color_range,
-                       name="Average scaled fitness score") +
-  xlab("Mutation from") +
-  ylab("Mutation towards") +
-  labs(fill = NULL) +
-  x_axis_theme +
-  y_axis_theme +
-  theme(legend.position = "bottom")
+plot <- get_mutation_identity_plot(training_tb)
 
 plot_presentation <- plot +
   theme(legend.position = "right")
@@ -52,13 +34,39 @@ print(plot_presentation)
 
 
 
-# create_tikz(plot_presentation,
-#             "presentation_mutation_identity.tex",
-#             latex_beamer_height*0.7,
-#             latex_beamer_width*0.9)
+# create_tikz(
+#   plot_presentation,
+#   "presentation_mutation_identity.tex",
+#   latex_beamer_height * 0.6,
+#   latex_beamer_width * 0.8
+# )
 ```
 
-```{r mutation_identity, dev="tikz", results="hide"}
+```{r mutation_identity exposed, dev="tikz", results="hide"}
+plot <- get_mutation_identity_plot(training_tb %>% filter(dssp_rsa > 0.15))
+
+plot_presentation <- plot +
+  theme(legend.position = "right")
+
+print(plot)
+print(plot_presentation)
+
+# create_tikz(plot,
+#             "mutation_identity.tex",
+#             3,
+#             latex_textwidth*0.45)
+
+
+
+# create_tikz(
+#   plot_presentation,
+#   "presentation_mutation_identity.tex",
+#   latex_beamer_height * 0.6,
+#   latex_beamer_width * 0.8
+# )
+```
+
+```{r blosum, dev="tikz", results="hide"}
 max_abs_score <- max(abs(blosum_tb$scaled_score))
 color_range <- c(-max_abs_score, max_abs_score)
 

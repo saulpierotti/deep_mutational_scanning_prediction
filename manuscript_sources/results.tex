@@ -238,7 +238,8 @@ No mutation type has an average positive effect.
 Synonymous mutations are, as expected, the least damaging ones.
 
 I reasoned that the striking difference in mean fitness score for mutations from polar and charged residue as compared to mutations from apolar residues could be due to the tendency of the formers to occupy positions at the protein surface.
-However, the same trend is present when the mutations are filtered for positions with relative solvent accessibility of less than \num{0.25} (data not shown).
+This hypothesis was confirmed by filtering the mutations according to the relative solvent accessibility of the position.
+The difference in fitness scores for mutations from polar and apolar residues disappears when only mutations with relative solvent accessibility greater than \num{0.15} or only mutations with relative solvent accessibility smaller than \num{0.15} are considered (data not shown).
 
 When the data is partitioned by dataset (\cref{sup:fig:mutation_identity_by_dataset}), the observed trends still generally hold.
 However, it can be noted that some datasets have more pronounced effects than others.

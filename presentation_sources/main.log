@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  30 JUN 2021 17:03
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  30 JUN 2021 17:43
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1726,6 +1726,12 @@ Missing character: There is no ; (U+003B) in font nullfont!
 (./tikz/tikzdevice/presentation_datasets_abundancies.tex) [7
 
 ]
+(./tikz/tikzdevice/presentation_datasets_correlations.tex) [8
+
+]
+(./tikz/tikzdevice/presentation_mutation_identity.tex) [9
+
+<./presentation_mutation_identity_ras1.png>]
 \tf@nav=\write7
 
 \openout7 = main.nav
@@ -1744,16 +1750,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41637 strings out of 478531
- 1165040,2373549 words of node,token memory allocated
- 521161 words of node memory still in use:
-   208 hlist, 9 vlist, 5 rule, 38 disc, 4 local_par, 1 dir, 9190 glue, 22 kern, 
-14 penalty, 1 margin_kern, 412 glyph, 106260 attribute, 76 glue_spec, 53132 attr
-ibute_list, 5 write, 43940 pdf_literal, 1 pdf_start_link, 1 pdf_end_link, 1 pdf_
-action, 66 pdf_colorstack nodes
-   avail lists: 1:15,2:2293,3:87941,4:361,5:116,6:106,7:19527,8:24,9:1080,10:14,
-11:112
- 59720 multiletter control sequences out of 65536+600000
+ 41675 strings out of 478531
+ 5555389,5906145 words of node,token memory allocated
+ 2720095 words of node memory still in use:
+   374 hlist, 9 vlist, 6 rule, 33 disc, 4 local_par, 1 dir, 44142 glue, 27 kern,
+ 14 penalty, 2 margin_kern, 404 glyph, 563492 attribute, 76 glue_spec, 281748 at
+tribute_list, 4 write, 237603 pdf_literal, 112 pdf_colorstack nodes
+   avail lists: 1:16,2:75739,3:475263,4:362,5:111,6:107,7:89415,8:25,9:919,10:14
+,11:117
+ 59728 multiletter control sequences out of 65536+600000
  76 fonts using 9031559 bytes
  131i,15n,125p,736b,2893s stack positions out of 5000i,500n,10000p,200000b,80000s
 
@@ -1781,15 +1786,16 @@ xmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/texmf-dist/fo
 nts/opentype/public/lm/lmsans10-regular.otf></usr/share/texmf-dist/fonts/opentyp
 e/public/lm/lmsans8-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/
 lmsans9-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans12-reg
-ular.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb>
-Output written on main.pdf (7 pages, 136796 bytes).
+ular.otf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on main.pdf (9 pages, 213555 bytes).
 
-PDF statistics: 147 PDF objects out of 1000 (max. 8388607)
- 106 compressed objects within 2 object streams
- 23 named destinations out of 1000 (max. 131072)
+PDF statistics: 171 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
