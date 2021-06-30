@@ -1,0 +1,27 @@
+\begin{tikzpicture}
+	\node [object](dms) {Deep mutational scanning data};
+	\node [object](features) [below=-0.2em of dms]{Features};
+	\node [object](single protein) [below left=2em and -1em of features] {Single protein models};
+	\node [object](naive) [below left= 2em and -4em of single protein, align=center] {Naive validation\\and testing};
+	\node [object](by position) [below right=2em and -4em of single protein] {Validation and testing by position};
+	\node [object](general) [below right=2em and -1em of features] {General models};
+	\node [object](gbt) [below=2em of general]{Gradient boosted trees};
+	\node [object](linear) [below=-0.2em of gbt]{Linear regression};
+	\node [object](others) [below=-0.2em of linear]{Other models};
+	\draw [pi->] (features) -- (single protein);
+	\draw [pi->] (single protein) -- (naive);
+	\draw [pi->] (single protein) -- (by position);
+	\draw [pi->] (features) -- (general);
+	\draw [pi->] (general) -- (gbt);
+	\draw[
+		decoration={%
+				brace,
+				mirror,
+				raise=1em,
+				amplitude=10pt,
+			},
+		decorate,
+		thick,
+		color=primary_inverse_fg,
+	] (naive.south west) --node[below=3em] {Gradient boosted trees} (by position.south east);
+\end{tikzpicture}%

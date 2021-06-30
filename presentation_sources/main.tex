@@ -1,0 +1,317 @@
+\documentclass[10pt, british]{beamer}
+\usetheme{UniBo}
+
+\usepackage[style=authoryear, maxcitenames=1]{biblatex}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{siunitx}
+\sisetup{round-mode=places,exponent-product=\cdot}
+\usepackage{booktabs}
+\usepackage{fontspec}
+\usepackage{babel}
+\usepackage{csquotes}
+
+\usefonttheme{professionalfonts} % prevents beamer from overriding fonts
+\setmonofont{Fira Code Regular}
+
+\addbibresource{./references.bib}
+
+\title[Single aminoacid variants prediction]{Prediction of the effect of single aminoacid protein
+	variants using deep mutational scanning data}
+\subtitle[]{University of Bologna --- Master Thesis in Bioinformatics}
+\author[Pierotti Saul]{Pierotti Saul}
+\advisor[]{%
+	\setlength{\tabcolsep}{0pt}%
+	\begin{tabular}{llll}
+		Internal~ & Advisor:~ & Prof.~ & Pietro Di Lena                       \\
+		External~ & Advisor:~ & Prof.~ & Arne Elofsson (Stockholm University)
+	\end{tabular}
+}
+\date{July 19, 2021}
+
+\begin{document}
+
+\begin{frame}[plain]
+	\titlepage%
+\end{frame}
+
+\begin{frame}
+	\frametitle{Structure of the project}
+	\begin{figure}
+		\input{tikz/project_structure.tex}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Single aminoacid variants}
+	In this work I focused exclusively on point missense mutations.
+	Nonsense mutations, indels, and mutations in non-coding regions were not considered.
+
+	\vfill
+	\begin{figure}
+		\input{tikz/mutation_illustration.tex}
+	\end{figure}
+\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Effect of single aminoacid mutations in proteins}
+%	\begin{figure}
+%		\begin{tikzpicture}
+%			\begin{scope}[mindmap, concept color=bologna_red!30, text=bologna_red,
+%					root concept/.append style={concept, font=\small, text width=5em},
+%					level 1/.append style={sibling angle=70, level distance=13em, clockwise from=10, font=\footnotesize},
+%					level 2/.append style={sibling angle=50, level distance=10em, font=\footnotesize},
+%				]
+%				\node [root concept] {Single aminoacid mutations}[clockwise from=-5]
+%				child {node [concept] {Mostly affect stability \parencite{DePristo2005}}
+%						child {node [concept, text width=6em] {$\Delta \Delta G$ of similar magnitude to folding $\Delta G$ \parencite{DePristo2005}}}
+%						child {node [concept] (core) {More destabilizing in the protein core \parencite{Savojardo2021}}}
+%					}
+%				child {node [concept] (func) {Affect function if on catalytic residues}};
+%			\end{scope}
+%
+%			\node [below= 3em of core, font=\footnotesize, text=black, text width=7em, align=center] (rsa) {Solvent accessibility is a good predictor of mutation effect};
+%			\draw [->, shorten <= 1ex] (core) -- (rsa);
+%
+%		\end{tikzpicture}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Deep mutational scanning}
+%	High-throughput technique for obtaining fitness information on a large number of mutations.
+%	\vfill%
+%	\begin{tikzpicture}
+%		\tikzstyle{every node}=[object, font=\footnotesize]
+%		\node[object, text width=7em] (a) {Mutant library generation};
+%		\node[object, below right=3em and -.5em of a, text width=12em] (b) {Fitness selection};
+%		\node[object, below=-.3em of b, text width=12em] (c) {Sequencing of selected library};
+%		\node[object, left=8em of c] (d) {Sequencing of unselected library};
+%		\node[object, below=10em of a, align=center] (e) {%
+%			Calculation of fitness scores\\
+%			\vspace{0em}\\
+%			$\log{\frac{mut_a/mut_b}{wt_a/wt_b}}$
+%		};
+%		\draw [->, color=bologna_red] (a) -| (b);
+%		\draw [->, color=bologna_red] (a) -| (d);
+%		\draw [->, color=bologna_red] (c) -| (e);
+%		\draw [->, color=bologna_red] (d) -| (e);
+%	\end{tikzpicture}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Variant effect prediction}
+%	Complete experimental coverage of the human proteome mutational landscape is not currently in reach, and it is a distant goal for model organisms.
+%	Computational predictions are needed.
+%
+%	But why is it important to know the effect of a mutation?
+%
+%	\begin{itemize}
+%		\item Precision medicine
+%		\item Protein engineering
+%	\end{itemize}
+%
+%	How can it be done?
+%
+%	\begin{itemize}
+%		\item Supervised or unsupervised
+%		\item Quantitative or as a classification problem
+%		\item Machine learning or simple statistical models
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Variant effect predictors}
+%	\begin{figure}
+%		\begin{tikzpicture}
+%			\tikzstyle{every node}=[object, font=\footnotesize]
+%			\tikzstyle{edge from parent}=[draw, color=bologna_red]
+%			\node {Variant effect predictors}[sibling distance=16em, level distance=3em]
+%			child {node{Supervised}[sibling distance=8em, level distance=3em]
+%					child {node {Statistical model}
+%							child {node [align=left, yshift=-4.5em]{Poly-Phen2\\\parencite{Adzhubei2010}}}}
+%					child {node {Machine learning}
+%							child {node[align=left, yshift=-1em] {%
+%											SNAP2 \parencite{Hecht2015}\\
+%											Envision \parencite{Gray2018}
+%										}}}
+%				}
+%			child {node {Unsupervised}[sibling distance=8em, level distance=3em]
+%					child {node {Machine learning}
+%							child {node [align=left, yshift=-4.5em]{DeepSequence\\\parencite{Riesselman2018}}}
+%						}
+%					child {node {Statistical model}
+%							child {node[align=left,yshift=-1em] {%
+%											EVmutation \parencite{Hopf2017}\\
+%											SIFT \parencite{Sim2012}
+%										}}
+%						}
+%				};
+%		\end{tikzpicture}
+%	\end{figure}
+%	\vfill%
+%	Envision, EVmutation, and DeepSequence provided quantitative predictions.
+%	Envision was trained on deep mutational scanning data while the others are either unsupervised or trained on SNP annotations.
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Training data}
+%	I used the training dataset of Envision \parencite{Gray2018}, composed of nine independent experiments on eight different proteins.
+%	The distribution of fitness scores is bimodal and very variable across datasets.
+%
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_fitness_score_distribution.tex}
+%	\input{tikz/presentation_datasets_abundancies.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Poor correlation among experimental results}
+%	Two independent deep mutational scanning experiments on Ubiquitin are present in the aggregated dataset, but their correlation is quite low.
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_datasets_correlations.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{The effect of a mutation is strongly influenced by the identity of the wild-type and mutant residues}
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_mutation_identity.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Solvent-accessible positions are more tolerant towards mutations}
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_score_dssp_rsa.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Mutation effect is not well discriminated by secondary structure}
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_score_dssp_q3.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Features}
+%	I used only features that could be obtained from the sequence of the mutated proteins or from multiple sequence alignments.
+%	No structural features were used.
+%	\vfill%
+%	\centering%
+%	\begin{figure}
+%		\begin{tikzpicture}
+%			\tikzstyle{every node}=[object, font=\footnotesize]
+%			\node [object, text width=7em] (mut_id) {Mutation identity};
+%			\node [object, below=-.3em of mut_id, font=\tiny, text width=7em] (wt) {Wild-type residue};
+%			\node [object, below=-.3em of wt, font=\tiny, text width=7em] (mut) {Mutated residue};
+%			\node [object, right=2em of mut_id, text width=9em, yshift=3em] (ev_mut) {EVmutation predictions \parencite{Hopf2017}};
+%			\node [object, below=-.3em of ev_mut, font=\tiny, text width=9em] (epi) {Epistatic model};
+%			\node [object, below=-.3em of epi, font=\tiny, text width=9em] (ind) {Independent model};
+%			\node [object, below=-.3em of ind, font=\tiny, text width=9em] (cons) {Conservation};
+%			\node [object, below=-.3em of cons, font=\tiny, text width=9em] (freq) {Mutation frequency};
+%			\node [object, right=2em of ev_mut, text width=9em, yshift=-3em] (netsurf) {NetsurfP-2 predictions \parencite{Klausen2019}};
+%			\node [object, below=-.3em of netsurf, font=\tiny, text width=9em] (sec) {Secondary structure};
+%			\node [object, below=-.3em of sec, font=\tiny, text width=9em] (rsa) {Solvent accessibility};
+%			\node [object, below=-.3em of rsa, font=\tiny, text width=9em] (dis) {Disorder};
+%			\node [object, below=-.3em of dis, font=\tiny, text width=9em] (tors) {Torsion angles};
+%			\node [object, below=2em of mut.south east, text width=9em, xshift=-2em] (hmmer) {HMMER \parencite{Eddy2011} emission probabilities};
+%			\node [object, right=4em of hmmer, text width=8em, xshift=-3em, yshift=-1em, align=center] (trrosetta) {trRosetta predicted\\contacts\\\parencite{Yang2020}};
+%			\node [object, below=-.3em of trrosetta, font=\tiny, text width=8em] (met) {Centrality metrics};
+%		\end{tikzpicture}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Single protein models}
+%	I trained two different gradient boosted tree models for each of the proteins in the training set.
+%	\begin{itemize}
+%		\item Naive cross-validation and testing
+%		      \begin{itemize}
+%			      \item Half of the mutations in a protein randomly set aside for testing
+%			      \item Hyperparameters optimized in the remaining half with 5-fold cross-validation (randomly selecting mutations)
+%		      \end{itemize}
+%		\item Cross-validation and testing by position
+%		      \begin{itemize}
+%			      \item Half of the mutations in a protein set aside for testing but avoiding mutations in the same protein position to end up in different splits
+%			      \item Hyperparameters optimized in the remaining half with 5-fold cross-validation (avoiding that mutations in the same protein position ended up in different folds)
+%		      \end{itemize}
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Naive single protein models}
+%	Superficially good results when training and testing randomly across mutations \ldots%
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_single_protein_models_naive_test_result_summary.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Single protein models that segregate protein positions}
+%	\ldots but overoptimistic, since when I separate protein positions the performances drop dramatically, particularly for some datasets.
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_single_protein_models_by_position_test_result_summary.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{General models}
+%	I trained a set of general predictors on the full dataset.
+%	\begin{itemize}
+%		\item Cross-validation by leaving a protein out at each iteration
+%		\item Of the left-out protein, half of the mutations were used in validation and the rest for testing
+%	\end{itemize}
+%	Given the diversity of deep mutational scanning datasets, aiming at predicting the ranks is more meaningful than predicting the absolute fitness scores
+%	\begin{itemize}
+%		\item Pairwise ranking loss used for gradient boosted trees
+%		\item Quantile normalization of the experimental fitness for the linear regression
+%		\item Models evaluated in terms of Spearman correlation coefficient instead of Pearson correlation coefficient
+%	\end{itemize}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{General models}
+%	Gradient boosted trees perform slightly better than linear regression, but the difference is minor.
+%	Performances comparable to those of Envision and EVmutation.
+%	\vfill%
+%	\centering%
+%	\input{tikz/presentation_performance_comparison.tex}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Discussion}
+%	\begin{figure}
+%		\begin{tikzpicture}
+%			\tikzstyle{every node}=[object, font=\footnotesize]
+%			\node [object, text width=10em] at (0,0) {How validation and testing are performed is crucial};
+%			\node [object, text width=14em] at (5,-1) {Performances on par with other predictors can be reached without structural features};
+%			\node [object, text width=9em] at (1,2) {There is strong variability between datasets};
+%			\node [object, text width=10em] at (0,4) {Complex models do not improve much on linear regression};
+%			\node [object, text width=10em] at (6,3) {Unsupervised models perform similarly to supervised models};
+%		\end{tikzpicture}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}
+%	\frametitle{Future directions}
+%	\begin{figure}
+%		\begin{tikzpicture}
+%			\tikzstyle{every node}=[object, font=\footnotesize]
+%			\node [object, text width=14em] at (0,0) {Using residue contacts in a graph convolutional neural network};
+%			\node [object] at (5,1) {Trying different models};
+%			\node [object, text width=7em] at (1,2) {Tuning the set of features};
+%			\node [object, text width=10em] at (6,3) {Training on more deep mutational scanning studies};
+%			\node [object, text width=13em] at (1,4) {Unsupervised models seem promising and may be worth exploring more};
+%			\node [object, text width=15em] at (6,-1) {Finding a better normalization strategy for the scores from different experiments};
+%		\end{tikzpicture}
+%	\end{figure}
+%\end{frame}
+%
+%\begin{frame}[allowframebreaks]
+%	\frametitle{Bibliography}
+%	\printbibliography{}%
+%\end{frame}
+%
+\end{document}

@@ -1,0 +1,74 @@
+\begin{tikzpicture}
+	\tikzset{%
+		codon/.style = {object, outer sep=0pt, font=\small, text width=2em},
+		aa/.style = {codon, rounded corners=3mm},
+		codon_to_aa/.style = {ultra thick, color=primary_inverse_fg},
+		codon_to_codon/.style = {codon_to_aa},
+		codon_begin/.style = {codon_to_codon},
+		codon_end/.style = {->, codon_to_codon},
+	}
+	\node (codon1_wt) [codon] {ATG};
+	\node (codon2_wt) [codon, right=1ex of codon1_wt] {GTG};
+	\node (codon3_wt) [codon, right=1ex of codon2_wt] {CAT};
+	\node (codon4_wt) [codon, right=1ex of codon3_wt] {CTG};
+	\node (codon5_wt) [codon, right=1ex of codon4_wt] {ACT};
+	\node (codon6_wt) [codon, right=1ex of codon5_wt] {CCT};
+	\node (codon7_wt) [codon, right=1ex of codon6_wt] {GAG};
+	\node (aa1_wt) [aa, below=.5ex of codon1_wt] {Met};
+	\node (aa2_wt) [aa, below=.5ex of codon2_wt] {Val};
+	\node (aa3_wt) [aa, below=.5ex of codon3_wt] {His};
+	\node (aa4_wt) [aa, below=.5ex of codon4_wt] {Leu};
+	\node (aa5_wt) [aa, below=.5ex of codon5_wt] {Thr};
+	\node (aa6_wt) [aa, below=.5ex of codon6_wt] {Pro};
+	\node (aa7_wt) [aa, below=.5ex of codon7_wt] {Asp};
+	\draw[codon_to_aa] (codon1_wt) -- (aa1_wt);
+	\draw[codon_to_aa] (codon2_wt) -- (aa2_wt);
+	\draw[codon_to_aa] (codon3_wt) -- (aa3_wt);
+	\draw[codon_to_aa] (codon4_wt) -- (aa4_wt);
+	\draw[codon_to_aa] (codon5_wt) -- (aa5_wt);
+	\draw[codon_to_aa] (codon6_wt) -- (aa6_wt);
+	\draw[codon_to_aa] (codon7_wt) -- (aa7_wt);
+	\draw[codon_to_codon] (codon1_wt) -- (codon2_wt);
+	\draw[codon_to_codon] (codon2_wt) -- (codon3_wt);
+	\draw[codon_to_codon] (codon3_wt) -- (codon4_wt);
+	\draw[codon_to_codon] (codon4_wt) -- (codon5_wt);
+	\draw[codon_to_codon] (codon5_wt) -- (codon6_wt);
+	\draw[codon_to_codon] (codon6_wt) -- (codon7_wt);
+	\node (beginning_wt) [left=5ex of codon1_wt] {};
+	\node (end_wt) [right=5ex of codon7_wt] {};
+	\draw[codon_end] (codon7_wt) -- (end_wt);
+	\draw[codon_begin] (beginning_wt) -- (codon1_wt);
+	\node (codon1_mut) [codon, below=15ex of codon1_wt.south] {ATG};
+	\node (codon2_mut) [codon, right=1ex of codon1_mut] {GTG};
+	\node (codon3_mut) [codon, right=1ex of codon2_mut] {CAT};
+	\node (codon4_mut) [codon, right=1ex of codon3_mut] {CTG};
+	\node (codon5_mut) [codon, right=1ex of codon4_mut] {ACT};
+	\node (codon6_mut) [codon, right=1ex of codon5_mut, fill=primary_accent_bg, text=primary_accent_fg] {CTT};
+	\node (codon7_mut) [codon, right=1ex of codon6_mut] {GAG};
+	\node (aa1_mut) [aa, below=.5ex of codon1_mut] {Met};
+	\node (aa2_mut) [aa, below=.5ex of codon2_mut] {Val};
+	\node (aa3_mut) [aa, below=.5ex of codon3_mut] {His};
+	\node (aa4_mut) [aa, below=.5ex of codon4_mut] {Leu};
+	\node (aa5_mut) [aa, below=.5ex of codon5_mut] {Thr};
+	\node (aa6_mut) [aa, fill=primary_accent_bg, text=primary_accent_fg, below=.5ex of codon6_mut] {Leu};
+	\node (aa7_mut) [aa, below=.5ex of codon7_mut] {Asp};
+	\draw [codon_to_aa] (codon1_mut) -- (aa1_mut);
+	\draw [codon_to_aa] (codon2_mut) -- (aa2_mut);
+	\draw [codon_to_aa] (codon3_mut) -- (aa3_mut);
+	\draw [codon_to_aa] (codon4_mut) -- (aa4_mut);
+	\draw [codon_to_aa] (codon5_mut) -- (aa5_mut);
+	\draw [codon_to_aa] (codon6_mut) -- (aa6_mut);
+	\draw [codon_to_aa] (codon7_mut) -- (aa7_mut);
+	\draw [codon_to_codon] (codon1_mut) -- (codon2_mut);
+	\draw [codon_to_codon] (codon2_mut) -- (codon3_mut);
+	\draw [codon_to_codon] (codon3_mut) -- (codon4_mut);
+	\draw [codon_to_codon] (codon4_mut) -- (codon5_mut);
+	\draw [codon_to_codon] (codon5_mut) -- (codon6_mut);
+	\draw [codon_to_codon] (codon6_mut) -- (codon7_mut);
+	\node (beginning_mut) [left=5ex of codon1_mut] {};
+	\node (end_mut) [right=5ex of codon7_mut] {};
+	\draw [codon_end] (codon7_mut) -- (end_mut);
+	\draw [codon_begin] (beginning_mut) -- (codon1_mut);
+	\draw [->, ultra thick, color=black!70, shorten <= 1ex, shorten >=1ex, color=primary_inverse_fg] (aa6_wt.south) -- (codon6_mut.north);
+	\node (sav) [below=5ex of aa6_wt.south, anchor=east, xshift=-1ex, text=primary_inverse_fg] {Single Aminoacid Variant (SAV)};
+\end{tikzpicture}%

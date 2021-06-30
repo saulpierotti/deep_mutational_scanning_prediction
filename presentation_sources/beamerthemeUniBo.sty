@@ -10,9 +10,14 @@
 \colorlet{undertone}{black!80}
 \colorlet{undertone_darker}{black!90}
 \definecolor{bologna_red}{rgb}{0.73333333333, 0.18039215686, 0.16078431372}
-\definecolor{accent}{rgb}{0.65098039215, 0.78823529411, 0.27843137254}
-\definecolor{dark_red}{rgb}{0.545, 0, 0}
-\definecolor{background}{rgb}{1, 1, 1}
+\colorlet{primary_bg}{bologna_red}
+\colorlet{primary_ligth_bg}{primary_bg!80}
+\colorlet{primary_very_ligth_bg}{primary_bg!60}
+\colorlet{primary_fg}{white}
+\colorlet{primary_inverse_bg}{primary_bg!10}
+\colorlet{primary_inverse_fg}{primary_bg!150}
+\colorlet{primary_accent_bg}{bologna_red!150}
+\colorlet{primary_accent_fg}{primary_fg}
 
 \def\advisor{\@dblarg\beamer@advisor} % copied from the definition of date in beamer
 \long\def\beamer@advisor[#1]#2{%
@@ -21,10 +26,10 @@
 }
 \date{\today}
 
-\setbeamercolor{author in head/foot}{bg=bologna_red,fg=white}
-\setbeamercolor{title in head/foot}{bg=bologna_red!80, fg=white}
-\setbeamercolor{date in head/foot}{bg=bologna_red!60, fg=white}
-\setbeamercolor{frametitle}{bg=background,fg=black!70}
+\setbeamercolor{author in head/foot}{bg=primary_bg,fg=primary_fg}
+\setbeamercolor{title in head/foot}{bg=primary_ligth_bg, fg=primary_fg}
+\setbeamercolor{date in head/foot}{bg=primary_very_ligth_bg, fg=primary_fg}
+\setbeamercolor{frametitle}{bg=primary_bg,fg=primary_fg}
 
 \RequirePackage{appendixnumberbeamer}
 \RequirePackage{tikz}
@@ -39,10 +44,9 @@
 
 \tikzset{%
 >={Latex[width=2mm,length=2mm]},
-base/.style = {text centered, align=center, inner sep=0.2cm, outer sep=0.1cm, line width=0.5},
-object/.style = {base, fill=bologna_red!30, text=bologna_red, rounded corners},
-codon/.style = {object, outer sep = 0pt},
-aa/.style = {object, rounded corners=3mm, outer sep = 0pt},
+pi->/.style={->, color=primary_inverse_fg},
+base/.style = {text centered, align=center, inner sep=0.2cm, outer sep=0.1cm, line width=0.5, font=\footnotesize, text width=8em},
+object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=primary_inverse_fg, rounded corners},
 }
 
 \beamertemplatenavigationsymbolsempty%
