@@ -13,6 +13,7 @@
 \colorlet{primary_fg}{white}
 \colorlet{primary_inverse_bg}{primary_bg!10}
 \colorlet{primary_inverse_fg}{primary_bg!150}
+\colorlet{primary_inverse_light_fg}{primary_bg!70}
 \colorlet{primary_inverse_dark_bg}{primary_bg!70}
 \colorlet{primary_inverse_dark_fg}{primary_bg!200}
 \colorlet{primary_accent_bg}{bologna_red!150}
@@ -55,7 +56,6 @@ pi->/.style={->, color=primary_inverse_fg},
 base/.style = {text centered, align=center, inner sep=0.2cm, outer sep=0.1cm, line width=0.5, font=\footnotesize, text width=8em},
 object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=primary_inverse_fg, rounded corners},
 }
-
 \beamertemplatenavigationsymbolsempty%
 \setbeamertemplate{itemize item}{\color{black!80}$\blacktriangleright$}
 \setbeamertemplate{itemize subitem}{\color{black!80}$-$}
@@ -102,9 +102,14 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 		};
 	\end{tikzpicture}%
 }%
-
 % this is to silence the overfull hbox due to the background
 \let\oldtitlepage\titlepage%
 \renewcommand{\titlepage}{\tikzset{external/export next=false}\hfuzz=10pt\oldtitlepage}%
+
+\setbeamertemplate{bibliography item}{}
+\setbeamercolor{bibliography entry author}{fg=primary_inverse_fg}
+\setbeamercolor{bibliography entry title}{fg=black}
+\setbeamercolor{bibliography entry note}{fg=primary_inverse_light_fg}
+
 
 \mode<all>

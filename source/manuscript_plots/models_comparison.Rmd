@@ -93,7 +93,12 @@ plot <-
   ylab("Spearman correlation coefficient")
 
 plot_presentation <- plot +
-  theme(legend.position = "top")
+  theme(legend.position = "top") +
+  guides(colour = guide_legend(nrow = 2)) +
+  scale_color_manual(
+      values = bologna_palette,
+      name = "Model", labels = models_labels
+    )
 
 print(plot)
 
@@ -104,10 +109,10 @@ print(plot_presentation)
 #             latex_textheight * 0.5,
 #             latex_textwidth)
 
-# create_tikz(plot_presentation,
-#             "presentation_general_models_performance_comparison.tex",
-#             latex_beamer_height*0.7,
-#             latex_beamer_width*0.9)
+create_tikz(plot_presentation,
+            "presentation_general_models_performance_comparison.tex",
+            latex_beamer_height*0.8,
+            latex_beamer_width*0.6)
 ```
 
 

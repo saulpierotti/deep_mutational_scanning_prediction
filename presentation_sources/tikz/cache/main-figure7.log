@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  1 JUL 2021 14:26
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  1 JUL 2021 16:57
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -1600,9 +1600,26 @@ isable this.
 (./tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_s
 ummary.tex
 \openout6 = ./tikz/cache/main-figure7.dpth
- [15
+ [13
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./tikz/tikzdevice/presen
+tation_performance_comparison.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+\global\@namedef{mainendframenumber}{16}
+\@writefile{nav}{\headcommand {\gdef \insertmainframenumber {16}}}
+
+LaTeX Warning: Empty bibliography on input line 217.
+
+\global\@namedef{appendixtotalframenumber}{1}
+\global\@namedef{inserttotalframenumber}{16}
+\@writefile{nav}{\headcommand {\gdef \inserttotalframenumber {16}}}
+\@writefile{nav}{\headcommand {\gdef \appendixtotalframenumber {1}}}
 
 LaTeX Warning: There were undefined references.
 
@@ -1617,21 +1634,21 @@ Package logreq Info: Writing requests to './tikz/cache/main-figure7.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41219 strings out of 478531
+ 41246 strings out of 478531
  125086,5906145 words of node,token memory allocated
- 4172 words of node memory still in use:
-   27 hlist, 9 vlist, 5 rule, 31 disc, 4 local_par, 1 dir, 82 glue, 21 kern, 13 
-penalty, 2 margin_kern, 273 glyph, 90 attribute, 76 glue_spec, 47 attribute_list
-, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:1,2:3554,3:1528,4:110,5:84,6:10,7:1185,8:8,9:386,10:16,11:61
- 59292 multiletter control sequences out of 65536+600000
+ 1571 words of node memory still in use:
+   21 hlist, 9 vlist, 5 rule, 3 disc, 2 local_par, 1 dir, 34 glue, 6 kern, 9 pen
+alty, 17 glyph, 86 attribute, 76 glue_spec, 45 attribute_list, 4 write, 18 pdf_c
+olorstack nodes
+   avail lists: 1:1,2:3716,3:1643,4:129,5:110,6:19,7:1438,8:8,9:332,10:12,11:107
+ 59310 multiletter control sequences out of 65536+600000
  59 fonts using 7294991 bytes
  135i,15n,128p,770b,2233s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/share/te
 xmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf>
-Output written on ./tikz/cache/main-figure7.pdf (1 page, 12366 bytes).
+Output written on ./tikz/cache/main-figure7.pdf (1 page, 12451 bytes).
 
-PDF statistics: 51 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 53 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)

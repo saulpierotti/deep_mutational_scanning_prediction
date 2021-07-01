@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  1 JUL 2021 14:50
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  1 JUL 2021 17:33
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1756,7 +1756,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 .tex
 ===== Image './tikz/cache/main-figure6' is up-to-date. ======
 )
-Overfull \vbox (8.70317pt too high) detected at line 146
+Overfull \vbox (5.84306pt too high) detected at line 151
  []
 
 [12
@@ -1766,16 +1766,24 @@ Overfull \vbox (8.70317pt too high) detected at line 146
 ummary.tex
 ===== Image './tikz/cache/main-figure7' is up-to-date. ======
 )
-Overfull \vbox (18.9949pt too high) detected at line 158
+Overfull \vbox (5.84306pt too high) detected at line 169
  []
 
 [13
 
 <./tikz/cache/main-figure7.pdf>]
-(./tikz/tikzdevice/presentation_performance_comparison.tex
-===== Image './tikz/cache/main-figure8' is up-to-date. ======
+(./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
+\openout3 = ./tikz/cache/main-figure8.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure8" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 )
-Overfull \vbox (26.58318pt too high) detected at line 171
+Overfull \vbox (5.84306pt too high) detected at line 188
  []
 
 [14
@@ -1790,15 +1798,15 @@ Overfull \vbox (26.58318pt too high) detected at line 171
 
 <./tikz/cache/main-figure10.pdf>]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 206.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 223.
 
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 206.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 223.
 
 [17
 
-</usr/share/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>] [18
+] [18
 
 
 ]
@@ -1811,8 +1819,7 @@ LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
 \tf@snm=\write9
 
 \openout9 = main.snm
-
-(./main.aux)
+ (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2DAB1B3A3D2723D16EBC9D0696B3ED4A;182.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1821,16 +1828,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42279 strings out of 478531
+ 42288 strings out of 478531
  125086,14696376 words of node,token memory allocated
- 11659 words of node memory still in use:
-   47 hlist, 9 vlist, 9 rule, 63 disc, 6 local_par, 1 dir, 8 math, 235 glue, 47 
-kern, 72 penalty, 14 margin_kern, 852 glyph, 454 attribute, 76 glue_spec, 229 at
+ 11487 words of node memory still in use:
+   43 hlist, 9 vlist, 5 rule, 63 disc, 6 local_par, 1 dir, 8 math, 227 glue, 47 
+kern, 72 penalty, 10 margin_kern, 848 glyph, 454 attribute, 76 glue_spec, 229 at
 tribute_list, 8 write, 4 pdf_start_link, 4 pdf_end_link, 4 pdf_dest, 4 pdf_actio
 n, 58 pdf_colorstack nodes
-   avail lists: 1:3,2:7206,3:3479,4:361,5:179,6:102,7:3652,8:42,9:1216,10:16,11:
+   avail lists: 1:3,2:7206,3:3479,4:361,5:179,6:102,7:3622,8:42,9:1224,10:15,11:
 162
- 60135 multiletter control sequences out of 65536+600000
+ 60137 multiletter control sequences out of 65536+600000
  80 fonts using 9556135 bytes
  131i,15n,125p,736b,2922s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/fonts/TTF/FiraCode-Regular.ttf></usr/share/texmf-dist/fonts/opentype
@@ -1843,10 +1850,10 @@ st/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (18 pages, 389230 bytes).
+Output written on main.pdf (18 pages, 388308 bytes).
 
-PDF statistics: 460 PDF objects out of 1000 (max. 8388607)
- 323 compressed objects within 4 object streams
+PDF statistics: 454 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
  48 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 

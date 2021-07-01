@@ -127,7 +127,6 @@
 
 \begin{frame}
 	\frametitle{I did not use structural information}
-	\centering%
 	\begin{figure}
 		\input{tikz/features.tex}
 	\end{figure}
@@ -135,39 +134,57 @@
 
 \begin{frame}
 	\frametitle{Single protein models with naive testing}
-	\begin{itemize}
-		\item Half of the mutations in a protein randomly set aside for testing
-		\item Hyperparameters optimized in the remaining half with 5-fold cross-validation
-		\item Good results but likely overfitting the testing set
-	\end{itemize}
-	\vfill%
-	\centering%
-	\input{tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary.tex}
+	\begin{columns}[c]
+		\begin{column}{.6\textwidth}
+			\centering%
+			\vspace{2em}
+			\input{tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary.tex}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\begin{itemize}
+				\item Half of the mutations in a protein randomly set aside for testing
+				\item Hyperparameters optimized in the remaining half with 5-fold cross-validation
+				\item Good results but likely overfitting the testing set
+			\end{itemize}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Single protein models with testing by position}
-	\begin{itemize}
-		\item Half of the mutations in a protein set aside for testing but avoiding mutations in the same protein position to end up in different splits
-		\item Hyperparameters optimized in the remaining half with 5-fold cross-validation
-		\item Performance more realistic
-	\end{itemize}
-	\vfill%
-	\centering%
-	\input{tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_summary.tex}
+	\begin{columns}[c]
+		\begin{column}{.6\textwidth}
+			\centering%
+			\vspace{2em}
+			\input{tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_summary.tex}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\begin{itemize}
+				\item Half of the mutations in a protein set aside for testing but avoiding mutations in the same protein position to end up in different splits
+				\item Hyperparameters optimized in the remaining half with 5-fold cross-validation
+				\item Performance more realistic
+			\end{itemize}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Leave-One-Protein-Out (LOPO) models}
-	\begin{itemize}
-		\item For the left-out protein, half of the mutations used for testing
-		\item Spearman correlation coefficient used for evaluation
-		\item Small difference among gradient boosted trees and linear regression
-		\item Performances comparable to those of Envision
-	\end{itemize}
-	\vfill%
-	\centering%
-	\input{tikz/tikzdevice/presentation_performance_comparison.tex}
+	\begin{columns}[c]
+		\begin{column}{.6\textwidth}
+			\centering%
+			\vspace{2em}
+			\input{tikz/tikzdevice/presentation_general_models_performance_comparison.tex}
+		\end{column}
+		\begin{column}{.4\textwidth}
+			\begin{itemize}
+				\item For the left-out protein, half of the mutations used for testing
+				\item Spearman correlation coefficient used for evaluation
+				\item Small difference among gradient boosted trees and linear regression
+				\item Performances comparable to those of Envision
+			\end{itemize}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}

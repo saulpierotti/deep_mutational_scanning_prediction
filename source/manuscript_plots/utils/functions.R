@@ -700,7 +700,10 @@ get_performance_comparison_plot <- function(comparison_tb) {
     y_axis_theme +
     scale_x_discrete(labels = dms_dataset_labels) +
     theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-    scale_color_manual(values = c("black", okabe), name = "Model", labels = models_labels)
+    scale_color_manual(
+      values = c("black", okabe),
+      name = "Model", labels = models_labels
+    )
   return(plot)
 }
 
