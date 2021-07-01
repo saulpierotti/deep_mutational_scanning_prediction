@@ -3,9 +3,8 @@
 
 \mode<presentation>
 
-\usecolortheme{whale}
 \useoutertheme{infolines}
-
+%\setbeamersize{text margin left=1em,text margin right=1em}
 
 \definecolor{bologna_red}{rgb}{0.73333333333, 0.18039215686, 0.16078431372}
 \colorlet{primary_bg}{bologna_red}
@@ -18,21 +17,28 @@
 \colorlet{primary_inverse_dark_fg}{primary_bg!200}
 \colorlet{primary_accent_bg}{bologna_red!150}
 \colorlet{primary_accent_fg}{primary_fg}
+\setbeamercolor{author in head/foot}{bg=primary_bg,fg=primary_fg}
+\setbeamercolor{title in head/foot}{bg=primary_ligth_bg, fg=primary_fg}
+\setbeamercolor{date in head/foot}{bg=primary_very_ligth_bg, fg=primary_fg}
+\setbeamercolor{frametitle}{bg=primary_bg,fg=primary_fg}
 
 \def\advisor{\@dblarg\beamer@advisor} % copied from the definition of date in beamer
 \long\def\beamer@advisor[#1]#2{%
 	\def\insertadvisor{#2}%
 	\def\beamer@shortadvisor{#1}%
 }
-\date{\today}
-
-\setbeamercolor{author in head/foot}{bg=primary_bg,fg=primary_fg}
-\setbeamercolor{title in head/foot}{bg=primary_ligth_bg, fg=primary_fg}
-\setbeamercolor{date in head/foot}{bg=primary_very_ligth_bg, fg=primary_fg}
-\setbeamercolor{frametitle}{bg=primary_bg,fg=primary_fg}
 
 \RequirePackage{appendixnumberbeamer}
 \RequirePackage{tikz}
+\RequirePackage[style=authoryear, maxcitenames=1]{biblatex}
+\RequirePackage{parskip}
+\RequirePackage{microtype}
+\RequirePackage{siunitx}
+\sisetup{round-mode=places,exponent-product=\cdot}
+\RequirePackage{booktabs}
+\RequirePackage{fontspec}
+\RequirePackage{babel}
+\RequirePackage{csquotes}
 
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{shapes.geometric}
@@ -41,7 +47,8 @@
 \usetikzlibrary{tikzmark}
 \usetikzlibrary{mindmap}
 \usetikzlibrary{decorations.pathreplacing}
-
+\usetikzlibrary{external}
+\tikzexternalize[prefix=./tikz/cache/]%
 \tikzset{%
 >={Latex[width=2mm,length=2mm]},
 pi->/.style={->, color=primary_inverse_fg},
@@ -50,14 +57,13 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 }
 
 \beamertemplatenavigationsymbolsempty%
-
 \setbeamertemplate{itemize item}{\color{black!80}$\blacktriangleright$}
 \setbeamertemplate{itemize subitem}{\color{black!80}$-$}
 \setbeamertemplate{headline}[default] % remove header bars
-
 \setbeamertemplate{title page}{%
 	\vspace*{-1pt}%
 	\hspace*{-\beamer@leftmargin}%
+	\tikzset{external/export next=false}%
 	\begin{tikzpicture}
 		\useasboundingbox (current page.north west) rectangle (current page.south east);
 		\fill [color=primary_bg] (current page.north west) rectangle (current page.east);
@@ -70,9 +76,9 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 			inner sep=0pt,
 			outer sep=0pt,
 			yshift=1em,
-		] at (\beamer@leftmargin,.5\textheight+.5\footskip-.5pt) {%
-			\Large\inserttitle\par%
-			\vspace{1em}
+		] at (\beamer@leftmargin,.5\textheight+.5\footskip-.5pt+1.5em) {%
+			\large\inserttitle\par%
+			\vspace{2em}
 			\small\insertsubtitle\par%
 		};
 		\node (authorbox) [
@@ -82,8 +88,8 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 			inner sep=0pt,
 			outer sep=0pt,
 			yshift=-1em
-		] at (\beamer@leftmargin,.5\textheight+.5\footskip-.5pt) {%
-			\large\insertauthor\par\vspace{1em}%
+		] at (\beamer@leftmargin,.5\textheight+.5\footskip-.5pt-1.5em) {%
+			\normalsize\insertauthor\par\vspace{2em}%
 			\footnotesize\insertadvisor\par%
 		};
 		\node (datebox) [
@@ -99,4 +105,6 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 
 % this is to silence the overfull hbox due to the background
 \let\oldtitlepage\titlepage%
-\renewcommand{\titlepage}{\hfuzz=10pt\oldtitlepage}%
+\renewcommand{\titlepage}{\tikzset{external/export next=false}\hfuzz=10pt\oldtitlepage}%
+
+\mode<all>

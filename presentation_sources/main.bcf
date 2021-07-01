@@ -2345,20 +2345,17 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">./references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">DePristo2005</bcf:citekey>
-    <bcf:citekey order="2">DePristo2005</bcf:citekey>
-    <bcf:citekey order="3">Savojardo2021</bcf:citekey>
-    <bcf:citekey order="4">Adzhubei2010</bcf:citekey>
-    <bcf:citekey order="5">Hecht2015</bcf:citekey>
-    <bcf:citekey order="6">Gray2018</bcf:citekey>
-    <bcf:citekey order="7">Riesselman2018</bcf:citekey>
+    <bcf:citekey order="1">Adzhubei2010</bcf:citekey>
+    <bcf:citekey order="2">Hecht2015</bcf:citekey>
+    <bcf:citekey order="3">Gray2018</bcf:citekey>
+    <bcf:citekey order="4">Riesselman2018</bcf:citekey>
+    <bcf:citekey order="5">Hopf2017</bcf:citekey>
+    <bcf:citekey order="6">Sim2012</bcf:citekey>
+    <bcf:citekey order="7">Gray2018</bcf:citekey>
     <bcf:citekey order="8">Hopf2017</bcf:citekey>
-    <bcf:citekey order="9">Sim2012</bcf:citekey>
-    <bcf:citekey order="10">Gray2018</bcf:citekey>
-    <bcf:citekey order="11">Hopf2017</bcf:citekey>
-    <bcf:citekey order="12">Klausen2019</bcf:citekey>
-    <bcf:citekey order="13">Eddy2011</bcf:citekey>
-    <bcf:citekey order="14">Yang2020</bcf:citekey>
+    <bcf:citekey order="9">Klausen2019</bcf:citekey>
+    <bcf:citekey order="10">Eddy2011</bcf:citekey>
+    <bcf:citekey order="11">Yang2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
@@ -2390,4 +2387,13 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nyt/global//global/global"
+                type="entry"
+                sortingtemplatename="nyt"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>
