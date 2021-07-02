@@ -43,10 +43,11 @@ print(plot_presentation)
 ```
 
 ```{r mutation_identity exposed, dev="tikz", results="hide"}
-plot <- get_mutation_identity_plot(training_tb %>% filter(dssp_rsa > 0.25))
+plot <- get_mutation_identity_plot(training_tb %>% filter(dssp_rsa > 0.15))
 
 plot_presentation <- plot +
-  theme(legend.position = "right")
+  ggtitle("Exposed positions (RSA $> 0.15$)") +
+  theme(legend.position = "none")
 
 print(plot)
 print(plot_presentation)
@@ -58,12 +59,37 @@ print(plot_presentation)
 
 
 
-# create_tikz(
-#   plot_presentation,
-#   "presentation_mutation_identity.tex",
-#   latex_beamer_height * 0.6,
-#   latex_beamer_width * 0.8
-# )
+create_tikz(
+  plot_presentation,
+  "presentation_mutation_identity_exposed.tex",
+  latex_beamer_height * 0.6,
+  latex_beamer_width * 0.4
+)
+```
+
+```{r mutation_identity buried, dev="tikz", results="hide"}
+plot <- get_mutation_identity_plot(training_tb %>% filter(dssp_rsa <= 0.15))
+
+plot_presentation <- plot +
+  theme(legend.position = "right") +
+  ggtitle("Buried positions (RSA $\\leq 0.15$)")
+
+print(plot)
+print(plot_presentation)
+
+# create_tikz(plot,
+#             "mutation_identity.tex",
+#             3,
+#             latex_textwidth*0.45)
+
+
+
+create_tikz(
+  plot_presentation,
+  "presentation_mutation_identity_buried.tex",
+  latex_beamer_height * 0.6,
+  latex_beamer_width * 0.6
+)
 ```
 
 ```{r blosum, dev="tikz", results="hide"}
