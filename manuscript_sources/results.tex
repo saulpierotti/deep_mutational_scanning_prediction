@@ -1,7 +1,7 @@
 \cleardoublepage%
 \chapter{Results}
 
-\section{Dataset overview}\label{sec:res_dataset}
+\section{Dataset Overview}\label{sec:res_dataset}
 The aggregated data used in this study, after preprocessing and filtration (\cref{sec:mm_dataset}), consisted of \num{21842} mutations.
 Nine independent experimental datasets were included, covering eight different proteins from bacteria, yeast, rat, and humans.
 \Cref{tab:datasets} reports a summary of each dataset, while \cref{tab:excluded} reports the number of mutations in each of them before and after filtering.
@@ -118,7 +118,7 @@ The dataset \texttt{WW\_domain} has a lower mutational landscape coverage compar
 	}
 \end{figure}
 
-\section{Features overview}
+\section{Features Overview}
 This section explores the relationship between the features used by the models presented in this work and the experimental fitness scores from deep mutational scanning.
 Numerical quantification of the strength of the relationship between each of the features and the fitness scores is reported in \cref{tab:features_score_relationship}.
 For the features that are themselves predicted quantities, the agreement between them and their experimental counterpart is reported in \cref{tab:netsurf_validation} and \cref{tab:trrosetta_validation}.
@@ -225,7 +225,7 @@ For the features that are themselves predicted quantities, the agreement between
 		}\label{tab:trrosetta_validation}}%
 \end{table}
 
-\subsection{Mutation identity}
+\subsection{Mutation Identity}
 \cref{subfig:mutation_identity} shows the average scaled fitness score for mutations towards and from any possible combination of residue types.
 
 The identity of a mutation is, as expected, informative for the associated fitness score.
@@ -251,12 +251,12 @@ For example, a cluster of permissive scores is present in both heatmaps for muta
 Of course, being the BLOSUM100 a symmetric matrix, the directional patterns observed in the experimental scores are not mirrored.
 These include the particularly unfavourable mutations towards proline and from cysteine and tryptophan.
 
-\subsection{Position-specific scoring matrices}
+\subsection{Position-Specific Scoring Matrices}
 The emission probabilities of the hidden Markov models obtained from the multiple sequence alignments of each of the proteins used in this work were used to extract Position-Specific Scoring Matrices (PSSMs).
 The scores of each mutation from the respective PSSMs have a weak negative correlation to the experimental fitness score (\cref{tab:features_score_relationship}).
 The directionality of the relationship is negative because the emission probabilities are represented by HMMER with their negative natural logarithm.
 
-\subsection{Solvent accessibility}
+\subsection{Solvent Accessibility}
 The solvent accessibility used as a feature was not the experimental one, but the predicted quantities obtained with the neural network NetSurfP-2.
 This was done to make the models independent from the availability of protein structures.
 Both the Relative Solvent Accessibility (RSA) and the Accessible Surface Area (ASA) were used as features.
@@ -266,7 +266,7 @@ Relative solvent accessibility has a Pearson correlation with the fitness scores
 The positive correlation implies that exposed residues tend to have higher (i.e.\ less damaging) fitness scores.
 This is coherent with previous observations \parencite{Savojardo2021}.
 
-\subsection{Secondary structure}
+\subsection{Secondary Structure}
 The secondary structure classification used in the models was not the experimental one, but the predicted one obtained with the neural network NetSurfP-2.
 The actual features used was not the categorical classification, but the raw activation for the output layer of the neural network NetSurfP-2.
 Both the eight-classes and the three-classes classification were used as features.
@@ -279,7 +279,7 @@ Very strong variability in the relationship between secondary structure and fitn
 
 The predicted secondary structures from NetSurfP-2 are in good agreement with the experimentally determined ones, where the latter are available (\cref{tab:netsurf_validation}).
 
-\subsection{Torsion angles}
+\subsection{Torsion Angles}
 The relationship between torsion angles of the backbone and fitness scores is negligible (\cref{tab:features_score_relationship}).
 Also in this case the predicted quantities from NetSurfP-2 were used and not the experimental torsion angles.
 Nonetheless, the agreement between the two is very strong (\cref{tab:netsurf_validation}).
@@ -293,7 +293,7 @@ The low Pearson correlation can be due to the sigmoid activation for the neuron 
 
 Fitness score and disorder probability are positively correlated, indicating that, as would be expected, disordered residues tend to be more permissive towards mutations.
 
-\subsection{Evolutionary couplings}
+\subsection{Evolutionary Couplings}
 Among all the features used in this work, the epistatic evolutionary couplings obtained with the unsupervised model EVcouplings have the highest correlation with the experimental fitness scores (\cref{tab:features_score_relationship}).
 The independent couplings are also strongly correlated with the fitness scores, as well as the frequency of the mutation in the multiple sequence alignment of the mutagenized protein, and the conservation of the position.
 These last two features are also part of the output from the EVcouplings predictor.
@@ -301,7 +301,7 @@ These last two features are also part of the output from the EVcouplings predict
 As expected, the correlation between the conservation of a position and the corresponding fitness scores is negative, indicating that conserved positions have more dramatic effects when mutated as compared to less conserved positions.
 On the contrary, the correlation between the other EVcouplings features and the fitness scores is positive, since this predictor was developed for predicting mutational effects.
 
-\subsection{Connectivity graphs}
+\subsection{Connectivity Graphs}
 To make the models independent from the availability of experimental protein structures, instead of relying on experimental residue contacts the neural network trRosetta was used to obtain predicted inter-residue distances.
 From these distances, a connectivity graph was obtained for each protein by imposing a threshold of \SI{8}{\angstrom} distance between $C_\beta$ atoms to assign contacts ($C_\alpha$ for glycine).
 For each residue in the protein then, which was represented by a node in the contact graph, a series of node metrics were calculated and used as features.
@@ -317,7 +317,7 @@ However, further research is needed to elucidate the exact reason for this trend
 The predicted contact maps obtained with trRosetta are in excellent agreement with the ones determined from the experimental protein structures.
 The precision of the top $L/2$ long-range predicted contacts, a common metric used in protein structure prediction, is between \num{0.4} and \num{0.94} for the proteins used in this work (\cref{tab:trrosetta_validation}).
 
-\subsection{Missing features}
+\subsection{Missing Features}
 The features obtained from EVcouplings were missing for some mutations.
 This is due to the handling of regions with a poor quality multiple sequence alignment done by the EVcouplings package.
 For the other features, no missing values were present.
@@ -352,7 +352,7 @@ The number of missing features by dataset is described in \cref{tab:missing}.
 	}%
 \end{table}
 
-\section{Correlation among features}
+\section{Correlation among Features}
 
 \begin{figure}[p]
 	\ffigbox[\FBwidth]{\input{tikz/feature_corr_heatmap.tex}}{%
@@ -388,7 +388,7 @@ They are negatively correlated to solvent accessibility, as it would be expected
 The clustering coefficient follows inverse correlation patterns as compared to the centrality metrics.
 
 \FloatBarrier%
-\section{Comparison of model testing strategies}
+\section{Comparison of Model Testing Strategies}
 
 \begin{figure}[p]
 	\ffigbox[\textwidth]{%
@@ -488,7 +488,7 @@ In light of these results, it seems reasonable to caution against the overestima
 For a more detailed representation of the test results for the three model groups compared here see \cref{sup:fig:single_protein_models_naive_test_result_correlations}, \cref{sup:fig:single_protein_models_by_position_test_result_correlations}, and \cref{sup:fig:single_protein_models_naive_test_result_correlations}.
 Confidence intervals for the performance estimations are reported in \cref{tab:confidence_intervals}.
 
-\section{Comparison of different model architectures with previous predictors}
+\section{Comparison of Different Model Architectures with Previous Predictors}
 This section solely concerns the general models trained in a LOPO fashion, and how they do compare with previously published predictors.
 \Cref{fig:performance_comparison} shows the performance of two state-of-the-art mutation effect predictors compared to that of the general models developed as part of this work.
 The statistical significance of the performance differences among the predictors was calculated according to \cref{mm:significance} and is reported in \cref{tab:performance_permutation_significance}.
@@ -575,7 +575,7 @@ For a comparison of the validation and test scores of my models, refer to \cref{
 	}%
 \end{table}
 
-\section{Gradient boosted tree optimization}
+\section{Gradient Boosted Tree Optimization}
 The random hyperparameter search adopted for the gradient boosted trees-based models showed similar patterns of dependency on the hyperparameters for the single protein models and the models trained in a LOPO fashion.
 In general, more iterations corresponded to better results for all the models, but with diminishing returns.
 From the learning curves (\cref{fig:learning_curves_general_xgb,fig:learning_curves_single_proteins}) it can be seen how small learning rates consistently lead to better performances, but the number of iteration required to reach plateau is greater for small learning rates.
@@ -631,7 +631,7 @@ For a more detailed report of the influence of the various hyperparameters refer
 	}%
 \end{figure}
 
-\section{Feature importance}\label{sec:res:feature_imp}
+\section{Feature Importance}\label{sec:res:feature_imp}
 The importance of the features used by the models developed in this work was evaluated according to the grouped permutation importance (\cref{sec:mm_feature_importance}).
 Nine feature groups were defined, according to the collinearity of the features.
 The importance was independently evaluated for each dataset.

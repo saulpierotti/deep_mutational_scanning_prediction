@@ -87,10 +87,14 @@
 \headcommand {\slideentry {1}{0}{0}{17/18}{}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {17}{18}}
-\headcommand {\beamer@partpages {17}{18}}
-\headcommand {\beamer@subsectionpages {17}{18}}
-\headcommand {\beamer@sectionpages {17}{18}}
-\headcommand {\beamer@documentpages {18}}
-\headcommand {\gdef \inserttotalframenumber {2}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{1}{19/19}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@partpages {17}{19}}
+\headcommand {\beamer@subsectionpages {17}{19}}
+\headcommand {\beamer@sectionpages {17}{19}}
+\headcommand {\beamer@documentpages {19}}
+\headcommand {\gdef \inserttotalframenumber {3}}
 \headcommand {\gdef \inserttotalframenumber {16}}
-\headcommand {\gdef \appendixtotalframenumber {2}}
+\headcommand {\gdef \appendixtotalframenumber {3}}

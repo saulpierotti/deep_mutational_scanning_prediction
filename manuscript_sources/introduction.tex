@@ -66,7 +66,7 @@ Very recently, \textcite{Wensien2021} reported the observation of a new type of 
 In general, soluble globular proteins consist of a hydrophobic core, which is essential for the stability of the fold, and a surface that interfaces with the solvent.
 Interestingly, the presence of this hydrophobic core seems to be a universal feature of protein domains \parencite{Kalinowska2017}.
 
-\section{Mutations and mutagenesis}
+\section{Mutations and Mutagenesis}
 A mutation is any alteration in the sequence of a genome or an isolated nucleotide fragment.
 
 Broadly, it is possible to distinguish mutations that affect single nucleotides (also called point mutations) and mutations that involve the insertion, deletion, or re-arrangement of larger portions of the genome.
@@ -92,7 +92,7 @@ This process is termed mutagenesis and involves experimentally generating geneti
 When applied to protein-coding genes, mutagenesis can be invaluable in shedding light on the catalytic mechanism of enzymes \parencite{Peracchi2001}, on the mechanics of protein folding and the residue interactions underpinning protein stability \parencite{Nisthal2019}.
 Mutagenesis has also clear potentials for livestock and crops improvement and in genetic engineering \parencite{Davies1988, Holme2019, Kalds2019}.
 
-\subsection{Effect of residue substitutions in proteins}\label{sec:SAV}
+\subsection{Effect of Residue Substitutions in Proteins}\label{sec:SAV}
 
 The effect of substituting a residue for another in a protein can vary dramatically according to the identity of the introduced residue, the local biophysical environment, and the mechanistic function of the protein.
 
@@ -105,7 +105,7 @@ Mutations that influence aggregation independently from stability are also known
 Mutations that affect directly function are rarer since they need to occur on catalytic residues \parencite{DePristo2005}.
 
 
-\subsection{Low- and medium-throughput mutagenesis}
+\subsection{Low- and Medium-Throughput Mutagenesis}
 The first attempts at genetically modifying a biological sequence were done in a non-targeted fashion, by exposing cells to a mutagenic agent such as ionizing radiations and then selecting among the many random mutants generated those deemed of interest on a phenotypic standpoint \parencite{Muller1927, Stadler1928}.
 
 Site-directed mutagenesis \parencite[reviewed in][]{Shortle1981} was developed in the 1970s' by Clyde Hutchison, Marshall Edgell, and Michael Smith and paved the way for a wealth of experimental techniques aimed at precisely manipulating biological sequences.
@@ -117,7 +117,7 @@ A more advanced technique to sample the mutational landscape of a protein applie
 This technique, called single aminoacid scanning mutagenesis, usually performs substitutions towards a single residue and typically features alanine \parencite[reviewed in][]{Morrison2001}.
 Alanine is an ideal candidate for such studies since, compared to other residues and thanks to its simple methyl sidechain, it does show the effect of not having the wild-type functional groups in a given position while also it does not dramatically alter backbone flexibility.
 
-\subsection{Deep mutational scanning}
+\subsection{Deep Mutational Scanning}
 Even though site-directed mutagenesis and alanine scanning greatly served the genetics and biophysics communities, recent developments in sequencing technologies made it possible to extend the technique even further.
 
 Deep mutational scanning \parencite{Fowler2010, Fowler2014} is a high-throughput method for the characterization of large numbers of mutations in a given protein sequence.
@@ -158,7 +158,7 @@ When more time points are present, a linear regression model can be applied betw
 
 The statistical model Enrich2 \parencite{Rubin2017} offers automation and standardization in the determination of fitness scores from raw sequencing data from deep mutational scanning experiments.
 
-\section{Variant effect prediction}
+\section{Variant Effect Prediction}
 Despite the potentials from deep mutational scanning, the goal of having a complete mutational effect atlas even just for the human proteome is still not in reach.
 For model organisms, this is a target that is not even in sight.
 Nonetheless, assessing the effect of mutations is a central theme in personalised medicine \parencite{Goetz2018}.
@@ -188,7 +188,7 @@ The performances of variant effect predictors, especially in regression, is curr
 It was observed that a simple position-specific scoring matrix can perform better than complex, machine learning-based predictors \parencite{Reeb2020}.
 Poor performances, especially in the case of neutral mutations at evolutionarily conserved positions, could be due to a bias in the data used in training \parencite{Liu2013}.
 
-\section{Machine learning}
+\section{Machine Learning}
 Machine learning is a central tool in bioinformatics when the prediction of some quantity is of interest.
 Here I will briefly summarise the rationale behind the machine learning approaches used in this work.
 Instead of going into the mathematical details of the implementations used, which can, in any case, be explored by the interested reader in the respective original publications, this section wants to give an intuitive overview of the methods and practices that were used in the development of this project.
@@ -205,7 +205,7 @@ The opposite problem to overfitting is underfitting, which happens when a model 
 To reduce overfitting is possible, depending on the circumstances, to choose a simpler model, increase the amount of data, or apply regularization.
 A good discussion of overfitting is available in \textcite{Chicco2017}.
 
-\subsection{Validation and testing}
+\subsection{Validation and Testing}
 Validating a model means assessing its generalization performances.
 This is usually done by reserving a part of the data and excluding it from the training process.
 The model is trained on the so-called training set (the part of the data reserved for training) and then it is used to predict the data instances in the left-out fraction (called validation set).
@@ -223,7 +223,7 @@ For this reason, it is good practice to leave out of training and validation an 
 This test set will be used only to give an estimation of the true performances of the model with unseen data.
 Also for validation and testing, \textcite{Chicco2017} has a nice description of the strategies recommended in computational biology.
 
-\subsection{Hyperparameter optimization}
+\subsection{Hyperparameter Optimization}
 A hyperparameter of a machine learning model is a parameter whose value is not learned directly but is used to control the learning process.
 On the contrary, the optimal value of a model parameter is learned during training.
 
@@ -243,7 +243,7 @@ Excessive hyperparameter tuning can lead to overfitting of the validation data, 
 
 For more details on hyperparameter tuning see \textcite{Bergstra2012, Claesen2015}.
 
-\subsection{Linear regression}
+\subsection{Linear Regression}
 Linear regression is a simple model for the prediction of one (univariate) or more (multivariate) dependent variables from a set of independent variables.
 The prediction for the dependent variable is expressed as a linear combination of independent variables, with linear coefficients estimated from the data by minimising the sum of the squares of the errors.
 In this contest, the errors are the residuals between the predictions of the model and the actual values for the dependent variable.
@@ -252,7 +252,7 @@ The implementation used in this work does not have any free hyperparameter, sinc
 
 A more in-depth discussion of linear regression is available in \textcite{Yan2009}.
 
-\subsection{Gradient boosted trees}
+\subsection{Gradient Boosted Trees}
 Gradient boosted trees \parencite{Freund1997,Friedman2000,Friedman2001} are a machine learning approach that recently reached great popularity thanks to their excellent results in extracting information from structured data.
 Compared to neural networks, which are the method of choice for unstructured data and when the spatial or sequential structure of the data is crucial for the prediction (for example, in computer vision and natural language processing), gradient boosted trees perform better with data in a tabular format, where a series of observations is associated with a series of features.
 

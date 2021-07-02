@@ -46,7 +46,7 @@ Experimental protein structures stored in the Protein Data Bank \parencite[PDB,]
 InterPro \parencite[release 84.0]{Blum2020} was used for determining protein domain boundaries when trimming the query sequences.
 Structure Integration with Function, Taxonomy and Sequence \parencite[SIFTS,][accessed in March 2021]{Dana2018} and the Protein Data Bank in Europe-Knowledge Base \parencite[PDBe-KB,][accessed in March 2021]{Varadi2019} were used for mapping PDB structures to UniProt positions.
 
-\section{Computational infrastructure}
+\section{Computational Infrastructure}
 Light computational work and simple manipulations were performed locally on a Linux machine.
 Due to the storage requirements for large protein sequence databases, the multiple sequence alignments were performed on a remote Linux server at SciLifeLab (Stockholm, Sweden), kindly provided by Prof.~Arne Elofsson.
 GPU-heavy work such as neural network training was also performed on the same server, which was equipped with two Nvidia GeForce RTX 2080 GPUs.
@@ -70,7 +70,7 @@ The fitness scores were obtained from the sequencing counts for each mutation ac
 	Fitness = \log{\frac{m_a/m_b}{wt_a/wt_b}}
 \end{equation}
 
-\subsection{Correction for dataset \texttt{kka2\_1:2}}
+\subsection{Correction for Dataset \texttt{kka2\_1:2}}
 It was observed in preliminary analyses that the dataset \texttt{kka2\_1:2} (\cref{tab:datasets}) contained duplicated mutations with different fitness scores in the aggregated version of the dataset from \textcite{Gray2018}.
 Curiously, these duplicated entries involved only and all of the mutations towards isoleucine, tyrosine, serine, asparagine, and glutamate.
 It was not possible to determine the cause of the duplicated entries, which are absent from the original dataset from \textcite{Melnikov2014}.
@@ -82,7 +82,7 @@ The scores that were included in the training set for this work are the ones obt
 The pre-computed fitness scores were used, and not the raw sequencing counts.
 All the statistics for \texttt{kka2\_1:2} used in this study reflect the data sourced from \textcite{Melnikov2014} and not the data included in \textcite{Gray2018}.
 
-\subsection{Other minor inconsistencies}\label{sec:minor_inconsistencies}
+\subsection{Other Minor Inconsistencies}\label{sec:minor_inconsistencies}
 It was noted that for dataset \texttt{hsp90} the mutations from position \numrange{212}{222} are missing, while they are present in the original publication \parencite{Mishra2016}.
 It was also noted that for dataset \texttt{E1\_Ubiquitin} the mutations from position \numrange{40}{48} are missing.
 In the original publication, it is mentioned that these exact positions were used for method development but are nonetheless included in the fitness measurements.
@@ -167,7 +167,7 @@ See \cref{tab:excluded} for a summary of the number of retained data points for 
 	}%
 \end{table}
 
-\subsection{Normalization of fitness scores}\label{sec:mm_quantile_norm}
+\subsection{Normalization of Fitness Scores}\label{sec:mm_quantile_norm}
 For the single protein models (\cref{sec:mm_single_protein_models}), the fitness scores were used in their original, non-normalized format.
 For the general models (\cref{sec:mm_general_models}), the fitness scores were used in their original format for models that could be easily adapted in using a ranking loss function, while they were normalized for models that relied on a regression loss function as the minimum squared error.
 
@@ -182,7 +182,7 @@ All the predictors were trained using the same set of features.
 These included only information that could be derived from the sequence of the proteins and comparison with homologous sequences, avoiding the need for structural data.
 The approach proposed in this work leverages the use of unsupervised models, supervised predictors for structural data, sequence information, and position-specific scoring matrices.
 
-\subsection{Mutation identity}
+\subsection{Mutation Identity}
 For each data point, the original and mutated amino acid were provided to the models in one of two different ways.
 One-hot encoding was used for gradient boosted trees, linear regressors and support-vector machines.
 Each residue was represented by a vector with 20 elements, one for each possible standard residue.
@@ -190,7 +190,7 @@ Given their rarity, mutations to or from non-standard or unknown residues were e
 For neural networks, an ordinal encoding was used as input to an embedding layer.
 The dimensionality of the residue embedding was treated as a hyperparameter.
 
-\subsection{Multiple sequence alignments}\label{sec:msa}
+\subsection{Multiple Sequence Alignments}\label{sec:msa}
 Multiple sequence alignments are central to this predictor since they constitute the input for the computation of many of the features used.
 In general, alignment methods based on Hidden Markov Models were adopted because of their superior speed in large database searches and their increased sensitivity in the identification of remote homologies as compared to more traditional methods such as PSI-BLAST \parencite[see the introduction of][and references therein]{Steinegger2019}.
 The tool hhblits from the HH suite was used for most of the alignments.
@@ -217,7 +217,7 @@ The protein positions considered in each case are reported in \cref{tab:mut_rang
 The trimming step was always done at the level of the query sequence before the generation of the multiple sequence alignments.
 In all cases, the alignments were further processed by trimming out all the columns which corresponded to gaps in the query sequence.
 
-\subsection{Position-specific scoring matrices}
+\subsection{Position-Specific Scoring Matrices}
 The position-specific scoring matrices (PSSMs) were obtained from the emission probabilities of the Hidden Markov models trained from the hhblits multiple sequence alignments produced as described in \cref{sec:msa}.
 The Hidden Markov models were trained with the tool ``\texttt{hmmbuild}'' from the HMMER suite.
 This tool was preferred to the corresponding tool ``\texttt{hhmake}'' from the HH suite (which was used for obtaining the multiple sequence alignments in the first place) since the latter does not include pseudo counts in the model file and thus needed further processing for producing usable PSSMs.
@@ -227,7 +227,7 @@ A Python script produced in house was used for the purpose.
 
 The entire PSSM vector for each position was used as a feature, together with the PSSM scores for the wild-type residue and the mutated residue, and the difference between the two.
 
-\subsection{Evolutionary couplings}\label{sec:ev_mutation}
+\subsection{Evolutionary Couplings}\label{sec:ev_mutation}
 EVmutation is an unsupervised model for the prediction of mutation effect.
 It is available as part of the EVcouplings package, which implements a full pipeline from sequence to the prediction of mutation effect (among other functions).
 
@@ -240,14 +240,14 @@ Both scores were used as features in the predictor.
 For all stages, the default parameters from the sample EVcouplings configuration file were used.
 For the jackhmmer search, the parameters used included five iterations, a relative sequence and domain bit score threshold of 0.5 bits per residue, and UniRef100 as a database.
 
-\subsection{Predicted solvent accessibility, secondary structure, torsion angles, and disorder status}
+\subsection{Predicted Structural Features Obtained with NetSurfP-2.0}
 The neural network NetSurfP-2.0 is a state-of-the-art predictor for protein secondary structure, residue solvent accessibility, torsion angles, and disordered residues.
 The hhblits-based variant of the network was used, which uses hhblits-derived multiple sequence alignments.
 The multiple sequence alignments given in input were obtained with hhblits as described in \cref{sec:msa}.
 All the output values of the network were used as features.
 These include the relative and absolute solvent accessibilities, the three- and eight-class secondary structure class probabilities, torsion angles, and disorder probability.
 
-\subsection{Connectivity graphs}
+\subsection{Connectivity Graphs}
 Protein contacts were predicted with trRosetta.
 The contacts were then used for defining connectivity graphs of the proteins, from which various features were extracted.
 
@@ -276,13 +276,13 @@ Harmonic centrality was obtained as described in \textcite{Boldi2014}.
 The clustering coefficient implementation used is described in \textcite{Onnela2005}.
 Further implementation details can be obtained from the NetworkX documentation at \url{https://networkx.org/documentation}.
 
-\subsection{Imputation of missing features}\label{sec:mm_missing}
+\subsection{Imputation of Missing Features}\label{sec:mm_missing}
 The features obtained from EVcouplings were missing for some mutations.
 This is due to the handling of regions with a poor quality multiple sequence alignment done by the EVcouplings package.
 For predictors that can deal with missing features (gradient boosted trees), no imputation was done.
 For predictors that could not deal with missing features (linear regression, support vector machines, neural networks), missing features were imputed using the median feature value of the respective training sets.
 
-\section{Experimental validation of predicted structural features}\label{sec:mm_exp_val}
+\section{Experimental Validation of Predicted Structural Features}\label{sec:mm_exp_val}
 To validate the predicted structural features used in model training, when possible they were compared to the corresponding experimental properties.
 It should be noted that features derived from experimental protein structures, however, were never used in model training.
 The features that were validated in this way consisted of the NetSurfP-2 predictions and the trRosetta contact maps.
@@ -344,11 +344,11 @@ Long-range contacts were defined as contacts between residues at \num{24} or mor
 An experimental contact was defined as a pair of residues at a distance of \SI{8}{\angstrom} or less.
 Experimental distances were measured between $C_\beta$ atoms for all residues except glycine, where the $C_\alpha$ atom was taken as reference.
 
-\section{Validation and testing strategy}\label{sec:mm_validation_and_testing}
+\section{Validation and Testing Strategy}\label{sec:mm_validation_and_testing}
 The general framework followed throughout the project is that of using cross-validation for model optimization on a part of the dataset, and then evaluating the generalization performances on a different test set.
 In general, the test set was separated from the training dataset before performing cross-validation.
 
-\subsection{Single protein models}\label{sec:mm_single_protein_models}
+\subsection{Single Protein Models}\label{sec:mm_single_protein_models}
 Single protein models are models trained on a single deep mutational scanning experiment to predict a holdout proportion of the mutations in the same dataset.
 Independent models were produced for each of the nine deep mutational scanning datasets used in this work.
 
@@ -361,7 +361,7 @@ Two different validation and testing strategies were used, both conforming to th
 In the first case, which I refer to as ``naive validation and testing'', the mutations in a given dataset were just distributed randomly among training and testing sets, and among the different validation folds.
 In the second case, care was taken to avoid different mutations of the same residue (same UniProt position) ending up both in the training and testing sets or in different cross-validation folds.
 
-\subsection{General models}\label{sec:mm_general_models}
+\subsection{General Models}\label{sec:mm_general_models}
 The general models trained on the aggregated dataset were cross-validated in a Leave-One-Protein-Out (LOPO) fashion, similarly to what was done in \textcite{Gray2018}.
 
 Differently than in that work, however, in my implementation half of the mutations in the left-out protein at each iteration were used for hyperparameter tuning, while the other half was set aside for testing.
@@ -374,7 +374,7 @@ The separation of validation and testing data on the holdout proteins was done i
 
 Hyperparameter tuning and test performance evaluation were conducted in an aggregated manner for all the proteins, not in a protein-specific way.
 
-\section{Model architectures and optimization}\label{sec:mm_optimization}
+\section{Model Architectures and Optimization}\label{sec:mm_optimization}
 Different models were tested for the general configuration described in \cref{sec:mm_general_models}, while for the single protein models only gradient boosted trees were used.
 This section describes the optimization strategy used for each model type, and other custom configurations used.
 
@@ -382,12 +382,12 @@ The optimization of hyperparameters was done by cross-validation and random sear
 The number of sampled configurations varied for different models.
 Many rounds of random search were usually performed testing different hyperparameters or narrowing down the range for specific hyperparameters until a satisfactory combination was found.
 
-\subsection{Linear regression}
+\subsection{Linear Regression}
 A simple linear regressor without any free hyperparameter and regularization was deployed using the implementation available in the Scikit-learn Python library (the class \texttt{sklearn.linear\_model.LinearRegression} was used).
 Linear regression was used only for the general model.
 To make the results from different datasets more comparable, the fitness scores were quantile-normalized before being fed to the predictor as explained in \cref{sec:mm_quantile_norm}.
 
-\subsection{Gradient boosted trees}
+\subsection{Gradient Boosted Trees}
 Gradient boosted trees were implemented with the XGBoost Python library.
 For more details on the implementation and available parameters, the reader can refer to the library documentation at \url{https://xgboost.readthedocs.io}.
 
@@ -417,7 +417,7 @@ The random search was parallelized with MPI for Python, such that different comb
 This allowed me to take advantage of the large number of cores available in the supercomputer cluster, and the embarrassingly parallel characteristic of the random search problem.
 The number of sampled configurations was adjusted to maximise resource usage and avoid that some nodes waited for others to complete their computations (it was adjusted to be an integer multiple of the number of cores available).
 
-\section{Performance evaluation}
+\section{Performance Evaluation}
 Performance was evaluated in terms of correlation between the predicted and ground truth values.
 For single protein models, the Pearson correlation coefficient was used.
 
@@ -434,7 +434,7 @@ The model was trained again on the full training set and used to predict the tes
 The performance of the test predictions was evaluated, and the validation and test scores were reported.
 The comparison of validation and test scores allowed me to estimate if the model was overfitting the validation set.
 
-\section{Comparison with other variant effect predictors}
+\section{Comparison with Other Variant Effect Predictors}
 A set of state-of-the-art quantitative variant effect predictors were selected: the supervised gradient boosting tree model Envision \parencite{Gray2018} and the unsupervised EVcouplings epistatic and independent models \parencite{Hopf2018}.
 
 A notable quantitative model that was not included in this comparison is the unsupervised variational autoencoder DeepSequence \parencite{Riesselman2018}.
@@ -452,7 +452,7 @@ For my predictors, the performances are the ones measured on the respective test
 To allow for a more meaningful comparison of the scores, the performances for my model were evaluated only on the mutations for which a prediction could be obtaned with EVcouplings.
 This criterion was not applicable for Envision since I did not have access to the actual predictions, but only to the declare performances.
 
-\section{Evaluation of feature importance}\label{sec:mm_feature_importance}
+\section{Evaluation of Feature Importance}\label{sec:mm_feature_importance}
 To assess which features contributed more to the performance of the models developed in this work, their permutation importance was evaluated.
 
 Given that some of the features used are collinear, they were not evaluated independently but by grouping them into nine groups.
@@ -486,7 +486,7 @@ An importance score equal to the performance of the original model indicates tha
 A negative importance score indicates that the model performs better than the baseline when the feature group is randomized.
 The feature importance was evaluated independently for each of the nine datasets used in this work.
 
-\section{Determination of the statistical significance of the results}\label{mm:significance}
+\section{Determination of the Statistical Significance of the Results}\label{mm:significance}
 For the evaluation of the statistical significance of the performance differences among the general models and EVcouplings, a permutation test was performed.
 The significance of the performance differences with Envision was not evaluated since for this predictor I did not have access to the predictions themselves, but only to the correlation scores reported by the Envision authors.
 The linear models, gradient boosted tree models, and EVcouplings were compared in a pairwise fashion for each of the nine datasets, for a total of \num{27} comparisons.

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  1 JUL 2021 17:33
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  2 JUL 2021 09:52
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1773,15 +1773,7 @@ Overfull \vbox (5.84306pt too high) detected at line 169
 
 <./tikz/cache/main-figure7.pdf>]
 (./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
-\openout3 = ./tikz/cache/main-figure8.md5
-
-\openout3 = main.auxlock
-
-===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "./tikz/cache/main-figure8" "\def\tikze
-xternalrealjob{main}\input{main}"' ========
-
-\openout3 = main.auxlock
+===== Image './tikz/cache/main-figure8' is up-to-date. ======
 )
 Overfull \vbox (5.84306pt too high) detected at line 188
  []
@@ -1798,16 +1790,18 @@ Overfull \vbox (5.84306pt too high) detected at line 188
 
 <./tikz/cache/main-figure10.pdf>]
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 223.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 222.
 
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 223.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 222.
 
 [17
 
 ] [18
 
+
+] [19
 
 ]
 \tf@nav=\write7
@@ -1828,16 +1822,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42288 strings out of 478531
+ 42293 strings out of 478531
  125086,14696376 words of node,token memory allocated
- 11487 words of node memory still in use:
-   43 hlist, 9 vlist, 5 rule, 63 disc, 6 local_par, 1 dir, 8 math, 227 glue, 47 
-kern, 72 penalty, 10 margin_kern, 848 glyph, 454 attribute, 76 glue_spec, 229 at
-tribute_list, 8 write, 4 pdf_start_link, 4 pdf_end_link, 4 pdf_dest, 4 pdf_actio
-n, 58 pdf_colorstack nodes
-   avail lists: 1:3,2:7206,3:3479,4:361,5:179,6:102,7:3622,8:42,9:1224,10:15,11:
-162
- 60137 multiletter control sequences out of 65536+600000
+ 1842 words of node memory still in use:
+   23 hlist, 9 vlist, 7 rule, 6 disc, 3 local_par, 1 dir, 40 glue, 7 kern, 10 pe
+nalty, 37 glyph, 88 attribute, 76 glue_spec, 46 attribute_list, 4 write, 18 pdf_
+colorstack nodes
+   avail lists: 1:3,2:7755,3:3549,4:411,5:219,6:109,7:4628,8:50,9:1242,10:15,11:
+219
+ 60147 multiletter control sequences out of 65536+600000
  80 fonts using 9556135 bytes
  131i,15n,125p,736b,2922s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/fonts/TTF/FiraCode-Regular.ttf></usr/share/texmf-dist/fonts/opentype
@@ -1850,10 +1843,10 @@ st/fonts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (18 pages, 388308 bytes).
+Output written on main.pdf (19 pages, 388850 bytes).
 
-PDF statistics: 454 PDF objects out of 1000 (max. 8388607)
- 320 compressed objects within 4 object streams
- 48 named destinations out of 1000 (max. 131072)
+PDF statistics: 461 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
+ 50 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 
