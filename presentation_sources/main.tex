@@ -26,7 +26,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Deep mutational scanning}
+	\frametitle{Deep Mutational Scanning}
 	High-throughput technique for obtaining fitness information on a large number of mutations
 	\vfill%
 	\begin{figure}
@@ -35,43 +35,15 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{I considered only single aminoacid variants}
+	\frametitle{I Considered Only Single Amino Acid Variants}
 	\vfill%
 	\begin{figure}
 		\input{tikz/mutation_illustration.tex}
 	\end{figure}
 \end{frame}
 
-%\begin{frame}
-%	\frametitle{Effect of single amino acid substitutions}
-%	\begin{figure}
-%		\input{tikz/effect_of_mutations_mindmap.tex}
-%	\end{figure}
-%\end{frame}
-
-%\begin{frame}
-%	\frametitle{Variant effect prediction}
-%	Complete experimental coverage of the human proteome mutational landscape is not currently in reach, and it is a distant goal for model organisms.
-%	Computational predictions are needed.
-%
-%	But why is it important to know the effect of a mutation?
-%
-%	\begin{itemize}
-%		\item Precision medicine
-%		\item Protein engineering
-%	\end{itemize}
-%
-%	How can it be done?
-%
-%	\begin{itemize}
-%		\item Supervised or unsupervised
-%		\item Quantitative or as a classification problem
-%		\item Machine learning or simple statistical models
-%	\end{itemize}
-%\end{frame}
-
 \begin{frame}
-	\frametitle{Some notable variant effect predictors}
+	\frametitle{Some Notable Variant Effect Predictors}
 	\begin{figure}
 		\input{tikz/variant_effect_predictors.tex}
 	\end{figure}
@@ -80,14 +52,14 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Structure of the project}
+	\frametitle{Structure of the Project}
 	\begin{figure}
 		\input{tikz/project_structure.tex}
 	\end{figure}
 \end{frame}
 
 \begin{frame}
-	\frametitle{I used the training dataset of Envision \parencite{Gray2018}}
+	\frametitle{I Used the Training Dataset of Envision \parencite{Gray2018}}
 	\vfill%
 	\centering%
 	% for some reason figure fails
@@ -96,7 +68,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Poor correlation among experimental results}
+	\frametitle{Poor Correlation among Experimental Results}
 	Two independent deep mutational scanning experiments on Ubiquitin are present in the training dataset.
 	Their correlation is low.
 	\vfill%
@@ -105,7 +77,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{The identities of the mutated residues are important}
+	\frametitle{The Identities of the Mutated Residues Are Important}
 	Mutations from polar residues are less detrimental than other mutations.
 	This effect disappears when filtering by relative solvent accessibility (not shown here).
 	\vfill%
@@ -114,30 +86,30 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Buried residues are more conserved}
+	\frametitle{Buried Residues Are More Conserved}
 	\centering%
 	\input{tikz/tikzdevice/presentation_score_dssp_rsa.tex}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Secondary structure is not critical}
+	\frametitle{Secondary Structure Is Not Critical}
 	\centering%
 	\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
 \end{frame}
 
 \begin{frame}
-	\frametitle{I did not use structural information}
+	\frametitle{I Did Not Use Structural Information}
 	\begin{figure}
 		\input{tikz/features.tex}
 	\end{figure}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Single protein models with naive testing}
+	\frametitle{Single Protein Models with Naive Testing}
 	\begin{columns}[c]
 		\begin{column}{.6\textwidth}
 			\centering%
-			\vspace{2em}
+			\vspace{1em}
 			\input{tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary.tex}
 		\end{column}
 		\begin{column}{.4\textwidth}
@@ -151,11 +123,11 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Single protein models with testing by position}
+	\frametitle{Single Protein Models with Testing by Position}
 	\begin{columns}[c]
 		\begin{column}{.6\textwidth}
 			\centering%
-			\vspace{2em}
+			\vspace{1em}
 			\input{tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_summary.tex}
 		\end{column}
 		\begin{column}{.4\textwidth}
@@ -169,11 +141,11 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Leave-One-Protein-Out (LOPO) models}
+	\frametitle{Leave-One-Protein-Out (LOPO) Models}
 	\begin{columns}[c]
 		\begin{column}{.6\textwidth}
 			\centering%
-			\vspace{2em}
+			\vspace{1em}
 			\input{tikz/tikzdevice/presentation_general_models_performance_comparison.tex}
 		\end{column}
 		\begin{column}{.4\textwidth}
@@ -202,7 +174,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Future directions}
+	\frametitle{Future Directions}
 	\begin{figure}
 		\begin{tikzpicture}
 			\tikzstyle{every node}=[object, font=\footnotesize]

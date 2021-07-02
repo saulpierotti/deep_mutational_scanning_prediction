@@ -111,5 +111,8 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 \setbeamercolor{bibliography entry title}{fg=black}
 \setbeamercolor{bibliography entry note}{fg=primary_inverse_light_fg}
 
+% silece the font warning for missing small caps sans serif in bibliography acronyms
+\let\oldmkbibacro\mkbibacro%
+\renewcommand{\mkbibacro}[1]{\textrm{\oldmkbibacro{#1}}}%
 
 \mode<all>
