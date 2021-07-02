@@ -194,7 +194,103 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Supplementary Material - }
+	\frametitle{Supplementary Material}
+	Confidence intervals in prediction performances
+	\vfill%
+	\tiny%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llll}%
+		\toprule
+		Dataset name            & Model       & \SI{95}{\percent} C.I. (Pearson) & \SI{95}{\percent} C.I. (Spearman) \\
+		\midrule
+		\texttt{beta-lactamase} & Naive       & \numrange{0.8866}{0.9077}        & \numrange{0.8578}{0.8803}         \\
+		\texttt{beta-lactamase} & By position & \numrange{0.7927}{0.8272}        & \numrange{0.7461}{0.7820}         \\
+		\texttt{beta-lactamase} & LOPO        & ---                              & \numrange{0.6781}{0.7210}         \\
+		\texttt{WW\_domain}     & Naive       & \numrange{0.6747}{0.8174}        & \numrange{0.7044}{0.8368}         \\
+		\texttt{WW\_domain}     & By position & \numrange{0.5679}{0.7291}        & \numrange{0.5203}{0.7168}         \\
+		\texttt{WW\_domain}     & LOPO        & ---                              & \numrange{0.5628}{0.7297}         \\
+		\texttt{PSD95pdz3}      & Naive       & \numrange{0.7443}{0.8313}        & \numrange{0.7276}{0.8008}         \\
+		\texttt{PSD95pdz3}      & By position & \numrange{0.5487}{0.6652}        & \numrange{0.5442}{0.6485}         \\
+		\texttt{PSD95pdz3}      & LOPO        & ---                              & \numrange{0.5335}{0.6282}         \\
+		\texttt{kka2\_1:2}      & Naive       & \numrange{0.7405}{0.7763}        & \numrange{0.7232}{0.7588}         \\
+		\texttt{kka2\_1:2}      & By position & \numrange{0.6451}{0.6881}        & \numrange{0.6401}{0.6824}         \\
+		\texttt{kka2\_1:2}      & LOPO        & ---                              & \numrange{0.5975}{0.6427}         \\
+		\texttt{hsp90}          & Naive       & \numrange{0.8190}{0.8664}        & \numrange{0.6522}{0.7071}         \\
+		\texttt{hsp90}          & By position & \numrange{0.6945}{0.7577}        & \numrange{0.4996}{0.5674}         \\
+		\texttt{hsp90}          & LOPO        & ---                              & \numrange{0.3771}{0.4529}         \\
+		\texttt{Ubiquitin}      & Naive       & \numrange{0.7470}{0.8281}        & \numrange{0.7782}{0.8321}         \\
+		\texttt{Ubiquitin}      & By position & \numrange{0.4858}{0.6035}        & \numrange{0.4565}{0.5672}         \\
+		\texttt{Ubiquitin}      & LOPO        & ---                              & \numrange{0.2951}{0.4296}         \\
+		\texttt{Pab1}           & Naive       & \numrange{0.8047}{0.8749}        & \numrange{0.7482}{0.8239}         \\
+		\texttt{Pab1}           & By position & \numrange{0.6545}{0.7590}        & \numrange{0.6423}{0.7288}         \\
+		\texttt{Pab1}           & LOPO        & ---                              & \numrange{0.6038}{0.7004}         \\
+		\texttt{E1\_Ubiquitin}  & Naive       & \numrange{0.7454}{0.8470}        & \numrange{0.6487}{0.7517}         \\
+		\texttt{E1\_Ubiquitin}  & By position & \numrange{0.5898}{0.7218}        & \numrange{0.3623}{0.5100}         \\
+		\texttt{E1\_Ubiquitin}  & LOPO        & ---                              & \numrange{0.5027}{0.6343}         \\
+		\texttt{gb1}            & Naive       & \numrange{0.8965}{0.9341}        & \numrange{0.8759}{0.9194}         \\
+		\texttt{gb1}            & By position & \numrange{0.3072}{0.4561}        & \numrange{0.2942}{0.4522}         \\
+		\texttt{gb1}            & LOPO        & ---                              & \numrange{0.3225}{0.4706}         \\
+		\bottomrule
+	\end{tabular*}%
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Statistical significance of performance differences. Bonferroni-corrected $\alpha = \frac{0.05}{27} = 0.00185185$.
+	Starred values are significant.
+	\vfill%
+	\tiny%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
+		\toprule
+		Dataset name            & Model 1           & Model 2                & $p$ value      \\
+		\midrule
+		\texttt{beta-lactamase} & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{beta-lactamase} & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{beta-lactamase} & EVmutation        & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{WW\_domain}     & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{WW\_domain}     & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{WW\_domain}     & EVmutation        & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{PSD95pdz3}      & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{PSD95pdz3}      & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{PSD95pdz3}      & EVmutation        & Gradient boosted trees & \num{0.514}  \\
+		\texttt{kka2\_1:2}      & Linear regression & Gradient boosted trees & \num{0.0043} \\
+		\texttt{kka2\_1:2}      & Linear regression & EVmutation             & \num{0.0053} \\
+		\texttt{kka2\_1:2}      & EVmutation        & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{hsp90}          & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{hsp90}          & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{hsp90}          & EVmutation        & Gradient boosted trees & \num{0.2358} \\
+		\bottomrule
+	\end{tabular*}%
+	\normalsize%
+
+	The table continues on the next slide.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Statistical significance of performance differences. Bonferroni-corrected $\alpha = \frac{0.05}{27} = 0.00185185$.
+	Starred values are significant.
+
+	The table continues from the previous slide.
+	\vfill%
+	\tiny%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
+		\toprule
+		Dataset name            & Model 1           & Model 2                & $p$ value      \\
+		\midrule
+		\texttt{Ubiquitin}      & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{Ubiquitin}      & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{Ubiquitin}      & EVmutation        & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{Pab1}           & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{Pab1}           & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{Pab1}           & EVmutation        & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{E1\_Ubiquitin}  & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{E1\_Ubiquitin}  & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{E1\_Ubiquitin}  & EVmutation        & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{gb1}            & Linear regression & Gradient boosted trees & \num{1e-4} * \\
+		\texttt{gb1}            & Linear regression & EVmutation             & \num{1e-4} * \\
+		\texttt{gb1}            & EVmutation        & Gradient boosted trees & \num{1e-4} * \\
+		\bottomrule
+	\end{tabular*}%
 \end{frame}
 
 \end{document}

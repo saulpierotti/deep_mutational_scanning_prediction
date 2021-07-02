@@ -31,7 +31,7 @@
 
 \RequirePackage{appendixnumberbeamer}
 \RequirePackage{tikz}
-\RequirePackage[style=authoryear, maxcitenames=1]{biblatex}
+\RequirePackage[style=apa, maxcitenames=1]{biblatex}
 \RequirePackage{parskip}
 \RequirePackage{microtype}
 \RequirePackage{siunitx}
@@ -112,6 +112,7 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 \setbeamercolor{bibliography entry note}{fg=primary_inverse_light_fg}
 
 % silece the font warning for missing small caps sans serif in bibliography acronyms
+% not needed for APA but for authoryear
 \let\oldmkbibacro\mkbibacro%
 \renewcommand{\mkbibacro}[1]{\textrm{\oldmkbibacro{#1}}}%
 

@@ -91,10 +91,18 @@
 \headcommand {\slideentry {1}{0}{1}{19/19}{}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@partpages {17}{19}}
-\headcommand {\beamer@subsectionpages {17}{19}}
-\headcommand {\beamer@sectionpages {17}{19}}
-\headcommand {\beamer@documentpages {19}}
-\headcommand {\gdef \inserttotalframenumber {3}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{2}{20/20}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {20}{20}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{3}{21/21}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@partpages {17}{21}}
+\headcommand {\beamer@subsectionpages {17}{21}}
+\headcommand {\beamer@sectionpages {17}{21}}
+\headcommand {\beamer@documentpages {21}}
+\headcommand {\gdef \inserttotalframenumber {5}}
 \headcommand {\gdef \inserttotalframenumber {16}}
-\headcommand {\gdef \appendixtotalframenumber {3}}
+\headcommand {\gdef \appendixtotalframenumber {5}}

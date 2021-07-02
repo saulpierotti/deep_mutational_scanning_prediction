@@ -18,7 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
+  \datalist[entry]{apa/global//global/global}
     \entry{Adzhubei2010}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=05b64ededc26c802346583616088bf6b}{%
@@ -76,14 +76,15 @@
       }
       \strng{namehash}{03f8d632763cbf8d60877c67c0e71b72}
       \strng{fullhash}{c7a15ed36dbea3ef663922a55dc359dc}
-      \strng{bibnamehash}{03f8d632763cbf8d60877c67c0e71b72}
-      \strng{authorbibnamehash}{03f8d632763cbf8d60877c67c0e71b72}
+      \strng{bibnamehash}{c7a15ed36dbea3ef663922a55dc359dc}
+      \strng{authorbibnamehash}{c7a15ed36dbea3ef663922a55dc359dc}
       \strng{authornamehash}{03f8d632763cbf8d60877c67c0e71b72}
       \strng{authorfullhash}{c7a15ed36dbea3ef663922a55dc359dc}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Methods}
@@ -134,6 +135,7 @@
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{PLoS Computational Biology}
@@ -187,14 +189,15 @@
       }
       \strng{namehash}{8143675e3080cf307fb5740c755220c4}
       \strng{fullhash}{5289392f916616ed817b92003dc013c7}
-      \strng{bibnamehash}{8143675e3080cf307fb5740c755220c4}
-      \strng{authorbibnamehash}{8143675e3080cf307fb5740c755220c4}
+      \strng{bibnamehash}{5289392f916616ed817b92003dc013c7}
+      \strng{authorbibnamehash}{5289392f916616ed817b92003dc013c7}
       \strng{authornamehash}{8143675e3080cf307fb5740c755220c4}
       \strng{authorfullhash}{5289392f916616ed817b92003dc013c7}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Cell Systems}
@@ -248,6 +251,7 @@
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{BMC Genomics}
@@ -312,14 +316,15 @@
       }
       \strng{namehash}{e19e4112a868121801933ed8baa1cd56}
       \strng{fullhash}{b3ac39c291d37ea25feebbb958abf514}
-      \strng{bibnamehash}{e19e4112a868121801933ed8baa1cd56}
-      \strng{authorbibnamehash}{e19e4112a868121801933ed8baa1cd56}
+      \strng{bibnamehash}{b3ac39c291d37ea25feebbb958abf514}
+      \strng{authorbibnamehash}{b3ac39c291d37ea25feebbb958abf514}
       \strng{authornamehash}{e19e4112a868121801933ed8baa1cd56}
       \strng{authorfullhash}{b3ac39c291d37ea25feebbb958abf514}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Biotechnology}
@@ -412,14 +417,15 @@
       }
       \strng{namehash}{b8d28433c6798994e559bd85a5406591}
       \strng{fullhash}{0b72d04495336f164efb83424747d8c1}
-      \strng{bibnamehash}{b8d28433c6798994e559bd85a5406591}
-      \strng{authorbibnamehash}{b8d28433c6798994e559bd85a5406591}
+      \strng{bibnamehash}{0b72d04495336f164efb83424747d8c1}
+      \strng{authorbibnamehash}{0b72d04495336f164efb83424747d8c1}
       \strng{authornamehash}{b8d28433c6798994e559bd85a5406591}
       \strng{authorfullhash}{0b72d04495336f164efb83424747d8c1}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proteins: Structure, Function, and Bioinformatics}
@@ -473,6 +479,7 @@
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature Methods}
@@ -535,14 +542,15 @@
       }
       \strng{namehash}{a9c9f900fe44f1e4e2112555d345b832}
       \strng{fullhash}{db614603350b098736df1c78bfced0b1}
-      \strng{bibnamehash}{a9c9f900fe44f1e4e2112555d345b832}
-      \strng{authorbibnamehash}{a9c9f900fe44f1e4e2112555d345b832}
+      \strng{bibnamehash}{db614603350b098736df1c78bfced0b1}
+      \strng{authorbibnamehash}{db614603350b098736df1c78bfced0b1}
       \strng{authornamehash}{a9c9f900fe44f1e4e2112555d345b832}
       \strng{authorfullhash}{db614603350b098736df1c78bfced0b1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucleic Acids Research}
@@ -605,14 +613,15 @@
       }
       \strng{namehash}{2a370f297e2c905c67d9f3acea8245a9}
       \strng{fullhash}{75492bb00badc6d21b4337fdf545da16}
-      \strng{bibnamehash}{2a370f297e2c905c67d9f3acea8245a9}
-      \strng{authorbibnamehash}{2a370f297e2c905c67d9f3acea8245a9}
+      \strng{bibnamehash}{75492bb00badc6d21b4337fdf545da16}
+      \strng{authorbibnamehash}{75492bb00badc6d21b4337fdf545da16}
       \strng{authornamehash}{2a370f297e2c905c67d9f3acea8245a9}
       \strng{authorfullhash}{75492bb00badc6d21b4337fdf545da16}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the National Academy of Sciences}
