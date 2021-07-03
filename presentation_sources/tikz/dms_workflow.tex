@@ -4,8 +4,10 @@
 	\node[object, below right=0em and -.5em of a, text width=12em] (b) {Fitness selection};
 	\node[object, below=-.3em of b, text width=12em] (c) {Sequencing of selected library};
 	\node[object, left=8em of c] (d) {Sequencing of unselected library};
-	\node[object, below=6em of a, align=center, text width=20em] (e) {%
-		Calculation of fitness scores: $\log{\frac{mut_a/mut_b}{wt_a/wt_b}}$
+	\node[object, below=6em of a, align=center, text width=13em] (e) {%
+		Calculation of fitness scores\\
+		\vspace{1em}
+		$\log{\frac{\mathrm{mut}_a/\mathrm{mut}_b}{\mathrm{wt}_a/\mathrm{wt}_b}}$
 	};
 	\draw [->, color=bologna_red] (a) -| (b);
 	\draw [->, color=bologna_red] (a) -| (d);

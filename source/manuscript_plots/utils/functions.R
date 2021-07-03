@@ -817,12 +817,21 @@ get_corr_bootstrap <- function(test_tb,
   }
 }
 
-get_mutation_identity_plot <- function(training_tb) {
+get_mutation_identity_plot <- function(training_tb, limit_tb = NULL) {
   mutation_identity_tb <- training_tb %>%
     group_by(aa1, aa2, .drop = FALSE) %>%
     summarise(score = mean(score), dssp_rsa) %>%
     ungroup()
-  max_abs_score <- max(abs(mutation_identity_tb$score))
+  if (is.null(limit_tb)) {
+    max_abs_score <- max(abs(mutation_identity_tb$score))
+  }
+  else {
+    mutation_identity_limit_tb <- limit_tb %>%
+      group_by(aa1, aa2, .drop = FALSE) %>%
+      summarise(score = mean(score), dssp_rsa) %>%
+      ungroup()
+    max_abs_score <- max(abs(mutation_identity_limit_tb$score))
+  }
   color_range <- c(-max_abs_score, max_abs_score)
   plot <- ggplot(data = mutation_identity_tb) +
     geom_tile(aes(x = aa1, y = aa2, fill = score)) +

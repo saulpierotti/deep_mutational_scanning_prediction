@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  2 JUL 2021 17:13
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  3 JUL 2021 19:08
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1366,6 +1366,68 @@ Package csquotes Info: ... configuration file loaded successfully.
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty)
+luaotfload | aux : font no 27 (nil) defines no feature for script latn
+luaotfload | aux : font no 27 (nil) defines no feature for script dflt
+
+Package fontspec Info: Font family 'FuturaBook.ttf(0)' created for font
+(fontspec)             'FuturaBook.ttf' with options [Ligatures=TeX,Path =
+(fontspec)             /home/saul/.fonts/for_latex/,ItalicFont=FuturaBookItalic
+.ttf,BoldFont=FuturaHeavy.ttf,BoldItalicFont=FuturaHeavyItalic.ttf,FontFace
+(fontspec)             = {sb}{n}{FuturaMedium.ttf},FontFace =
+(fontspec)             {sb}{it}{FuturaMediumItalic.ttf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - (sb/n) with NFSS spec.:
+(fontspec)             <->"[/home/saul/.fonts/for_latex/FuturaMedium.ttf]:mode=
+node;language=dflt;+tlig;"
+(fontspec)             -  (sb/sc) with NFSS spec.: 
+(fontspec)             - (sb/it) with NFSS spec.:
+(fontspec)             <->"[/home/saul/.fonts/for_latex/FuturaMediumItalic.ttf]
+:mode=node;language=dflt;+tlig;"
+(fontspec)             -  (sb/scit) with NFSS spec.: 
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[/home/saul/.fonts/for_latex/FuturaBook.ttf]:mode=no
+de;language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[/home/saul/.fonts/for_latex/FuturaHeavy.ttf]:mode=n
+ode;language=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[/home/saul/.fonts/for_latex/FuturaBookItalic.ttf]:m
+ode=node;language=dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[/home/saul/.fonts/for_latex/FuturaHeavyItalic.ttf]:
+mode=node;language=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script latn
+ with language dflt
+
+Package fontspec Info: Font family 'FiraCodeRegular.ttf(0)' created for font
+(fontspec)             'FiraCodeRegular.ttf' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Path
+(fontspec)             = /home/saul/.fonts/for_latex/].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[/home/saul/.fonts/for_latex/FiraCodeRegular.ttf]:mo
+de=node;script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfarrowinset=\dimen329
@@ -1429,75 +1491,39 @@ l.code.tex
 lshared.code.tex))
 \openout3 = main.auxlock
 )
-(/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfonts.sty)
-luaotfload | cache : Lookup cache loaded from /home/saul/.texlive/texmf-var/luat
-ex-cache/generic/names/luaotfload-lookup-cache.luc.
-
-Package fontspec Info: Could not resolve font "FiraCodeRegular/BI" (it
-(fontspec)             probably doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FiraCodeRegular/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "FiraCodeRegular/I" (it probably
-(fontspec)             doesn't exist).
-
-luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
- with language dflt
-
-Package fontspec Info: Font family 'FiraCodeRegular(0)' created for font 'Fira
-(fontspec)             Code Regular' with options
-(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
-Space].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"FiraCodeRegular:mode=node;script=latn;language=dflt;
-"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             and font adjustment code:
-(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
-(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
-(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
-(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
-
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'british'.
-
-(./main.aux)
+ (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-2.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+9.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -1555,7 +1581,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1568,9 +1594,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count513
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./main.out) (./main.out)
 \@outlinefile=\write6
@@ -1655,23 +1681,175 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
-LaTeX Info: Redefining \microtypecontext on input line 22.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
+LaTeX Info: Redefining \microtypecontext on input line 19.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 22.
+LaTeX Info: Redefining \showhyphens on input line 19.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: TU).
+(microtype)             `FuturaBook.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\k A'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\u A'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\k a'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\u a'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v D'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v d'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\k E'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v E'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\k e'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v e'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'L'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v L'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'l'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v l'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'N'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v N'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'n'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v n'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\H O'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\H o'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'R'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v R'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'r'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v r'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'S'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'s'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\c T'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v T'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\c t'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\v t'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\H U'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\r U'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\H u'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\r u'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'Z'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\.Z'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\'z'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
+Package microtype Info: Unknown slot number of character
+(microtype)             `\.z'
+(microtype)             in font encoding `TU' in inheritance list
+(microtype)             `microtype.cfg/397(protrusion)'.
 
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
@@ -1682,64 +1860,66 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
-LaTeX Font Info:    Redeclaring math accent \check on input line 22.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 19.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 19.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 19.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 19.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 19.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 19.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 19.
+LaTeX Font Info:    Redeclaring math accent \check on input line 19.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 19.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 19.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 19.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 19.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 22.
+(Font)              `operators' in the math version `normal' on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 22.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 19.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 22.
+(Font)              `operators' in the math version `bold' on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 22.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 22.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 22.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 22.
+(Font)                  OT1/cmss/m/n --> TU/FuturaBook.ttf(0)/m/n on input line
+ 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCodeRegular(0)/m/n on input lin
-e 22.
+(Font)                  OT1/cmtt/m/n --> TU/FiraCodeRegular.ttf(0)/m/n on input
+ line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 22.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 22.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 22.
+(Font)                  OT1/cmss/bx/n --> TU/FuturaBook.ttf(0)/b/n on input lin
+e 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/FiraCodeRegular(0)/b/n on input lin
-e 22.
+(Font)                  OT1/cmtt/m/n --> TU/FiraCodeRegular.ttf(0)/b/n on input
+ line 19.
  (./main.nav) (/usr/share/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cf
 g
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 19.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1748,7 +1928,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 19.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1762,7 +1942,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraCodeRegular' (encoding: TU).
+(microtype)             `FiraCodeRegular.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [1
@@ -1780,29 +1960,77 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 (./tikz/tikzdevice/presentation_fitness_score_distribution.tex
-===== Image './tikz/cache/main-figure0' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure0.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure0" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) (./tikz/tikzdevice/presentation_datasets_abundancies.tex
-===== Image './tikz/cache/main-figure1' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure1.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure1" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [6
 
 <./tikz/cache/main-figure0.pdf><./tikz/cache/main-figure1.pdf>]
 (./tikz/tikzdevice/presentation_datasets_correlations.tex
-===== Image './tikz/cache/main-figure2' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure2.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure2" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [7
 
 <./tikz/cache/main-figure2.pdf>]
 (./tikz/tikzdevice/presentation_mutation_identity.tex
-===== Image './tikz/cache/main-figure3' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure3.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure3" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [8
 
 <./tikz/cache/main-figure3.pdf>]
 (./tikz/tikzdevice/presentation_score_dssp_rsa.tex
-===== Image './tikz/cache/main-figure4' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure4.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure4" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [9
 
 <./tikz/cache/main-figure4.pdf>]
 (./tikz/tikzdevice/presentation_score_dssp_q3.tex
-===== Image './tikz/cache/main-figure5' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure5.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure5" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [10
 
 <./tikz/cache/main-figure5.pdf>] (./tikz/features.tex) [11
@@ -1810,118 +2038,23 @@ Package microtype Info: Loading generic protrusion settings for font family
 ]
 (./tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary
 .tex
-===== Image './tikz/cache/main-figure6' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure6.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure6" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [12
 
 <./tikz/cache/main-figure6.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_s
 ummary.tex
-===== Image './tikz/cache/main-figure7' is up-to-date. ======
-) [13
-
-<./tikz/cache/main-figure7.pdf>]
-(./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
-===== Image './tikz/cache/main-figure8' is up-to-date. ======
-) [14
-
-<./tikz/cache/main-figure8.pdf>]
-===== Image './tikz/cache/main-figure9' is up-to-date. ======
-[15
-
-<./tikz/cache/main-figure9.pdf>]
-===== Image './tikz/cache/main-figure10' is up-to-date. ======
-[16
-
-<./tikz/cache/main-figure10.pdf>]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 194.
- [17
-
-] [18
-
-
-] [19
-
-] [20
-
-] [21
-
-]
-(./tikz/tikzdevice/presentation_mutation_identity_exposed.tex
-\openout3 = ./tikz/cache/main-figure11.md5
+\openout3 = ./tikz/cache/main-figure7.md5
 
 \openout3 = main.auxlock
 
 ===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "./tikz/cache/main-figure11" "\def\tikz
-externalrealjob{main}\input{main}"' ========
-
-\openout3 = main.auxlock
-) (./tikz/tikzdevice/presentation_mutation_identity_buried.tex
-\openout3 = ./tikz/cache/main-figure12.md5
-
-\openout3 = main.auxlock
-
-===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "./tikz/cache/main-figure12" "\def\tikz
-externalrealjob{main}\input{main}"' ========
-
-\openout3 = main.auxlock
-)
-Overfull \vbox (168.97331pt too high) detected at line 303
- []
-
-[22
-
-<./tikz/cache/main-figure11.pdf><./tikz/cache/main-figure12.pdf>]
-\tf@nav=\write7
-
-\openout7 = main.nav
-\tf@toc=\write8
-
-\openout8 = main.toc
-\tf@snm=\write9
-
-\openout9 = main.snm
-
-(./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2DAB1B3A3D2723D16EBC9D0696B3ED4A;182.
-Package logreq Info: Writing requests to 'main.run.xml'.
-
-\openout1 = main.run.xml
-)
-
-Here is how much of LuaTeX's memory you used:
- 43100 strings out of 478531
- 125056,14696376 words of node,token memory allocated
- 3082 words of node memory still in use:
-   29 hlist, 9 vlist, 7 rule, 18 disc, 4 local_par, 1 dir, 65 glue, 16 kern, 13 
-penalty, 2 margin_kern, 148 glyph, 102 attribute, 76 glue_spec, 53 attribute_lis
-t, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:3,2:7736,3:3661,4:394,5:551,6:100,7:6035,8:59,9:1278,10:15,11:
-246
- 60844 multiletter control sequences out of 65536+600000
- 78 fonts using 9294935 bytes
- 131i,15n,125p,736b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/fonts/TTF/FiraCode-Regular.ttf></usr/share/texmf-dist/fonts/opentype
-/public/lm/lmroman5-regular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/
-lmsans10-oblique.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmroman8-re
-gular.otf></usr/share/texmf-dist/fonts/opentype/public/lm/lmsans8-regular.otf></
-usr/share/texmf-dist/fonts/opentype/public/lm/lmsans10-regular.otf></usr/share/t
-exmf-dist/fonts/opentype/public/lm/lmsans9-regular.otf></usr/share/texmf-dist/fo
-nts/opentype/public/lm/lmsans12-regular.otf></usr/share/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (22 pages, 533164 bytes).
-
-PDF statistics: 561 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 56 named destinations out of 1000 (max. 131072)
- 32 words of extra memory for PDF output out of 10000 (max. 100000000)
-
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure7

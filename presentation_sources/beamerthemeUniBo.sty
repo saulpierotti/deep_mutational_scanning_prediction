@@ -4,7 +4,6 @@
 \mode<presentation>
 
 \useoutertheme{infolines}
-%\setbeamersize{text margin left=1em,text margin right=1em}
 
 \definecolor{bologna_red}{rgb}{0.73333333333, 0.18039215686, 0.16078431372}
 \colorlet{primary_bg}{bologna_red}
@@ -33,13 +32,26 @@
 \RequirePackage{tikz}
 \RequirePackage[style=apa, maxcitenames=1]{biblatex}
 \RequirePackage{parskip}
-\RequirePackage{microtype}
+\RequirePackage[verbose=silent]{microtype}
 \RequirePackage{siunitx}
 \sisetup{round-mode=places,exponent-product=\cdot}
 \RequirePackage{booktabs}
 \RequirePackage{fontspec}
 \RequirePackage{babel}
 \RequirePackage{csquotes}
+
+\usefonttheme{professionalfonts} % prevents beamer from overriding fonts
+\setsansfont[
+	Path = /home/saul/.fonts/for_latex/,
+	ItalicFont=FuturaBookItalic.ttf,
+	BoldFont=FuturaHeavy.ttf,
+	BoldItalicFont=FuturaHeavyItalic.ttf,
+	FontFace = {sb}{n}{FuturaMedium.ttf}, % semibold font
+	FontFace = {sb}{it}{FuturaMediumItalic.ttf},
+]{FuturaBook.ttf}
+\DeclareRobustCommand\sbseries{\fontseries{sb}\selectfont} % to enable semibold font
+\DeclareTextFontCommand{\textsb}{\sbseries}
+\setmonofont[Path = /home/saul/.fonts/for_latex/]{FiraCodeRegular.ttf}
 
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{shapes.geometric}
@@ -110,6 +122,7 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 \setbeamercolor{bibliography entry author}{fg=primary_inverse_fg}
 \setbeamercolor{bibliography entry title}{fg=black}
 \setbeamercolor{bibliography entry note}{fg=primary_inverse_light_fg}
+\setbeamerfont{footline}{series=\sbseries}
 
 % silece the font warning for missing small caps sans serif in bibliography acronyms
 % not needed for APA but for authoryear
