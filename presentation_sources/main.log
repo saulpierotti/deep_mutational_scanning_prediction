@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 23:21
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 23:23
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2042,12 +2042,16 @@ ummary.tex
 
 <./tikz/cache/main-figure13.pdf>]
 (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
-===== Image './tikz/cache/main-figure14' is up-to-date. ======
-)
-Overfull \vbox (11.24779pt too high) detected at line 368
- []
+\openout3 = ./tikz/cache/main-figure14.md5
 
-[24
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure14" "\def\tikz
+externalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
+) [24
 
 <./tikz/cache/main-figure14.pdf>]
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
@@ -2058,15 +2062,7 @@ ex
 <./tikz/cache/main-figure15.pdf>]
 (./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
 t.tex
-\openout3 = ./tikz/cache/main-figure16.md5
-
-\openout3 = main.auxlock
-
-===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "./tikz/cache/main-figure16" "\def\tikz
-externalrealjob{main}\input{main}"' ========
-
-\openout3 = main.auxlock
+===== Image './tikz/cache/main-figure16' is up-to-date. ======
 ) [26
 
 <./tikz/cache/main-figure16.pdf>] [27
@@ -2113,7 +2109,7 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist
 lic/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (28 pages, 784895 bytes).
+Output written on main.pdf (28 pages, 784896 bytes).
 
 PDF statistics: 690 PDF objects out of 1000 (max. 8388607)
  484 compressed objects within 5 object streams

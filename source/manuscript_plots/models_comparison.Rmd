@@ -91,7 +91,7 @@ print(plot_presentation)
 
 create_tikz(plot_presentation,
             "presentation_xgb_models_performance_comparison.tex",
-            latex_beamer_height*0.8,
+            latex_beamer_height*0.75,
             latex_beamer_width)
 ```
 
