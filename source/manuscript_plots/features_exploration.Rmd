@@ -52,10 +52,12 @@ plot <- get_mutation_identity_plot(training_tb %>% filter(dssp_rsa > 0.15),
 
 plot_presentation <- plot +
   ggtitle("Exposed positions (RSA $> 0.15$)") +
-  theme(legend.position = "bottom") +
-  guides(fill = guide_colorbar(title = "Average scaled\nfitness score"))
+  guides(fill = guide_colorbar(title = "Average scaled fitness score",
+                               title.position = "top")) +
+  theme(legend.title.align = 0.5,
+        legend.key.width = unit(.6,"cm"))
 
-print(plot)
+#print(plot)
 print(plot_presentation)
 
 # create_tikz(plot,
@@ -68,7 +70,7 @@ print(plot_presentation)
 create_tikz(
   plot_presentation,
   "presentation_mutation_identity_exposed.tex",
-  latex_beamer_height * 0.7,
+  latex_beamer_height * 0.75,
   latex_beamer_width * 0.45
 )
 ```
@@ -79,7 +81,10 @@ plot <- get_mutation_identity_plot(training_tb %>% filter(dssp_rsa <= 0.15))
 plot_presentation <- plot +
   theme(legend.position = "bottom") +
   ggtitle("Buried positions (RSA $\\leq 0.15$)") +
-  guides(fill = guide_colorbar(title = "Average scaled\nfitness score"))
+  guides(fill = guide_colorbar(title = "Average scaled fitness score",
+                               title.position = "top")) +
+  theme(legend.title.align = 0.5,
+        legend.key.width = unit(.6, "cm"))
 
 print(plot)
 print(plot_presentation)
@@ -94,7 +99,7 @@ print(plot_presentation)
 create_tikz(
   plot_presentation,
   "presentation_mutation_identity_buried.tex",
-  latex_beamer_height * 0.7,
+  latex_beamer_height * 0.75,
   latex_beamer_width * 0.45
 )
 ```

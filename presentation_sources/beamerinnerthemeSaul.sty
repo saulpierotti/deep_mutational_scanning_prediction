@@ -3,14 +3,8 @@
 
 \mode<presentation>
 
-\def\advisor{\@dblarg\beamer@advisor} % copied from the definition of date in beamer
-\long\def\beamer@advisor[#1]#2{%
-	\def\insertadvisor{#2}%
-	\def\beamer@shortadvisor{#1}%
-}
-
-\RequirePackage{appendixnumberbeamer}
 \RequirePackage{tikz}
+\RequirePackage{appendixnumberbeamer}
 \RequirePackage[style=apa, maxcitenames=1]{biblatex}
 \RequirePackage{parskip}
 \RequirePackage[verbose=silent]{microtype}
@@ -35,6 +29,13 @@ pi->/.style={->, color=primary_inverse_fg},
 base/.style = {text centered, align=center, inner sep=0.2cm, outer sep=0.1cm, line width=0.5, font=\footnotesize, text width=8em},
 object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=primary_inverse_fg, rounded corners},
 }
+
+\def\advisor{\@dblarg\beamer@advisor} % copied from the definition of date in beamer
+\long\def\beamer@advisor[#1]#2{%
+	\def\insertadvisor{#2}%
+	\def\beamer@shortadvisor{#1}%
+}
+
 \beamertemplatenavigationsymbolsempty%
 \setbeamertemplate{itemize item}{\color{black!80}$\blacktriangleright$}
 \setbeamertemplate{itemize subitem}{\color{black!80}$-$}

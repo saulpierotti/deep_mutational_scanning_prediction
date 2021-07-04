@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 15:59
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 17:42
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -665,10 +665,9 @@ themedefault.sty
 \beamer@dimb=\dimen283
 ) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (./bea
 merthemeMasterThesis.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthe
-meinfolines.sty) (./beamerinnerthemeSaul.sty (/usr/share/texmf-dist/tex/latex/a
-ppendixnumberbeamer/appendixnumberbeamer.sty) (/usr/share/texmf-dist/tex/latex/
-pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.
-sty
+meinfolines.sty) (./beamerinnerthemeSaul.sty (/usr/share/texmf-dist/tex/latex/p
+gf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.s
+ty
 Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
@@ -728,7 +727,8 @@ File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
+))) (/usr/share/texmf-dist/tex/latex/appendixnumberbeamer/appendixnumberbeamer.
+sty) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -1883,18 +1883,19 @@ Here is how much of LuaTeX's memory you used:
    15 hlist, 6 vlist, 2 rule, 4 disc, 1 local_par, 1 dir, 39 glue, 9 kern, 9 pen
 alty, 1 margin_kern, 101 glyph, 68 attribute, 76 glue_spec, 36 attribute_list, 4
  write, 4 pdf_colorstack nodes
-   avail lists: 1:15,2:501563,3:280994,4:217,5:295,6:22,7:54436,8:21,9:926,10:18
+   avail lists: 1:16,2:501752,3:280976,4:213,5:295,6:22,7:54424,8:21,9:912,10:18
 ,11:249
  60072 multiletter control sequences out of 65536+600000
  71 fonts using 6917551 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/saul/.fonts/for_latex/FuturaMedium.ttf></home/saul/.fonts/for_latex/Futur
-aBook.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ./tikz/cache/main-figure11.pdf (1 page, 54981 bytes).
+</home/saul/.fonts/for_latex/FuturaBook.ttf></home/saul/.fonts/for_latex/FuturaM
+edium.ttf></home/saul/.fonts/for_latex/FiraCodeRegular.ttf></usr/share/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb>
+Output written on ./tikz/cache/main-figure11.pdf (1 page, 68861 bytes).
 
-PDF statistics: 68 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

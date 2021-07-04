@@ -39,6 +39,29 @@ residues <- # the order maximizes chemical similarity
     "R"
   )
 
+residues_monospaced <- c(
+  "C" = "\\texttt{C}",
+  "G" = "\\texttt{G}",
+  "P" = "\\texttt{P}",
+  "A" = "\\texttt{A}",
+  "V" = "\\texttt{V}",
+  "L" = "\\texttt{L}",
+  "I" = "\\texttt{I}",
+  "M" = "\\texttt{M}",
+  "F" = "\\texttt{F}",
+  "Y" = "\\texttt{Y}",
+  "W" = "\\texttt{W}",
+  "T" = "\\texttt{T}",
+  "S" = "\\texttt{S}",
+  "N" = "\\texttt{N}",
+  "Q" = "\\texttt{Q}",
+  "D" = "\\texttt{D}",
+  "E" = "\\texttt{E}",
+  "H" = "\\texttt{H}",
+  "K" = "\\texttt{K}",
+  "R" = "\\texttt{R}"
+)
+
 xgb_hyperparameters <- c(
   "alpha",
   "lambda",

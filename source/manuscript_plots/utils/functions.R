@@ -821,6 +821,10 @@ get_mutation_identity_plot <- function(training_tb, limit_tb = NULL) {
   mutation_identity_tb <- training_tb %>%
     group_by(aa1, aa2, .drop = FALSE) %>%
     summarise(score = mean(score), dssp_rsa) %>%
+    mutate(
+      aa1 = recode(aa1, !!!residues_monospaced),
+      aa2 = recode(aa2, !!!residues_monospaced)
+    ) %>%
     ungroup()
   if (is.null(limit_tb)) {
     max_abs_score <- max(abs(mutation_identity_tb$score))

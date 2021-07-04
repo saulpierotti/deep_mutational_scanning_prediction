@@ -103,14 +103,10 @@
 \headcommand {\slideentry {1}{0}{4}{22/22}{}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {22}{22}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\slideentry {1}{0}{5}{23/23}{}{1}}
-\defcounter {refsection}{0}\relax 
-\headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@partpages {17}{23}}
-\headcommand {\beamer@subsectionpages {17}{23}}
-\headcommand {\beamer@sectionpages {17}{23}}
-\headcommand {\beamer@documentpages {23}}
-\headcommand {\gdef \inserttotalframenumber {7}}
+\headcommand {\beamer@partpages {17}{22}}
+\headcommand {\beamer@subsectionpages {17}{22}}
+\headcommand {\beamer@sectionpages {17}{22}}
+\headcommand {\beamer@documentpages {22}}
+\headcommand {\gdef \inserttotalframenumber {6}}
 \headcommand {\gdef \inserttotalframenumber {16}}
-\headcommand {\gdef \appendixtotalframenumber {7}}
+\headcommand {\gdef \appendixtotalframenumber {6}}
