@@ -79,10 +79,12 @@ presentation_plot <- base_plot +
     name = "Mutation Type",
     labels = c("Synonimous", "Missense"),
     values = c(bologna_red, "black")
-    ) +
-  guides(colour = guide_legend(override.aes = list(alpha = 1))) +
+  ) +
   theme(legend.position = "top") +
-  guides(color = guide_legend(reverse = TRUE))
+  guides(colour = guide_legend(
+    reverse = TRUE,
+    override.aes = list(alpha = 1, stroke = 1)
+  ))
 
 #print(plot)
 print(presentation_plot)

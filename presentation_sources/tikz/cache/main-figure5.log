@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  3 JUL 2021 19:09
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 15:06
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -1805,7 +1805,7 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-LaTeX Warning: Citation 'Gray2018' on page 6 undefined on input line 65.
+LaTeX Warning: Citation 'Gray2018' on page 6 undefined on input line 68.
 
 (./tikz/tikzdevice/presentation_datasets_correlations.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1844,14 +1844,14 @@ isable this.
 \global\@namedef{mainendframenumber}{16}
 \@writefile{nav}{\headcommand {\gdef \insertmainframenumber {16}}}
 
-LaTeX Warning: Empty bibliography on input line 191.
+LaTeX Warning: Empty bibliography on input line 215.
 
 
-Overfull \vbox (67.08128pt too high) detected at line 231
+Overfull \vbox (67.08128pt too high) detected at line 255
  []
 
 
-Overfull \vbox (25.30171pt too high) detected at line 267
+Overfull \vbox (25.30171pt too high) detected at line 291
  []
 
 (./tikz/tikzdevice/presentation_mutation_identity_exposed.tex
@@ -1888,14 +1888,14 @@ Here is how much of LuaTeX's memory you used:
    15 hlist, 6 vlist, 2 rule, 4 disc, 1 local_par, 1 dir, 39 glue, 9 kern, 9 pen
 alty, 1 margin_kern, 101 glyph, 68 attribute, 76 glue_spec, 36 attribute_list, 4
  write, 4 pdf_colorstack nodes
-   avail lists: 1:1,2:20056,3:6915,4:146,5:295,6:22,7:6747,8:21,9:826,10:18,11:2
+   avail lists: 1:1,2:20059,3:6915,4:146,5:295,6:22,7:6748,8:21,9:826,10:18,11:2
 43
  60089 multiletter control sequences out of 65536+600000
  89 fonts using 8604111 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/saul/.fonts/for_latex/FuturaHeavy.ttf></home/saul/.fonts/for_latex/Futura
-Book.ttf>
-Output written on ./tikz/cache/main-figure5.pdf (1 page, 37456 bytes).
+</home/saul/.fonts/for_latex/FuturaMedium.ttf></home/saul/.fonts/for_latex/Futur
+aBook.ttf>
+Output written on ./tikz/cache/main-figure5.pdf (1 page, 37357 bytes).
 
 PDF statistics: 58 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

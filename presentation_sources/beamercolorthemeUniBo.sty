@@ -1,0 +1,30 @@
+% Saul Pierotti's color theme for the Univeristy of Bologna
+% Defines a primary background color to be the red of the Univeristy of Bologna
+% with white foreground
+% Uses black for main text and defines reverse palettes with ligther and darker colors
+% 03/07/2021
+
+\mode<presentation>
+
+\definecolor{bologna_red}{rgb}{0.73333333333, 0.18039215686, 0.16078431372}
+\colorlet{primary_bg}{bologna_red}
+\colorlet{primary_ligth_bg}{primary_bg!80}
+\colorlet{primary_very_ligth_bg}{primary_bg!60}
+\colorlet{primary_fg}{white}
+\colorlet{primary_inverse_bg}{primary_bg!10}
+\colorlet{primary_inverse_fg}{primary_bg!150}
+\colorlet{primary_inverse_light_fg}{primary_bg!70}
+\colorlet{primary_inverse_dark_bg}{primary_bg!70}
+\colorlet{primary_inverse_dark_fg}{primary_bg!200}
+\colorlet{primary_accent_bg}{bologna_red!150}
+\colorlet{primary_accent_fg}{primary_fg}
+
+\setbeamercolor{author in head/foot}{bg=primary_bg,fg=primary_fg}
+\setbeamercolor{title in head/foot}{bg=primary_ligth_bg, fg=primary_fg}
+\setbeamercolor{date in head/foot}{bg=primary_very_ligth_bg, fg=primary_fg}
+\setbeamercolor{frametitle}{bg=primary_bg,fg=primary_fg}
+\setbeamercolor{bibliography entry author}{fg=primary_inverse_fg}
+\setbeamercolor{bibliography entry title}{fg=black}
+\setbeamercolor{bibliography entry note}{fg=primary_inverse_light_fg}
+
+\mode<all>

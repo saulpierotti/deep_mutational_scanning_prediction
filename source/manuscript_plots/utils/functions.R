@@ -843,7 +843,6 @@ get_mutation_identity_plot <- function(training_tb, limit_tb = NULL) {
     ) +
     xlab("Mutation from") +
     ylab("Mutation towards") +
-    labs(fill = NULL) +
     x_axis_theme +
     y_axis_theme +
     theme(legend.position = "bottom")

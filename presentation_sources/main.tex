@@ -1,5 +1,5 @@
 \documentclass[10pt, british]{beamer}
-\usetheme{UniBo}
+\usetheme{MasterThesis}
 
 \addbibresource{./references.bib}
 
@@ -60,8 +60,11 @@
 	\vfill%
 	\centering%
 	% for some reason figure fails
-	\input{tikz/tikzdevice/presentation_fitness_score_distribution.tex}
-	\input{tikz/tikzdevice/presentation_datasets_abundancies.tex}
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_fitness_score_distribution.tex}
+		\input{tikz/tikzdevice/presentation_datasets_abundancies.tex}
+	}
 \end{frame}
 
 \begin{frame}
@@ -70,7 +73,10 @@
 	Their correlation is low.
 	\vfill%
 	\centering%
-	\input{tikz/tikzdevice/presentation_datasets_correlations.tex}
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_datasets_correlations.tex}
+	}
 \end{frame}
 
 \begin{frame}
@@ -79,19 +85,28 @@
 	This effect disappears when filtering by relative solvent accessibility (not shown here).
 	\vfill%
 	\centering%
-	\input{tikz/tikzdevice/presentation_mutation_identity.tex}
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_mutation_identity.tex}
+	}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Buried Residues Are More Conserved}
 	\centering%
-	\input{tikz/tikzdevice/presentation_score_dssp_rsa.tex}
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_score_dssp_rsa.tex}
+	}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Secondary Structure Is Not Critical}
 	\centering%
-	\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
+	}
 \end{frame}
 
 \begin{frame}
@@ -107,7 +122,10 @@
 		\begin{column}{.6\textwidth}
 			\centering%
 			\vspace{1em}
-			\input{tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary.tex}
+			{%
+				\let\bfseries\sbseries%
+				\input{tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary.tex}
+			}
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
@@ -125,7 +143,10 @@
 		\begin{column}{.6\textwidth}
 			\centering%
 			\vspace{1em}
-			\input{tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_summary.tex}
+			{%
+				\let\bfseries\sbseries%
+				\input{tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_summary.tex}
+			}
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
@@ -143,7 +164,10 @@
 		\begin{column}{.6\textwidth}
 			\centering%
 			\vspace{1em}
-			\input{tikz/tikzdevice/presentation_general_models_performance_comparison.tex}
+			{%
+				\let\bfseries\sbseries%
+				\input{tikz/tikzdevice/presentation_general_models_performance_comparison.tex}
+			}
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
@@ -194,7 +218,7 @@
 	\frametitle{Supplementary Material}
 	Confidence intervals in prediction performances
 	\vfill%
-	\footnotesize%
+	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llll}%
 		\toprule
 		Dataset name            & Model       & \num{95}\,\% C.I. (Pearson) & \num{95}\,\% C.I. (Spearman) \\
@@ -239,7 +263,7 @@
 	\end{equation*}
 
 	\vfill%
-	\footnotesize%
+	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
 		\toprule
 		Dataset name            & Model 1           & Model 2                & $p$ value      \\
@@ -263,16 +287,19 @@
 	\end{tabular*}%
 	\normalsize%
 
-	The table continues on the next slide.
+	The table continues on the next slide
 \end{frame}
 
 \begin{frame}
 	\frametitle{Supplementary Material}
-	Statistical significance of performance differences. Bonferroni-corrected $\alpha = \frac{0.05}{27} = 0.00185185$.
-	Starred values are significant.
+	Statistical significance of performance differences. Starred values are significant with Bonferroni correction.
 
-	The table continues from the previous slide.
+	\begin{equation*}
+		\alpha = \frac{0.05}{27} = 0.00185185
+	\end{equation*}
 	\vfill%
+	The table continues from the previous slide
+
 	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
 		\toprule
@@ -299,8 +326,11 @@
 	When filtering by Relative Solvent Accessibility (RSA) apolar residues are \textbf{\textit{not}} more sensitive to mutations than polar residues
 	\vfill%
 	\centering%
-	\input{tikz/tikzdevice/presentation_mutation_identity_exposed.tex}
-	\input{tikz/tikzdevice/presentation_mutation_identity_buried.tex}
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_mutation_identity_exposed.tex}
+		\input{tikz/tikzdevice/presentation_mutation_identity_buried.tex}
+	}
 \end{frame}
 
 \begin{frame}

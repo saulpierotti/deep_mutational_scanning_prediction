@@ -1,0 +1,25 @@
+% Saul Pierotti's font theme using the Futura font family
+% Futura Book is used as main font
+% Futura Heavy is used for bold and Futura Medium as a semi-bold
+% Defines the commands \sbseries and \textsb for using semi-bold
+% 03/07/2021
+
+\mode<presentation>
+
+\RequirePackage{fontspec}
+
+\usefonttheme{professionalfonts} % prevents beamer from overriding fonts
+\setsansfont[
+	Path = /home/saul/.fonts/for_latex/,
+	ItalicFont=FuturaBookItalic.ttf,
+	BoldFont=FuturaHeavy.ttf,
+	BoldItalicFont=FuturaHeavyItalic.ttf,
+	FontFace = {sb}{n}{FuturaMedium.ttf}, % semibold font
+	FontFace = {sb}{it}{FuturaMediumItalic.ttf},
+]{FuturaBook.ttf}
+\DeclareRobustCommand\sbseries{\fontseries{sb}\selectfont} % to enable semibold font
+\DeclareTextFontCommand{\textsb}{\sbseries}
+\setmonofont[Path = /home/saul/.fonts/for_latex/]{FiraCodeRegular.ttf}
+\setbeamerfont{footline}{series=\sbseries}
+
+\mode<all>
