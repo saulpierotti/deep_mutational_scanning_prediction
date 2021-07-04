@@ -86,10 +86,10 @@ plot <- get_feature_importance_by_dataset_plot(feature_importance_naive_tb)
 
 print(plot)
 
-create_tikz(plot,
-            "single_protein models_naive_feature_importance_by_dataset.tex",
-            latex_textheight*0.5,
-            latex_textwidth)
+# create_tikz(plot,
+#             "single_protein models_naive_feature_importance_by_dataset.tex",
+#             latex_textheight*0.5,
+#             latex_textwidth)
 ```
 
 # By position

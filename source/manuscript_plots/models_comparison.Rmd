@@ -76,12 +76,23 @@ plot <-
     ) +
   ylab("Spearman correlation coefficient")
 
+plot_presentation <- plot +
+  scale_color_manual(values = bologna_palette,
+                     name = "Model",
+                     labels = models_labels)
+
 print(plot)
+print(plot_presentation)
 
 # create_tikz(plot,
 #             "xgb_models_performance_comparison.tex",
 #             3,
 #             latex_textwidth)
+
+create_tikz(plot_presentation,
+            "presentation_xgb_models_performance_comparison.tex",
+            latex_beamer_height*0.8,
+            latex_beamer_width)
 ```
 
 ```{r general models performance comparison plot, dev="tikz", results="hide"}

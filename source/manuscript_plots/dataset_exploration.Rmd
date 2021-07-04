@@ -44,7 +44,7 @@ base_plot <- ggplot(data = curr_tb,
   theme_minimal_vgrid(text_size) +
   x_axis_theme +
   ylab(NULL) +
-  xlab("Scaled fitness score") +
+  xlab("Scaled fitness score\n") +
   latex_y_safe +
   panel_border() +
   xlim(c(-1.1, 0.31))
@@ -97,7 +97,7 @@ print(presentation_plot)
 create_tikz(
   presentation_plot,
   "presentation_fitness_score_distribution.tex",
-  latex_beamer_height * 0.6,
+  latex_beamer_height * 0.7,
   latex_beamer_width * 0.65
 )
 ```
@@ -108,7 +108,7 @@ create_tikz(
 base_plot <-
   ggplot(data = training_tb, mapping = aes(y = dms_id, fill = (aa1 == aa2))) +
   geom_bar() +
-  xlab("Number of mutations (K)") +
+  xlab("Number of mutations\n(thousands)") +
   ylab(NULL) +
   scale_x_continuous(expand = c(0, 0),
                      labels = label_number(scale = 1 / 1000, accuracy = 1)) +
@@ -140,7 +140,7 @@ print(presentation_plot)
 
 create_tikz(presentation_plot,
             "presentation_datasets_abundancies.tex",
-            latex_beamer_height*0.6,
+            latex_beamer_height*0.7,
             latex_beamer_width*0.3)
 ```
 

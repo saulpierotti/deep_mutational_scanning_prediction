@@ -60,12 +60,23 @@ create_tikz(plot,
 ```{r feature importance xgb by dataset, dev="tikz", results="hide"}
 plot <- get_feature_importance_by_dataset_plot(feature_importance_lopo_xgb_tb)
 
-print(plot)
+plot_presentation <- get_feature_importance_by_dataset_plot(
+  feature_importance_lopo_xgb_tb,
+  inner_text_size=text_size-1
+  )
 
-create_tikz(plot,
-            "lopo_models_xgb_feature_importance_by_dataset.tex",
-            latex_textheight*0.6,
-            latex_textwidth)
+print(plot)
+print(plot_presentation)
+
+# create_tikz(plot,
+#             "lopo_models_xgb_feature_importance_by_dataset.tex",
+#             latex_textheight*0.6,
+#             latex_textwidth)
+
+create_tikz(plot_presentation,
+            "presentation_lopo_models_xgb_feature_importance_by_dataset.tex",
+            latex_beamer_height*0.75,
+            latex_beamer_width)
 ```
 
 # Linear
@@ -99,11 +110,23 @@ print(plot)
 ```{r feature importance linear by dataset, dev="tikz", results="hide"}
 plot <- get_feature_importance_by_dataset_plot(feature_importance_lopo_linear_tb)
 
+plot_presentation <- get_feature_importance_by_dataset_plot(
+  feature_importance_lopo_linear_tb,
+  inner_text_size = text_size-1
+  )
+
 print(plot)
+print(plot_presentation)
+
 # create_tikz(plot,
 #             "lopo_models_linear_feature_importance_by_dataset.tex",
 #             latex_textheight*0.6,
 #             latex_textwidth)
+
+create_tikz(plot_presentation,
+            "presentation_lopo_models_linear_feature_importance_by_dataset.tex",
+            latex_beamer_height*0.75,
+            latex_beamer_width)
 ```
 
 # SVM

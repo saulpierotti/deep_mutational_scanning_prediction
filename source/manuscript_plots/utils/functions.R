@@ -670,14 +670,15 @@ get_test_result_summary_plot <- function(test_result_tb,
   return(plot)
 }
 
-get_feature_importance_by_dataset_plot <- function(feature_importance_tb) {
+get_feature_importance_by_dataset_plot <- function(feature_importance_tb,
+                                                   inner_text_size = text_size) {
   plot <- ggplot(data = feature_importance_tb, mapping = aes(
     x = importance_average,
     y = fct_reorder(feature_group, importance_average, )
   )) +
     geom_bar(stat = "identity") +
     dms_facet_free_x +
-    theme_minimal_vgrid(text_size) +
+    theme_minimal_vgrid(inner_text_size) +
     xlab("Permutation importance") +
     ylab("Feature group") +
     x_axis_theme +
@@ -708,7 +709,12 @@ get_performance_comparison_plot <- function(comparison_tb) {
 }
 
 get_corr_permutation_significance <-
-  function(vec1, vec2, vec_true, corr_method, n_reps = 1000, seed = 1) {
+  function(vec1,
+           vec2,
+           vec_true,
+           corr_method,
+           n_reps = 1000,
+           seed = 1) {
     set.seed(seed)
     cor1 <- cor(vec1, vec_true, method = corr_method)
     cor2 <- cor(vec2, vec_true, method = corr_method)

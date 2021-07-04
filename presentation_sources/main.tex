@@ -80,14 +80,35 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{The Identities of the Mutated Residues Are Important}
-	Mutations from polar residues are less detrimental than other mutations.
-	This effect disappears when filtering by relative solvent accessibility (not shown here).
+	\frametitle{Interesting Patterns in Mutation Sensitivity}
+	\begin{columns}[c]
+		\begin{column}{.5\textwidth}
+			\centering%
+			\vspace{1em}
+			{%
+				\let\bfseries\sbseries%
+				\input{tikz/tikzdevice/presentation_mutation_identity.tex}
+			}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			\begin{itemize}
+				\item Polar residues seem more tolerant to mutations than hydrophobic residues
+				\item Proline (P) is the most disruptive residue
+				\item Triptophan (W) is hard to replace
+			\end{itemize}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Exposure Explains the Mutability of Polar Residues}
+	When filtering by Relative Solvent Accessibility (RSA) apolar residues are \textbf{\textit{not}} more sensitive to mutations than polar residues
 	\vfill%
 	\centering%
 	{%
 		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_mutation_identity.tex}
+		\input{tikz/tikzdevice/presentation_mutation_identity_exposed.tex}
+		\input{tikz/tikzdevice/presentation_mutation_identity_buried.tex}
 	}
 \end{frame}
 
@@ -97,15 +118,6 @@
 	{%
 		\let\bfseries\sbseries%
 		\input{tikz/tikzdevice/presentation_score_dssp_rsa.tex}
-	}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Secondary Structure Is \textbf{\textit{Not}} Critical}
-	\centering%
-	{%
-		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
 	}
 \end{frame}
 
@@ -129,9 +141,10 @@
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
-				\item Half of the mutations in a protein randomly set aside for testing
-				\item Hyperparameters optimized in the remaining half with 5-fold cross-validation
-				\item Good results but likely overfitting the testing set
+				\item A different model trained for each protein
+				\item Half of the mutations set aside for testing
+				\item Hyperparameters optimized in the remaining half with cross-validation
+				\item Good results but likely overfitting of the testing set
 			\end{itemize}
 		\end{column}
 	\end{columns}
@@ -150,9 +163,8 @@
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
-				\item Half of the mutations in a protein set aside for testing but avoiding mutations in the same protein position to end up in different splits
-				\item Hyperparameters optimized in the remaining half with 5-fold cross-validation
-				\item Performance more realistic
+				\item Same as before but mutations in the same position segregated in the training or testing sets
+				\item Performances are lower (and more realistic)
 			\end{itemize}
 		\end{column}
 	\end{columns}
@@ -171,9 +183,10 @@
 		\end{column}
 		\begin{column}{.4\textwidth}
 			\begin{itemize}
-				\item For the left-out protein, half of the mutations used for testing
+				\item Models trained on the whole dataset while leaving one protein out
+				\item For the left-out protein, half of the mutations used for testing and half for validation
 				\item Spearman correlation coefficient used for evaluation
-				\item Small difference among gradient boosted trees and linear regression
+				\item Similar performances for gradient boosted trees and linear regression
 				\item Performances comparable to those of Envision
 			\end{itemize}
 		\end{column}
@@ -189,7 +202,7 @@
 			\node [object, text width=14em] at (5,-1) {Performances on par with other predictors can be reached without structural features};
 			\node [object, text width=9em] at (1,2) {There is strong variability between datasets};
 			\node [object, text width=10em] at (0,4) {Complex models do not improve much on linear regression};
-			\node [object, text width=10em] at (6,3) {Unsupervised models perform similarly to supervised models};
+			\node [object, text width=11em] at (6,3) {Unsupervised models perform similarly to supervised models};
 		\end{tikzpicture}
 	\end{figure}
 \end{frame}
@@ -323,14 +336,141 @@
 
 \begin{frame}
 	\frametitle{Supplementary Material}
-	When filtering by Relative Solvent Accessibility (RSA) apolar residues are \textbf{\textit{not}} more sensitive to mutations than polar residues
+	Secondary structure is of limited importance in the discrimination of damaging mutations
 	\vfill%
 	\centering%
 	{%
 		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_mutation_identity_exposed.tex}
-		\input{tikz/tikzdevice/presentation_mutation_identity_buried.tex}
+		\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
 	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	The correlation among features follows predictable patterns
+	\vfill%
+	\centering%
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_feature_corr_heatmap.tex}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Comparison of the performances of single protein models and general models
+	\vfill%
+	\centering%
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Feature importances for the gradient boosted tree general models
+	\vfill%
+	\centering%
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.tex}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Feature importances for the linear regression general models
+	\vfill%
+	\centering%
+	{%
+		\let\bfseries\sbseries%
+		\input{tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_dataset.tex}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Precision of trRosetta {\footnotesize\parencite{Yang2020}} in predicting residue contacts
+
+	\tiny%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrr}%
+		\toprule
+		& \multicolumn{3}{l}{Medium range ($s \geq 12$)} & \multicolumn{3}{l}{Long range ($s \geq 24$)} \\
+		\cmidrule(l){2-7}
+		Dataset & Top $L/5$ & Top $L/2$ & Top $L$ & Top $L/5$ & Top $L/2$ & Top $L$ \\
+		\midrule
+		beta-lactamase & \num{1.0000000} & \num{0.9152542} & \num{0.8644068} & \num{0.9565217} & \num{0.9322034} & \num{0.7627119} \\
+		WW\_domain     & \num{0.9523810} & \num{0.8962264} & \num{0.8262911} & \num{0.9047619} & \num{0.8679245} & \num{0.7464789} \\
+		PSD95pdz3      & \num{0.9607843} & \num{0.9212598} & \num{0.7960784} & \num{0.9215686} & \num{0.8110236} & \num{0.6980392} \\
+		kka2\_1:2      & \num{1.0000000} & \num{1.0000000} & \num{0.9594595} & \num{1.0000000} & \num{1.0000000} & \num{0.8918919} \\
+		hsp90          & \num{1.0000000} & \num{1.0000000} & \num{0.9594595} & \num{1.0000000} & \num{1.0000000} & \num{0.8918919} \\
+		Ubiquitin      & \num{0.9807692} & \num{0.9160305} & \num{0.8212928} & \num{1.0000000} & \num{0.9007634} & \num{0.7034221} \\
+		Pab1           & \num{0.8000000} & \num{0.7179487} & \num{0.6666667} & \num{0.8666667} & \num{0.7435897} & \num{0.6025641} \\
+		E1\_Ubiquitin  & \num{0.8181818} & \num{0.8571429} & \num{0.7719298} & \num{0.9090909} & \num{0.7500000} & \num{0.5438596} \\
+		gb1            & \num{1.0000000} & \num{0.8500000} & \num{0.4634146} & \num{0.6250000} & \num{0.4000000} & \num{0.2195122} \\
+		\bottomrule
+	\end{tabular*}%
+	\vfill%
+
+	\normalsize Quality of the predicted structural features from NetsurfP-2 {\footnotesize\parencite{Klausen2019}}
+
+	\tiny%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llr}%
+		\toprule
+		Feature                        & Evaluation metric      & Score                     \\
+		\midrule
+		Relative solvent accessibility & Pearson $r$            & \num{0.7882348}           \\
+		Accessible surface area        & Pearson $r$            & \num{0.7957144}           \\
+		$Q_3$ secondary structure      & $Q_3$ accuracy         & \num{0.8505}              \\
+		$Q_8$ secondary structure      & $Q_8$ accuracy         & \num{0.7183}              \\
+		$\phi$ torsion angle           & Circular correlation   & \num{0.734590829057844}   \\
+		$\psi$ torsion angle           & Circular correlation   & \num{0.8681192893807274}  \\
+		\bottomrule
+	\end{tabular*}%
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Relationship between the features used in the models and the fitness scores
+
+	\tiny%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrr}%
+		\toprule
+		Feature                                                  & Pearson $r$      & Spearman $\rho$  & Kendall $\tau$    \\
+		\midrule
+		PSSM mutation score                                      & \num{-0.2869455} & \num{-0.2809048} & \num{-0.1885174}  \\
+		Netsurf predicted RSA                                    & \num{0.3436087}  & \num{0.3729762}  & \num{0.2515731}   \\
+		Netsurf predicted ASA                                    & \num{0.3190383}  & \num{0.3541994}  & \num{0.2384785}   \\
+		Netsurf predicted disorder                               & \num{0.05817099} & \num{0.1760797}  & \num{0.1183413}   \\
+		EVcouplings epistatic model                              & \num{0.462962}   & \num{0.495414}   & \num{0.3427753}   \\
+		EVcouplings independent model                            & \num{0.4388572}  & \num{0.4364188}  & \num{0.300382}    \\
+		EVcouplings frequency                                    & \num{0.1864407}  & \num{0.3472157}  & \num{0.2400341}   \\
+		EVcouplings conservation                                 & \num{-0.3159081} & \num{-0.3329435} & \num{-0.2264373}  \\
+		Closeness centrality (trRosetta predicted contacts)      & \num{-0.1630601} & \num{-0.1681213} & \num{-0.112927}   \\
+		Betweenness centrality (trRosetta predicted contacts)    & \num{-0.2004047} & \num{-0.2902508} & \num{-0.1949691}  \\
+		Degree centrality (trRosetta predicted contacts)         & \num{-0.1230379} & \num{-0.1346042} & \num{-0.08988814} \\
+		Load centrality (trRosetta predicted contacts)           & \num{-0.1979317} & \num{-0.2877618} & \num{-0.193219}   \\
+		Harmonic centrality (trRosetta predicted contacts)       & \num{-0.1907764} & \num{-0.2000805} & \num{-0.1373126}  \\
+		Clustering coefficient (trRosetta predicted contacts)    & \num{0.2309697}  & \num{0.2533754}  & \num{0.1721249}   \\
+		\midrule
+	\end{tabular*}\\%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lr}%
+		& Linear-circular correlation \\
+		\midrule
+		Netsurf predicted $\phi$ torsion angle  & \num{0.01213396} \\
+		Netsurf predicted $\psi$ torsion angle  & \num{0.01673723} \\
+		\midrule
+	\end{tabular*}\\%
+	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrr}%
+		& Kruskal-Wallis $\chi^2$ & $p$ value           \\
+		\midrule
+		Wild-type residue                        & \num{1482.4}            & $<$ \num{2.2e-16} \\
+		Mutated residue                          & \num{708.53}            & $<$ \num{2.2e-16} \\
+		Netsurf predicted $Q_3$ secondary structure & \num{215.33}            & $<$ \num{2.2e-16} \\
+		Netsurf predicted $Q_8$ secondary structure & \num{351.97}            & $<$ \num{2.2e-16} \\
+		\bottomrule
+	\end{tabular*}%
 \end{frame}
 
 \end{document}

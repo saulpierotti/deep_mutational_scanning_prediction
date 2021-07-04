@@ -22,9 +22,10 @@ This notebook is used to produce all the graphs and statistics shown in the feat
 plot <- get_mutation_identity_plot(training_tb)
 
 plot_presentation <- plot +
-  theme(legend.position = "right") +
-  guides(fill = guide_colorbar(title = "Average scaled\nfitness score",
-                             title.vjust = 3)) 
+  guides(fill = guide_colorbar(title = "Average scaled fitness score",
+                               title.position = "top")) +
+  theme(legend.title.align = 0.5,
+        legend.key.width = unit(.6, "cm"))
 
 print(plot)
 print(plot_presentation)
@@ -39,8 +40,8 @@ print(plot_presentation)
 create_tikz(
   plot_presentation,
   "presentation_mutation_identity.tex",
-  latex_beamer_height * 0.65,
-  latex_beamer_width * 0.7
+  latex_beamer_height * 0.85,
+  latex_beamer_width * 0.5
 )
 ```
 
@@ -71,7 +72,7 @@ create_tikz(
   plot_presentation,
   "presentation_mutation_identity_exposed.tex",
   latex_beamer_height * 0.75,
-  latex_beamer_width * 0.45
+  latex_beamer_width * 0.4
 )
 ```
 
@@ -100,7 +101,7 @@ create_tikz(
   plot_presentation,
   "presentation_mutation_identity_buried.tex",
   latex_beamer_height * 0.75,
-  latex_beamer_width * 0.45
+  latex_beamer_width * 0.4
 )
 ```
 
@@ -554,12 +555,26 @@ plot <- ggplot(data = curr_tb) +
         legend.position = "bottom") +
   labs(fill = NULL)
 
+plot_presentation <- plot +
+  scale_x_discrete(labels=NULL) +
+  guides(fill=guide_colourbar(title = "Spearman $\\rho$", title.vjust = 5)) +
+  theme(legend.position = "right") +
+  theme_minimal(text_size-1) +
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank())
+  
+
 print(plot)
+print(plot_presentation)
 
 # create_tikz(plot,
 #             "feature_corr_heatmap.tex",
 #             latex_textheight*0.75,
 #             latex_textwidth)
+
+create_tikz(plot_presentation,
+            "presentation_feature_corr_heatmap.tex",
+            latex_beamer_height*0.75,
+            latex_beamer_width)
 ```
 
 

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 17:50
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 23:21
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1974,46 +1974,52 @@ Package microtype Info: Loading generic protrusion settings for font family
 <./tikz/cache/main-figure2.pdf>]
 (./tikz/tikzdevice/presentation_mutation_identity.tex
 ===== Image './tikz/cache/main-figure3' is up-to-date. ======
-) [8
+)
+Overfull \vbox (9.17pt too high) detected at line 101
+ []
+
+[8
 
 <./tikz/cache/main-figure3.pdf>]
-(./tikz/tikzdevice/presentation_score_dssp_rsa.tex
+(./tikz/tikzdevice/presentation_mutation_identity_exposed.tex
 ===== Image './tikz/cache/main-figure4' is up-to-date. ======
+) (./tikz/tikzdevice/presentation_mutation_identity_buried.tex
+===== Image './tikz/cache/main-figure5' is up-to-date. ======
 ) [9
 
-<./tikz/cache/main-figure4.pdf>]
-(./tikz/tikzdevice/presentation_score_dssp_q3.tex
-===== Image './tikz/cache/main-figure5' is up-to-date. ======
+<./tikz/cache/main-figure4.pdf><./tikz/cache/main-figure5.pdf>]
+(./tikz/tikzdevice/presentation_score_dssp_rsa.tex
+===== Image './tikz/cache/main-figure6' is up-to-date. ======
 ) [10
 
-<./tikz/cache/main-figure5.pdf>] (./tikz/features.tex) [11
+<./tikz/cache/main-figure6.pdf>] (./tikz/features.tex) [11
 
 ]
 (./tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary
 .tex
-===== Image './tikz/cache/main-figure6' is up-to-date. ======
+===== Image './tikz/cache/main-figure7' is up-to-date. ======
 ) [12
 
-<./tikz/cache/main-figure6.pdf>]
+<./tikz/cache/main-figure7.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_s
 ummary.tex
-===== Image './tikz/cache/main-figure7' is up-to-date. ======
+===== Image './tikz/cache/main-figure8' is up-to-date. ======
 ) [13
 
-<./tikz/cache/main-figure7.pdf>]
-(./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
-===== Image './tikz/cache/main-figure8' is up-to-date. ======
-) [14
-
 <./tikz/cache/main-figure8.pdf>]
+(./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
 ===== Image './tikz/cache/main-figure9' is up-to-date. ======
-[15
+) [14
 
 <./tikz/cache/main-figure9.pdf>]
 ===== Image './tikz/cache/main-figure10' is up-to-date. ======
+[15
+
+<./tikz/cache/main-figure10.pdf>]
+===== Image './tikz/cache/main-figure11' is up-to-date. ======
 [16
 
-<./tikz/cache/main-figure10.pdf>] [17
+<./tikz/cache/main-figure11.pdf>] [17
 
 ] [18
 
@@ -2025,13 +2031,49 @@ ummary.tex
 ] [21
 
 ]
-(./tikz/tikzdevice/presentation_mutation_identity_exposed.tex
-===== Image './tikz/cache/main-figure11' is up-to-date. ======
-) (./tikz/tikzdevice/presentation_mutation_identity_buried.tex
+(./tikz/tikzdevice/presentation_score_dssp_q3.tex
 ===== Image './tikz/cache/main-figure12' is up-to-date. ======
 ) [22
 
-<./tikz/cache/main-figure11.pdf><./tikz/cache/main-figure12.pdf>]
+<./tikz/cache/main-figure12.pdf>]
+(./tikz/tikzdevice/presentation_feature_corr_heatmap.tex
+===== Image './tikz/cache/main-figure13' is up-to-date. ======
+) [23
+
+<./tikz/cache/main-figure13.pdf>]
+(./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
+===== Image './tikz/cache/main-figure14' is up-to-date. ======
+)
+Overfull \vbox (11.24779pt too high) detected at line 368
+ []
+
+[24
+
+<./tikz/cache/main-figure14.pdf>]
+(./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
+ex
+===== Image './tikz/cache/main-figure15' is up-to-date. ======
+) [25
+
+<./tikz/cache/main-figure15.pdf>]
+(./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
+t.tex
+\openout3 = ./tikz/cache/main-figure16.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure16" "\def\tikz
+externalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
+) [26
+
+<./tikz/cache/main-figure16.pdf>] [27
+
+] [28
+
+]
 \tf@nav=\write7
 
 \openout7 = main.nav
@@ -2041,8 +2083,7 @@ ummary.tex
 \tf@snm=\write9
 
 \openout9 = main.snm
-
-(./main.aux)
+ (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2DAB1B3A3D2723D16EBC9D0696B3ED4A;182.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -2051,15 +2092,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43173 strings out of 478531
+ 43292 strings out of 478531
  125056,14696376 words of node,token memory allocated
- 3077 words of node memory still in use:
-   28 hlist, 9 vlist, 7 rule, 18 disc, 4 local_par, 1 dir, 66 glue, 8 kern, 12 p
-enalty, 1 margin_kern, 150 glyph, 112 attribute, 76 glue_spec, 58 attribute_list
-, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:3,2:7739,3:3662,4:397,5:414,6:100,7:6044,8:59,9:1273,10:15,11:
-264
- 60904 multiletter control sequences out of 65536+600000
+ 20560 words of node memory still in use:
+   255 hlist, 12 vlist, 35 rule, 91 disc, 6 local_par, 76 dir, 136 math, 571 glu
+e, 9 kern, 13 penalty, 1134 glyph, 976 attribute, 76 glue_spec, 490 attribute_li
+st, 4 write, 16 pdf_colorstack nodes
+   avail lists: 1:3,2:6445,3:3668,4:502,5:339,6:100,7:4421,8:59,9:1015,10:15,11:
+191
+ 60920 multiletter control sequences out of 65536+600000
  89 fonts using 8603791 bytes
  131i,15n,125p,736b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaBookItalic.ttf></home/saul/.fonts/for_latex/F
@@ -2069,12 +2110,13 @@ onts/opentype/public/lm/lmroman8-regular.otf></home/saul/.fonts/for_latex/Futura
 Book.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (22 pages, 615406 bytes).
+lic/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on main.pdf (28 pages, 784895 bytes).
 
-PDF statistics: 558 PDF objects out of 1000 (max. 8388607)
- 392 compressed objects within 4 object streams
- 56 named destinations out of 1000 (max. 131072)
+PDF statistics: 690 PDF objects out of 1000 (max. 8388607)
+ 484 compressed objects within 5 object streams
+ 68 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 
