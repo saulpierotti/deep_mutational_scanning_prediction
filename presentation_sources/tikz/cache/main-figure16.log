@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 23:21
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  5 JUL 2021 13:37
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -397,7 +397,7 @@ LaTeX Info: Redefining \pageref on input line 6149.
 Package hyperref Message: Stopped early.
 
 )
-Package hyperref Info: Driver (autodetected): hluatex.
+Package hyperref Info: Driver: hluatex.
 (/usr/share/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2021-02-27 v7.00k Hyperref driver for luaTeX
 (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty
@@ -1789,13 +1789,13 @@ LaTeX Font Warning: Font shape `TU/FuturaBook.ttf(0)/m/sc' undefined
 (./tikz/dms_workflow.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-) (./tikz/mutation_illustration.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 ) (./tikz/variant_effect_predictors.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 ) (./tikz/project_structure.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./tikz/mutation_illustration.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 ) (./tikz/tikzdevice/presentation_fitness_score_distribution.tex
@@ -1806,7 +1806,7 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-LaTeX Warning: Citation 'Gray2018' on page 6 undefined on input line 68.
+LaTeX Warning: Citation 'Gray2018' on page 6 undefined on input line 70.
 
 (./tikz/tikzdevice/presentation_datasets_correlations.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1847,7 +1847,7 @@ isable this.
 \global\@namedef{mainendframenumber}{16}
 \@writefile{nav}{\headcommand {\gdef \insertmainframenumber {16}}}
 
-LaTeX Warning: Empty bibliography on input line 228.
+LaTeX Warning: Empty bibliography on input line 230.
 
 (./tikz/tikzdevice/presentation_score_dssp_q3.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1855,10 +1855,14 @@ isable this.
 ) (./tikz/tikzdevice/presentation_feature_corr_heatmap.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-) (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 )
+
+LaTeX Warning: Citation 'Yang2020' on page 20 undefined on input line 293.
+
+
+LaTeX Warning: Citation 'Klausen2019' on page 20 undefined on input line 293.
+
+
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
 ex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1866,16 +1870,13 @@ isable this.
 )
 (./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
 t.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
 \openout6 = ./tikz/cache/main-figure16.dpth
- [25
+ [24
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-
-LaTeX Warning: Citation 'Yang2020' on page 26 undefined on input line 431.
-
-
-LaTeX Warning: Citation 'Klausen2019' on page 26 undefined on input line 431.
-
 \global\@namedef{appendixtotalframenumber}{11}
 \global\@namedef{inserttotalframenumber}{16}
 \@writefile{nav}{\headcommand {\gdef \inserttotalframenumber {16}}}
@@ -1897,20 +1898,20 @@ Package logreq Info: Writing requests to './tikz/cache/main-figure16.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42148 strings out of 478531
+ 42154 strings out of 478531
  125056,5906145 words of node,token memory allocated
- 20560 words of node memory still in use:
-   255 hlist, 12 vlist, 35 rule, 91 disc, 6 local_par, 76 dir, 136 math, 571 glu
-e, 9 kern, 13 penalty, 1134 glyph, 976 attribute, 76 glue_spec, 490 attribute_li
-st, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:1,2:11825,3:5885,4:406,5:221,6:20,7:3394,8:21,9:823,10:14,11:1
-62
- 60083 multiletter control sequences out of 65536+600000
- 73 fonts using 7001471 bytes
+ 13858 words of node memory still in use:
+   163 hlist, 11 vlist, 22 rule, 81 disc, 6 local_par, 26 dir, 28 math, 419 glue
+, 9 kern, 16 penalty, 3 margin_kern, 827 glyph, 496 attribute, 76 glue_spec, 250
+ attribute_list, 4 write, 16 pdf_colorstack nodes
+   avail lists: 1:1,2:3367,3:2054,4:235,5:270,6:18,7:3962,8:21,9:701,10:14,11:17
+2
+ 60085 multiletter control sequences out of 65536+600000
+ 71 fonts using 6917551 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaMedium.ttf></home/saul/.fonts/for_latex/Futur
 aBook.ttf>
-Output written on ./tikz/cache/main-figure16.pdf (1 page, 22177 bytes).
+Output written on ./tikz/cache/main-figure16.pdf (1 page, 20429 bytes).
 
 PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream

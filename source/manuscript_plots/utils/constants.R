@@ -183,7 +183,11 @@ okabe <-
     "#CC79A7"
   )
 bologna_red <- "#bb2e29"
-bologna_palette <- c(bologna_red, "#1c5e39", "#6c096a", "#7b4419")
+bologna_ligh_red <- "#FF3838"
+bologna_yellow <- "#FFFD52"
+bologna_cyan <- "#1FA8FF"
+bologna_gray <- "#808080"
+bologna_palette <- c(bologna_gray, bologna_ligh_red, bologna_cyan, bologna_yellow)
 boxplot_gray <- "gray15"
 barplot_gray <- "gray30"
 text_size <- 7 # for plots

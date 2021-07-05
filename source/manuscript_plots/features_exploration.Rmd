@@ -40,7 +40,7 @@ print(plot_presentation)
 create_tikz(
   plot_presentation,
   "presentation_mutation_identity.tex",
-  latex_beamer_height * 0.85,
+  latex_beamer_height * 0.8,
   latex_beamer_width * 0.5
 )
 ```

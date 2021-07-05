@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  4 JUL 2021 21:11
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  5 JUL 2021 12:20
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -1825,9 +1825,6 @@ isable this.
 ) (./tikz/tikzdevice/presentation_score_dssp_rsa.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-) (./tikz/tikzdevice/presentation_score_dssp_q3.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 ) (./tikz/features.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
@@ -1849,15 +1846,41 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-\global\@namedef{mainendframenumber}{17}
-\@writefile{nav}{\headcommand {\gdef \insertmainframenumber {17}}}
+\global\@namedef{mainendframenumber}{16}
+\@writefile{nav}{\headcommand {\gdef \insertmainframenumber {16}}}
 
-LaTeX Warning: Empty bibliography on input line 237.
+LaTeX Warning: Empty bibliography on input line 228.
 
-\global\@namedef{appendixtotalframenumber}{4}
-\global\@namedef{inserttotalframenumber}{17}
-\@writefile{nav}{\headcommand {\gdef \inserttotalframenumber {17}}}
-\@writefile{nav}{\headcommand {\gdef \appendixtotalframenumber {4}}}
+(./tikz/tikzdevice/presentation_score_dssp_q3.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./tikz/tikzdevice/presentation_feature_corr_heatmap.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+) (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
+(./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
+ex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
+(./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
+t.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
+
+LaTeX Warning: Citation 'Yang2020' on page 26 undefined on input line 431.
+
+
+LaTeX Warning: Citation 'Klausen2019' on page 26 undefined on input line 431.
+
+\global\@namedef{appendixtotalframenumber}{11}
+\global\@namedef{inserttotalframenumber}{16}
+\@writefile{nav}{\headcommand {\gdef \inserttotalframenumber {16}}}
+\@writefile{nav}{\headcommand {\gdef \appendixtotalframenumber {11}}}
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1875,22 +1898,22 @@ Package logreq Info: Writing requests to './tikz/cache/main-figure3.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42109 strings out of 478531
- 4443235,5906145 words of node,token memory allocated
- 13858 words of node memory still in use:
-   163 hlist, 11 vlist, 22 rule, 81 disc, 6 local_par, 26 dir, 28 math, 419 glue
-, 9 kern, 16 penalty, 3 margin_kern, 827 glyph, 496 attribute, 76 glue_spec, 250
- attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:11,2:844861,3:475328,4:193,5:270,6:18,7:87438,8:21,9:653,10:14
-,11:172
- 60072 multiletter control sequences out of 65536+600000
+ 42153 strings out of 478531
+ 4443310,5906145 words of node,token memory allocated
+ 20560 words of node memory still in use:
+   255 hlist, 12 vlist, 35 rule, 91 disc, 6 local_par, 76 dir, 136 math, 571 glu
+e, 9 kern, 13 penalty, 1134 glyph, 976 attribute, 76 glue_spec, 490 attribute_li
+st, 4 write, 16 pdf_colorstack nodes
+   avail lists: 1:15,2:844141,3:475338,4:300,5:221,6:18,7:86862,8:21,9:593,10:14
+,11:162
+ 60080 multiletter control sequences out of 65536+600000
  71 fonts using 6917551 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaBook.ttf></home/saul/.fonts/for_latex/FuturaM
 edium.ttf></home/saul/.fonts/for_latex/FiraCodeRegular.ttf>
-Output written on ./tikz/cache/main-figure3.pdf (1 page, 59490 bytes).
+Output written on ./tikz/cache/main-figure3.pdf (1 page, 59560 bytes).
 
-PDF statistics: 66 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 72 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)

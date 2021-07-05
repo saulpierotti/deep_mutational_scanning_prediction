@@ -71,13 +71,26 @@ get_corr_bootstrap(test_result_lopo_xgb_tb %>% filter(kind == "test"),
 plot <-
   get_performance_comparison_plot(
     xgb_models_comparison_tb %>% filter(method == "spearman") %>%
-    mutate(model = fct_recode(model, "LOPO" = "lopo_models_xgb")) %>%
-    mutate(model = fct_relevel(model, c("by_position", "naive", "LOPO")))
-    ) +
+      mutate(model = fct_recode(model, "LOPO" = "lopo_models_xgb")) %>%
+      mutate(model = fct_relevel(model, c(
+        "naive", "by_position", "LOPO"
+      )))
+  ) +
   ylab("Spearman correlation coefficient")
 
-plot_presentation <- plot +
-  scale_color_manual(values = bologna_palette,
+plot_presentation <-
+  get_performance_comparison_plot(
+    xgb_models_comparison_tb %>% filter(method == "spearman") %>%
+      mutate(model = fct_recode(model, "LOPO" = "lopo_models_xgb")) %>%
+      mutate(model = fct_relevel(model, c(
+        "naive", "by_position", "LOPO"
+      ))),
+    use_outline = TRUE,
+    size = 1.3,
+    dodge_width = 0.3
+  ) +
+  ylab("Spearman correlation coefficient") +
+  scale_fill_manual(values = bologna_palette,
                      name = "Model",
                      labels = models_labels)
 
@@ -96,23 +109,30 @@ create_tikz(plot_presentation,
 ```
 
 ```{r general models performance comparison plot, dev="tikz", results="hide"}
+source("./utils/functions.R")
+source("./utils/constants.R")
+
 plot <-
   get_performance_comparison_plot(
-    general_models_corr_tb %>%
-    filter(method=="spearman")
+    general_models_corr_tb %>% filter(method=="spearman")
     ) +
   ylab("Spearman correlation coefficient")
 
-plot_presentation <- plot +
-  theme(legend.position = "top") +
-  guides(colour = guide_legend(nrow = 2)) +
-  scale_color_manual(
-      values = bologna_palette,
-      name = "Model", labels = models_labels
-    )
+plot_presentation <-
+  get_performance_comparison_plot(
+    general_models_corr_tb %>% filter(method=="spearman"),
+    use_outline = TRUE,
+    size = 1.3,
+    dodge_width = 0.3
+    ) +
+  ylab("Spearman correlation coefficient") +
+  scale_fill_manual(values = bologna_palette,
+                    name = "Model",
+                    labels = models_labels) +
+  guides(fill = guide_legend(nrow = 2)) +
+  theme(legend.position = "top")
 
 print(plot)
-
 print(plot_presentation)
 
 # create_tikz(plot,

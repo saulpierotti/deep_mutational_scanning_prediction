@@ -628,6 +628,9 @@ get_test_result_by_dataset_plot <- function(test_result_tb) {
 get_test_result_summary_plot <- function(test_result_tb,
                                          correlation_type = "pearson",
                                          show_numbers = TRUE,
+                                         show_outline = FALSE,
+                                         dodge_width = 0.5,
+                                         size = 1.5,
                                          text_xshift = 0.25,
                                          text_yshift = 0.04) {
   curr_tb <- get_test_correlations(test_result_tb)
@@ -641,8 +644,7 @@ get_test_result_summary_plot <- function(test_result_tb,
   )
 
 
-  plot <- ggplot(data = curr_tb %>% filter(name == correlation_type)) +
-    geom_point(aes(x = dms_id, y = value, color = kind)) +
+  plot_base <- ggplot(data = curr_tb %>% filter(name == correlation_type)) +
     ylim(c(0, 1)) +
     theme_cowplot(text_size) +
     xlab("Dataset") +
@@ -651,8 +653,27 @@ get_test_result_summary_plot <- function(test_result_tb,
     x_axis_theme +
     scale_x_discrete(labels = dms_dataset_labels) +
     theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-    scale_color_manual(values = c(okabe[1], "black")) +
     theme(legend.position = "none")
+
+  if (show_outline) {
+    plot <- plot_base +
+      geom_point(aes(x = dms_id, y = value, fill = kind),
+        color = "black",
+        shape = 21,
+        position = position_dodge(width = dodge_width),
+        size = size
+      ) +
+      scale_fill_manual(values = c(okabe[1], "black"))
+  }
+  else {
+    plot <- plot_base +
+      geom_point(
+        mapping = aes(x = dms_id, y = value, color = kind),
+        position = position_dodge(width = dodge_width),
+        size = size
+      ) +
+      scale_color_manual(values = c(okabe[1], "black"))
+  }
 
   if (show_numbers) {
     plot <- plot +
@@ -687,12 +708,14 @@ get_feature_importance_by_dataset_plot <- function(feature_importance_tb,
   return(plot)
 }
 
-get_performance_comparison_plot <- function(comparison_tb) {
-  plot <- ggplot(
+get_performance_comparison_plot <- function(comparison_tb,
+                                            use_outline = FALSE,
+                                            size = 1.5,
+                                            dodge_width = 0.5) {
+  base_plot <- ggplot(
     data = comparison_tb,
-    mapping = aes(x = dms_id, y = correlation, color = model)
+    mapping = aes(x = dms_id, y = correlation),
   ) +
-    geom_jitter(width = 0.1, height = 0) +
     ylim(c(-0.1, 0.93)) +
     theme_cowplot(text_size) +
     xlab("Dataset") +
@@ -700,11 +723,35 @@ get_performance_comparison_plot <- function(comparison_tb) {
     x_axis_theme +
     y_axis_theme +
     scale_x_discrete(labels = dms_dataset_labels) +
-    theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-    scale_color_manual(
-      values = c("black", okabe),
-      name = "Model", labels = models_labels
-    )
+    theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  if (use_outline) {
+    plot <- base_plot +
+      geom_point(
+        mapping = aes(fill = model, group = model),
+        color = "black",
+        shape = 21,
+        size = size,
+        position = position_dodge(width = dodge_width)
+      ) +
+      scale_fill_manual(
+        values = c("black", okabe),
+        name = "Model",
+        labels = models_labels
+      )
+  }
+  else {
+    plot <- base_plot +
+      geom_point(
+        mapping = aes(color = model),
+        size = size,
+        position = position_dodge(width = dodge_width)
+      ) +
+      scale_color_manual(
+        values = c("black", okabe),
+        name = "Model", labels = models_labels
+      )
+  }
+
   return(plot)
 }
 
