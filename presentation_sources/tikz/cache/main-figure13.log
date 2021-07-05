@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  5 JUL 2021 14:13
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  5 JUL 2021 16:47
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -1842,34 +1842,31 @@ isable this.
 )
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
 \global\@namedef{mainendframenumber}{16}
 \@writefile{nav}{\headcommand {\gdef \insertmainframenumber {16}}}
 
-LaTeX Warning: Empty bibliography on input line 230.
+LaTeX Warning: Empty bibliography on input line 237.
 
 (./tikz/tikzdevice/presentation_score_dssp_q3.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 ) (./tikz/tikzdevice/presentation_feature_corr_heatmap.tex
-\openout6 = ./tikz/cache/main-figure13.dpth
- [19
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./tikz/tikzdevice/raster/pre
-sentation_feature_corr_heatmap_ras1.png>])
-
-LaTeX Warning: Citation 'Yang2020' on page 20 undefined on input line 293.
+LaTeX Warning: Citation 'Yang2020' on page 20 undefined on input line 300.
 
 
-LaTeX Warning: Citation 'Klausen2019' on page 20 undefined on input line 293.
+LaTeX Warning: Citation 'Klausen2019' on page 20 undefined on input line 300.
 
 
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
 ex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)
+\openout6 = ./tikz/cache/main-figure13.dpth
+ [22
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 (./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
 t.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1899,24 +1896,23 @@ Package logreq Info: Writing requests to './tikz/cache/main-figure13.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42162 strings out of 478531
- 596363,5906145 words of node,token memory allocated
+ 42151 strings out of 478531
+ 125056,5906145 words of node,token memory allocated
  13876 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 418 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:11,2:107233,3:55854,4:324,5:270,6:18,7:17412,8:21,9:699,10:14,
-11:174
- 60081 multiletter control sequences out of 65536+600000
- 70 fonts using 6875623 bytes
+   avail lists: 1:1,2:13813,3:5944,4:295,5:270,6:18,7:4841,8:21,9:1178,10:14,11:
+174
+ 60082 multiletter control sequences out of 65536+600000
+ 71 fonts using 6917551 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/saul/.fonts/for_latex/FiraCodeRegular.ttf></home/saul/.fonts/for_latex/Fu
-turaBook.ttf></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on ./tikz/cache/main-figure13.pdf (1 page, 89093 bytes).
+</home/saul/.fonts/for_latex/FuturaMedium.ttf></home/saul/.fonts/for_latex/Futur
+aBook.ttf>
+Output written on ./tikz/cache/main-figure13.pdf (1 page, 23105 bytes).
 
-PDF statistics: 73 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
