@@ -338,8 +338,8 @@ Note that NetSurfP-2 predicts directly only the RSA, and the ASA is instead calc
 
 For the evaluation of the trRosetta distograms, distance maps were obtained from the PDB structures by evaluating all the possible pairwise residue distances.
 The PDB distance maps were then mapped to the respective UniProt sequences following the SIFTS mappings and additionally the adjustments described in this section for the datasets \texttt{Ubiquitin}, \texttt{E1\_Ubiquitin}, and \texttt{gb1}.
-The trRosetta performances were evaluated as the fraction of experimental contacts that are present in the top $L/n$ medium and long-range predicted trRosetta contacts, where $n$ is \numlist{5;2;1} and $L$ is the length of the primary sequence from the PDB\@.
-Medium range contacts were defined as contacts between residues at \num{12} or more positions apart in the primary sequence.
+The trRosetta performances were evaluated as the fraction of experimental contacts that are present in the top $L/n$ medium-range and long-range predicted trRosetta contacts, where $n$ is \numlist{5;2;1} and $L$ is the length of the primary sequence from the PDB\@.
+Medium-range contacts were defined as contacts between residues at \num{12} or more positions apart in the primary sequence.
 Long-range contacts were defined as contacts between residues at \num{24} or more positions apart in the primary sequence.
 An experimental contact was defined as a pair of residues at a distance of \SI{8}{\angstrom} or less.
 Experimental distances were measured between $C_\beta$ atoms for all residues except glycine, where the $C_\alpha$ atom was taken as reference.
@@ -498,9 +498,9 @@ A single permutation consisted of exchanging a variable number of predicted rank
 Each pair of predictions had a probability of \num{0.5} of being swapped.
 The original predictions were included in the \num{10000} permutations, so \num{9999} permutated predictions were obtained.
 For each set of permutated predictions, the difference in their Spearman correlation with the experimental ranks was calculated.
-To obtain two-tailed $p$ values, the fraction of Spearman correlation differences among permutated predictions that had an absolute value greater or equal to that of the actual predictions were determined.
+To obtain two-tailed $p$-values, the fraction of Spearman correlation differences among permutated predictions that had an absolute value greater or equal to that of the actual predictions were determined.
 
-The significance of the performance differences was tested at a $p$ value threshold of \num{0.05}.
+The significance of the performance differences was tested at a $p$-value threshold of \num{0.05}.
 Since multiple significance tests were performed, a Bonferroni correction \parencite{Dunn1961} was applied to the threshold.
 The corrected significance threshold is $\alpha = \frac{0.05}{27} = 0.00185185$.
 

@@ -3,7 +3,7 @@
 
 \addbibresource{./references.bib}
 
-\title[Single Aminoacid Variants Prediction]{Prediction of the Effect of Single Amino Acid Protein
+\title[Single Amino Acid Variants Prediction]{Prediction of the Effect of Single Amino Acid Protein
 	Variants\\Using Deep Mutational Scanning Data}
 \subtitle[]{University of Bologna --- Master Thesis in Bioinformatics}
 \author[Pierotti Saul]{Pierotti Saul}
@@ -96,7 +96,7 @@
 			\begin{itemize}
 				\item Polar residues seem more tolerant to mutations than hydrophobic residues
 				\item Proline (P) is the most disruptive residue
-				\item Triptophan (W) is hard to replace
+				\item Tryptophan (W) is hard to replace
 			\end{itemize}
 		\end{column}
 	\end{columns}
@@ -258,7 +258,7 @@
 	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrrrrrr}%
 		\toprule
-		& \multicolumn{3}{l}{Medium range ($s \geq 12$)} & \multicolumn{3}{l}{Long range ($s \geq 24$)} \\
+		& \multicolumn{3}{l}{Medium-range ($s \geq 12$)} & \multicolumn{3}{l}{Long-range ($s \geq 24$)} \\
 		\cmidrule(l){2-7}
 		Dataset & Top $L/5$ & Top $L/2$ & Top $L$ & Top $L/5$ & Top $L/2$ & Top $L$ \\
 		\midrule
@@ -325,7 +325,7 @@
 		\midrule
 	\end{tabular*}\\%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lrr}%
-		& Kruskal-Wallis $\chi^2$ & $p$ value           \\
+		& Kruskal-Wallis $\chi^2$ & $p$-value           \\
 		\midrule
 		Wild-type residue                        & \num{1482.4}            & $<$ \num{2.2e-16} \\
 		Mutated residue                          & \num{708.53}            & $<$ \num{2.2e-16} \\
@@ -420,7 +420,7 @@
 	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
 		\toprule
-		Dataset name            & Model 1           & Model 2                & $p$ value      \\
+		Dataset name            & Model 1           & Model 2                & $p$-value      \\
 		\midrule
 		beta-lactamase & Linear regression & Gradient boosted trees & \num{1e-4} * \\
 		beta-lactamase & Linear regression & EVmutation             & \num{1e-4} * \\
@@ -457,7 +457,7 @@
 	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
 		\toprule
-		Dataset name            & Model 1           & Model 2                & $p$ value      \\
+		Dataset name            & Model 1           & Model 2                & $p$-value      \\
 		\midrule
 		Ubiquitin      & Linear regression & Gradient boosted trees & \num{1e-4} * \\
 		Ubiquitin      & Linear regression & EVmutation             & \num{1e-4} * \\

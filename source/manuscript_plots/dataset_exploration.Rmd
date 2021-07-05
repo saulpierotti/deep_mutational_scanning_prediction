@@ -77,7 +77,7 @@ presentation_plot <- base_plot +
   ) +
   scale_color_manual(
     name = "Mutation Type",
-    labels = c("Synonimous", "Missense"),
+    labels = c("Synonymous", "Missense"),
     values = c(bologna_red, "black")
   ) +
   theme(legend.position = "top") +
