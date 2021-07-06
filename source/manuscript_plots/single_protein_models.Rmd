@@ -56,7 +56,7 @@ plot_presentation <-
     name = "Performance type",
     labels = c("Validation", "Test")
   ) +
-  theme(legend.position = "top")
+  theme(legend.position = "right")
 
 print(plot)
 print(plot_presentation)
@@ -68,8 +68,8 @@ print(plot_presentation)
 
 create_tikz(plot_presentation,
             "presentation_single_protein_models_naive_test_result_summary.tex",
-            latex_beamer_height*0.8,
-            latex_beamer_width*0.6)
+            latex_beamer_height*0.7,
+            latex_beamer_width)
 ```
 
 ```{r test results naive, dev="tikz", results="hide"}
@@ -152,7 +152,7 @@ plot_presentation <-
     name = "Performance type",
     labels = c("Validation", "Test")
   ) +
-  theme(legend.position = "top")
+  theme(legend.position = "right")
 
 print(plot)
 print(plot_presentation)
@@ -165,8 +165,8 @@ print(plot_presentation)
 create_tikz(
   plot_presentation,
   "presentation_single_protein_models_by_position_test_result_summary.tex",
-  latex_beamer_height * 0.8,
-  latex_beamer_width * 0.6
+  latex_beamer_height * 0.7,
+  latex_beamer_width
 )
 ```
 

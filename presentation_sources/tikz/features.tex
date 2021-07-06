@@ -1,19 +1,19 @@
 \tikzset{external/export next=false}%
 \begin{tikzpicture}
-	\node [object, text width=7em] (mut_id) {Mutation identity};
-	\node [object, below=-.3em of mut_id, font=\tiny, text width=7em] (wt) {\sbseries Wild-type residue};
-	\node [object, below=-.3em of wt, font=\tiny, text width=7em] (mut) {\sbseries Mutated residue};
-	\node [object, right=2em of mut_id, text width=9em, yshift=3em] (ev_mut) {EVmutation predictions\\{\tiny\parencite{Hopf2017}}};
-	\node [object, below=-.3em of ev_mut, font=\tiny, text width=9em] (epi) {\sbseries Epistatic model};
-	\node [object, below=-.3em of epi, font=\tiny, text width=9em] (ind) {\sbseries Independent model};
-	\node [object, below=-.3em of ind, font=\tiny, text width=9em] (cons) {\sbseries Conservation};
-	\node [object, below=-.3em of cons, font=\tiny, text width=9em] (freq) {\sbseries Mutation frequency};
-	\node [object, right=2em of ev_mut, text width=9em, yshift=-3em] (netsurf) {NetsurfP-2 predictions\\{\tiny\parencite{Klausen2019}}};
-	\node [object, below=-.3em of netsurf, font=\tiny, text width=9em] (sec) {\sbseries Secondary structure};
-	\node [object, below=-.3em of sec, font=\tiny, text width=9em] (rsa) {\sbseries Solvent accessibility};
-	\node [object, below=-.3em of rsa, font=\tiny, text width=9em] (dis) {\sbseries Disorder};
-	\node [object, below=-.3em of dis, font=\tiny, text width=9em] (tors) {\sbseries Torsion angles};
-	\node [object, below=4em of mut.south east, text width=11em, xshift=-2em] (hmmer) {HMMER emission probabilities\\{\tiny\parencite{Eddy2011}}};
-	\node [object, right=4em of hmmer, text width=13em, xshift=-3em, yshift=-1em, align=center] (trrosetta) {trRosetta predicted contacts\\{\tiny\parencite{Yang2020}}};
-	\node [object, below=-.3em of trrosetta, font=\tiny, text width=13em] (met) {\sbseries Centrality metrics};
+	\node [object, text width=8em, minimum height=3em] (a) {Mutation identity};
+	%\node [object, below=-.3em of a, font=\tiny, text width=8em] (a1) {\sbseries Wild-type residue};
+	%\node [object, below=-.3em of a1, font=\tiny, text width=8em] (a2) {\sbseries Mutated residue};
+	\node [object, right=2em of a, text width=8em, minimum height=3em] (b) {EVmutation predictions\\{\tiny\parencite{Hopf2017}}};
+	%\node [object, below=-.3em of b, font=\tiny, text width=8em] (b1) {\sbseries Epistatic model};
+	%\node [object, below=-.3em of b1, font=\tiny, text width=8em] (b2) {\sbseries Independent model};
+	%\node [object, below=-.3em of b2, font=\tiny, text width=8em] (b3) {\sbseries Conservation};
+	%\node [object, below=-.3em of b3, font=\tiny, text width=8em] (b4) {\sbseries Mutation frequency};
+	\node [object, right=2em of b, text width=8em, minimum height=3em] (c) {NetsurfP-2 predictions\\{\tiny\parencite{Klausen2019}}};
+	%\node [object, below=-.3em of netsurf, font=\tiny, text width=8em] (sec) {\sbseries Secondary structure};
+	%\node [object, below=-.3em of sec, font=\tiny, text width=8em] (rsa) {\sbseries Solvent accessibility};
+	%\node [object, below=-.3em of rsa, font=\tiny, text width=8em] (dis) {\sbseries Disorder};
+	%\node [object, below=-.3em of dis, font=\tiny, text width=8em] (tors) {\sbseries Torsion angles};
+	\node [object, below=2em of b, text width=13em, xshift=-8em] (d) {HMMER emission probabilities\\{\tiny\parencite{Eddy2011}}};
+	\node [object, below=2em of b, text width=13em, xshift=8em] (e) {trRosetta predicted contacts\\{\tiny\parencite{Yang2020}}};
+	%\node [object, below=-.3em of e, font=\tiny, text width=13em] (e1) {\sbseries Centrality metrics};
 \end{tikzpicture}%

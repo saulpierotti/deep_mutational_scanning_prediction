@@ -23,34 +23,8 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Deep Mutational Scanning}
-	High-throughput technique for obtaining fitness information on a large number of mutations
-	\vfill%
-	\begin{figure}
-		\input{tikz/dms_workflow.tex}
-	\end{figure}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Some Notable Variant Effect Predictors}
-	\begin{figure}
-		\input{tikz/variant_effect_predictors.tex}
-	\end{figure}
-	\vfill%
-	Among these predictors only Envision was trained on deep mutational scanning data
-\end{frame}
-
-
-
-\begin{frame}
-	\frametitle{Structure of the Project}
-	\begin{figure}
-		\input{tikz/project_structure.tex}
-	\end{figure}
-\end{frame}
-
-\begin{frame}
-	\frametitle{I Considered Only Single Amino Acid Variants}
+	\frametitle{What Is a Single Amino Acid Variant?}
+	A mutation that replaces exactly one amino acid in a protein
 	\vfill%
 	\begin{figure}
 		\input{tikz/mutation_illustration.tex}
@@ -58,10 +32,44 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{I Used the Training Dataset of Envision {\small\parencite{Gray2018}}}
+	\frametitle{What Is Deep Mutational Scanning?}
+	A high-throughput technique for obtaining fitness information on a large number of mutations in parallel
 	\vfill%
-	\centering%
-	% for some reason figure fails
+	\begin{figure}
+		\input{tikz/dms_workflow.tex}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Why do We Need to Predict the Effect of Mutations?}
+	\begin{figure}
+		\input{tikz/variant_effect_predictors.tex}
+	\end{figure}
+	\vfill%
+	Among these predictors only Envision was trained on deep mutational scanning data
+\end{frame}
+
+\begin{frame}
+	\frametitle{Previous Work in the Field}
+	\begin{figure}
+		\input{tikz/variant_effect_predictors.tex}
+	\end{figure}
+	\vfill%
+	Among these predictors only Envision was trained on deep mutational scanning data
+\end{frame}
+
+\begin{frame}
+	\frametitle{My Approach}
+	\begin{figure}
+		\input{tikz/project_structure.tex}
+	\end{figure}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Training Data}
+	I borrowed the training dataset of the predictor Envision {\footnotesize\parencite{Gray2018}}
+	\vfill%
+	% looks better not centered
 	{%
 		\let\bfseries\sbseries%
 		\input{tikz/tikzdevice/presentation_fitness_score_distribution.tex}
@@ -70,29 +78,32 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Agreement among Experimental Results}
+	\frametitle{Experiments Do Not Agree Much with Each Other}
 	Two independent deep mutational scanning experiments on Ubiquitin are present in the training dataset.
 	Their correlation is low.
 	\vfill%
-	\centering%
-	{%
-		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_datasets_correlations.tex}
-	}
+	\begin{center}
+		{%
+			\let\bfseries\sbseries%
+			\input{tikz/tikzdevice/presentation_datasets_correlations.tex}
+		}
+	\end{center}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Interesting Patterns in Mutation Sensitivity}
 	\begin{columns}[c]
 		\begin{column}{.5\textwidth}
-			\centering%
-			\vfill\null%
-			{%
-				\let\bfseries\sbseries%
-				\input{tikz/tikzdevice/presentation_mutation_identity.tex}
-			}
+			\vfill\vspace{-1.5em}\null%
+			\begin{center}
+				{%
+					\let\bfseries\sbseries%
+					\input{tikz/tikzdevice/presentation_mutation_identity.tex}
+				}
+			\end{center}
 		\end{column}
 		\begin{column}{.5\textwidth}
+			\vspace{-7.5em}
 			\begin{itemize}
 				\item Polar residues seem more tolerant to mutations than hydrophobic residues
 				\item Proline (P) is the most disruptive residue
@@ -106,17 +117,21 @@
 	\frametitle{Exposure Explains the Mutability of Polar Residues}
 	When filtering by Relative Solvent Accessibility (RSA) apolar residues are \textbf{\textit{not}} more sensitive to mutations than polar residues
 	\vfill%
-	\centering%
-	{%
-		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_mutation_identity_exposed.tex}
-		\input{tikz/tikzdevice/presentation_mutation_identity_buried.tex}
-	}
+	\begin{center}
+		{%
+			\hspace{-2em}
+			\let\bfseries\sbseries%
+			\input{tikz/tikzdevice/presentation_mutation_identity_exposed.tex}
+			\hspace{2em}%
+			\input{tikz/tikzdevice/presentation_mutation_identity_buried.tex}
+		}
+	\end{center}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Buried Residues Are More Conserved}
-	\centering%
+	\vfill%
+	% looks better not centered
 	{%
 		\let\bfseries\sbseries%
 		\input{tikz/tikzdevice/presentation_score_dssp_rsa.tex}
@@ -124,8 +139,8 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Features Used for the Predictions}
-	All the features are derived from the sequences: I did \textbf{\textit{not}} use structural information
+	\frametitle{Features Used by the Predictors}
+	All the features are derived from the sequences: I did \textbf{\textit{not}} use any structural information
 	\vfill%
 	\begin{figure}
 		\input{tikz/features.tex}
@@ -133,43 +148,31 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Single Protein Models with Naive Testing}
+	\frametitle{Single Protein Models}
 	\begin{columns}[c]
 		\begin{column}{.6\textwidth}
-			\centering%
-			\vspace{1em}
+			\vfill\null%
 			{%
+				\centering%
 				\let\bfseries\sbseries%
-				\input{tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary.tex}
+				\input{tikz/tikzdevice/presentation_single_protein_models_performance_comparison.tex}
 			}
 		\end{column}
 		\begin{column}{.4\textwidth}
+			Naive approach\vspace{2ex}
 			\begin{itemize}
 				\item A different model trained for each protein
-				\item Half of the mutations set aside for testing
-				\item Hyperparameters optimized in the remaining half with cross-validation
-				\item Good results but likely overfitting of the testing set
+				\item Half of the mutations used for testing and half for cross-validation
+				\item Too good to be true
 			\end{itemize}
-		\end{column}
-	\end{columns}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Single Protein Models with Testing by Position}
-	\begin{columns}[c]
-		\begin{column}{.6\textwidth}
-			\centering%
-			\vspace{1em}
-			{%
-				\let\bfseries\sbseries%
-				\input{tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_summary.tex}
+			\vfill\null%
+			\visible<2->{%
+				Segregating protein positions\vspace{2ex}
+				\begin{itemize}
+					\item Same as above but mutations in the same position segregated in the training or testing sets
+					\item Performances are more realistic
+				\end{itemize}
 			}
-		\end{column}
-		\begin{column}{.4\textwidth}
-			\begin{itemize}
-				\item Same as before but mutations in the same position segregated in the training or testing sets
-				\item Performances are lower (and more realistic)
-			\end{itemize}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -178,14 +181,15 @@
 	\frametitle{Leave-One-Protein-Out (LOPO) Models}
 	\begin{columns}[c]
 		\begin{column}{.6\textwidth}
-			\centering%
-			\vspace{1em}
+			\vfill\null%
 			{%
+				\centering%
 				\let\bfseries\sbseries%
 				\input{tikz/tikzdevice/presentation_general_models_performance_comparison.tex}
 			}
 		\end{column}
 		\begin{column}{.4\textwidth}
+			\vspace{-3em}
 			\begin{itemize}
 				\item Models trained on the whole dataset while leaving one protein out
 				\item For the left-out protein, half of the mutations used for testing and half for validation
@@ -227,23 +231,21 @@
 
 \begin{frame}
 	\frametitle{Supplementary Material}
-	Secondary structure is of limited importance in the discrimination of damaging mutations
-	\vfill%
-	\centering%
+	Secondary structure is of limited importance in the discrimination of damaging mutations\\[1ex]
 	{%
-		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
+	\centering%
+	\let\bfseries\sbseries%
+	\input{tikz/tikzdevice/presentation_score_dssp_q3.tex}
 	}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Supplementary Material}
-	The correlation among features follows predictable patterns
-	\vfill%
-	\centering%
+	The correlation among features follows predictable patterns\\[1ex]
 	{%
-		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_feature_corr_heatmap.tex}
+	\centering%
+	\let\bfseries\sbseries%
+	\input{tikz/tikzdevice/presentation_feature_corr_heatmap.tex}
 	}
 \end{frame}
 
@@ -333,32 +335,50 @@
 
 \begin{frame}
 	\frametitle{Supplementary Material}
-	Feature importances for the gradient boosted tree general models
-	\vfill%
-	\centering%
+	Feature importances for the gradient boosted tree general models\\[1ex]
 	{%
-		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.tex}
+	\centering%
+	\let\bfseries\sbseries%
+	\input{tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.tex}
 	}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Supplementary Material}
-	Feature importances for the linear regression general models
-	\vfill%
-	\centering%
+	Feature importances for the linear regression general models\\[1ex]
 	{%
-		\let\bfseries\sbseries%
-		\input{tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_dataset.tex}
+	\centering%
+	\let\bfseries\sbseries%
+	\input{tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_dataset.tex}
 	}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Supplementary Material}
-	Comparison of the performances of single protein models and general models
-	\vfill%
-	\centering%
+	Validation and testing performances for the single protein models trained with the naive approach\\[1ex]
 	{%
+	\centering%
+	\let\bfseries\sbseries%
+	\input{tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary.tex}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Validation and testing performances for the single protein models trained by segregating protein positions\\[1ex]
+	{%
+	\centering%
+	\let\bfseries\sbseries%
+	\input{tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_summary.tex}
+	}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Supplementary Material}
+	Comparison of the performances of single protein models and general models\\[1ex]
+	\vspace{\baselineskip}%
+	{%
+		\centering%
 		\let\bfseries\sbseries%
 		\input{tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex}
 	}
@@ -367,7 +387,7 @@
 \begin{frame}
 	\frametitle{Supplementary Material}
 	Confidence intervals in prediction performances
-	\vfill%
+
 	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}llll}%
 		\toprule
@@ -412,7 +432,6 @@
 		\alpha = \frac{0.05}{27} = 0.00185185
 	\end{equation*}
 
-	\vfill%
 	\tiny%
 	\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}lllll}%
 		\toprule
@@ -447,7 +466,7 @@
 	\begin{equation*}
 		\alpha = \frac{0.05}{27} = 0.00185185
 	\end{equation*}
-	\vfill%
+
 	The table continues from the previous slide
 
 	\tiny%
