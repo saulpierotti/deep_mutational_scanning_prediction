@@ -23,7 +23,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{What Is a Single Amino Acid Variant?}
+	\frametitle{Single Amino Acid Variants}
 	A mutation that replaces exactly one amino acid in a protein
 	\vfill%
 	\begin{figure}
@@ -32,7 +32,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{What Is Deep Mutational Scanning?}
+	\frametitle{Deep Mutational Scanning}
 	A high-throughput technique for obtaining fitness information on a large number of mutations in parallel
 	\vfill%
 	\begin{figure}
@@ -41,12 +41,51 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Why do We Need to Predict the Effect of Mutations?}
-	\begin{figure}
-		\input{tikz/variant_effect_predictors.tex}
-	\end{figure}
+	\frametitle{Predicting the Effect of Mutations}
+	\begin{columns}[c]
+		\begin{column}{.03\textwidth}
+		\end{column}
+		\begin{column}{.47\textwidth}
+			{%
+				\huge%
+				Why is it useful?
+			}
+			\vspace{1em}%
+			\begin{itemize}
+				\item Targeted medical treatments
+				\item Protein engineering
+			\end{itemize}
+		\end{column}
+		\begin{column}{.5\textwidth}
+			{%
+				\huge%
+				Why is it needed?
+			}
+			\vspace{1em}%
+			\begin{itemize}
+				\item Experiments are insufficient
+				\item Experiments are expensive
+			\end{itemize}
+		\end{column}
+	\end{columns}
 	\vfill%
-	Among these predictors only Envision was trained on deep mutational scanning data
+	\begin{columns}[c]
+		\begin{column}{.23\textwidth}
+		\end{column}
+		\begin{column}{.6\textwidth}
+			{%
+				\huge%
+				How can it be done?
+			}
+			\vspace{1em}%
+			\begin{itemize}
+				\item Machine learning
+				\item Statistical models
+			\end{itemize}
+		\end{column}
+		\begin{column}{.17\textwidth}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -200,30 +239,37 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Discussion}
+	\frametitle{Discussion and Future Directions}
+	{%
+		\Large%
+		What I learned
+	}
+	\vspace{1ex}
 	\begin{itemize}
-		\item How validation and testing are performed is crucial
-		\item Performances on par with other predictors can be reached without structural features
-		\item There is strong variability between datasets
-		\item Complex models do not improve much on linear regression
-		\item Unsupervised models perform similarly to supervised models
+		\item The testing strategy is crucial
+		\item Good performances without structural features
+		\item Strong variability between datasets
+		\item Complex models not necessarily better
 	\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Future Directions}
+	\vfill%
+	{%
+		\Large%
+		Ideas for the future
+	}
+	\vspace{1ex}
 	\begin{itemize}
 		\item Using residue contacts in a graph convolutional neural network
 		\item Training on more deep mutational scanning studies
-		\item Finding a better normalization strategy for the scores from different experiments
-		\item Tuning the set of features
+		\item Finding a better normalization strategy
 	\end{itemize}
-	\pause%
-	\vfill%
-	\Huge\centering Questions?
 \end{frame}
 
 \appendix%
+\begin{frame}
+	\frametitle{\  }
+	\Huge\centering Questions?
+\end{frame}
+
 \begin{frame}[allowframebreaks]
 	\frametitle{Bibliography}
 	\printbibliography{}%
