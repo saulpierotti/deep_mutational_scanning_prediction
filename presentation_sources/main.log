@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  6 JUL 2021 17:26
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  6 JUL 2021 17:45
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2079,11 +2079,6 @@ ummary.tex
  (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 2DAB1B3A3D2723D16EBC9D0696B3ED4A;182.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
@@ -2096,7 +2091,7 @@ Here is how much of LuaTeX's memory you used:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:4,2:5920,3:3668,4:499,5:388,6:103,7:4990,8:58,9:1121,10:15,11:
+   avail lists: 1:4,2:5920,3:3668,4:499,5:388,6:103,7:4990,8:59,9:1121,10:15,11:
 203
  60817 multiletter control sequences out of 65536+600000
  89 fonts using 8603791 bytes
@@ -2111,7 +2106,7 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-dist
 lic/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (31 pages, 808720 bytes).
+Output written on main.pdf (31 pages, 808599 bytes).
 
 PDF statistics: 734 PDF objects out of 1000 (max. 8388607)
  515 compressed objects within 6 object streams
