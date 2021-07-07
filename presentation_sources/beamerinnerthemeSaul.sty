@@ -7,6 +7,7 @@
 \RequirePackage{appendixnumberbeamer}
 \RequirePackage[style=apa, maxcitenames=1]{biblatex}
 \RequirePackage{parskip}
+\RequirePackage{caption}
 \RequirePackage[verbose=silent]{microtype}
 \RequirePackage{siunitx}
 \sisetup{round-mode=places,exponent-product=\cdot}
@@ -22,6 +23,7 @@
 \usetikzlibrary{mindmap}
 \usetikzlibrary{decorations.pathreplacing}
 \usetikzlibrary{external}
+\usetikzlibrary{paths.ortho}
 \tikzexternalize[prefix=./tikz/cache/]%
 \tikzset{%
 >={Latex[width=2mm,length=2mm]},
@@ -92,5 +94,8 @@ object/.style = {base, fill=primary_inverse_bg, text=primary_inverse_fg, draw=pr
 % not needed for APA but for authoryear
 \let\oldmkbibacro\mkbibacro%
 \renewcommand{\mkbibacro}[1]{\textrm{\oldmkbibacro{#1}}}%
+
+% in text citation for image credits
+\newcommand{\imgsource}[1]{{\setlength{\belowcaptionskip}{0pt}\captionsetup{labelformat=empty,labelsep=none} \caption{\tiny \textbf{Image sources:}~#1. Full credits in appendix.}}}
 
 \mode<all>

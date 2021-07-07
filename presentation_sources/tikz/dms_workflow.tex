@@ -1,16 +1,48 @@
 \tikzset{external/export next=false}%
 \begin{tikzpicture}
-	\node[object, text width=9em] (a) {Mutant library generation};
-	\node[object, below right=0em and -.5em of a, text width=12em] (b) {Fitness selection};
-	\node[object, below=-.3em of b, text width=12em] (c) {Sequencing};
-	\node[object, left=8em of c] (d) {Sequencing};
-	\node[object, below=6em of a, align=center, text width=13em] (e) {%
-		Calculation of fitness scores\\
-		\vspace{1em}
+	\node[object, text width=13em] (a) {%
+		\begin{minipage}[c]{.5\textwidth}
+			Mutant library\\generation
+		\end{minipage}%
+		\begin{minipage}[c]{.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{images/restriction_enzyme.pdf}
+			\end{figure}
+		\end{minipage}%
+	};
+	\node[object, below right=4em and 16em of a.south, text width=10em, anchor=north east] (c) {%
+		\begin{minipage}[c]{.6\textwidth}
+			Sequencing
+		\end{minipage}%
+		\begin{minipage}[c]{.4\textwidth}
+			\includegraphics[width=\textwidth]{images/Illumina_miseq.pdf}
+		\end{minipage}%
+	};
+	\node[object, above=-.3em of c, text width=10em] (b) {
+		\begin{minipage}[c]{.5\textwidth}
+			Fitness\\selection
+		\end{minipage}%
+		\begin{minipage}[c]{.5\textwidth}
+			\includegraphics[width=\textwidth]{images/selection.pdf}
+		\end{minipage}%
+	};
+	\node[object, below left=2em and 16em of a.south, text width=10em,anchor=north west] (d) {%
+		\begin{minipage}[c]{.6\textwidth}
+			Sequencing
+		\end{minipage}%
+		\begin{minipage}[c]{.4\textwidth}
+			\includegraphics[width=\textwidth]{images/Illumina_miseq.pdf}
+		\end{minipage}%
+	};
+	\node[object, below=11em of a, align=center, text width=20em] (e) {%
+		Calculation of fitness scores
+		\hspace{1em}
 		$\log{\frac{\mathrm{mut}_a/\mathrm{mut}_b}{\mathrm{wt}_a/\mathrm{wt}_b}}$
 	};
-	\draw [->, color=bologna_red] (a) -| (b);
-	\draw [->, color=bologna_red] (a) -| (d);
-	\draw [->, color=bologna_red] (c) -| (e);
-	\draw [->, color=bologna_red] (d) -| (e);
+	\coordinate[below=2em of d] (d_like_c) {};
+	\draw [->, color=bologna_red] (a.east) -| (b.north);
+	\draw [->, color=bologna_red] (a.west) -| (d.north);
+	\draw [->, color=bologna_red] (c.south) |-| (e.north);
+	\draw [color=bologna_red] (d.south) -- (d_like_c);
+	\draw [->, color=bologna_red] (d_like_c) |-| (e.north);
 \end{tikzpicture}%

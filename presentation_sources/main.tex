@@ -33,21 +33,20 @@
 
 \begin{frame}
 	\frametitle{Deep Mutational Scanning}
-	A technique for obtaining fitness information on a large number of mutations in parallel
+	A technique for obtaining fitness information on a large number of mutations
 	\vfill%
 	\begin{figure}
 		\input{tikz/dms_workflow.tex}
+		\imgsource{restriction\_enzyme icon by Simon Dürr; Illumina\_miseq icon by DBCLS; modified stem\_cell\_colony icon by Marcel Tisch}
 	\end{figure}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Predicting the Effect of Mutations}
-	\begin{columns}[c]
-		\begin{column}{.03\textwidth}
-		\end{column}
-		\begin{column}{.47\textwidth}
+	\begin{figure}
+		\begin{minipage}{.5\textwidth}%
 			{%
-				\huge%
+				\Large%
 				Why is it useful?
 			}
 			\vspace{1em}%
@@ -55,10 +54,17 @@
 				\item Targeted medical treatments
 				\item Protein engineering
 			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
+			\vspace{1em}%
+			\begin{figure}
+				\includegraphics[height=4em]{images/patient.pdf}
+				\hspace{1em}
+				\includegraphics[height=4em]{images/zincfinger.pdf}
+			\end{figure}
+		\end{minipage}%
+		\hspace{2em}
+		\begin{minipage}{.4\textwidth}%
 			{%
-				\huge%
+				\Large%
 				Why is it needed?
 			}
 			\vspace{1em}%
@@ -66,15 +72,18 @@
 				\item Experiments are insufficient
 				\item Experiments are expensive
 			\end{itemize}
-		\end{column}
-	\end{columns}
-	\vfill%
-	\begin{columns}[c]
-		\begin{column}{.23\textwidth}
-		\end{column}
-		\begin{column}{.6\textwidth}
+			\vspace{1em}%
+			\begin{figure}
+				\includegraphics[height=4em]{images/paper-chromatography-run.pdf}
+				\hspace{1em}%
+				\includegraphics[height=4em]{images/sand-clock.pdf}
+			\end{figure}
+		\end{minipage}\\
+		\vfill%
+		\hspace{3em}
+		\begin{minipage}{.4\textwidth}%
 			{%
-				\huge%
+				\Large%
 				How can it be done?
 			}
 			\vspace{1em}%
@@ -82,10 +91,18 @@
 				\item Machine learning
 				\item Statistical models
 			\end{itemize}
-		\end{column}
-		\begin{column}{.17\textwidth}
-		\end{column}
-	\end{columns}
+		\end{minipage}%
+		\hspace{-3em}
+		\begin{minipage}{.3\textwidth}%
+			\vspace{4em}
+			\begin{figure}
+				\includegraphics[height=4em]{images/ai.pdf}
+				\hspace{1em}%
+				\includegraphics[height=4em]{images/sigmoid.pdf}
+			\end{figure}
+		\end{minipage}%
+		\imgsource{modified patient icon by Marcel Tisch; zincfinger icon by Simon Dürr; paper-chromatography-run icon by Servier; sand-clock icon by Servier; ai icon by Simon Dürr; sigmoid icon by Simon Dürr}
+	\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -273,6 +290,18 @@
 \begin{frame}[allowframebreaks]
 	\frametitle{Bibliography}
 	\printbibliography{}%
+\end{frame}
+
+\begin{frame}
+	\frametitle{Images Credits}
+	\footnotesize%
+	Illumina\_miseq icon by DBCLS \url{https://togotv.dbcls.jp/en/pics.html} is licensed under CC-BY 4.0 Unported \url{https://creativecommons.org/licenses/by/4.0/}\\[1ex]
+	restriction\_enzyme icon by Simon Dürr \url{https://twitter.com/simonduerr} is licensed under CC0 \url{https://creativecommons.org/publicdomain/zero/1.0/}\\[1ex]
+	zincfinger icon by Simon Dürr \url{https://twitter.com/simonduerr} is licensed under CC0 \url{https://creativecommons.org/publicdomain/zero/1.0/}\\[1ex]
+
+	stem\_cell\_colony icon by Marcel Tisch \url{https://twitter.com/MarcelTisch} is licensed under CC0 \url{https://creativecommons.org/publicdomain/zero/1.0/}\\[1ex]
+	ai icon by Simon Dürr https://twitter.com/simonduerr is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/\\[1ex]
+	sigmoid icon by Simon Dürr https://twitter.com/simonduerr is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/\\[1ex]
 \end{frame}
 
 \begin{frame}

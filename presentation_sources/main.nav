@@ -135,10 +135,14 @@
 \headcommand {\slideentry {1}{0}{12}{31/31}{}{1}}
 \defcounter {refsection}{0}\relax 
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@partpages {18}{31}}
-\headcommand {\beamer@subsectionpages {18}{31}}
-\headcommand {\beamer@sectionpages {18}{31}}
-\headcommand {\beamer@documentpages {31}}
-\headcommand {\gdef \inserttotalframenumber {14}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\slideentry {1}{0}{13}{32/32}{}{1}}
+\defcounter {refsection}{0}\relax 
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {18}{32}}
+\headcommand {\beamer@subsectionpages {18}{32}}
+\headcommand {\beamer@sectionpages {18}{32}}
+\headcommand {\beamer@documentpages {32}}
 \headcommand {\gdef \inserttotalframenumber {15}}
-\headcommand {\gdef \appendixtotalframenumber {14}}
+\headcommand {\gdef \inserttotalframenumber {15}}
+\headcommand {\gdef \appendixtotalframenumber {15}}
