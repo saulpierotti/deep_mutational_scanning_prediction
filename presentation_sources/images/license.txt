@@ -1,6 +1,10 @@
 Illumina_miseq icon by DBCLS https://togotv.dbcls.jp/en/pics.html is licensed under CC-BY 4.0 Unported https://creativecommons.org/licenses/by/4.0/
 
-restriction_enzyme icon by Simon Dürr \url{https://twitter.com/simonduerr} is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/
+sand-clock icon by Servier https://smart.servier.com/ is licensed under CC-BY 3.0 Unported https://creativecommons.org/licenses/by/3.0/
+
+paper-chromatography-run icon by Servier https://smart.servier.com/ is licensed under CC-BY 3.0 Unported https://creativecommons.org/licenses/by/3.0/
+
+restriction_enzyme icon by Simon Dürr \url{https://twitter.com/simonduerr} is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/ (the image was modified)
 
 zincfinger icon by Simon Dürr \url{https://twitter.com/simonduerr} is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/}
 
@@ -10,3 +14,5 @@ stem_cell_colony icon by Marcel Tisch https://twitter.com/MarcelTisch is license
 ai icon by Simon Dürr https://twitter.com/simonduerr is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/
 
 sigmoid icon by Simon Dürr https://twitter.com/simonduerr is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/
+
+patient icon by Marcel Tisch https://twitter.com/MarcelTisch is licensed under CC0 https://creativecommons.org/publicdomain/zero/1.0/ (the image was modified)

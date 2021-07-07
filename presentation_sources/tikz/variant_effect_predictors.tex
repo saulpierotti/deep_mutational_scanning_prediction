@@ -4,18 +4,46 @@
 	\tikzstyle{edge from parent}=[draw, color=primary_inverse_fg]
 	\node [text width=13em]{Predictors of the effect of mutations}[sibling distance=16em, level distance=3em]
 	child {node{Supervised}[sibling distance=8em, level distance=4em]
-	child {node {Statistical model}
+	child {node {%
+			\begin{minipage}{.6\textwidth}%
+				Statistical model
+			\end{minipage}%
+			\begin{minipage}{.4\textwidth}%
+				\begin{figure}\includegraphics[height=3em]{images/sigmoid.pdf}\end{figure}
+			\end{minipage}%
+		}
 	child {node [align=left, yshift=-5em, anchor=south]{Poly-Phen2\\{\tiny\parencite{Adzhubei2010}}}}}
-	child {node {Machine learning}
+	child {node {%
+			\begin{minipage}{.6\textwidth}%
+				Machine learning
+			\end{minipage}%
+			\begin{minipage}{.4\textwidth}%
+				\begin{figure}\includegraphics[height=3em]{images/ai.pdf}\end{figure}
+			\end{minipage}%
+		}
 	child {node[align=left, yshift=-5em, anchor=south] {%
 	SNAP2\\{\tiny\parencite{Hecht2015}}\\\vspace{1ex}Envision\\{\tiny\parencite{Gray2018}}
 	}}}
 	}
 	child {node {Unsupervised}[sibling distance=8em, level distance=4em]
-	child {node {Machine learning}
+	child {node {%
+			\begin{minipage}{.6\textwidth}%
+				Machine learning
+			\end{minipage}%
+			\begin{minipage}{.4\textwidth}%
+				\begin{figure}\includegraphics[height=3em]{images/ai.pdf}\end{figure}
+			\end{minipage}%
+		}
 	child {node [align=left, yshift=-5em, anchor=south]{DeepSequence\\{\tiny\parencite{Riesselman2018}}}}
 	}
-	child {node {Statistical model}
+	child {node {%
+			\begin{minipage}{.6\textwidth}%
+				Statistical model
+			\end{minipage}%
+			\begin{minipage}{.4\textwidth}%
+				\begin{figure}\includegraphics[height=3em]{images/sigmoid.pdf}\end{figure}
+			\end{minipage}%
+		}
 	child {node[align=left,yshift=-5em, anchor=south] {%
 	EVmutation\\{\tiny\parencite{Hopf2017}}\\\vspace{1ex}SIFT\\{\tiny\parencite{Sim2012}}}}
 	}
