@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  7 JUL 2021 16:39
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  7 JUL 2021 19:19
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2112,19 +2112,38 @@ x
 ===== Image './tikz/cache/main-figure9' is up-to-date. ======
 ) [15
 
-<./tikz/cache/main-figure9.pdf>] [16
+<./tikz/cache/main-figure9.pdf>]
+<images/approved.pdf, id=602, 505.81798pt x 474.3389pt>
+File: images/approved.pdf Graphic file (type pdf)
+<use images/approved.pdf>
+Package luatex.def Info: images/approved.pdf  used on input line 301.
+(luatex.def)             Requested size: 53.31699pt x 50.0pt.
+<images/hell-birne-karriere-klettern-licht.pdf, id=603, 1530.88086pt x 1020.226
+47pt>
+File: images/hell-birne-karriere-klettern-licht.pdf Graphic file (type pdf)
+<use images/hell-birne-karriere-klettern-licht.pdf>
+Package luatex.def Info: images/hell-birne-karriere-klettern-licht.pdf  used on
+ input line 301.
+(luatex.def)             Requested size: 75.0068pt x 50.0pt.
+ [16
 
-] [17
+<./images/approved.pdf><./images/hell-birne-karriere-klettern-licht.pdf>]
+<images/hombre-pensamiento-silueta.pdf, id=611, 43.32191pt x 43.86673pt>
+File: images/hombre-pensamiento-silueta.pdf Graphic file (type pdf)
+<use images/hombre-pensamiento-silueta.pdf>
+Package luatex.def Info: images/hombre-pensamiento-silueta.pdf  used on input l
+ine 313.
+(luatex.def)             Requested size: 103.25964pt x 104.56137pt.
+ [17
 
-] [18
+<./images/hombre-pensamiento-silueta.pdf>] [18
 
 ] [19
 
 
 ] [20
 
-]
-(./tikz/tikzdevice/presentation_score_dssp_q3.tex
+] (./tikz/tikzdevice/presentation_score_dssp_q3.tex
 ===== Image './tikz/cache/main-figure10' is up-to-date. ======
 ) [21
 
@@ -2191,15 +2210,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44777 strings out of 478531
+ 44810 strings out of 478531
  125056,14696376 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:4,2:6121,3:3668,4:499,5:388,6:112,7:4990,8:66,9:1121,10:28,11:
+   avail lists: 1:4,2:6124,3:3668,4:539,5:388,6:112,7:4990,8:97,9:1121,10:28,11:
 203
- 62261 multiletter control sequences out of 65536+600000
+ 62276 multiletter control sequences out of 65536+600000
  89 fonts using 8603791 bytes
  131i,16n,125p,736b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaBookItalic.ttf></home/saul/.fonts/for_latex/F
@@ -2213,10 +2232,10 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (32 pages, 892473 bytes).
+Output written on main.pdf (32 pages, 901722 bytes).
 
-PDF statistics: 965 PDF objects out of 1000 (max. 8388607)
- 722 compressed objects within 8 object streams
+PDF statistics: 976 PDF objects out of 1000 (max. 8388607)
+ 730 compressed objects within 8 object streams
  76 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 
