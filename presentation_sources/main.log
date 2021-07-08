@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 18:42
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 19:42
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2010,31 +2010,31 @@ n.pdf>]
 <images/patient.pdf, id=238, 59.35283pt x 179.30588pt>
 File: images/patient.pdf Graphic file (type pdf)
 <use images/patient.pdf>
-Package luatex.def Info: images/patient.pdf  used on input line 106.
+Package luatex.def Info: images/patient.pdf  used on input line 105.
 (luatex.def)             Requested size: 13.2406pt x 40.0pt.
 <images/zincfinger.pdf, id=239, 492.12936pt x 404.73686pt>
 File: images/zincfinger.pdf Graphic file (type pdf)
 <use images/zincfinger.pdf>
-Package luatex.def Info: images/zincfinger.pdf  used on input line 106.
+Package luatex.def Info: images/zincfinger.pdf  used on input line 105.
 (luatex.def)             Requested size: 48.63008pt x 40.0pt.
 File: images/Illumina_miseq.pdf Graphic file (type pdf)
 <use images/Illumina_miseq.pdf>
-Package luatex.def Info: images/Illumina_miseq.pdf  used on input line 106.
+Package luatex.def Info: images/Illumina_miseq.pdf  used on input line 105.
 (luatex.def)             Requested size: 53.44887pt x 40.0pt.
 <images/sand-clock.pdf, id=240, 223.32559pt x 308.96857pt>
 File: images/sand-clock.pdf Graphic file (type pdf)
 <use images/sand-clock.pdf>
-Package luatex.def Info: images/sand-clock.pdf  used on input line 106.
+Package luatex.def Info: images/sand-clock.pdf  used on input line 105.
 (luatex.def)             Requested size: 28.91066pt x 40.0pt.
 <images/ai.pdf, id=241, 101.36696pt x 101.07788pt>
 File: images/ai.pdf Graphic file (type pdf)
 <use images/ai.pdf>
-Package luatex.def Info: images/ai.pdf  used on input line 106.
+Package luatex.def Info: images/ai.pdf  used on input line 105.
 (luatex.def)             Requested size: 40.11452pt x 40.0pt.
 <images/sigmoid.pdf, id=242, 284.52756pt x 284.52756pt>
 File: images/sigmoid.pdf Graphic file (type pdf)
 <use images/sigmoid.pdf>
-Package luatex.def Info: images/sigmoid.pdf  used on input line 106.
+Package luatex.def Info: images/sigmoid.pdf  used on input line 105.
 (luatex.def)             Requested size: 39.99855pt x 40.0pt.
  [4
 
@@ -2060,39 +2060,34 @@ Package luatex.def Info: images/ai.pdf  used on input line 63.
 ) [5
 
 ] (./tikz/project_structure.tex
-<images/data.pdf, id=284, 68.75926pt x 44.06816pt>
-File: images/data.pdf Graphic file (type pdf)
-<use images/data.pdf>
-Package luatex.def Info: images/data.pdf  used on input line 8.
-(luatex.def)             Requested size: 74.89677pt x 48.0pt.
-<images/single_protein_model.pdf, id=285, 71.76675pt x 130.16237pt>
+<images/single_protein_model.pdf, id=284, 71.76675pt x 130.16237pt>
 File: images/single_protein_model.pdf Graphic file (type pdf)
 <use images/single_protein_model.pdf>
-Package luatex.def Info: images/single_protein_model.pdf  used on input line 15
-.
-(luatex.def)             Requested size: 17.64377pt x 32.0pt.
-<images/general_model.pdf, id=286, 290.79454pt x 130.16237pt>
+Package luatex.def Info: images/single_protein_model.pdf  used on input line 9.
+
+(luatex.def)             Requested size: 13.23283pt x 24.0pt.
+<images/general_model.pdf, id=285, 290.79454pt x 130.16237pt>
 File: images/general_model.pdf Graphic file (type pdf)
 <use images/general_model.pdf>
-Package luatex.def Info: images/general_model.pdf  used on input line 24.
-(luatex.def)             Requested size: 71.49155pt x 32.0pt.
+Package luatex.def Info: images/general_model.pdf  used on input line 18.
+(luatex.def)             Requested size: 53.61865pt x 24.0pt.
 File: images/ai.pdf Graphic file (type pdf)
 <use images/ai.pdf>
-Package luatex.def Info: images/ai.pdf  used on input line 47.
-(luatex.def)             Requested size: 24.0pt x 23.93066pt.
+Package luatex.def Info: images/ai.pdf  used on input line 41.
+(luatex.def)             Requested size: 16.0pt x 15.95377pt.
 File: images/ai.pdf Graphic file (type pdf)
 <use images/ai.pdf>
-Package luatex.def Info: images/ai.pdf  used on input line 50.
-(luatex.def)             Requested size: 24.0pt x 23.93066pt.
+Package luatex.def Info: images/ai.pdf  used on input line 44.
+(luatex.def)             Requested size: 16.0pt x 15.95377pt.
 File: images/sigmoid.pdf Graphic file (type pdf)
 <use images/sigmoid.pdf>
-Package luatex.def Info: images/sigmoid.pdf  used on input line 52.
-(luatex.def)             Requested size: 24.0pt x 24.0pt.
+Package luatex.def Info: images/sigmoid.pdf  used on input line 46.
+(luatex.def)             Requested size: 16.0pt x 15.99855pt.
 )
 [6
 
-<./images/data.pdf><./images/single_protein_model.pdf><./images/general_model.pd
-f>] (./tikz/tikzdevice/presentation_fitness_score_distribution.tex
+<./images/single_protein_model.pdf><./images/general_model.pdf>]
+(./tikz/tikzdevice/presentation_fitness_score_distribution.tex
 ===== Image './tikz/cache/main-figure0' is up-to-date. ======
 ) (./tikz/tikzdevice/presentation_datasets_abundancies.tex
 ===== Image './tikz/cache/main-figure1' is up-to-date. ======
@@ -2160,26 +2155,26 @@ x
 ) [15
 
 <./tikz/cache/main-figure9.pdf>]
-<images/notes.pdf, id=665, 323.96289pt x 320.45215pt>
+<images/notes.pdf, id=664, 323.96289pt x 320.45215pt>
 File: images/notes.pdf Graphic file (type pdf)
 <use images/notes.pdf>
-Package luatex.def Info: images/notes.pdf  used on input line 304.
+Package luatex.def Info: images/notes.pdf  used on input line 303.
 (luatex.def)             Requested size: 60.6539pt x 60.0pt.
-<images/hell-birne-karriere-klettern-licht.pdf, id=666, 1530.88086pt x 1020.226
+<images/hell-birne-karriere-klettern-licht.pdf, id=665, 1530.88086pt x 1020.226
 47pt>
 File: images/hell-birne-karriere-klettern-licht.pdf Graphic file (type pdf)
 <use images/hell-birne-karriere-klettern-licht.pdf>
 Package luatex.def Info: images/hell-birne-karriere-klettern-licht.pdf  used on
- input line 304.
+ input line 303.
 (luatex.def)             Requested size: 75.0068pt x 50.0pt.
  [16
 
 <./images/notes.pdf><./images/hell-birne-karriere-klettern-licht.pdf>]
-<images/hombre-pensamiento-silueta.pdf, id=674, 43.32191pt x 43.86673pt>
+<images/hombre-pensamiento-silueta.pdf, id=673, 43.32191pt x 43.86673pt>
 File: images/hombre-pensamiento-silueta.pdf Graphic file (type pdf)
 <use images/hombre-pensamiento-silueta.pdf>
 Package luatex.def Info: images/hombre-pensamiento-silueta.pdf  used on input l
-ine 316.
+ine 315.
 (luatex.def)             Requested size: 103.25964pt x 104.56137pt.
  [17
 
@@ -2261,15 +2256,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45055 strings out of 478531
+ 45044 strings out of 478531
  125056,14696376 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:4,2:6127,3:3668,4:613,5:388,6:103,7:4990,8:80,9:1121,10:31,11:
+   avail lists: 1:4,2:6127,3:3668,4:610,5:388,6:103,7:4990,8:80,9:1121,10:31,11:
 203
- 62447 multiletter control sequences out of 65536+600000
+ 62442 multiletter control sequences out of 65536+600000
  89 fonts using 8603791 bytes
  131i,16n,125p,736b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaBookItalic.ttf></home/saul/.fonts/for_latex/F
@@ -2283,9 +2278,9 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (33 pages, 909738 bytes).
+Output written on main.pdf (33 pages, 904609 bytes).
 
-PDF statistics: 1051 PDF objects out of 1200 (max. 8388607)
+PDF statistics: 1050 PDF objects out of 1200 (max. 8388607)
  782 compressed objects within 8 object streams
  78 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)

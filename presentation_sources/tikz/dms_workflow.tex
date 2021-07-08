@@ -10,7 +10,7 @@
 			\end{figure}
 		\end{minipage}%
 	};
-	\node[object, below right=4em and 16em of a.south, text width=10em, anchor=north east] (c) {%
+	\node[object, below right=3.5em and 16em of a.south, text width=10em, anchor=north east] (c) {%
 		\begin{minipage}[c]{.6\textwidth}
 			Sequencing
 		\end{minipage}%
@@ -18,7 +18,7 @@
 			\includegraphics[width=\textwidth]{images/Illumina_miseq.pdf}
 		\end{minipage}%
 	};
-	\node[object, above=-.3em of c, text width=10em] (b) {
+	\node[object, above=-.3em of c, text width=10em] (b) {%
 		\begin{minipage}[c]{.5\textwidth}
 			Fitness\\selection
 		\end{minipage}%
@@ -26,7 +26,7 @@
 			\includegraphics[width=\textwidth]{images/selection.pdf}
 		\end{minipage}%
 	};
-	\node[object, below left=2em and 16em of a.south, text width=10em,anchor=north west] (d) {%
+	\node[object, below left=1.5em and 16em of a.south, text width=10em,anchor=north west] (d) {%
 		\begin{minipage}[c]{.6\textwidth}
 			Sequencing
 		\end{minipage}%
@@ -34,7 +34,7 @@
 			\includegraphics[width=\textwidth]{images/Illumina_miseq.pdf}
 		\end{minipage}%
 	};
-	\node[object, below=11em of a, align=center, text width=20em] (e) {%
+	\node[object, below=10em of a, align=center, text width=20em] (e) {%
 		Calculation of fitness scores
 		\hspace{1em}
 		$\log{\frac{\mathrm{mut}_a/\mathrm{mut}_b}{\mathrm{wt}_a/\mathrm{wt}_b}}$
