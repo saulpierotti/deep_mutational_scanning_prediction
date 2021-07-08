@@ -26,9 +26,9 @@
 	};
 	\node [object](gbt) [below=2em of general]{Gradient boosted trees};
 	\node [object](linear) [below=-0.2em of gbt]{Linear regression};
-	\draw [pi->] (features) -- (single protein);
+	\draw [pi->] (dms) -| (single protein);
 	\draw [pi->] (single protein) -- (naive);
-	\draw [pi->] (features) -- (general);
+	\draw [pi->] (dms) -| (general);
 	\draw [pi->] (general) -- (gbt);
 	\draw [
 		decoration={%

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 18:01
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 18:38
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2043,20 +2043,20 @@ s/ai.pdf><./images/sigmoid.pdf>]
 (./tikz/variant_effect_predictors.tex
 File: images/sigmoid.pdf Graphic file (type pdf)
 <use images/sigmoid.pdf>
-Package luatex.def Info: images/sigmoid.pdf  used on input line 50.
+Package luatex.def Info: images/sigmoid.pdf  used on input line 63.
 (luatex.def)             Requested size: 24.0pt x 24.0pt.
 File: images/ai.pdf Graphic file (type pdf)
 <use images/ai.pdf>
-Package luatex.def Info: images/ai.pdf  used on input line 50.
-(luatex.def)             Requested size: 24.06871pt x 24.0pt.
-File: images/ai.pdf Graphic file (type pdf)
-<use images/ai.pdf>
-Package luatex.def Info: images/ai.pdf  used on input line 50.
+Package luatex.def Info: images/ai.pdf  used on input line 63.
 (luatex.def)             Requested size: 24.06871pt x 24.0pt.
 File: images/sigmoid.pdf Graphic file (type pdf)
 <use images/sigmoid.pdf>
-Package luatex.def Info: images/sigmoid.pdf  used on input line 50.
+Package luatex.def Info: images/sigmoid.pdf  used on input line 63.
 (luatex.def)             Requested size: 24.0pt x 24.0pt.
+File: images/ai.pdf Graphic file (type pdf)
+<use images/ai.pdf>
+Package luatex.def Info: images/ai.pdf  used on input line 63.
+(luatex.def)             Requested size: 24.06871pt x 24.0pt.
 ) [5
 
 ] (./tikz/project_structure.tex
@@ -2163,14 +2163,14 @@ x
 <images/notes.pdf, id=665, 323.96289pt x 320.45215pt>
 File: images/notes.pdf Graphic file (type pdf)
 <use images/notes.pdf>
-Package luatex.def Info: images/notes.pdf  used on input line 305.
+Package luatex.def Info: images/notes.pdf  used on input line 304.
 (luatex.def)             Requested size: 60.6539pt x 60.0pt.
 <images/hell-birne-karriere-klettern-licht.pdf, id=666, 1530.88086pt x 1020.226
 47pt>
 File: images/hell-birne-karriere-klettern-licht.pdf Graphic file (type pdf)
 <use images/hell-birne-karriere-klettern-licht.pdf>
 Package luatex.def Info: images/hell-birne-karriere-klettern-licht.pdf  used on
- input line 305.
+ input line 304.
 (luatex.def)             Requested size: 75.0068pt x 50.0pt.
  [16
 
@@ -2179,7 +2179,7 @@ Package luatex.def Info: images/hell-birne-karriere-klettern-licht.pdf  used on
 File: images/hombre-pensamiento-silueta.pdf Graphic file (type pdf)
 <use images/hombre-pensamiento-silueta.pdf>
 Package luatex.def Info: images/hombre-pensamiento-silueta.pdf  used on input l
-ine 317.
+ine 316.
 (luatex.def)             Requested size: 103.25964pt x 104.56137pt.
  [17
 
@@ -2261,15 +2261,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45083 strings out of 478531
+ 45055 strings out of 478531
  125056,14696376 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:4,2:6127,3:3668,4:613,5:388,6:112,7:4990,8:80,9:1121,10:31,11:
+   avail lists: 1:4,2:6127,3:3668,4:613,5:388,6:103,7:4990,8:80,9:1121,10:31,11:
 203
- 62475 multiletter control sequences out of 65536+600000
+ 62447 multiletter control sequences out of 65536+600000
  89 fonts using 8603791 bytes
  131i,16n,125p,736b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaBookItalic.ttf></home/saul/.fonts/for_latex/F
@@ -2283,7 +2283,7 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (33 pages, 910062 bytes).
+Output written on main.pdf (33 pages, 909750 bytes).
 
 PDF statistics: 1051 PDF objects out of 1200 (max. 8388607)
  782 compressed objects within 8 object streams
