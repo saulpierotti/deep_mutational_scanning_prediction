@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  6 JUL 2021 12:15
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 10:57
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -969,14 +969,35 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) (/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+) (/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen297
+\captionmargin@=\dimen298
+\captionwidth=\dimen299
+\caption@tempdima=\dimen300
+\caption@indent=\dimen301
+\caption@parindent=\dimen302
+\caption@hangindent=\dimen303
+Package caption Info: beamer document class detected.
+(/usr/share/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ beamer document classes (AR)
+))
+\c@caption@flags=\count464
+\c@continuedfloat=\count465
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
 ) (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
 \MT@toks=\toks47
-\MT@count=\count464
+\MT@count=\count466
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen297
+\MT@outer@kern=\dimen304
 LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
-\MT@listname@count=\count465
+\MT@listname@count=\count467
 (/usr/share/texmf-dist/tex/latex/microtype/microtype-luatex.def
 File: microtype-luatex.def 2021/03/14 v2.8c Definitions specific to luatex (RS)
 
@@ -993,7 +1014,7 @@ tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-02-18 L3 programming layer (loader) 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2021-03-18 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count466
+\l__color_backend_stack_int=\count468
 \l__pdf_internal_box=\box77
 )) (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/share/te
 xmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/share/texmf-di
@@ -1001,9 +1022,9 @@ st/tex/latex/l3packages/xparse/xparse-generic.tex)))
 Package: siunitx 2021/03/27 v2.8c A comprehensive (SI) units package
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen298
+\col@sep=\dimen305
 \ar@mcellbox=\box78
-\extrarowheight=\dimen299
+\extrarowheight=\dimen306
 \NC@list=\toks48
 \extratabsurround=\skip87
 \backup@length=\skip88
@@ -1012,39 +1033,39 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box80
-\l__siunitx_tmp_dim=\dimen300
-\l__siunitx_tmp_int=\count467
-\l__siunitx_number_mantissa_length_int=\count468
-\l__siunitx_number_uncert_length_int=\count469
-\l__siunitx_round_int=\count470
-\l__siunitx_process_decimal_int=\count471
-\l__siunitx_process_uncertainty_int=\count472
-\l__siunitx_process_fixed_int=\count473
-\l__siunitx_process_integer_min_int=\count474
-\l__siunitx_process_precision_int=\count475
-\l__siunitx_group_min_int=\count476
+\l__siunitx_tmp_dim=\dimen307
+\l__siunitx_tmp_int=\count469
+\l__siunitx_number_mantissa_length_int=\count470
+\l__siunitx_number_uncert_length_int=\count471
+\l__siunitx_round_int=\count472
+\l__siunitx_process_decimal_int=\count473
+\l__siunitx_process_uncertainty_int=\count474
+\l__siunitx_process_fixed_int=\count475
+\l__siunitx_process_integer_min_int=\count476
+\l__siunitx_process_precision_int=\count477
+\l__siunitx_group_min_int=\count478
 \l__siunitx_angle_marker_box=\box81
 \l__siunitx_angle_unit_box=\box82
-\l__siunitx_angle_marker_dim=\dimen301
-\l__siunitx_angle_unit_dim=\dimen302
-\l__siunitx_unit_int=\count477
-\l__siunitx_unit_denominator_int=\count478
-\l__siunitx_unit_numerator_int=\count479
-\l__siunitx_unit_prefix_int=\count480
-\l__siunitx_unit_prefix_base_int=\count481
-\l__siunitx_unit_prefix_gram_int=\count482
-\l__siunitx_number_product_int=\count483
+\l__siunitx_angle_marker_dim=\dimen308
+\l__siunitx_angle_unit_dim=\dimen309
+\l__siunitx_unit_int=\count479
+\l__siunitx_unit_denominator_int=\count480
+\l__siunitx_unit_numerator_int=\count481
+\l__siunitx_unit_prefix_int=\count482
+\l__siunitx_unit_prefix_base_int=\count483
+\l__siunitx_unit_prefix_gram_int=\count484
+\l__siunitx_number_product_int=\count485
 \c__siunitx_one_fill_skip=\skip89
 \l__siunitx_table_unit_align_skip=\skip90
-\l__siunitx_table_exponent_dim=\dimen303
-\l__siunitx_table_integer_dim=\dimen304
-\l__siunitx_table_mantissa_dim=\dimen305
-\l__siunitx_table_marker_dim=\dimen306
-\l__siunitx_table_result_dim=\dimen307
-\l__siunitx_table_uncert_dim=\dimen308
-\l__siunitx_table_fill_pre_dim=\dimen309
-\l__siunitx_table_fill_post_dim=\dimen310
-\l__siunitx_table_fill_mid_dim=\dimen311
+\l__siunitx_table_exponent_dim=\dimen310
+\l__siunitx_table_integer_dim=\dimen311
+\l__siunitx_table_mantissa_dim=\dimen312
+\l__siunitx_table_marker_dim=\dimen313
+\l__siunitx_table_result_dim=\dimen314
+\l__siunitx_table_uncert_dim=\dimen315
+\l__siunitx_table_fill_pre_dim=\dimen316
+\l__siunitx_table_fill_post_dim=\dimen317
+\l__siunitx_table_fill_mid_dim=\dimen318
 \l__siunitx_table_pre_box=\box83
 \l__siunitx_table_post_box=\box84
 \l__siunitx_table_mantissa_box=\box85
@@ -1053,23 +1074,23 @@ Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_text_align_skip=\skip92
 ) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen312
-\lightrulewidth=\dimen313
-\cmidrulewidth=\dimen314
-\belowrulesep=\dimen315
-\belowbottomsep=\dimen316
-\aboverulesep=\dimen317
-\abovetopsep=\dimen318
-\cmidrulesep=\dimen319
-\cmidrulekern=\dimen320
-\defaultaddspace=\dimen321
-\@cmidla=\count484
-\@cmidlb=\count485
-\@aboverulesep=\dimen322
-\@belowrulesep=\dimen323
-\@thisruleclass=\count486
-\@lastruleclass=\count487
-\@thisrulewidth=\dimen324
+\heavyrulewidth=\dimen319
+\lightrulewidth=\dimen320
+\cmidrulewidth=\dimen321
+\belowrulesep=\dimen322
+\belowbottomsep=\dimen323
+\aboverulesep=\dimen324
+\abovetopsep=\dimen325
+\cmidrulesep=\dimen326
+\cmidrulekern=\dimen327
+\defaultaddspace=\dimen328
+\@cmidla=\count486
+\@cmidlb=\count487
+\@aboverulesep=\dimen329
+\@belowrulesep=\dimen330
+\@thisruleclass=\count488
+\@lastruleclass=\count489
+\@thisrulewidth=\dimen331
 ) (/usr/share/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2021/03/24 3.56 The Babel package
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
@@ -1166,8 +1187,8 @@ Package babel Info: Non-standard hyphenation setup on input line 117.
 \babelcatcodetablenum=\catcodetable12
 \bbl@pattcodes=\catcodetable13
 )
-\babel@savecnt=\count488
-\U@D=\dimen325
+\babel@savecnt=\count490
+\U@D=\dimen332
 \l@babelnohyphens=\language89
 (/usr/share/texmf-dist/tex/generic/babel/luababel.def
 \bbl@attr@locale=\attribute4
@@ -1188,12 +1209,12 @@ Hyphenation patterns for British English (/usr/share/texmf-dist/tex/generic/hyp
 h-utf8/patterns/tex/hyph-en-gb.tex))))) (/usr/share/texmf-dist/tex/latex/csquot
 es/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count489
-\csq@gtype=\count490
-\csq@glevel=\count491
-\csq@qlevel=\count492
-\csq@maxlvl=\count493
-\csq@tshold=\count494
+\csq@reset=\count491
+\csq@gtype=\count492
+\csq@glevel=\count493
+\csq@qlevel=\count494
+\csq@maxlvl=\count495
+\csq@tshold=\count496
 \csq@ltx@everypar=\toks49
 (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -1205,10 +1226,10 @@ File: csquotes.cfg
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowinset=\dimen326
-\pgfarrowlength=\dimen327
-\pgfarrowwidth=\dimen328
-\pgfarrowlinewidth=\dimen329
+\pgfarrowinset=\dimen333
+\pgfarrowlength=\dimen334
+\pgfarrowwidth=\dimen335
+\pgfarrowlinewidth=\dimen336
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 shapes.geometric.code.tex
@@ -1228,10 +1249,10 @@ File: tikzlibrarycalc.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (/usr/share/texmf-dist/tex/latex/tikzmark/tikzlibrarytikzmark.code.tex
 File: tikzlibrarytikzmark.code.tex 2021/02/16 v1.10 TikZ library for marking po
 sitions in a document
-\l__sn_x_dim=\dimen330
-\l__sn_y_dim=\dimen331
-\l__sn_xa_dim=\dimen332
-\l__sn_ya_dim=\dimen333
+\l__sn_x_dim=\dimen337
+\l__sn_y_dim=\dimen338
+\l__sn_xa_dim=\dimen339
+\l__sn_ya_dim=\dimen340
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 mindmap.code.tex
@@ -1244,14 +1265,14 @@ File: tikzlibrarytrees.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulede
 corations.code.tex
-\pgfdecoratedcompleteddistance=\dimen334
-\pgfdecoratedremainingdistance=\dimen335
-\pgfdecoratedinputsegmentcompleteddistance=\dimen336
-\pgfdecoratedinputsegmentremainingdistance=\dimen337
-\pgf@decorate@distancetomove=\dimen338
-\pgf@decorate@repeatstate=\count495
-\pgfdecorationsegmentamplitude=\dimen339
-\pgfdecorationsegmentlength=\dimen340
+\pgfdecoratedcompleteddistance=\dimen341
+\pgfdecoratedremainingdistance=\dimen342
+\pgfdecoratedinputsegmentcompleteddistance=\dimen343
+\pgfdecoratedinputsegmentremainingdistance=\dimen344
+\pgf@decorate@distancetomove=\dimen345
+\pgf@decorate@repeatstate=\count497
+\pgfdecorationsegmentamplitude=\dimen346
+\pgfdecorationsegmentlength=\dimen347
 )
 \tikz@lib@dec@box=\box87
 ))
@@ -1262,7 +1283,11 @@ ons.pathreplacing.code.tex))
 (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/libraries/tikzlibraryexterna
 l.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzexterna
-lshared.code.tex))
+lshared.code.tex)) (/home/saul/texmf/tex/generic/pgf/qrr/tikzlibrarypaths.ortho
+.code.tex (/home/saul/texmf/tex/generic/pgf/qrr/tikzlibrarypaths.ortho.tex
+\qrr@tikz@udlr@distance=\skip93
+\qrr@tikz@hvvh@distance=\skip94
+))
 No auxiliary output files.
 
 \w@pgfexternal@auxout=\write6
@@ -1276,20 +1301,20 @@ Lua module: fontspec 2020/02/21 2.7i Font selection for XeLaTeX and LuaLaTeX (/
 usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count496
-\l__fontspec_language_int=\count497
-\l__fontspec_strnum_int=\count498
-\l__fontspec_tmp_int=\count499
-\l__fontspec_tmpa_int=\count500
-\l__fontspec_tmpb_int=\count501
-\l__fontspec_tmpc_int=\count502
-\l__fontspec_em_int=\count503
-\l__fontspec_emdef_int=\count504
-\l__fontspec_strong_int=\count505
-\l__fontspec_strongdef_int=\count506
-\l__fontspec_tmpa_dim=\dimen341
-\l__fontspec_tmpb_dim=\dimen342
-\l__fontspec_tmpc_dim=\dimen343
+\l__fontspec_script_int=\count498
+\l__fontspec_language_int=\count499
+\l__fontspec_strnum_int=\count500
+\l__fontspec_tmp_int=\count501
+\l__fontspec_tmpa_int=\count502
+\l__fontspec_tmpb_int=\count503
+\l__fontspec_tmpc_int=\count504
+\l__fontspec_em_int=\count505
+\l__fontspec_emdef_int=\count506
+\l__fontspec_strong_int=\count507
+\l__fontspec_strongdef_int=\count508
+\l__fontspec_tmpa_dim=\dimen348
+\l__fontspec_tmpb_dim=\dimen349
+\l__fontspec_tmpc_dim=\dimen350
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 ) (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share/texmf-d
@@ -1420,16 +1445,16 @@ LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count507
-\scratchdimen=\dimen344
+\scratchcounter=\count509
+\scratchdimen=\dimen351
 \scratchbox=\box88
-\nofMPsegments=\count508
-\nofMParguments=\count509
+\nofMPsegments=\count510
+\nofMParguments=\count511
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count510
-\MPscratchDim=\dimen345
-\MPnumerator=\count511
-\makeMPintoPDFobject=\count512
+\MPscratchCnt=\count512
+\MPscratchDim=\dimen352
+\MPnumerator=\count513
+\makeMPintoPDFobject=\count514
 \everyMPtoPDFconversion=\toks51
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1447,7 +1472,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count513
+\c@section@level=\count515
 )
 LaTeX Info: Redefining \ref on input line 19.
 LaTeX Info: Redefining \pageref on input line 19.
@@ -1524,6 +1549,8 @@ Package biblatex Info: ... file './tikz/cache/main-figure10.bbl' not found.
 No file ./tikz/cache/main-figure10.bbl.
 Package biblatex Info: Reference section=0 on input line 19.
 Package biblatex Info: Reference segment=0 on input line 19.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Info: Redefining \microtypecontext on input line 19.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -1792,10 +1819,25 @@ isable this.
 ) (./tikz/dms_workflow.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
-) (./tikz/variant_effect_predictors.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-) (./tikz/variant_effect_predictors.tex
+)
+The command '\includegraphics [height=4em]{images/patient.pdf}' has been optimi
+zed away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [height=4em]{images/zincfinger.pdf}' has been opt
+imized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [height=4em]{images/paper-chromatography-run.pdf}
+' has been optimized away. Use '/tikz/external/optimize=false' to disable this.
+
+The command '\includegraphics [height=4em]{images/sand-clock.pdf}' has been opt
+imized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [height=4em]{images/ai.pdf}' has been optimized a
+way. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [height=4em]{images/sigmoid.pdf}' has been optimi
+zed away. Use '/tikz/external/optimize=false' to disable this.
+
+Overfull \vbox (79.63626pt too high) detected at line 106
+ []
+
+(./tikz/variant_effect_predictors.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 ) (./tikz/project_structure.tex
@@ -1803,7 +1845,7 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-LaTeX Warning: Citation 'Gray2018' on page 7 undefined on input line 79.
+LaTeX Warning: Citation 'Gray2018' on page 7 undefined on input line 135.
 
 (./tikz/tikzdevice/presentation_fitness_score_distribution.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1827,6 +1869,11 @@ isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 ) (./tikz/features.tex
+\mybox=\box89
+(./tikz/hmm_icon.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
@@ -1843,10 +1890,18 @@ isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
-\global\@namedef{mainendframenumber}{16}
-\@writefile{nav}{\headcommand {\gdef \insertmainframenumber {16}}}
+The command '\includegraphics [height=5em]{images/approved.pdf}' has been optim
+ized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [height=5em]{images/hell-birne-karriere-klettern-
+licht.pdf}' has been optimized away. Use '/tikz/external/optimize=false' to dis
+able this.
+The command '\includegraphics [width=.3\textwidth ]{images/hombre-pensamiento-s
+ilueta.pdf}' has been optimized away. Use '/tikz/external/optimize=false' to di
+sable this.
+\global\@namedef{mainendframenumber}{15}
+\@writefile{nav}{\headcommand {\gdef \insertmainframenumber {15}}}
 
-LaTeX Warning: Empty bibliography on input line 225.
+LaTeX Warning: Empty bibliography on input line 319.
 
 (./tikz/tikzdevice/presentation_score_dssp_q3.tex
 \openout6 = ./tikz/cache/main-figure10.dpth
@@ -1858,10 +1913,10 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-LaTeX Warning: Citation 'Yang2020' on page 22 undefined on input line 288.
+LaTeX Warning: Citation 'Yang2020' on page 22 undefined on input line 401.
 
 
-LaTeX Warning: Citation 'Klausen2019' on page 22 undefined on input line 288.
+LaTeX Warning: Citation 'Klausen2019' on page 22 undefined on input line 401.
 
 
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
@@ -1871,9 +1926,6 @@ isable this.
 )
 (./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
 t.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-) (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
@@ -1886,11 +1938,14 @@ isable this.
 ummary.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
+) (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
 )
-\global\@namedef{appendixtotalframenumber}{13}
-\global\@namedef{inserttotalframenumber}{16}
-\@writefile{nav}{\headcommand {\gdef \inserttotalframenumber {16}}}
-\@writefile{nav}{\headcommand {\gdef \appendixtotalframenumber {13}}}
+\global\@namedef{appendixtotalframenumber}{14}
+\global\@namedef{inserttotalframenumber}{15}
+\@writefile{nav}{\headcommand {\gdef \inserttotalframenumber {15}}}
+\@writefile{nav}{\headcommand {\gdef \appendixtotalframenumber {14}}}
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1908,22 +1963,22 @@ Package logreq Info: Writing requests to './tikz/cache/main-figure10.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42179 strings out of 478531
- 125056,5906145 words of node,token memory allocated
- 13876 words of node memory still in use:
-   163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 418 glue
+ 43619 strings out of 478531
+ 156323,5906145 words of node,token memory allocated
+ 13869 words of node memory still in use:
+   163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:2,2:19411,3:6916,4:251,5:270,6:26,7:5608,8:21,9:699,10:14,11:1
-74
- 60083 multiletter control sequences out of 65536+600000
- 70 fonts using 6875623 bytes
+   avail lists: 1:12,2:19816,3:7035,4:313,5:270,6:38,7:7163,8:89,9:699,10:28,11:
+174
+ 61486 multiletter control sequences out of 65536+600000
+ 72 fonts using 6959863 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaMedium.ttf></home/saul/.fonts/for_latex/Futur
 aBook.ttf>
-Output written on ./tikz/cache/main-figure10.pdf (1 page, 37368 bytes).
+Output written on ./tikz/cache/main-figure10.pdf (1 page, 37409 bytes).
 
-PDF statistics: 67 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)

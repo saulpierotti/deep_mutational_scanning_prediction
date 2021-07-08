@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  7 JUL 2021 19:19
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 14:01
  system commands enabled.
 **main.tex
 (./main.tex
@@ -1977,72 +1977,75 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraCodeRegular.ttf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
+ (./tikz/hmm_icon.tex
+\hmmhdist=\skip95
+\hmmvdist=\skip96
+)
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./tikz/mutation_illustrat
-ion.tex) [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-(./tikz/dms_workflow.tex
-<images/restriction_enzyme.pdf, id=37, 115.93312pt x 52.54631pt>
+(./tikz/mutation_illustration.tex) [3
+
+] (./tikz/dms_workflow.tex
+<images/restriction_enzyme.pdf, id=44, 115.93312pt x 52.54631pt>
 File: images/restriction_enzyme.pdf Graphic file (type pdf)
 <use images/restriction_enzyme.pdf>
 Package luatex.def Info: images/restriction_enzyme.pdf  used on input line 9.
 (luatex.def)             Requested size: 65.0pt x 29.4618pt.
-<images/Illumina_miseq.pdf, id=38, 264.66447pt x 198.06105pt>
+<images/Illumina_miseq.pdf, id=45, 264.66447pt x 198.06105pt>
 File: images/Illumina_miseq.pdf Graphic file (type pdf)
 <use images/Illumina_miseq.pdf>
 Package luatex.def Info: images/Illumina_miseq.pdf  used on input line 18.
 (luatex.def)             Requested size: 39.99939pt x 29.9315pt.
-<images/selection.pdf, id=39, 250.39597pt x 113.54643pt>
+<images/selection.pdf, id=46, 259.56868pt x 86.90546pt>
 File: images/selection.pdf Graphic file (type pdf)
 <use images/selection.pdf>
 Package luatex.def Info: images/selection.pdf  used on input line 26.
-(luatex.def)             Requested size: 50.0pt x 22.67249pt.
+(luatex.def)             Requested size: 50.0pt x 16.74028pt.
 File: images/Illumina_miseq.pdf Graphic file (type pdf)
 <use images/Illumina_miseq.pdf>
 Package luatex.def Info: images/Illumina_miseq.pdf  used on input line 34.
 (luatex.def)             Requested size: 39.99939pt x 29.9315pt.
-) [3
+) [4
 
 <./images/restriction_enzyme.pdf><./images/Illumina_miseq.pdf><./images/selectio
 n.pdf>]
-<images/patient.pdf, id=238, 59.35283pt x 179.30588pt>
+<images/patient.pdf, id=244, 59.35283pt x 179.30588pt>
 File: images/patient.pdf Graphic file (type pdf)
 <use images/patient.pdf>
-Package luatex.def Info: images/patient.pdf  used on input line 106.
+Package luatex.def Info: images/patient.pdf  used on input line 110.
 (luatex.def)             Requested size: 13.2406pt x 40.0pt.
-<images/zincfinger.pdf, id=239, 492.12936pt x 404.73686pt>
+<images/zincfinger.pdf, id=245, 492.12936pt x 404.73686pt>
 File: images/zincfinger.pdf Graphic file (type pdf)
 <use images/zincfinger.pdf>
-Package luatex.def Info: images/zincfinger.pdf  used on input line 106.
+Package luatex.def Info: images/zincfinger.pdf  used on input line 110.
 (luatex.def)             Requested size: 48.63008pt x 40.0pt.
-<images/paper-chromatography-run.pdf, id=240, 255.76202pt x 225.31754pt>
-File: images/paper-chromatography-run.pdf Graphic file (type pdf)
-<use images/paper-chromatography-run.pdf>
-Package luatex.def Info: images/paper-chromatography-run.pdf  used on input lin
-e 106.
-(luatex.def)             Requested size: 45.40295pt x 40.0pt.
-<images/sand-clock.pdf, id=241, 223.32559pt x 308.96857pt>
+File: images/Illumina_miseq.pdf Graphic file (type pdf)
+<use images/Illumina_miseq.pdf>
+Package luatex.def Info: images/Illumina_miseq.pdf  used on input line 110.
+(luatex.def)             Requested size: 53.44887pt x 40.0pt.
+<images/sand-clock.pdf, id=246, 223.32559pt x 308.96857pt>
 File: images/sand-clock.pdf Graphic file (type pdf)
 <use images/sand-clock.pdf>
-Package luatex.def Info: images/sand-clock.pdf  used on input line 106.
+Package luatex.def Info: images/sand-clock.pdf  used on input line 110.
 (luatex.def)             Requested size: 28.91066pt x 40.0pt.
-<images/ai.pdf, id=242, 101.36696pt x 101.07788pt>
+<images/ai.pdf, id=247, 101.36696pt x 101.07788pt>
 File: images/ai.pdf Graphic file (type pdf)
 <use images/ai.pdf>
-Package luatex.def Info: images/ai.pdf  used on input line 106.
+Package luatex.def Info: images/ai.pdf  used on input line 110.
 (luatex.def)             Requested size: 40.11452pt x 40.0pt.
-<images/sigmoid.pdf, id=243, 284.52756pt x 284.52756pt>
+<images/sigmoid.pdf, id=248, 284.52756pt x 284.52756pt>
 File: images/sigmoid.pdf Graphic file (type pdf)
 <use images/sigmoid.pdf>
-Package luatex.def Info: images/sigmoid.pdf  used on input line 106.
+Package luatex.def Info: images/sigmoid.pdf  used on input line 110.
 (luatex.def)             Requested size: 39.99855pt x 40.0pt.
- [4
 
-<./images/patient.pdf><./images/zincfinger.pdf><./images/paper-chromatography-ru
-n.pdf><./images/sand-clock.pdf><./images/ai.pdf><./images/sigmoid.pdf>] (./tikz
-/variant_effect_predictors.tex
+[5
+
+<./images/patient.pdf><./images/zincfinger.pdf><./images/sand-clock.pdf><./image
+s/ai.pdf><./images/sigmoid.pdf>] (./tikz/variant_effect_predictors.tex
 File: images/sigmoid.pdf Graphic file (type pdf)
 <use images/sigmoid.pdf>
 Package luatex.def Info: images/sigmoid.pdf  used on input line 50.
@@ -2060,136 +2063,157 @@ File: images/sigmoid.pdf Graphic file (type pdf)
 Package luatex.def Info: images/sigmoid.pdf  used on input line 50.
 (luatex.def)             Requested size: 24.0pt x 24.0pt.
 )
-[5
+[6
 
-] (./tikz/project_structure.tex) [6
+] (./tikz/project_structure.tex) [7
 
 ]
 (./tikz/tikzdevice/presentation_fitness_score_distribution.tex
 ===== Image './tikz/cache/main-figure0' is up-to-date. ======
 ) (./tikz/tikzdevice/presentation_datasets_abundancies.tex
 ===== Image './tikz/cache/main-figure1' is up-to-date. ======
-) [7
+) [8
 
 <./tikz/cache/main-figure0.pdf><./tikz/cache/main-figure1.pdf>]
 (./tikz/tikzdevice/presentation_datasets_correlations.tex
 ===== Image './tikz/cache/main-figure2' is up-to-date. ======
-) [8
+) [9
 
 <./tikz/cache/main-figure2.pdf>]
 (./tikz/tikzdevice/presentation_mutation_identity.tex
 ===== Image './tikz/cache/main-figure3' is up-to-date. ======
-) [9
+) [10
 
 <./tikz/cache/main-figure3.pdf>]
 (./tikz/tikzdevice/presentation_mutation_identity_exposed.tex
 ===== Image './tikz/cache/main-figure4' is up-to-date. ======
 ) (./tikz/tikzdevice/presentation_mutation_identity_buried.tex
 ===== Image './tikz/cache/main-figure5' is up-to-date. ======
-) [10
+) [11
 
 <./tikz/cache/main-figure4.pdf><./tikz/cache/main-figure5.pdf>]
 (./tikz/tikzdevice/presentation_score_dssp_rsa.tex
 ===== Image './tikz/cache/main-figure6' is up-to-date. ======
-) [11
+) [12
 
-<./tikz/cache/main-figure6.pdf>] (./tikz/features.tex) [12
+<./tikz/cache/main-figure6.pdf>] (./tikz/features.tex
+\hmmtikzpicture=\box89
+ (./tikz/hmm_icon.tex
+\hmmhdist=\skip97
+\hmmvdist=\skip98
+)
+\mutidtikzpicture=\box90
+ (./tikz/mutation_simple.tex)
+File: images/sigmoid.pdf Graphic file (type pdf)
+<use images/sigmoid.pdf>
+Package luatex.def Info: images/sigmoid.pdf  used on input line 22.
+(luatex.def)             Requested size: 24.0pt x 24.0pt.
+File: images/ai.pdf Graphic file (type pdf)
+<use images/ai.pdf>
+Package luatex.def Info: images/ai.pdf  used on input line 33.
+(luatex.def)             Requested size: 24.06871pt x 24.0pt.
+File: images/ai.pdf Graphic file (type pdf)
+<use images/ai.pdf>
+Package luatex.def Info: images/ai.pdf  used on input line 49.
+(luatex.def)             Requested size: 56.16187pt x 56.0pt.
+) [13
 
 ]
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
 x
 ===== Image './tikz/cache/main-figure7' is up-to-date. ======
-) [13
+) [14
 
 <./tikz/cache/main-figure7.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
 x
 ===== Image './tikz/cache/main-figure8' is up-to-date. ======
-) [14
+) [15
 
 <./tikz/cache/main-figure8.pdf>]
 (./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
 ===== Image './tikz/cache/main-figure9' is up-to-date. ======
-) [15
+) [16
 
 <./tikz/cache/main-figure9.pdf>]
-<images/approved.pdf, id=602, 505.81798pt x 474.3389pt>
-File: images/approved.pdf Graphic file (type pdf)
-<use images/approved.pdf>
-Package luatex.def Info: images/approved.pdf  used on input line 301.
-(luatex.def)             Requested size: 53.31699pt x 50.0pt.
-<images/hell-birne-karriere-klettern-licht.pdf, id=603, 1530.88086pt x 1020.226
+<images/notes.pdf, id=607, 323.96289pt x 320.45215pt>
+File: images/notes.pdf Graphic file (type pdf)
+<use images/notes.pdf>
+Package luatex.def Info: images/notes.pdf  used on input line 307.
+(luatex.def)             Requested size: 60.6539pt x 60.0pt.
+<images/hell-birne-karriere-klettern-licht.pdf, id=608, 1530.88086pt x 1020.226
 47pt>
 File: images/hell-birne-karriere-klettern-licht.pdf Graphic file (type pdf)
 <use images/hell-birne-karriere-klettern-licht.pdf>
 Package luatex.def Info: images/hell-birne-karriere-klettern-licht.pdf  used on
- input line 301.
+ input line 307.
 (luatex.def)             Requested size: 75.0068pt x 50.0pt.
- [16
+ [17
 
-<./images/approved.pdf><./images/hell-birne-karriere-klettern-licht.pdf>]
-<images/hombre-pensamiento-silueta.pdf, id=611, 43.32191pt x 43.86673pt>
+<./images/notes.pdf><./images/hell-birne-karriere-klettern-licht.pdf>]
+<images/hombre-pensamiento-silueta.pdf, id=616, 43.32191pt x 43.86673pt>
 File: images/hombre-pensamiento-silueta.pdf Graphic file (type pdf)
 <use images/hombre-pensamiento-silueta.pdf>
 Package luatex.def Info: images/hombre-pensamiento-silueta.pdf  used on input l
-ine 313.
+ine 319.
 (luatex.def)             Requested size: 103.25964pt x 104.56137pt.
- [17
+ [18
 
-<./images/hombre-pensamiento-silueta.pdf>] [18
-
-] [19
-
+<./images/hombre-pensamiento-silueta.pdf>]
+[19
 
 ] [20
 
+
+] [21
+
 ] (./tikz/tikzdevice/presentation_score_dssp_q3.tex
 ===== Image './tikz/cache/main-figure10' is up-to-date. ======
-) [21
+) [22
 
 <./tikz/cache/main-figure10.pdf>]
 (./tikz/tikzdevice/presentation_feature_corr_heatmap.tex
 ===== Image './tikz/cache/main-figure11' is up-to-date. ======
-) [22
+) [23
 
-<./tikz/cache/main-figure11.pdf>] [23
+<./tikz/cache/main-figure11.pdf>] [24
 
-] [24
+] [25
 
 ]
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
 ex
 ===== Image './tikz/cache/main-figure12' is up-to-date. ======
-) [25
+) [26
 
 <./tikz/cache/main-figure12.pdf>]
 (./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
 t.tex
 ===== Image './tikz/cache/main-figure13' is up-to-date. ======
-) [26
+) [27
 
 <./tikz/cache/main-figure13.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary
 .tex
 ===== Image './tikz/cache/main-figure14' is up-to-date. ======
-) [27
+) [28
 
 <./tikz/cache/main-figure14.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_s
 ummary.tex
 ===== Image './tikz/cache/main-figure15' is up-to-date. ======
-) [28
+) [29
 
 <./tikz/cache/main-figure15.pdf>]
 (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
 ===== Image './tikz/cache/main-figure16' is up-to-date. ======
-) [29
+) [30
 
-<./tikz/cache/main-figure16.pdf>] [30
-
-] [31
+<./tikz/cache/main-figure16.pdf>] [31
 
 ] [32
+
+] [33
 
 ]
 \tf@nav=\write7
@@ -2210,15 +2234,15 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 44810 strings out of 478531
+ 45040 strings out of 478531
  125056,14696376 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:4,2:6124,3:3668,4:539,5:388,6:112,7:4990,8:97,9:1121,10:28,11:
+   avail lists: 1:3,2:6124,3:3668,4:589,5:388,6:112,7:4990,8:97,9:1121,10:28,11:
 203
- 62276 multiletter control sequences out of 65536+600000
+ 62459 multiletter control sequences out of 65536+600000
  89 fonts using 8603791 bytes
  131i,16n,125p,736b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaBookItalic.ttf></home/saul/.fonts/for_latex/F
@@ -2232,10 +2256,10 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (32 pages, 901722 bytes).
+Output written on main.pdf (33 pages, 894611 bytes).
 
-PDF statistics: 976 PDF objects out of 1000 (max. 8388607)
- 730 compressed objects within 8 object streams
- 76 named destinations out of 1000 (max. 131072)
+PDF statistics: 980 PDF objects out of 1000 (max. 8388607)
+ 734 compressed objects within 8 object streams
+ 78 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 

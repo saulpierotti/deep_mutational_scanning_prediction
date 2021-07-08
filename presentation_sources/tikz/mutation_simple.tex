@@ -1,0 +1,16 @@
+\tikzset{external/export next=false}%
+\begin{tikzpicture}
+	\tikzstyle{every node}=[%
+	object,
+	inner sep=.3em,
+	outer sep=.4em,
+	text width=2em,
+	minimum height=.5em,
+	font=\footnotesize,
+	fill=primary_accent_bg,
+	text=primary_accent_fg
+	]
+	\node (S) {Ser};
+	\node [right=1.2em of S] (T) {Thr};
+	\draw [->, draw=primary_inverse_fg] (S) -- (T);
+\end{tikzpicture}%

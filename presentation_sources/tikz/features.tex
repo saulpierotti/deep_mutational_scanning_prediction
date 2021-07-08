@@ -1,19 +1,54 @@
+\newsavebox{\hmmtikzpicture}
+\sbox{\hmmtikzpicture}{%
+	\input{tikz/hmm_icon.tex}%
+}
+\newsavebox{\mutidtikzpicture}
+\sbox{\mutidtikzpicture}{%
+	\input{tikz/mutation_simple.tex}%
+}
 \tikzset{external/export next=false}%
 \begin{tikzpicture}
-	\node [object, text width=8em, minimum height=3em] (a) {Mutation identity};
+	\node [object, text width=8em, minimum height=6em, text depth=4em] (a) {%
+		Mutation identity
+		\vspace{1.7em}
+		\begin{figure}\usebox{\mutidtikzpicture}\vfill\end{figure}
+	};
 	%\node [object, below=-.3em of a, font=\tiny, text width=8em] (a1) {\sbseries Wild-type residue};
 	%\node [object, below=-.3em of a1, font=\tiny, text width=8em] (a2) {\sbseries Mutated residue};
-	\node [object, right=2em of a, text width=8em, minimum height=3em] (b) {EVmutation predictions\\{\tiny\parencite{Hopf2017}}};
+	\node [object, right=2em of a, text width=8em, minimum height=6em] (b) {%
+	EVmutation predictions\\{\tiny\parencite{Hopf2017}}
+	\vspace{1em}
+	\begin{figure}
+		\includegraphics[height=3em]{images/sigmoid.pdf}
+	\end{figure}
+	};
 	%\node [object, below=-.3em of b, font=\tiny, text width=8em] (b1) {\sbseries Epistatic model};
 	%\node [object, below=-.3em of b1, font=\tiny, text width=8em] (b2) {\sbseries Independent model};
 	%\node [object, below=-.3em of b2, font=\tiny, text width=8em] (b3) {\sbseries Conservation};
 	%\node [object, below=-.3em of b3, font=\tiny, text width=8em] (b4) {\sbseries Mutation frequency};
-	\node [object, right=2em of b, text width=8em, minimum height=3em] (c) {NetsurfP-2 predictions\\{\tiny\parencite{Klausen2019}}};
+	\node [object, right=2em of b, text width=8em, minimum height=6em] (c) {%
+	NetsurfP-2 predictions\\{\tiny\parencite{Klausen2019}}
+	\vspace{1em}
+	\begin{figure}
+		\includegraphics[height=3em]{images/ai.pdf}
+	\end{figure}
+	};
 	%\node [object, below=-.3em of netsurf, font=\tiny, text width=8em] (sec) {\sbseries Secondary structure};
 	%\node [object, below=-.3em of sec, font=\tiny, text width=8em] (rsa) {\sbseries Solvent accessibility};
 	%\node [object, below=-.3em of rsa, font=\tiny, text width=8em] (dis) {\sbseries Disorder};
 	%\node [object, below=-.3em of dis, font=\tiny, text width=8em] (tors) {\sbseries Torsion angles};
-	\node [object, below=2em of b, text width=13em, xshift=-8em] (d) {HMMER emission probabilities\\{\tiny\parencite{Eddy2011}}};
-	\node [object, below=2em of b, text width=13em, xshift=8em] (e) {trRosetta predicted contacts\\{\tiny\parencite{Yang2020}}};
+	\node [object, below=2em of b, text width=13em, xshift=-8em, minimum height=10em] (d) {%
+	HMMER emission probabilities\\{\tiny\parencite{Eddy2011}}
+	\vspace{1em}
+	\begin{figure}\usebox{\hmmtikzpicture}\end{figure}
+	};
+	\node [object, below=2em of b, text width=13em, xshift=8em, minimum height=10em, text depth=8.1em] (e) {%
+	trRosetta predicted contacts\\{\tiny\parencite{Yang2020}}
+	\vspace{1.5em}
+	\begin{figure}
+		\includegraphics[height=7em]{images/ai.pdf}
+	\end{figure}
+
+	};
 	%\node [object, below=-.3em of e, font=\tiny, text width=13em] (e1) {\sbseries Centrality metrics};
 \end{tikzpicture}%
