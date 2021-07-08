@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 19:42
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 20:56
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2278,7 +2278,7 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (33 pages, 904609 bytes).
+Output written on main.pdf (33 pages, 904600 bytes).
 
 PDF statistics: 1050 PDF objects out of 1200 (max. 8388607)
  782 compressed objects within 8 object streams
