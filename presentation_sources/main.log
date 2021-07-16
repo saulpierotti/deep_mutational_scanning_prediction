@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 20:56
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  16 JUL 2021 14:39
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2140,13 +2140,29 @@ Package luatex.def Info: images/ai.pdf  used on input line 49.
 ]
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
 x
-===== Image './tikz/cache/main-figure7' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure7.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure7" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [13
 
 <./tikz/cache/main-figure7.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
 x
-===== Image './tikz/cache/main-figure8' is up-to-date. ======
+\openout3 = ./tikz/cache/main-figure8.md5
+
+\openout3 = main.auxlock
+
+===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
+n-error -interaction=batchmode -jobname "./tikz/cache/main-figure8" "\def\tikze
+xternalrealjob{main}\input{main}"' ========
+
+\openout3 = main.auxlock
 ) [14
 
 <./tikz/cache/main-figure8.pdf>]
@@ -2256,7 +2272,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45044 strings out of 478531
+ 45058 strings out of 478531
  125056,14696376 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
@@ -2278,7 +2294,7 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (33 pages, 904600 bytes).
+Output written on main.pdf (33 pages, 905996 bytes).
 
 PDF statistics: 1050 PDF objects out of 1200 (max. 8388607)
  782 compressed objects within 8 object streams

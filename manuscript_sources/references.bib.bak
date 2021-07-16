@@ -527,7 +527,7 @@
   number       = {4},
   pages        = {248--249},
   volume       = {7},
-  file         = {:/home/saul/Downloads/Adzhubei2010 - A Method and Server for Predicting Damaging Missense Mutations.pdf:PDF;:nmeth0410-248-s1.pdf:PDF},
+  file         = {:nmeth0410-248-s1.pdf:PDF},
   groups       = {Predictors, Variant effect prediction},
   priority     = {prio1},
   publisher    = {Springer Science and Business Media LLC},
@@ -1276,6 +1276,7 @@
   date         = {2011},
   journaltitle = {Journal of Machine Learning Research},
   title        = {Scikit-learn: Machine Learning in {Python}},
+  pages        = {2825--2830},
   volume       = {12},
   groups       = {Methods},
 }
@@ -1583,7 +1584,8 @@
 
 @Manual{Agostinelli2017,
   author  = {C. Agostinelli and U. Lund},
-  title   = {{R} package \texttt{circular}: Circular Statistics (version 0.4-93)},
+  title  = {Directional: A Collection of {R} Functions for Directional Data Analysis},
+  title   = {{R} package circular: Circular Statistics},
   url     = {https://r-forge.r-project.org/projects/circular/},
   address = {CA: Department of Environmental Sciences, Informatics and Statistics, Ca' Foscari University, Venice, Italy. UL: Department of Statistics, California Polytechnic State University, San Luis Obispo, California, USA},
   groups  = {Methods},
@@ -2069,6 +2071,7 @@
   doi          = {10.1186/1471-2164-16-s8-s1},
   number       = {S8},
   volume       = {16},
+  file         = {:Hecht2015 - Better Prediction of Functional Effects for Sequence Variants.pdf:PDF},
   groups       = {Introduction},
   publisher    = {Springer Science and Business Media LLC},
 }

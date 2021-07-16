@@ -43,10 +43,10 @@ print(plot_presentation)
 #             3,
 #             latex_textwidth)
 
-create_tikz(plot_presentation,
-            "presentation_single_protein_models_performance_comparison.tex",
-            latex_beamer_height*0.75,
-            latex_beamer_width*0.6)
+# create_tikz(plot_presentation,
+#             "presentation_single_protein_models_performance_comparison.tex",
+#             latex_beamer_height*0.75,
+#             latex_beamer_width*0.6)
 ```
 
 ```{r single protein naive performance pearson confidence intervals}
@@ -119,15 +119,15 @@ plot_presentation <-
 print(plot)
 print(plot_presentation)
 
-# create_tikz(plot,
-#             "xgb_models_performance_comparison.tex",
-#             3,
-#             latex_textwidth)
+create_tikz(plot,
+            "xgb_models_performance_comparison.tex",
+            3,
+            latex_textwidth)
 
-create_tikz(plot_presentation,
-            "presentation_xgb_models_performance_comparison.tex",
-            latex_beamer_height*0.7,
-            latex_beamer_width)
+# create_tikz(plot_presentation,
+#             "presentation_xgb_models_performance_comparison.tex",
+#             latex_beamer_height*0.7,
+#             latex_beamer_width)
 ```
 
 ```{r general models performance comparison plot, dev="tikz", results="hide"}
