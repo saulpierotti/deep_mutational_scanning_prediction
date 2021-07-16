@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  8 JUL 2021 10:57
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  16 JUL 2021 17:28
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -1824,9 +1824,8 @@ The command '\includegraphics [height=4em]{images/patient.pdf}' has been optimi
 zed away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [height=4em]{images/zincfinger.pdf}' has been opt
 imized away. Use '/tikz/external/optimize=false' to disable this.
-The command '\includegraphics [height=4em]{images/paper-chromatography-run.pdf}
-' has been optimized away. Use '/tikz/external/optimize=false' to disable this.
-
+The command '\includegraphics [height=4em]{images/Illumina_miseq.pdf}' has been
+ optimized away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [height=4em]{images/sand-clock.pdf}' has been opt
 imized away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [height=4em]{images/ai.pdf}' has been optimized a
@@ -1834,7 +1833,7 @@ way. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [height=4em]{images/sigmoid.pdf}' has been optimi
 zed away. Use '/tikz/external/optimize=false' to disable this.
 
-Overfull \vbox (79.63626pt too high) detected at line 106
+Overfull \vbox (79.63626pt too high) detected at line 105
  []
 
 (./tikz/variant_effect_predictors.tex
@@ -1845,7 +1844,7 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-LaTeX Warning: Citation 'Gray2018' on page 7 undefined on input line 135.
+LaTeX Warning: Citation 'Gray2018' on page 7 undefined on input line 134.
 
 (./tikz/tikzdevice/presentation_fitness_score_distribution.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1869,8 +1868,15 @@ isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 ) (./tikz/features.tex
-\mybox=\box89
+\hmmtikzpicture=\box89
 (./tikz/hmm_icon.tex
+\hmmhdist=\skip95
+\hmmvdist=\skip96
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
+\mutidtikzpicture=\box90
+(./tikz/mutation_simple.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
@@ -1890,8 +1896,8 @@ isable this.
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
-The command '\includegraphics [height=5em]{images/approved.pdf}' has been optim
-ized away. Use '/tikz/external/optimize=false' to disable this.
+The command '\includegraphics [height=6em]{images/notes.pdf}' has been optimize
+d away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [height=5em]{images/hell-birne-karriere-klettern-
 licht.pdf}' has been optimized away. Use '/tikz/external/optimize=false' to dis
 able this.
@@ -1901,7 +1907,7 @@ sable this.
 \global\@namedef{mainendframenumber}{15}
 \@writefile{nav}{\headcommand {\gdef \insertmainframenumber {15}}}
 
-LaTeX Warning: Empty bibliography on input line 319.
+LaTeX Warning: Empty bibliography on input line 322.
 
 (./tikz/tikzdevice/presentation_score_dssp_q3.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1911,10 +1917,10 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-LaTeX Warning: Citation 'Yang2020' on page 22 undefined on input line 401.
+LaTeX Warning: Citation 'Yang2020' on page 23 undefined on input line 416.
 
 
-LaTeX Warning: Citation 'Klausen2019' on page 22 undefined on input line 401.
+LaTeX Warning: Citation 'Klausen2019' on page 23 undefined on input line 416.
 
 
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
@@ -1924,10 +1930,9 @@ isable this.
 )
 (./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
 t.tex
-\openout6 = ./tikz/cache/main-figure13.dpth
- [25
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
 (./tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary
 .tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1935,16 +1940,18 @@ isable this.
 )
 (./tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_s
 ummary.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-) (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
+\openout6 = ./tikz/cache/main-figure13.dpth
+ [28
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./tikz/tikzdevice/presen
+tation_xgb_models_performance_comparison.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
-\global\@namedef{appendixtotalframenumber}{14}
+\global\@namedef{appendixtotalframenumber}{15}
 \global\@namedef{inserttotalframenumber}{15}
 \@writefile{nav}{\headcommand {\gdef \inserttotalframenumber {15}}}
-\@writefile{nav}{\headcommand {\gdef \appendixtotalframenumber {14}}}
+\@writefile{nav}{\headcommand {\gdef \appendixtotalframenumber {15}}}
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1962,22 +1969,22 @@ Package logreq Info: Writing requests to './tikz/cache/main-figure13.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43619 strings out of 478531
+ 43632 strings out of 478531
  125056,5906145 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:1,2:12628,3:5992,4:313,5:270,6:38,7:3965,8:89,9:929,10:28,11:1
-74
- 61486 multiletter control sequences out of 65536+600000
+   avail lists: 1:2,2:2845,3:1708,4:313,5:270,6:45,7:3965,8:72,9:701,10:31,11:17
+4
+ 61490 multiletter control sequences out of 65536+600000
  72 fonts using 6959863 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaMedium.ttf></home/saul/.fonts/for_latex/Futur
 aBook.ttf>
-Output written on ./tikz/cache/main-figure13.pdf (1 page, 23204 bytes).
+Output written on ./tikz/cache/main-figure13.pdf (1 page, 18936 bytes).
 
-PDF statistics: 83 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 90 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)

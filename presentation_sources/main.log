@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  16 JUL 2021 14:39
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  16 JUL 2021 17:37
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2139,58 +2139,38 @@ Package luatex.def Info: images/ai.pdf  used on input line 49.
 
 ]
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
-x
-\openout3 = ./tikz/cache/main-figure7.md5
+x) [13
 
-\openout3 = main.auxlock
-
-===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "./tikz/cache/main-figure7" "\def\tikze
-xternalrealjob{main}\input{main}"' ========
-
-\openout3 = main.auxlock
-) [13
-
-<./tikz/cache/main-figure7.pdf>]
+]
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
-x
-\openout3 = ./tikz/cache/main-figure8.md5
+x) [14
 
-\openout3 = main.auxlock
-
-===== 'mode=convert with system call': Invoking 'lualatex -shell-escape -halt-o
-n-error -interaction=batchmode -jobname "./tikz/cache/main-figure8" "\def\tikze
-xternalrealjob{main}\input{main}"' ========
-
-\openout3 = main.auxlock
-) [14
-
-<./tikz/cache/main-figure8.pdf>]
+]
 (./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
-===== Image './tikz/cache/main-figure9' is up-to-date. ======
+===== Image './tikz/cache/main-figure7' is up-to-date. ======
 ) [15
 
-<./tikz/cache/main-figure9.pdf>]
-<images/notes.pdf, id=664, 323.96289pt x 320.45215pt>
+<./tikz/cache/main-figure7.pdf>]
+<images/notes.pdf, id=628, 323.96289pt x 320.45215pt>
 File: images/notes.pdf Graphic file (type pdf)
 <use images/notes.pdf>
-Package luatex.def Info: images/notes.pdf  used on input line 303.
+Package luatex.def Info: images/notes.pdf  used on input line 304.
 (luatex.def)             Requested size: 60.6539pt x 60.0pt.
-<images/hell-birne-karriere-klettern-licht.pdf, id=665, 1530.88086pt x 1020.226
+<images/hell-birne-karriere-klettern-licht.pdf, id=629, 1530.88086pt x 1020.226
 47pt>
 File: images/hell-birne-karriere-klettern-licht.pdf Graphic file (type pdf)
 <use images/hell-birne-karriere-klettern-licht.pdf>
 Package luatex.def Info: images/hell-birne-karriere-klettern-licht.pdf  used on
- input line 303.
+ input line 304.
 (luatex.def)             Requested size: 75.0068pt x 50.0pt.
  [16
 
 <./images/notes.pdf><./images/hell-birne-karriere-klettern-licht.pdf>]
-<images/hombre-pensamiento-silueta.pdf, id=673, 43.32191pt x 43.86673pt>
+<images/hombre-pensamiento-silueta.pdf, id=637, 43.32191pt x 43.86673pt>
 File: images/hombre-pensamiento-silueta.pdf Graphic file (type pdf)
 <use images/hombre-pensamiento-silueta.pdf>
 Package luatex.def Info: images/hombre-pensamiento-silueta.pdf  used on input l
-ine 315.
+ine 316.
 (luatex.def)             Requested size: 103.25964pt x 104.56137pt.
  [17
 
@@ -2206,48 +2186,48 @@ ine 315.
 
 
 ] (./tikz/tikzdevice/presentation_score_dssp_q3.tex
-===== Image './tikz/cache/main-figure10' is up-to-date. ======
+===== Image './tikz/cache/main-figure8' is up-to-date. ======
 ) [22
 
-<./tikz/cache/main-figure10.pdf>]
+<./tikz/cache/main-figure8.pdf>]
 (./tikz/tikzdevice/presentation_feature_corr_heatmap.tex
-===== Image './tikz/cache/main-figure11' is up-to-date. ======
+===== Image './tikz/cache/main-figure9' is up-to-date. ======
 ) [23
 
-<./tikz/cache/main-figure11.pdf>] [24
+<./tikz/cache/main-figure9.pdf>] [24
 
 ] [25
 
 ]
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
 ex
-===== Image './tikz/cache/main-figure12' is up-to-date. ======
+===== Image './tikz/cache/main-figure10' is up-to-date. ======
 ) [26
 
-<./tikz/cache/main-figure12.pdf>]
+<./tikz/cache/main-figure10.pdf>]
 (./tikz/tikzdevice/presentation_lopo_models_linear_feature_importance_by_datase
 t.tex
-===== Image './tikz/cache/main-figure13' is up-to-date. ======
+===== Image './tikz/cache/main-figure11' is up-to-date. ======
 ) [27
 
-<./tikz/cache/main-figure13.pdf>]
+<./tikz/cache/main-figure11.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_naive_test_result_summary
 .tex
-===== Image './tikz/cache/main-figure14' is up-to-date. ======
+===== Image './tikz/cache/main-figure12' is up-to-date. ======
 ) [28
 
-<./tikz/cache/main-figure14.pdf>]
+<./tikz/cache/main-figure12.pdf>]
 (./tikz/tikzdevice/presentation_single_protein_models_by_position_test_result_s
 ummary.tex
-===== Image './tikz/cache/main-figure15' is up-to-date. ======
+===== Image './tikz/cache/main-figure13' is up-to-date. ======
 ) [29
 
-<./tikz/cache/main-figure15.pdf>]
+<./tikz/cache/main-figure13.pdf>]
 (./tikz/tikzdevice/presentation_xgb_models_performance_comparison.tex
-===== Image './tikz/cache/main-figure16' is up-to-date. ======
+===== Image './tikz/cache/main-figure14' is up-to-date. ======
 ) [30
 
-<./tikz/cache/main-figure16.pdf>] [31
+<./tikz/cache/main-figure14.pdf>] [31
 
 ] [32
 
@@ -2272,16 +2252,16 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 45058 strings out of 478531
+ 45029 strings out of 478531
  125056,14696376 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:4,2:6127,3:3668,4:610,5:388,6:103,7:4990,8:80,9:1121,10:31,11:
+   avail lists: 1:4,2:7121,3:3668,4:610,5:388,6:103,7:4990,8:80,9:1121,10:31,11:
 203
- 62442 multiletter control sequences out of 65536+600000
- 89 fonts using 8603791 bytes
+ 62451 multiletter control sequences out of 65536+600000
+ 90 fonts using 8645719 bytes
  131i,16n,125p,736b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaBookItalic.ttf></home/saul/.fonts/for_latex/F
 uturaHeavyItalic.ttf></home/saul/.fonts/for_latex/FuturaHeavy.ttf></usr/share/te
@@ -2294,10 +2274,10 @@ ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb>
-Output written on main.pdf (33 pages, 905996 bytes).
+Output written on main.pdf (33 pages, 876878 bytes).
 
-PDF statistics: 1050 PDF objects out of 1200 (max. 8388607)
- 782 compressed objects within 8 object streams
+PDF statistics: 1014 PDF objects out of 1200 (max. 8388607)
+ 760 compressed objects within 8 object streams
  78 named destinations out of 1000 (max. 131072)
  32 words of extra memory for PDF output out of 10000 (max. 100000000)
 

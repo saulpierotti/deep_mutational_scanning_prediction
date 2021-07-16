@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  16 JUL 2021 14:39
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/Arch Linux)  (format=lualatex 2021.6.4)  16 JUL 2021 17:27
  system commands enabled.
 **\def\tikzexternalrealjob{main}\input{main}
 Lua module: luaotfload 2021-01-08 3.17 Lua based OpenType font support
@@ -1885,18 +1885,18 @@ isable this.
 )
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
 x
-\openout6 = ./tikz/cache/main-figure7.dpth
- [13
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
+isable this.
+)
 (./tikz/tikzdevice/presentation_single_protein_models_performance_comparison.te
 x
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 ) (./tikz/tikzdevice/presentation_general_models_performance_comparison.tex
-A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
-isable this.
-)
+\openout6 = ./tikz/cache/main-figure7.dpth
+ [15
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 The command '\includegraphics [height=6em]{images/notes.pdf}' has been optimize
 d away. Use '/tikz/external/optimize=false' to disable this.
 The command '\includegraphics [height=5em]{images/hell-birne-karriere-klettern-
@@ -1908,7 +1908,7 @@ sable this.
 \global\@namedef{mainendframenumber}{15}
 \@writefile{nav}{\headcommand {\gdef \insertmainframenumber {15}}}
 
-LaTeX Warning: Empty bibliography on input line 321.
+LaTeX Warning: Empty bibliography on input line 322.
 
 (./tikz/tikzdevice/presentation_score_dssp_q3.tex
 A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
@@ -1918,10 +1918,10 @@ A tikzpicture has been optimized away. Use '/tikz/external/optimize=false' to d
 isable this.
 )
 
-LaTeX Warning: Citation 'Yang2020' on page 23 undefined on input line 415.
+LaTeX Warning: Citation 'Yang2020' on page 23 undefined on input line 416.
 
 
-LaTeX Warning: Citation 'Klausen2019' on page 23 undefined on input line 415.
+LaTeX Warning: Citation 'Klausen2019' on page 23 undefined on input line 416.
 
 
 (./tikz/tikzdevice/presentation_lopo_models_xgb_feature_importance_by_dataset.t
@@ -1968,20 +1968,20 @@ Package logreq Info: Writing requests to './tikz/cache/main-figure7.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43634 strings out of 478531
+ 43632 strings out of 478531
  125056,5906145 words of node,token memory allocated
  13869 words of node memory still in use:
    163 hlist, 11 vlist, 22 rule, 82 disc, 6 local_par, 26 dir, 28 math, 417 glue
 , 9 kern, 16 penalty, 3 margin_kern, 829 glyph, 496 attribute, 76 glue_spec, 250
  attribute_list, 4 write, 16 pdf_colorstack nodes
-   avail lists: 1:2,2:2806,3:1695,4:313,5:270,6:45,7:3964,8:72,9:699,10:31,11:17
+   avail lists: 1:2,2:4519,3:2542,4:313,5:270,6:45,7:3964,8:72,9:699,10:31,11:17
 4
- 61492 multiletter control sequences out of 65536+600000
+ 61490 multiletter control sequences out of 65536+600000
  72 fonts using 6959863 bytes
  135i,15n,128p,770b,8240s stack positions out of 5000i,500n,10000p,200000b,80000s
 </home/saul/.fonts/for_latex/FuturaMedium.ttf></home/saul/.fonts/for_latex/Futur
 aBook.ttf>
-Output written on ./tikz/cache/main-figure7.pdf (1 page, 18790 bytes).
+Output written on ./tikz/cache/main-figure7.pdf (1 page, 21254 bytes).
 
 PDF statistics: 90 PDF objects out of 1000 (max. 8388607)
  20 compressed objects within 1 object stream
